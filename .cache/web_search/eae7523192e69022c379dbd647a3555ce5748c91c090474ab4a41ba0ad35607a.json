@@ -1,0 +1,198 @@
+{
+  "id": "resp_0361bbc42ecb331d00693c7c8627248195a3b88e3a67743b2c",
+  "object": "response",
+  "created_at": 1765571718,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0361bbc42ecb331d00693c7c8736cc819593ddab7fb4ce2737",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0361bbc42ecb331d00693c7c8ae9248195b287432b9fd5bed9",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12/13 inhibitor TNBC NCT"
+      }
+    },
+    {
+      "id": "rs_0361bbc42ecb331d00693c7c8c80f08195a746991390cd19b3",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0361bbc42ecb331d00693c7c8fbce88195a598aa9b7c051b7e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "SR-4835 CDK12 clinical trial NCT"
+      }
+    },
+    {
+      "id": "rs_0361bbc42ecb331d00693c7c915c94819582310354580af653",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0361bbc42ecb331d00693c7c91d3e4819590014205e8b8f916",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CT7439 NCT"
+      }
+    },
+    {
+      "id": "rs_0361bbc42ecb331d00693c7c941f3c8195ac16e7bf7ae4dbbe",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0361bbc42ecb331d00693c7c9a90848195b9d45da5cb50ca88",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov NCT06600789 CT7439"
+      }
+    },
+    {
+      "id": "rs_0361bbc42ecb331d00693c7c9d3540819586a6c3dacbe1778e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0361bbc42ecb331d00693c7c9d78708195b63e3997efea20c5",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0361bbc42ecb331d00693c7c9e87c4819582ccfb79117a58cb",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0361bbc42ecb331d00693c7c9fd5ec81958984b59ed98f13eb",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"NCT06600789\" site:clinicaltrials.gov/study"
+      }
+    },
+    {
+      "id": "rs_0361bbc42ecb331d00693c7ca338648195b50434d0471082fe",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0361bbc42ecb331d00693c7cafbc2c8195a464d82d0736e31b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CDK12\" inhibitor \"Phase 1\" company"
+      }
+    },
+    {
+      "id": "rs_0361bbc42ecb331d00693c7cb214e4819589b1d0e318832b7b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0361bbc42ecb331d00693c7cb4378c81958f0fe992a126e0b8",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "HQ461 patent WO"
+      }
+    },
+    {
+      "id": "rs_0361bbc42ecb331d00693c7cb78894819593eae543d85a49cb",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0361bbc42ecb331d00693c7ccac4c08195aa0e17db5338cd05",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "- **Carrick Therapeutics — “CDK12/13 Inhibitor” (pipeline page)**\n  - URL: `https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor`\n  - Direct quotes:\n    - “**CT7439: CDK12/13 inhibitor/Cyclin-K Degrader**”\n    - “**CT7439 is a CDK12/13/Cyclin-K degrader**”\n    - “The compound acts as an inhibitor of **CDK12** but also as a ‘**glue degrader**’ of **Cyclin-K**”\n\n- **Carrick Therapeutics (Press Release) — “Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor)”**\n  - URL: `https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase`\n  - Direct quotes:\n    - “evaluating **CT7439**, a novel … **(CDK12/13) inhibitor / Cyclin-K glue-degrader**”\n    - “Clinical trial details can also be found on www.clinicaltrials.gov under study ID: **NCT06600789**.”\n\n- **Clinical Trials Registry (ICH GCP) — “A Modular Phase 1/2 Study With CT7439 in Participants With Solid Malignancies”**\n  - URL: `https://ichgcp.net/clinical-trials-registry/NCT06600789`\n  - Direct quotes:\n    - “Intervention / Treatment  * Drug: **CT7439 Capsules (0.5 mg, 1mg, 3mg)**”\n    - “#### Sponsor  **Carrick Therapeutics Limited**”\n    - “#### Study Start (Actual)  **August 16, 2024**”\n\n- **PubMed — “Therapeutic Targeting of CDK12/CDK13 in Triple-Negative Breast Cancer”**\n  - URL: `https://pubmed.ncbi.nlm.nih.gov/31668947/`\n  - Direct quotes:\n    - “development of **SR-4835**, a highly selective dual inhibitor of **CDK12** and **CDK13**, which disables **triple-negative breast cancer (TNBC)** cells.”\n\n- **PMC (J Med Chem) — “Discovery of ZLC491 as a Potent, Selective, and Orally Bioavailable CDK12/13 PROTAC Degrader”**\n  - URL: `https://pmc.ncbi.nlm.nih.gov/articles/PMC11513923/`\n  - Direct quotes:\n    - “discovery of **ZLC491** as a potent, selective, and orally bioavailable **CDK12/13 PROTAC degrader**.”\n    - “degraded **CDK12** and **CDK13** … in **TNBC MDA-MB-231** cells.”\n\n- **PubMed — “Noncovalent CDK12/13 dual inhibitors-based PROTACs…”**\n  - URL: `https://pubmed.ncbi.nlm.nih.gov/34864331/`\n  - Direct quotes:\n    - “we have synthesized a potent **PROTAC degrader PP-C8** based on the noncovalent dual inhibitors of **CDK12/13**”\n    - “**PP-C8** demonstrates … effects with **PARP inhibitor** in **triple-negative breast cancer (TNBC)**.”\n\n- **PubMed — “Discovery of a Highly Potent and Selective Dual PROTAC Degrader of CDK12 and CDK13”**\n  - URL: `https://pubmed.ncbi.nlm.nih.gov/35938508/`\n  - Direct quotes:\n    - “dual **CDK12/13 degraders** by employing the **proteolysis-targeting chimera (PROTAC)** technology.”\n    - “The optimal **compound 7f** effectively degraded **CDK12** and **CDK13**”\n    - “inhibited proliferation of multiple **TNBC** cell lines”\n\n- **PubMed — “Discovery of novel imidazo[1,2-b]pyridazine derivatives as potent covalent inhibitors of CDK12/13”**\n  - URL: `https://pubmed.ncbi.nlm.nih.gov/39955845/`\n  - Direct quotes:\n    - “Triple-negative breast cancer (**TNBC**)… cyclin-dependent kinases 12/13 (**CDK12/13**)”\n    - “Among these compounds, **compound 24** emerged as the most potent inhibitor”\n    - “superior efficacy … covalent inhibitor, **THZ531**.”\n\n- **PubMed — “Discovery of a molecular glue promoting CDK12-DDB1 interaction to trigger cyclin K degradation”**\n  - URL: `https://pubmed.ncbi.nlm.nih.gov/32804079/`\n  - Direct quotes:\n    - “a new molecular glue **HQ461**”\n    - “**HQ461** acts by promoting an interaction between **CDK12** and **DDB1-CUL4-RBX1** E3 ubiquitin ligase”\n    - “A provisional patent application (**PCT/CN2020/095482**) has been filed for the application of **HQ461** as molecular glues regulating **CDK12-DDB1** interaction to degrade **CCNK**.”"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 34289,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 5111,
+    "output_tokens_details": {
+      "reasoning_tokens": 3948
+    },
+    "total_tokens": 39400
+  },
+  "user": null,
+  "metadata": {}
+}

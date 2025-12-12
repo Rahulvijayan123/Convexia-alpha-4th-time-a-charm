@@ -1,0 +1,333 @@
+{
+  "id": "resp_0a2c958f49a0685a00693c7bcd5a6081908977974e8a03485a",
+  "object": "response",
+  "created_at": 1765571533,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0a2c958f49a0685a00693c7bcdd3488190a7458fd2502d040d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a2c958f49a0685a00693c7bd03ea4819098fba10efa1a53f0",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12/13 inhibitor triple negative breast cancer clinical trial EU"
+      }
+    },
+    {
+      "id": "rs_0a2c958f49a0685a00693c7bd3b42c819084cd3d494a9aba70",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a2c958f49a0685a00693c7bd762988190b578b2a13903e445",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrialsregister.eu CDK12"
+      }
+    },
+    {
+      "id": "rs_0a2c958f49a0685a00693c7bdb63d0819081814146b3bde98e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a2c958f49a0685a00693c7bdcd50c8190b4a7ac635133d2e2",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CT7439 clinical trial identifier NCT EUCT"
+      }
+    },
+    {
+      "id": "rs_0a2c958f49a0685a00693c7bdfa7b88190be7583ee37830ed8",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a2c958f49a0685a00693c7be0c5488190a68bd12444793048",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:ctis.eu CT7439"
+      }
+    },
+    {
+      "id": "rs_0a2c958f49a0685a00693c7be436708190b1706a7fb6147dc8",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a2c958f49a0685a00693c7be545ac8190bd4ed8d0afd9c880",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0a2c958f49a0685a00693c7be639dc81908e6d67e73fdaaa67",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a2c958f49a0685a00693c7be7365c81909ca01f299b04dc0b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "CT7439",
+        "url": "https://clinicaltrials.gov/study/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0a2c958f49a0685a00693c7be96704819093006a266d6bbc4c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a2c958f49a0685a00693c7bebf68c81908359630afb049c22",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CDK12/13\" inhibitor phase 1 trial NCT"
+      }
+    },
+    {
+      "id": "rs_0a2c958f49a0685a00693c7bef9d508190b2484b3ef7f6bbd1",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a2c958f49a0685a00693c7bf1591c8190be544ed30f10a862",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"NCT06600789\" EUCT"
+      }
+    },
+    {
+      "id": "rs_0a2c958f49a0685a00693c7bf6995c819098b000ba789eb460",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a2c958f49a0685a00693c7bf8a0808190a635b5820c85e88b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "EudraCT dinaciclib triple negative breast cancer"
+      }
+    },
+    {
+      "id": "rs_0a2c958f49a0685a00693c7bfdd13c8190b99c2452ae436892",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a2c958f49a0685a00693c7c02cdfc81909fe921581dd75550",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CT7439 IRAS EudraCT"
+      }
+    },
+    {
+      "id": "rs_0a2c958f49a0685a00693c7c07af6081908edf6b7bbd46d43f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0a2c958f49a0685a00693c7c1515548190914bad8b55ccdf4c",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 636,
+              "start_index": 418,
+              "title": "Carrick Therapeutics Announces First Patient Dosed in Phase",
+              "url": "https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 911,
+              "start_index": 693,
+              "title": "Carrick Therapeutics Announces First Patient Dosed in Phase",
+              "url": "https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1185,
+              "start_index": 967,
+              "title": "Carrick Therapeutics Announces First Patient Dosed in Phase",
+              "url": "https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1495,
+              "start_index": 1406,
+              "title": "CT7439 Capsules (0.5 mg, 1mg, 3mg) in Solid Malignancies - Clinical Trials Registry - ICH GCP",
+              "url": "https://ichgcp.net/clinical-trials-registry/NCT06600789?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1620,
+              "start_index": 1531,
+              "title": "CT7439 Capsules (0.5 mg, 1mg, 3mg) in Solid Malignancies - Clinical Trials Registry - ICH GCP",
+              "url": "https://ichgcp.net/clinical-trials-registry/NCT06600789?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1741,
+              "start_index": 1652,
+              "title": "CT7439 Capsules (0.5 mg, 1mg, 3mg) in Solid Malignancies - Clinical Trials Registry - ICH GCP",
+              "url": "https://ichgcp.net/clinical-trials-registry/NCT06600789?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2131,
+              "start_index": 2043,
+              "title": "Therapeutic Targeting of CDK12/CDK13 in Triple-Negative Breast Cancer - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/31668947/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2446,
+              "start_index": 2358,
+              "title": "Noncovalent CDK12/13 dual inhibitors-based PROTACs degrade CDK12-Cyclin K complex and induce synthetic lethality with PARP inhibitor - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34864331/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2612,
+              "start_index": 2524,
+              "title": "Noncovalent CDK12/13 dual inhibitors-based PROTACs degrade CDK12-Cyclin K complex and induce synthetic lethality with PARP inhibitor - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34864331/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2987,
+              "start_index": 2893,
+              "title": "Discovery of ZLC491 as a Potent, Selective, and Orally Bioavailable CDK12/13 PROTAC Degrader - PMC",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11513923/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3116,
+              "start_index": 3022,
+              "title": "Discovery of ZLC491 as a Potent, Selective, and Orally Bioavailable CDK12/13 PROTAC Degrader - PMC",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11513923/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3290,
+              "start_index": 3196,
+              "title": "Discovery of ZLC491 as a Potent, Selective, and Orally Bioavailable CDK12/13 PROTAC Degrader - PMC",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11513923/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3616,
+              "start_index": 3528,
+              "title": "Covalent targeting of remote cysteine residues to develop CDK12 and CDK13 inhibitors - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/27571479/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4065,
+              "start_index": 3917,
+              "title": "CDK12/13 inactivation triggers STING-mediated... : Journal of Clinical Investigation",
+              "url": "https://www.ovid.com/journals/jcin/abstract/10.1172/jci193745~cdk1213-inactivation-triggers-sting-mediated-antitumor?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4263,
+              "start_index": 4115,
+              "title": "CDK12/13 inactivation triggers STING-mediated... : Journal of Clinical Investigation",
+              "url": "https://www.ovid.com/journals/jcin/abstract/10.1172/jci193745~cdk1213-inactivation-triggers-sting-mediated-antitumor?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "- **Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor)**  \n  URL: `https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html`  \n  Snippets:  \n  > “CT7439, a novel cyclin dependent kinase 12/13 (CDK12/13) inhibitor / Cyclin-K glue-degrader.” ([globenewswire.com](https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html?utm_source=openai))  \n  > “clinicaltrials.gov under study ID: NCT06600789.” ([globenewswire.com](https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html?utm_source=openai))  \n  > “including ovarian, breast and Ewing's Sarcoma.” ([globenewswire.com](https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html?utm_source=openai))  \n\n- **CT7439 Capsules (0.5 mg, 1mg, 3mg) in Solid Malignancies – ICH GCP (NCT06600789)**  \n  URL: `https://ichgcp.net/clinical-trials-registry/NCT06600789`  \n  Snippets:  \n  > “Drug: CT7439 Capsules (0.5 mg, 1mg, 3mg)” ([ichgcp.net](https://ichgcp.net/clinical-trials-registry/NCT06600789?utm_source=openai))  \n  > “Manchester, United Kingdom” ([ichgcp.net](https://ichgcp.net/clinical-trials-registry/NCT06600789?utm_source=openai))  \n  > “Oxford, United Kingdom” ([ichgcp.net](https://ichgcp.net/clinical-trials-registry/NCT06600789?utm_source=openai))  \n\n- **Therapeutic Targeting of CDK12/CDK13 in Triple-Negative Breast Cancer (SR-4835)**  \n  URL: `https://pubmed.ncbi.nlm.nih.gov/31668947/`  \n  Snippets:  \n  > “development of SR-4835, a highly selective dual inhibitor of CDK12 and CDK13, which disables triple-negative breast cancer (TNBC) cells.” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/31668947/?utm_source=openai))  \n\n- **Noncovalent CDK12/13 dual inhibitors-based PROTACs… (PP-C8) … triple-negative breast cancer (TNBC)**  \n  URL: `https://pubmed.ncbi.nlm.nih.gov/34864331/`  \n  Snippets:  \n  > “synthesized a potent PROTAC degrader PP-C8” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/34864331/?utm_source=openai))  \n  > “effects with PARP inhibitor in triple-negative breast cancer (TNBC).” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/34864331/?utm_source=openai))  \n\n- **Discovery of ZLC491 as a Potent, Selective, and Orally Bioavailable CDK12/13 PROTAC Degrader**  \n  URL: `https://pmc.ncbi.nlm.nih.gov/articles/PMC11513923/`  \n  Snippets:  \n  > “discovery of ZLC491 as a potent, selective, and orally bioavailable CDK12/13 PROTAC degrader.” ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11513923/?utm_source=openai))  \n  > “in TNBC MDA-MB-231 cells.” ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11513923/?utm_source=openai))  \n  > “Selective degradation of cyclin-dependent kinases 12 and 13 (CDK12/13)” ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11513923/?utm_source=openai))  \n\n- **Covalent targeting of remote cysteine residues to develop CDK12 and CDK13 inhibitors (THZ531)**  \n  URL: `https://pubmed.ncbi.nlm.nih.gov/27571479/`  \n  Snippets:  \n  > “first-in-class CDK12 and CDK13 covalent inhibitor, THZ531.” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/27571479/?utm_source=openai))  \n\n- **CDK12/13 inactivation triggers STING-mediated… (mentions YJ1206 and CT7439 trial ID)**  \n  URL: `https://www.ovid.com/journals/jcin/abstract/10.1172/jci193745~cdk1213-inactivation-triggers-sting-mediated-antitumor`  \n  Snippets:  \n  > “orally bioavailable PROTAC degrader of CDK12/13, YJ1206” ([ovid.com](https://www.ovid.com/journals/jcin/abstract/10.1172/jci193745~cdk1213-inactivation-triggers-sting-mediated-antitumor?utm_source=openai))  \n  > “CT7439… (ClinicalTrials.gov NCT06600789)” ([ovid.com](https://www.ovid.com/journals/jcin/abstract/10.1172/jci193745~cdk1213-inactivation-triggers-sting-mediated-antitumor?utm_source=openai))"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 54854,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 4568,
+    "output_tokens_details": {
+      "reasoning_tokens": 3559
+    },
+    "total_tokens": 59422
+  },
+  "user": null,
+  "metadata": {}
+}

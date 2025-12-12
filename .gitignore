@@ -1,0 +1,28 @@
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+
+# Virtualenvs
+.venv/
+venv/
+ENV/
+
+# Env files (never commit secrets)
+.env
+.env.*
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Local eval outputs
+eval/reports/
+
+

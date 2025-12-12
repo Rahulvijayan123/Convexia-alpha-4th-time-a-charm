@@ -1,0 +1,15 @@
+{
+  "rules": [
+    {
+      "series_id": "PB-Series",
+      "members": ["PB301", "PB316", "PB325", "PB338"],
+      "scores": {
+        "series_to_series": 1.0,
+        "member_to_series": 1.0,
+        "series_to_member": 0.5
+      }
+    }
+  ]
+}
+
+

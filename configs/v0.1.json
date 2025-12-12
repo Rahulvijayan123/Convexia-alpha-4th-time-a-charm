@@ -1,0 +1,32 @@
+{
+  "version": "v0.1",
+  "model": "gpt-5.2",
+  "workers": 4,
+  "max_rounds": 8,
+  "stop_after_no_new_validated_rounds": 3,
+  "min_successful_workers_per_round": 2,
+  "max_planned_queries_per_cycle": 4,
+  "max_frontier_size": 30,
+  "validation_batch_size_per_round": 12,
+  "max_total_validations": 80,
+  "retrieval": {
+    "tool": "web_search",
+    "external_web_access": true,
+    "user_location": null
+  },
+  "optional_fetch": {
+    "enabled": false,
+    "max_docs_per_round": 3,
+    "timeout_seconds": 20
+  },
+  "reasoning_effort": {
+    "worker_planning": "xhigh",
+    "validation": "xhigh",
+    "extraction": "low"
+  },
+  "timeouts": {
+    "openai_seconds": 90
+  }
+}
+
+

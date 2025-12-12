@@ -1,0 +1,15 @@
+{
+  "rules": [
+    {
+      "series_id": "SERIES-X",
+      "members": ["X1", "X2"],
+      "scores": {
+        "series_to_series": 1.0,
+        "member_to_series": 1.0,
+        "series_to_member": 0.5
+      }
+    }
+  ]
+}
+
+

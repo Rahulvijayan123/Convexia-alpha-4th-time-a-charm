@@ -1,0 +1,8 @@
+[
+  {"identifier": "ASSET-ALPHA", "cycle": 1, "evidence_url": "https://example.com/a"},
+  {"identifier": "X1", "cycle": 1, "evidence_url": "https://example.com/x1"},
+  {"identifier": "SERIES-X", "cycle": 2, "evidence_url": "https://example.com/series-x"},
+  {"identifier": "NOPE", "cycle": 1, "evidence_url": "https://example.com/nope"}
+]
+
+
