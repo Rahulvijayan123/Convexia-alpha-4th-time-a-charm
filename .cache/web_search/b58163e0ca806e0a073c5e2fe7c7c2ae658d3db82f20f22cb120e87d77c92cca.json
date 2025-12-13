@@ -1,0 +1,456 @@
+{
+  "id": "resp_016b871cab04dad100693c9590a93081939cdf29a9c7e0c4be",
+  "object": "response",
+  "created_at": 1765578128,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_016b871cab04dad100693c95910810819398ad560110bb3081",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_016b871cab04dad100693c959327e481938801cf97b8adbca8",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "EUCTR CDK12 PROTAC"
+      }
+    },
+    {
+      "id": "rs_016b871cab04dad100693c95951ad48193a78b700a0c255700",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_016b871cab04dad100693c95960a0881938eb3b62a3cffd0d6",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrialsregister.eu CDK12"
+      }
+    },
+    {
+      "id": "rs_016b871cab04dad100693c9597acb88193b6baffb3524c4180",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_016b871cab04dad100693c959b4b188193bf378a581deff00a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "clinicaltrialsregister.eu \"CDK12\" \"PROTAC\""
+      }
+    },
+    {
+      "id": "rs_016b871cab04dad100693c959d640c8193a52a0ef669076c0f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_016b871cab04dad100693c95a57a4c8193b44827f024c9bbae",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12 PROTAC patent"
+      }
+    },
+    {
+      "id": "rs_016b871cab04dad100693c95a8684481938a37f1465f0ac464",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_016b871cab04dad100693c95ab85188193aefc4eedf819f71d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "GSK3186899 EUCTR"
+      }
+    },
+    {
+      "id": "rs_016b871cab04dad100693c95ad83888193bf19bbbd2baacecf",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_016b871cab04dad100693c95b4cba481939e1c23a15bf8d014",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrialsregister.eu cdk12 \"ctr-search\""
+      }
+    },
+    {
+      "id": "rs_016b871cab04dad100693c95b72f18819388bc3334b27cc9d8",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_016b871cab04dad100693c95ccbe288193a61de2857c9e0b07",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2018-003007-19/IT"
+      }
+    },
+    {
+      "id": "rs_016b871cab04dad100693c95ce5b848193a85fb745dcded53f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_016b871cab04dad100693c95ceb8188193843374f3ce2a3726",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "CDK12",
+        "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2018-003007-19/ES"
+      }
+    },
+    {
+      "id": "rs_016b871cab04dad100693c95d0151881939996a9be6bc0267c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_016b871cab04dad100693c95d22934819398d5b1bf3d9c5202",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "CDK12,"
+      }
+    },
+    {
+      "id": "rs_016b871cab04dad100693c95d3ea948193bd945e4dcd97d4cf",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_016b871cab04dad100693c95daf16c81939b6c26f45e3683dd",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.chemicalprobes.org/bsj-4-116"
+      }
+    },
+    {
+      "id": "rs_016b871cab04dad100693c95de55d8819388332b341f156f1d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_016b871cab04dad100693c95e0184c81938511cd46f3b3c58d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "ZLC491",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39388374/"
+      }
+    },
+    {
+      "id": "rs_016b871cab04dad100693c95e289308193ae4ebeac2d224f90",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_016b871cab04dad100693c95e3f2288193b2b1bf91ddb4840b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "Here, we report",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39388374/"
+      }
+    },
+    {
+      "id": "rs_016b871cab04dad100693c95e653c881939c84648a3e744b6d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_016b871cab04dad100693c95e758f081939576a41a7fd761ec",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "In the present study",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33753926/"
+      }
+    },
+    {
+      "id": "rs_016b871cab04dad100693c95e8e6888193a7ba86100f47bdc6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_016b871cab04dad100693c95ec144c819395f595b677aec2db",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.probechem.com/products_ZLC491.html"
+      }
+    },
+    {
+      "id": "rs_016b871cab04dad100693c95edfde4819390b86e98cbc7e393",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_016b871cab04dad100693c95eeeeb48193a83cc05bfa070383",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "ZLC491 is"
+      }
+    },
+    {
+      "id": "rs_016b871cab04dad100693c95f2962c8193807f2e725e8a3a4d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_016b871cab04dad100693c96019c688193a40c3fdc6338dbb1",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "BRCA1",
+        "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2018-003007-19/ES"
+      }
+    },
+    {
+      "id": "rs_016b871cab04dad100693c9603ad308193905f9a46dfdd7213",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_016b871cab04dad100693c9611a82c81939e6fd3ec27a026d4",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 388,
+              "start_index": 318,
+              "title": "Discovery of ZLC491 as a Potent, Selective, and Orally Bioavailable CDK12/13 PROTAC Degrader - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39388374/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 610,
+              "start_index": 540,
+              "title": "Discovery of ZLC491 as a Potent, Selective, and Orally Bioavailable CDK12/13 PROTAC Degrader - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39388374/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 768,
+              "start_index": 698,
+              "title": "Discovery of ZLC491 as a Potent, Selective, and Orally Bioavailable CDK12/13 PROTAC Degrader - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39388374/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1213,
+              "start_index": 1143,
+              "title": "Development of an orally bioavailable CDK12/13 degrader and induction of synthetic lethality with AKT pathway inhibition - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39353441/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1418,
+              "start_index": 1348,
+              "title": "Development of an orally bioavailable CDK12/13 degrader and induction of synthetic lethality with AKT pathway inhibition - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39353441/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1573,
+              "start_index": 1503,
+              "title": "Development of an orally bioavailable CDK12/13 degrader and induction of synthetic lethality with AKT pathway inhibition - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39353441/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1997,
+              "start_index": 1927,
+              "title": "Noncovalent CDK12/13 dual inhibitors-based PROTACs degrade CDK12-Cyclin K complex and induce synthetic lethality with PARP inhibitor - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34864331/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2228,
+              "start_index": 2158,
+              "title": "Noncovalent CDK12/13 dual inhibitors-based PROTACs degrade CDK12-Cyclin K complex and induce synthetic lethality with PARP inhibitor - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34864331/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2567,
+              "start_index": 2497,
+              "title": "Discovery and resistance mechanism of a selective CDK12 degrader - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/33753926/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2774,
+              "start_index": 2704,
+              "title": "Discovery and resistance mechanism of a selective CDK12 degrader - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/33753926/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2908,
+              "start_index": 2838,
+              "title": "Discovery and resistance mechanism of a selective CDK12 degrader - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/33753926/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3145,
+              "start_index": 3081,
+              "title": "Probe BSJ-4-116 | Chemical Probes Portal",
+              "url": "https://www.chemicalprobes.org/bsj-4-116"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3248,
+              "start_index": 3184,
+              "title": "Probe BSJ-4-116 | Chemical Probes Portal",
+              "url": "https://www.chemicalprobes.org/bsj-4-116"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3345,
+              "start_index": 3281,
+              "title": "Probe BSJ-4-116 | Chemical Probes Portal",
+              "url": "https://www.chemicalprobes.org/bsj-4-116"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3607,
+              "start_index": 3545,
+              "title": "BSJ-4-116 | Active Degraders | Tocris Bioscience",
+              "url": "https://www.tocris.com/products/bsj-4-116_7528"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3798,
+              "start_index": 3736,
+              "title": "BSJ-4-116 | Active Degraders | Tocris Bioscience",
+              "url": "https://www.tocris.com/products/bsj-4-116_7528"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3897,
+              "start_index": 3835,
+              "title": "BSJ-4-116 | Active Degraders | Tocris Bioscience",
+              "url": "https://www.tocris.com/products/bsj-4-116_7528"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4244,
+              "start_index": 4141,
+              "title": "\n\t\t    \n                \n                \n                \n                    Clinical Trials Register\n                \n            \n\t\t",
+              "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2018-003007-19/ES"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4478,
+              "start_index": 4375,
+              "title": "\n\t\t    \n                \n                \n                \n                    Clinical Trials Register\n                \n            \n\t\t",
+              "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2018-003007-19/ES"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4660,
+              "start_index": 4557,
+              "title": "\n\t\t    \n                \n                \n                \n                    Clinical Trials Register\n                \n            \n\t\t",
+              "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2018-003007-19/ES"
+            }
+          ],
+          "logprobs": [],
+          "text": "- **Discovery of ZLC491 as a Potent, Selective, and Orally Bioavailable CDK12/13 PROTAC Degrader - PubMed**\n  - URL: `https://pubmed.ncbi.nlm.nih.gov/39388374/`\n  - Direct quote snippets:\n    - “Here, we report the discovery of **ZLC491** as a potent, selective, and orally bioavailable **CDK12/13 PROTAC degrader**.” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/39388374/))\n    - “The compound effectively degraded **CDK12** and **CDK13** with **DC_{50} values of 32 and 28 nM**, respectively, in **TNBC MDA-MB-231** cells.” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/39388374/))\n    - “Importantly, **ZLC491** achieved an oral bioavailability of **46.8%** in rats…” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/39388374/))\n\n- **Development of an orally bioavailable CDK12/13 degrader and induction of synthetic lethality with AKT pathway inhibition - PubMed**\n  - URL: `https://pubmed.ncbi.nlm.nih.gov/39353441/`\n  - Direct quote snippets:\n    - “Here, we develop a selective **CDK12/13 PROTAC degrader, YJ9069**, which effectively inhibits proliferation in subsets of **prostate cancer** cells…” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/39353441/))\n    - “Modifications of **YJ9069** yielded an orally bioavailable **CDK12/13 degrader, YJ1206**, which exhibits comparable efficacy…” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/39353441/))\n    - “Keywords: **AKT**; **CDK12**; **CDK13**; **PROTAC**; **prostate cancer**; …” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/39353441/))\n\n- **Noncovalent CDK12/13 dual inhibitors-based PROTACs degrade CDK12-Cyclin K complex and induce synthetic lethality with PARP inhibitor - PubMed**\n  - URL: `https://pubmed.ncbi.nlm.nih.gov/34864331/`\n  - Direct quote snippets:\n    - “...we have synthesized a potent **PROTAC degrader PP-C8** based on the noncovalent dual inhibitors of **CDK12/13**…” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/34864331/))\n    - “Importantly, **PP-C8** demonstrates profound synergistic antiproliferative effects with **PARP inhibitor** in **triple-negative breast cancer (TNBC)**.” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/34864331/))\n\n- **Discovery and resistance mechanism of a selective CDK12 degrader - PubMed**\n  - URL: `https://pubmed.ncbi.nlm.nih.gov/33753926/`\n  - Direct quote snippets:\n    - “...we report the rational design and characterization of a **CDK12-specific degrader, BSJ-4-116**.” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/33753926/))\n    - “Moreover, **BSJ-4-116** exhibited potent antiproliferative effects, alone and in combination with the … inhibitor **olaparib**…” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/33753926/))\n    - “...other transcriptional CDKs, most notably **CDK13**.” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/33753926/))\n\n- **BSJ-4-116 | Chemical Probes Portal**\n  - URL: `https://www.chemicalprobes.org/bsj-4-116`\n  - Direct quote snippets:\n    - “**BSJ-4-116 : Degrader (PROTAC) of CDK12**” ([chemicalprobes.org](https://www.chemicalprobes.org/bsj-4-116))\n    - “**CDK12 (Mutant:WT, C1039F)**” ([chemicalprobes.org](https://www.chemicalprobes.org/bsj-4-116))\n    - “**Potency Value: 6 nM**” ([chemicalprobes.org](https://www.chemicalprobes.org/bsj-4-116))\n\n- **BSJ-4-116 | Active Degraders | Tocris Bioscience**\n  - URL: `https://www.tocris.com/products/bsj-4-116_7528`\n  - Direct quote snippets:\n    - “Description: **Selective CDK12 PROTAC® Degrader**” ([tocris.com](https://www.tocris.com/products/bsj-4-116_7528))\n    - “The compound inhibits growth of **T-ALL** cells and sensitizes them to PARP inhibitor **Olaparib** (Cat. No. **7579**).” ([tocris.com](https://www.tocris.com/products/bsj-4-116_7528))\n    - “**CAS Number 2519823-34-6**” ([tocris.com](https://www.tocris.com/products/bsj-4-116_7528))\n\n- **Clinical Trials Register (EU Clinical Trials Register) — trial 2018-003007-19 (ES)**\n  - URL: `https://www.clinicaltrialsregister.eu/ctr-search/trial/2018-003007-19/ES`\n  - Direct quote snippets:\n    - “**EudraCT Number:2018-003007-19**” ([clinicaltrialsregister.eu](https://www.clinicaltrialsregister.eu/ctr-search/trial/2018-003007-19/ES))\n    - “(ie, **BRCA1, BRCA2, ATM, BARD1, BRIP1, CDK12, CHEK1, CHEK2, FANCL, PALB2, PPP2R2A, RAD51B, RAD51C, RAD51D, and RAD54L**)” ([clinicaltrialsregister.eu](https://www.clinicaltrialsregister.eu/ctr-search/trial/2018-003007-19/ES))\n    - “...or centrally-confirmed HRD based on the **Lynparza HRR-HRD assay**” ([clinicaltrialsregister.eu](https://www.clinicaltrialsregister.eu/ctr-search/trial/2018-003007-19/ES))"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 65166,
+    "input_tokens_details": {
+      "cached_tokens": 4096
+    },
+    "output_tokens": 7429,
+    "output_tokens_details": {
+      "reasoning_tokens": 6117
+    },
+    "total_tokens": 72595
+  },
+  "user": null,
+  "metadata": {}
+}

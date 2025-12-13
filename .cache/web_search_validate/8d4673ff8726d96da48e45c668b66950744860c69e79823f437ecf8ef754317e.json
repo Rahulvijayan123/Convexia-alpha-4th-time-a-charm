@@ -1,0 +1,128 @@
+{
+  "id": "resp_096fd615e3c7def000693c96c3e05481949a83b56142f507b3",
+  "object": "response",
+  "created_at": 1765578435,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_096fd615e3c7def000693c96c428648194acbfdb047cf76b99",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_096fd615e3c7def000693c96d1003c8194bf2fe6412f93f3c2",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"Small molecule inhibitors\" CDK12 triple-negative breast cancer"
+      }
+    },
+    {
+      "id": "rs_096fd615e3c7def000693c96d3889c81949a6835cf91d60f86",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_096fd615e3c7def000693c96e550f08194be40cb08ce394573",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12 inhibitor phase 1 trial"
+      }
+    },
+    {
+      "id": "rs_096fd615e3c7def000693c96e6bcd48194b74604f77a3907f8",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_096fd615e3c7def000693c96ed26bc8194aeabac1262d9eeb5",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"Small molecule inhibitors\" drug name"
+      }
+    },
+    {
+      "id": "rs_096fd615e3c7def000693c96eea0088194b558a4031a2b06e5",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_096fd615e3c7def000693c970067888194bc3e2d935d671524",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": false,\n  \"assets\": [],\n  \"rejected_reason\": \"Candidate identifier \\\"Small molecule inhibitors\\\" is a non-specific modality/class label (not a unique drug asset). Sponsor, target, indication, development stage, and geography cannot be unambiguously attributed to a single asset.\"\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 19810,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 4954,
+    "output_tokens_details": {
+      "reasoning_tokens": 4885
+    },
+    "total_tokens": 24764
+  },
+  "user": null,
+  "metadata": {}
+}

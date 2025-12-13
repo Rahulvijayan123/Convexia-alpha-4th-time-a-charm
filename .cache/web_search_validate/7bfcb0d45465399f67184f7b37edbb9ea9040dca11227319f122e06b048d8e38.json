@@ -1,0 +1,283 @@
+{
+  "id": "resp_015d401dc0fcfa8a00693c82d8b7c88194876fc339bc50c9bc",
+  "object": "response",
+  "created_at": 1765573336,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_015d401dc0fcfa8a00693c82d9cba08194824b578f44d48f2a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_015d401dc0fcfa8a00693c82dea6e88194a1b46fd7240f66fb",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"BNT327\" Dose Level 1 DL1"
+      }
+    },
+    {
+      "id": "rs_015d401dc0fcfa8a00693c82e12b7c81949c5131f6af6f3384",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_015d401dc0fcfa8a00693c831da10481948243f7ba3f71482b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://news.bms.com/news/details/2025/BioNTech-and-Bristol-Myers-Squibb-Announce-Global-Strategic-Partnership-to-Co-Develop-and-Co-Commercialize-Next-generation-Bispecific-Antibody-Candidate-BNT327-Broadly-for-Multiple-Solid-Tumor-Types/default.aspx?linkId=827113309"
+      }
+    },
+    {
+      "id": "rs_015d401dc0fcfa8a00693c831f7b4c81949c27210bc9fa2467",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_015d401dc0fcfa8a00693c8320c33c819492c917b97ef28f2b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.sec.gov/Archives/edgar/data/1776985/000177698525000029/bnt_2025q1ex99x1quarterlyr.htm"
+      }
+    },
+    {
+      "id": "rs_015d401dc0fcfa8a00693c8322866c8194835f1d30209b826b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_015d401dc0fcfa8a00693c8322d5d48194af9874ade9dda70a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "BNT327",
+        "url": "https://www.sec.gov/Archives/edgar/data/1776985/000177698525000029/bnt_2025q1ex99x1quarterlyr.htm"
+      }
+    },
+    {
+      "id": "rs_015d401dc0fcfa8a00693c832519988194be0ebe5b983f911e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_015d401dc0fcfa8a00693c832819b08194905ba488f9fcf5af",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"BNT327\" \"Dose Level\" DL1"
+      }
+    },
+    {
+      "id": "rs_015d401dc0fcfa8a00693c832a65d48194baa29f301ac5534f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_015d401dc0fcfa8a00693c832e29f8819498713202bc62ed94",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT06449222"
+      }
+    },
+    {
+      "id": "rs_015d401dc0fcfa8a00693c832f37048194ac19dd9a8785a0fe",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_015d401dc0fcfa8a00693c833325208194be3dd73d645ae505",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_015d401dc0fcfa8a00693c833663cc81948e4c85ed9c1a2dfd",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_015d401dc0fcfa8a00693c8337ea7081949816c3957fe31277",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov NCT06449222 sponsor"
+      }
+    },
+    {
+      "id": "rs_015d401dc0fcfa8a00693c833a05908194ae43892cc8e07a5b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_015d401dc0fcfa8a00693c83473d0881948a4a57a1b385537f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT06449222"
+      }
+    },
+    {
+      "id": "rs_015d401dc0fcfa8a00693c8348e5d08194b778e917dee1d2ac",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_015d401dc0fcfa8a00693c837084a88194851ea3c0cb1e501f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT06449222 locations United States"
+      }
+    },
+    {
+      "id": "rs_015d401dc0fcfa8a00693c8373ece48194b782c68d9f92abda",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_015d401dc0fcfa8a00693c837912888194892960de8e4082e6",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT06449222 Australia"
+      }
+    },
+    {
+      "id": "rs_015d401dc0fcfa8a00693c837c78048194bedb8bb76b0e5e7d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_015d401dc0fcfa8a00693c8382a1488194ad1d6e0285eb5a4a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.biontech.com/trials/BNT327-02"
+      }
+    },
+    {
+      "id": "rs_015d401dc0fcfa8a00693c8383a6d08194b6e454073f608a00",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_015d401dc0fcfa8a00693c8385a8f48194a32794364dd98a2e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "Trial Locations",
+        "url": "https://clinicaltrials.biontech.com/trials/BNT327-02"
+      }
+    },
+    {
+      "id": "rs_015d401dc0fcfa8a00693c838767c08194bb485d7816f55f6f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_015d401dc0fcfa8a00693c838e80bc8194a7f285e75d57077e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.biontech.com/trials/BNT327-02"
+      }
+    },
+    {
+      "id": "rs_015d401dc0fcfa8a00693c8390070c81948acbe46c29aa11de",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_015d401dc0fcfa8a00693c83d08a6c8194b546615cf1d45e15",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": true,\n  \"assets\": [\n    {\n      \"drug_name_code\": \"BNT327 Dose Level 1 (DL1)\",\n      \"sponsor\": \"BioNTech SE\",\n      \"target\": \"PD-L1 and VEGF-A\",\n      \"modality\": \"Bispecific antibody\",\n      \"indication\": \"Locally advanced/metastatic triple-negative breast cancer (TNBC) (first- and second-line; in combination with chemotherapy)\",\n      \"development_stage\": \"Phase 2\",\n      \"geography\": \"United States (multi-site)\",\n      \"sources\": [\n        \"https://clinicaltrials.biontech.com/trials/BNT327-02\",\n        \"https://news.bms.com/news/details/2025/BioNTech-and-Bristol-Myers-Squibb-Announce-Global-Strategic-Partnership-to-Co-Develop-and-Co-Commercialize-Next-generation-Bispecific-Antibody-Candidate-BNT327-Broadly-for-Multiple-Solid-Tumor-Types/default.aspx?linkId=827113309\",\n        \"https://www.sec.gov/Archives/edgar/data/1776985/000177698525000029/bnt_2025q1ex99x1quarterlyr.htm\"\n      ]\n    }\n  ],\n  \"rejected_reason\": null\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 58960,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 14060,
+    "output_tokens_details": {
+      "reasoning_tokens": 13772
+    },
+    "total_tokens": 73020
+  },
+  "user": null,
+  "metadata": {}
+}

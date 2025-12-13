@@ -1,0 +1,296 @@
+{
+  "id": "resp_0d405ecc9df0123400693c8bf091ec81978c64f267c1743850",
+  "object": "response",
+  "created_at": 1765575664,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0d405ecc9df0123400693c8bf11df88197ac4177f45e987dfb",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0d405ecc9df0123400693c8bf9a524819790088db41863daf6",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"Solid Malignancies\" CDK12 inhibitor"
+      }
+    },
+    {
+      "id": "rs_0d405ecc9df0123400693c8bfb687881978daf0d5141164fc4",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0d405ecc9df0123400693c8c14c4f08197bdfb5e87e7ee3f6c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT06600789 CT7439"
+      }
+    },
+    {
+      "id": "rs_0d405ecc9df0123400693c8c16cce8819789550798e9beb093",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0d405ecc9df0123400693c8c188d108197a03e9f8c24d6cbdb",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov NCT06600789 CT7439"
+      }
+    },
+    {
+      "id": "rs_0d405ecc9df0123400693c8c1a1ba08197b56daf75432d1ccf",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0d405ecc9df0123400693c8c1be13c8197bb02b81473de89db",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0d405ecc9df0123400693c8c1ca6288197875bf0aac5cd2568",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0d405ecc9df0123400693c8c1fdbf8819788a42cdc7f6813e4",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_0d405ecc9df0123400693c8c2092408197af497a1c8ed0aad6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0d405ecc9df0123400693c8c21f750819781dce224299d063d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "clinicaltrials.gov api v2 studies NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0d405ecc9df0123400693c8c23f2c4819795f30db2843d222b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0d405ecc9df0123400693c8c256b3481978c52a3f33de38f76",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "https://clinicaltrials.gov/api/v2/studies/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0d405ecc9df0123400693c8c2720308197a43bc373dac6f36b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0d405ecc9df0123400693c8c2a3b3c81978d7ee78d4eab7679",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "https://clinicaltrials.gov/api/legacy/public-xml/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0d405ecc9df0123400693c8c2cf87081979e4b4176e526f3eb",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0d405ecc9df0123400693c8c2f485c8197814d0c9ba4c33541",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "https://clinicaltrials.gov/ct2/show/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0d405ecc9df0123400693c8c318c4881978146c1b98059a68a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0d405ecc9df0123400693c8c370d308197b200dceaf700290f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "api/v2/studies/NCT06600789 site:clinicaltrials.gov"
+      }
+    },
+    {
+      "id": "rs_0d405ecc9df0123400693c8c3972688197aec347eec02ee241",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0d405ecc9df0123400693c8c4894ac81978c846539a827002d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://ichgcp.net/clinical-trials-registry/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0d405ecc9df0123400693c8c49e8dc8197a8bd52e84df91a3a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0d405ecc9df0123400693c8c4d7c20819781f2a7b6f645da5d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "Sponsor",
+        "url": "https://ichgcp.net/clinical-trials-registry/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0d405ecc9df0123400693c8c4fa56c8197a5c4e770ed7ca6e8",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0d405ecc9df0123400693c8c668fc88197a13cda1056fab48c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/20/carrick-therapeutics-announces-u-s-fda-clearance-of-ind"
+      }
+    },
+    {
+      "id": "rs_0d405ecc9df0123400693c8c67cfec8197ae7aad91e0a4a7aa",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0d405ecc9df0123400693c8c79fb7c81979589c1cd9043821c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"solid malignancies\" \"CDK12/13\" trial"
+      }
+    },
+    {
+      "id": "rs_0d405ecc9df0123400693c8c7ed9f08197ba1235d5e430152e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0d405ecc9df0123400693c8cdd9b548197b6825e6a44ec0675",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"Solid Malignancies\" drug candidate"
+      }
+    },
+    {
+      "id": "rs_0d405ecc9df0123400693c8ce3afd88197b63f4e356c186d35",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0d405ecc9df0123400693c8d0f5ad481979b0a914998d1f664",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": false,\n  \"assets\": [],\n  \"rejected_reason\": \"Candidate identifier \\\"Solid Malignancies\\\" is an indication/condition term (used broadly across many clinical trial records) rather than a specific drug/trial/patent identifier, so a unique drug asset cannot be validated with the required fields. Example use as a condition: https://ichgcp.net/clinical-trials-registry/NCT06600789\"\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 69413,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 16651,
+    "output_tokens_details": {
+      "reasoning_tokens": 16553
+    },
+    "total_tokens": 86064
+  },
+  "user": null,
+  "metadata": {}
+}

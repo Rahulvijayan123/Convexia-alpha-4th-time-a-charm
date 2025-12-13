@@ -1,0 +1,351 @@
+{
+  "id": "resp_0e82db3a31eef1c100693c804b7b848193a481df16f9ca74b6",
+  "object": "response",
+  "created_at": 1765572683,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0e82db3a31eef1c100693c804be8b8819386f5bf6b50babfdc",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e82db3a31eef1c100693c805640688193bdd24e61537055b3",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"Recurrent or Metastatic\" \"Triple-negative\" breast cancer CDK12"
+      }
+    },
+    {
+      "id": "rs_0e82db3a31eef1c100693c8058c6a4819384e83a9de8ea3d3d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e82db3a31eef1c100693c806f715c8193b8fb6528b0128f24",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12 inhibitor clinical trial NCT triple negative breast cancer"
+      }
+    },
+    {
+      "id": "rs_0e82db3a31eef1c100693c8071a5e081938966f2f751136eb6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e82db3a31eef1c100693c807619cc819390ee15d850a3683a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT06600789 CT7439"
+      }
+    },
+    {
+      "id": "rs_0e82db3a31eef1c100693c8078e0848193ba3f0942c31048b9",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e82db3a31eef1c100693c807952a88193bfaf35e9a724b4de",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0e82db3a31eef1c100693c807a628081939785fe5d84dc9dcc",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e82db3a31eef1c100693c807c8f888193b2ae5ec0f8bc77d8",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_0e82db3a31eef1c100693c807dce90819391144a7e432acdca",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e82db3a31eef1c100693c807fa3d881938859b52002f44368",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0e82db3a31eef1c100693c80817d408193975346329c19147e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e82db3a31eef1c100693c8082cb888193b29ddefdf2988fd3",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "https://clinicaltrials.gov/study/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0e82db3a31eef1c100693c8085076c8193b067997cc7d9fb6c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e82db3a31eef1c100693c809c4fb48193b0a07c55ae98a19d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"Recurrent or Metastatic\" \"Triple-negative\" \"breast cancer\" trial"
+      }
+    },
+    {
+      "id": "rs_0e82db3a31eef1c100693c80a1b73c8193bcd07d37d1287106",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e82db3a31eef1c100693c80c04c6081939d96166b47152a02",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"Recurrent or Metastatic Triple-negative Breast Cancer(TNBC)\""
+      }
+    },
+    {
+      "id": "rs_0e82db3a31eef1c100693c80c4b4148193b2dc78547f1a3aa7",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e82db3a31eef1c100693c80c839cc819395db5fc46f53884a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "National Cancer Institute triple-negative breast cancer definition"
+      }
+    },
+    {
+      "id": "rs_0e82db3a31eef1c100693c80ccdd9481939fc7f8c4d983025e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e82db3a31eef1c100693c80da26948193bdecccbe4612007d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "dinaciclib metastatic triple-negative breast cancer clinical trial"
+      }
+    },
+    {
+      "id": "rs_0e82db3a31eef1c100693c80e0b2a0819397a6c6c7b996b875",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e82db3a31eef1c100693c80e655f08193853564d7c61825f0",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT01624441 dinaciclib epirubicin metastatic triple negative breast cancer"
+      }
+    },
+    {
+      "id": "rs_0e82db3a31eef1c100693c80eb341c81938d86d653a53b6eaa",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e82db3a31eef1c100693c80ec05c88193a6f7b80b44cea119",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "cdek.pharmacy.purdue.edu trial NCT01624441"
+      }
+    },
+    {
+      "id": "rs_0e82db3a31eef1c100693c80f0fcf8819387490758d2ed9acc",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e82db3a31eef1c100693c80f17e2c819398b92eb33ff993fd",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "https://cdek.pharmacy.purdue.edu/trial/NCT01624441"
+      }
+    },
+    {
+      "id": "rs_0e82db3a31eef1c100693c80f7628081938d6f854c7a0dbeec",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e82db3a31eef1c100693c80fa9ab481938c95e0a481c0de35",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "https://clinicaltrials.gov/study/NCT01624441"
+      }
+    },
+    {
+      "id": "rs_0e82db3a31eef1c100693c810035b48193bf5553f426cbaf19",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e82db3a31eef1c100693c8100d1d481938b9940214ad004f7",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov NCT01624441 study"
+      }
+    },
+    {
+      "id": "rs_0e82db3a31eef1c100693c8105cc6081939727235f9b44e5c6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e82db3a31eef1c100693c8107201c81938d9b6a9e30f65ad8",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "clinicaltrials.gov ct2 show NCT01624441"
+      }
+    },
+    {
+      "id": "rs_0e82db3a31eef1c100693c810d8f0c8193898310cc5a0831f1",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e82db3a31eef1c100693c810fc2608193af28f13d5d53d668",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "classic.clinicaltrials.gov NCT01624441"
+      }
+    },
+    {
+      "id": "rs_0e82db3a31eef1c100693c8117612081938c5ee91595ce25be",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e82db3a31eef1c100693c8126a17881939f5afd22ff4da8e0",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "dinaciclib developer sponsor Merck SCH 727965"
+      }
+    },
+    {
+      "id": "rs_0e82db3a31eef1c100693c812e53608193a655bf79faa47088",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0e82db3a31eef1c100693c8141eec88193b058940165c6f46e",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": false,\n  \"assets\": [],\n  \"rejected_reason\": \"Candidate identifier \\\"Recurrent or Metastatic Triple-negative Breast Cancer(TNBC)\\\" is an indication/condition (not a specific drug name/code, trial ID, or patent), so sponsor/target/modality/stage/geography cannot be uniquely determined for a single drug asset. TNBC reference: https://www.cancer.gov/types/breast/breast-cancer-types/triple-negative\"\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 88570,
+    "input_tokens_details": {
+      "cached_tokens": 4096
+    },
+    "output_tokens": 11521,
+    "output_tokens_details": {
+      "reasoning_tokens": 11415
+    },
+    "total_tokens": 100091
+  },
+  "user": null,
+  "metadata": {}
+}

@@ -1,0 +1,513 @@
+{
+  "id": "resp_0a70ed0c7591765b00693c929f37d48190bc6a5c14ab83e632",
+  "object": "response",
+  "created_at": 1765577375,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0a70ed0c7591765b00693c929f98408190a7ac9e32be452ac2",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a70ed0c7591765b00693c92a2fbac8190874f5302440c4c55",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12 degrader NCT"
+      }
+    },
+    {
+      "id": "rs_0a70ed0c7591765b00693c92a58a588190bd65b732f0544c31",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a70ed0c7591765b00693c92a8a91081909ab1c71454f7ac01",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12 degrader site:clinicaltrials.gov NCT"
+      }
+    },
+    {
+      "id": "rs_0a70ed0c7591765b00693c92aa614881908a1808cf3081aa55",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a70ed0c7591765b00693c92ab5ed88190b2470aaf0cd14c57",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT06600789 clinicaltrials.gov CT7439 CDK12"
+      }
+    },
+    {
+      "id": "rs_0a70ed0c7591765b00693c92ae34b081909607ce4ff223236e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a70ed0c7591765b00693c92af5b8881909b1b6149b3dd3558",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0a70ed0c7591765b00693c92b08a9881909b060d936e7ffeb1",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a70ed0c7591765b00693c92b1981c8190a16cd13719733f47",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov/study NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0a70ed0c7591765b00693c92b356508190b7688b027533682c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a70ed0c7591765b00693c92b524c08190bb086e97ab525883",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"Study Details\" \"NCT06600789\""
+      }
+    },
+    {
+      "id": "rs_0a70ed0c7591765b00693c92b779408190b8f4607ea336dd4f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a70ed0c7591765b00693c92c6219881909e5508b001468dd2",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.carricktherapeutics.com/news-media/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase"
+      }
+    },
+    {
+      "id": "rs_0a70ed0c7591765b00693c92c8003c8190a05197d9bd3669e3",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a70ed0c7591765b00693c92ca50948190a04ea4da5b87fac9",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "NCT02",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34289372/"
+      }
+    },
+    {
+      "id": "rs_0a70ed0c7591765b00693c92cf34c08190b2224f7ffc9a04a9",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a70ed0c7591765b00693c92d082108190a6b27903264a721a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "NCT02 is identified",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34289372/"
+      }
+    },
+    {
+      "id": "rs_0a70ed0c7591765b00693c92d35ec88190a39b487e95ef70c7",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a70ed0c7591765b00693c92da3ad0819080a5480cf76d61bc",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11513923/"
+      }
+    },
+    {
+      "id": "rs_0a70ed0c7591765b00693c92dc33b0819091e2ab537fe38775",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a70ed0c7591765b00693c92dda3e4819099a8e590570cc4fd",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "## Abstract",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11513923/"
+      }
+    },
+    {
+      "id": "rs_0a70ed0c7591765b00693c92e083e4819086592c6cba086ce8",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a70ed0c7591765b00693c92ea81a88190b6914288aadc2128",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34864331/"
+      }
+    },
+    {
+      "id": "rs_0a70ed0c7591765b00693c92ec21c48190844a76913fad9008",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a70ed0c7591765b00693c92ec9b248190a7950dc6ff7418cf",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "NCT06600789",
+        "url": "https://www.biospace.com/press-releases/carrick-therapeutics-announces-first-patient-dosed-in-phase-1-clinical-trial-of-ct7439-cdk12-13-inhibitor"
+      }
+    },
+    {
+      "id": "rs_0a70ed0c7591765b00693c92ee66b48190ae2f1cfeaea3ad7e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a70ed0c7591765b00693c92f2171c8190b8d90ec96a4482bd",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "## Abstract",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33753926/"
+      }
+    },
+    {
+      "id": "rs_0a70ed0c7591765b00693c92f6583c8190bc5ccde0ab442a32",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a70ed0c7591765b00693c92f7921c8190aa99a9897a6f1b20",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39353441/"
+      }
+    },
+    {
+      "id": "rs_0a70ed0c7591765b00693c92f91e0c81908f8e2b3ae0917644",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a70ed0c7591765b00693c92f989e08190b1a94f06182f56de",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "YJ9069",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39353441/"
+      }
+    },
+    {
+      "id": "rs_0a70ed0c7591765b00693c92fd94c4819095a861e6140bc9b5",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a70ed0c7591765b00693c93053084819090b9032aaf2f5b00",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33753926/"
+      }
+    },
+    {
+      "id": "rs_0a70ed0c7591765b00693c9307e9c88190a0eb6cee1b3cd05f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0a70ed0c7591765b00693c9321715c8190bda61ff7d27f6fea",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 274,
+              "start_index": 114,
+              "title": "Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor) :: Carrick Therapeutics, Inc.",
+              "url": "https://www.carricktherapeutics.com/news-media/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 712,
+              "start_index": 552,
+              "title": "Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor) :: Carrick Therapeutics, Inc.",
+              "url": "https://www.carricktherapeutics.com/news-media/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 912,
+              "start_index": 752,
+              "title": "Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor) :: Carrick Therapeutics, Inc.",
+              "url": "https://www.carricktherapeutics.com/news-media/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1177,
+              "start_index": 1017,
+              "title": "Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor) :: Carrick Therapeutics, Inc.",
+              "url": "https://www.carricktherapeutics.com/news-media/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1362,
+              "start_index": 1286,
+              "title": "\n            Discovery of ZLC491 as a Potent, Selective, and Orally Bioavailable CDK12/13 PROTAC Degrader - PMC\n        ",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11513923/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1656,
+              "start_index": 1580,
+              "title": "\n            Discovery of ZLC491 as a Potent, Selective, and Orally Bioavailable CDK12/13 PROTAC Degrader - PMC\n        ",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11513923/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1844,
+              "start_index": 1768,
+              "title": "\n            Discovery of ZLC491 as a Potent, Selective, and Orally Bioavailable CDK12/13 PROTAC Degrader - PMC\n        ",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11513923/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1957,
+              "start_index": 1881,
+              "title": "\n            Discovery of ZLC491 as a Potent, Selective, and Orally Bioavailable CDK12/13 PROTAC Degrader - PMC\n        ",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11513923/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2111,
+              "start_index": 2041,
+              "title": "Discovery and resistance mechanism of a selective CDK12 degrader - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/33753926/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2314,
+              "start_index": 2244,
+              "title": "Discovery and resistance mechanism of a selective CDK12 degrader - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/33753926/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2466,
+              "start_index": 2396,
+              "title": "Discovery and resistance mechanism of a selective CDK12 degrader - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/33753926/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2631,
+              "start_index": 2561,
+              "title": "Degradation of CCNK/CDK12 is a druggable vulnerability of colorectal cancer - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34289372/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2875,
+              "start_index": 2805,
+              "title": "Degradation of CCNK/CDK12 is a druggable vulnerability of colorectal cancer - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34289372/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3032,
+              "start_index": 2962,
+              "title": "Degradation of CCNK/CDK12 is a druggable vulnerability of colorectal cancer - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34289372/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3176,
+              "start_index": 3106,
+              "title": "Degradation of CCNK/CDK12 is a druggable vulnerability of colorectal cancer - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34289372/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3290,
+              "start_index": 3231,
+              "title": "NCT 02 | Molecular Glues | Tocris Bioscience",
+              "url": "https://www.tocris.com/products/nct-02_7551"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3533,
+              "start_index": 3474,
+              "title": "NCT 02 | Molecular Glues | Tocris Bioscience",
+              "url": "https://www.tocris.com/products/nct-02_7551"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3626,
+              "start_index": 3567,
+              "title": "NCT 02 | Molecular Glues | Tocris Bioscience",
+              "url": "https://www.tocris.com/products/nct-02_7551"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3746,
+              "start_index": 3687,
+              "title": "NCT 02 | Molecular Glues | Tocris Bioscience",
+              "url": "https://www.tocris.com/products/nct-02_7551"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3968,
+              "start_index": 3898,
+              "title": "Noncovalent CDK12/13 dual inhibitors-based PROTACs degrade CDK12-Cyclin K complex and induce synthetic lethality with PARP inhibitor - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34864331/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4229,
+              "start_index": 4159,
+              "title": "Noncovalent CDK12/13 dual inhibitors-based PROTACs degrade CDK12-Cyclin K complex and induce synthetic lethality with PARP inhibitor - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34864331/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4437,
+              "start_index": 4367,
+              "title": "Noncovalent CDK12/13 dual inhibitors-based PROTACs degrade CDK12-Cyclin K complex and induce synthetic lethality with PARP inhibitor - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34864331/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4647,
+              "start_index": 4577,
+              "title": "Development of an orally bioavailable CDK12/13 degrader and induction of synthetic lethality with AKT pathway inhibition - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39353441/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4858,
+              "start_index": 4788,
+              "title": "Development of an orally bioavailable CDK12/13 degrader and induction of synthetic lethality with AKT pathway inhibition - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39353441/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4989,
+              "start_index": 4919,
+              "title": "Development of an orally bioavailable CDK12/13 degrader and induction of synthetic lethality with AKT pathway inhibition - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39353441/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 5106,
+              "start_index": 5036,
+              "title": "Development of an orally bioavailable CDK12/13 degrader and induction of synthetic lethality with AKT pathway inhibition - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39353441/"
+            }
+          ],
+          "logprobs": [],
+          "text": "- **Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor)** ([carricktherapeutics.com](https://www.carricktherapeutics.com/news-media/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase))  \n  - URL: `https://www.carricktherapeutics.com/news-media/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase`  \n  - Direct quote snippets:  \n    - “CT7439, a novel cyclin dependent kinase 12/13 (CDK12/13) inhibitor / Cyclin-K glue-degrader.” ([carricktherapeutics.com](https://www.carricktherapeutics.com/news-media/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase))  \n    - “under study ID: NCT06600789.” ([carricktherapeutics.com](https://www.carricktherapeutics.com/news-media/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase))  \n    - “enrolling patients with advanced solid tumors, including ovarian, breast and Ewing's Sarcoma.” ([carricktherapeutics.com](https://www.carricktherapeutics.com/news-media/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase))  \n\n- **Discovery of ZLC491 as a Potent, Selective, and Orally Bioavailable CDK12/13 PROTAC Degrader — PMC** ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11513923/))  \n  - URL: `https://pmc.ncbi.nlm.nih.gov/articles/PMC11513923/`  \n  - Direct quote snippets:  \n    - “Here, we report the discovery of ZLC491 as a potent, selective, and orally bioavailable CDK12/13 PROTAC degrader.” ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11513923/))  \n    - “The compound effectively degraded CDK12 and CDK13 with DC_{50} values of 32 and 28 nM, respectively,” ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11513923/))  \n    - “in TNBC MDA-MB-231 cells.” ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11513923/))  \n\n- **Discovery and resistance mechanism of a selective CDK12 degrader — PubMed** ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/33753926/))  \n  - URL: `https://pubmed.ncbi.nlm.nih.gov/33753926/`  \n  - Direct quote snippets:  \n    - “a CDK12-specific degrader, BSJ-4-116.” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/33753926/))  \n    - “in combination with the poly(ADP-ribose) polymerase inhibitor olaparib” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/33753926/))  \n\n- **Degradation of CCNK/CDK12 is a druggable vulnerability of colorectal cancer — PubMed** ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/34289372/))  \n  - URL: `https://pubmed.ncbi.nlm.nih.gov/34289372/`  \n  - Direct quote snippets:  \n    - “NCT02 is identified as a candidate with minimal risk of non-specific toxicity.” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/34289372/))  \n    - “NCT02 acts as molecular glue that induces ubiquitination of cyclin K (CCNK)” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/34289372/))  \n    - “proteasomal degradation of CCNK and its complex partner CDK12.” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/34289372/))  \n\n- **NCT 02 | Molecular Glues | Tocris Bioscience** ([tocris.com](https://www.tocris.com/products/nct-02_7551))  \n  - URL: `https://www.tocris.com/products/nct-02_7551`  \n  - Direct quote snippets:  \n    - “NCT 02 acts as a molecular glue that induces proteasomal degradation of CCNK and CDK12” ([tocris.com](https://www.tocris.com/products/nct-02_7551))  \n    - “CAS Number 790245-61-3” ([tocris.com](https://www.tocris.com/products/nct-02_7551))  \n    - “Smiles  CC1=CN=C(S1)NC(CC2=COC3=C2C=C4CCCC4=C3)=O” ([tocris.com](https://www.tocris.com/products/nct-02_7551))  \n\n- **Noncovalent CDK12/13 dual inhibitors-based PROTACs degrade CDK12-Cyclin K complex and induce synthetic lethality with PARP inhibitor — PubMed** ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/34864331/))  \n  - URL: `https://pubmed.ncbi.nlm.nih.gov/34864331/`  \n  - Direct quote snippets:  \n    - “synthesized a potent PROTAC degrader PP-C8 based on the noncovalent dual inhibitors of CDK12/13” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/34864331/))  \n    - “PP-C8 demonstrates profound synergistic antiproliferative effects with PARP inhibitor in triple-negative breast cancer (TNBC).” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/34864331/))  \n\n- **Development of an orally bioavailable CDK12/13 degrader and induction of synthetic lethality with AKT pathway inhibition — PubMed** ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/39353441/))  \n  - URL: `https://pubmed.ncbi.nlm.nih.gov/39353441/`  \n  - Direct quote snippets:  \n    - “a selective CDK12/13 PROTAC degrader, YJ9069,” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/39353441/))  \n    - “an orally bioavailable CDK12/13 degrader, YJ1206,” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/39353441/))  \n    - “in subsets of prostate cancer cells” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/39353441/))"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 73007,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 7467,
+    "output_tokens_details": {
+      "reasoning_tokens": 6226
+    },
+    "total_tokens": 80474
+  },
+  "user": null,
+  "metadata": {}
+}

@@ -1,0 +1,254 @@
+{
+  "id": "resp_0740e458c37b277400693c82d8b9dc8197ae1b9210dd9c8763",
+  "object": "response",
+  "created_at": 1765573336,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0740e458c37b277400693c82d9c9b88197a4e84fe4c0e3414f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0740e458c37b277400693c82de81d081979aba23c5e6c2c429",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "DL1 CDK12 small molecule"
+      }
+    },
+    {
+      "id": "rs_0740e458c37b277400693c82e00f088197a69b27078115377e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0740e458c37b277400693c82e28d5081978b9d5ffb00c9067d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"DL1\" CDK12 TNBC"
+      }
+    },
+    {
+      "id": "rs_0740e458c37b277400693c82e4d2948197acb08cf8a9f5b050",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0740e458c37b277400693c82eb698081978f27c58fb57e7b23",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"DL-1\" CDK12"
+      }
+    },
+    {
+      "id": "rs_0740e458c37b277400693c82ed71148197b2b323f032c81c0c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0740e458c37b277400693c82f4756c8197a21e7b30e9705dad",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"DL1\" \"Cyclin K\" inhibitor"
+      }
+    },
+    {
+      "id": "rs_0740e458c37b277400693c82f744548197bdb11c5520732d77",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0740e458c37b277400693c8304756081979a106bd2b10f26f1",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"DL1\" \"CDK12\" degrader patent"
+      }
+    },
+    {
+      "id": "rs_0740e458c37b277400693c830657c88197ae88929035e065ea",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0740e458c37b277400693c830b8c548197bbd8bf83d41f1e35",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.justia.com/patent/20250270252"
+      }
+    },
+    {
+      "id": "rs_0740e458c37b277400693c830d15d88197b9a87d779c3e2474",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0740e458c37b277400693c83177d948197814f8dce45e3a4b2",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"DL1\" \"triple-negative breast cancer\" drug"
+      }
+    },
+    {
+      "id": "rs_0740e458c37b277400693c831a32588197a4dd292a38e94c6c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0740e458c37b277400693c831e128c8197873d09a466641cf5",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"DL1\" \"CDK12\" \"Cyclin K\" degrader"
+      }
+    },
+    {
+      "id": "rs_0740e458c37b277400693c8320882881979557dc70ba6aaae3",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0740e458c37b277400693c8324348c8197998aa9209f4b53e9",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "DL1 CDK12 CDK13 degrader"
+      }
+    },
+    {
+      "id": "rs_0740e458c37b277400693c832723688197917dc1bd29731a5d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0740e458c37b277400693c8334b56c819785e13499a3293eb7",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "DL1 site:drugbank.com"
+      }
+    },
+    {
+      "id": "rs_0740e458c37b277400693c833714a48197a8d8bcd6d785e5cb",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0740e458c37b277400693c834141e881979dc41e7b092fe0d8",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"DL1\" \"CDK12\" \"SR-4835\""
+      }
+    },
+    {
+      "id": "rs_0740e458c37b277400693c83449620819799df2b5a29447acb",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0740e458c37b277400693c834e3dc48197804d348099f9d1ee",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"DL1\" PROTAC"
+      }
+    },
+    {
+      "id": "rs_0740e458c37b277400693c8351f8748197ae7c8e9f8f938640",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0740e458c37b277400693c835a22b48197a981ebaada7f7c35",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": false,\n  \"assets\": [],\n  \"rejected_reason\": \"Could not validate “DL1” as a unique drug asset. Web results show “DL1” is commonly used as an abbreviation for “dose level 1” in clinical trials (e.g., TNBC trial dose levels: https://pubmed.ncbi.nlm.nih.gov/29948356/ ; BNT327 “Dose Level 1 (DL1)” listing: https://www.careacross.com/clinical-trials/trial/NCT06449222 ) or as a biology shorthand for the Notch ligand Delta-like 1 (DL1) rather than a drug name/code (e.g., Notch ligands listed as DL1/DL3/DL4: https://www.mdpi.com/2075-4418/13/11/1949 ). No authoritative source identifies “DL1” as a CDK12 or CDK12/13 small molecule/PROTAC/molecular-glue candidate for TNBC.\"\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 52603,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 7416,
+    "output_tokens_details": {
+      "reasoning_tokens": 7197
+    },
+    "total_tokens": 60019
+  },
+  "user": null,
+  "metadata": {}
+}

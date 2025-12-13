@@ -1,0 +1,368 @@
+{
+  "id": "resp_07d2b2ea2d93693e00693c833c985c8195b031cb9f94dc204d",
+  "object": "response",
+  "created_at": 1765573436,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_07d2b2ea2d93693e00693c833ce26c819589a6db23427d44e6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07d2b2ea2d93693e00693c833e221c8195885b292cd2d7687f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CT7439 drug"
+      }
+    },
+    {
+      "id": "rs_07d2b2ea2d93693e00693c833f8e88819596a7c54e316a26b7",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07d2b2ea2d93693e00693c8348c6308195bfa8f42c966bccc2",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT06600789 CT7439 CDK12/13 Cyclin-K glue degrader"
+      }
+    },
+    {
+      "id": "rs_07d2b2ea2d93693e00693c834a35c8819590c9a5cd4b6f3a21",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07d2b2ea2d93693e00693c834e90ec81958fb8f587bfee35ef",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_07d2b2ea2d93693e00693c834f4cb08195b0015c223943fcb0",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07d2b2ea2d93693e00693c83559230819584be5c2ba1104081",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://trial.medpath.com/clinical-trial/e9357df4650cb6b7/nct06600789-safety-tolerability-ct7439-solid-malignancies"
+      }
+    },
+    {
+      "id": "rs_07d2b2ea2d93693e00693c835665e48195b8de27021c81cc8a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07d2b2ea2d93693e00693c8357fd9c8195b3825a3b5668abc4",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "Trial Locations",
+        "url": "https://trial.medpath.com/clinical-trial/e9357df4650cb6b7/nct06600789-safety-tolerability-ct7439-solid-malignancies"
+      }
+    },
+    {
+      "id": "rs_07d2b2ea2d93693e00693c835925908195b9bd07f307255cf2",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07d2b2ea2d93693e00693c835cc8388195b86aaa09e1edf778",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "breast",
+        "url": "https://trial.medpath.com/clinical-trial/e9357df4650cb6b7/nct06600789-safety-tolerability-ct7439-solid-malignancies"
+      }
+    },
+    {
+      "id": "rs_07d2b2ea2d93693e00693c835df8c081959d94359f169fe7de",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07d2b2ea2d93693e00693c8362cdc08195879b83fbfdcc261a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor"
+      }
+    },
+    {
+      "id": "rs_07d2b2ea2d93693e00693c8363b4588195a2e6008b4e391f6a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07d2b2ea2d93693e00693c836a97f481959014874853579d9b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.cancernetwork.com/view/fda-clears-ind-application-for-first-in-class-cdk12-13-inhibitor"
+      }
+    },
+    {
+      "id": "rs_07d2b2ea2d93693e00693c836b87b08195b06e1806ce824b84",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07d2b2ea2d93693e00693c83709cf08195b17e21f13ea48d0a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CT7439 \"small molecule\""
+      }
+    },
+    {
+      "id": "rs_07d2b2ea2d93693e00693c837316d88195bb596f89a70cf3ca",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07d2b2ea2d93693e00693c837468e08195b1d02736b3d02336",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CT7439 orally bioavailable small molecule"
+      }
+    },
+    {
+      "id": "rs_07d2b2ea2d93693e00693c837828e08195be920f5ef3ba785a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07d2b2ea2d93693e00693c83968924819589e8dabaa2b0074e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_07d2b2ea2d93693e00693c83976808819594db409275eeedd1",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07d2b2ea2d93693e00693c83986cf48195ae43123af85c985f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "clinicaltrials.gov api v2 studies NCT06600789"
+      }
+    },
+    {
+      "id": "rs_07d2b2ea2d93693e00693c839bccdc8195bb7cf10a807acd4f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07d2b2ea2d93693e00693c839cf1b48195b750a7e33745df33",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "api/v2/studies/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_07d2b2ea2d93693e00693c83a1bf008195ad9da341756b8d6e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07d2b2ea2d93693e00693c83a4ccc48195af2d30e01fa95598",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT06600789 displayxml"
+      }
+    },
+    {
+      "id": "rs_07d2b2ea2d93693e00693c83a8356081959ed87a208eaf9569",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07d2b2ea2d93693e00693c83ac864481959b96a4af7117fd77",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.careacross.com/clinical-trials/trial/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_07d2b2ea2d93693e00693c83ad6b4c81959c8f31c7523a312f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07d2b2ea2d93693e00693c83afbee48195af3c2ba39cf78718",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "clinicaltrials.gov/ct2/show/NCT06600789",
+        "url": "https://www.careacross.com/clinical-trials/trial/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_07d2b2ea2d93693e00693c83b133f88195bedaa8399641d979",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07d2b2ea2d93693e00693c83b3b2608195931156406921ec16",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "https://clinicaltrials.gov/ct2/show/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_07d2b2ea2d93693e00693c83b6ddfc819583b406aaf225d96f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07d2b2ea2d93693e00693c83bcdc948195b22bf74389a28088",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_07d2b2ea2d93693e00693c83bdc24881958fb55af56a033dc3",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07d2b2ea2d93693e00693c83c5683c8195ae803c2ad9df3450",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "api/legacy/public-xml/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_07d2b2ea2d93693e00693c83c8b0c08195bef633af745ff170",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07d2b2ea2d93693e00693c83d35fe481958b938e6804f99488",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT06600789 site:clinicaltrials.gov/api/v2/studies"
+      }
+    },
+    {
+      "id": "rs_07d2b2ea2d93693e00693c83d83e588195b1a09a58055fea7c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_07d2b2ea2d93693e00693c84200270819594da6b320cb47356",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": true,\n  \"assets\": [\n    {\n      \"drug_name_code\": \"CT7439\",\n      \"sponsor\": \"Carrick Therapeutics Limited\",\n      \"target\": \"CDK12/13; Cyclin-K\",\n      \"modality\": \"CDK12/13 inhibitor / Cyclin-K glue degrader (molecular glue degrader)\",\n      \"indication\": \"Advanced solid tumors / solid malignancies (including breast cancer, ovarian cancer, Ewing sarcoma)\",\n      \"development_stage\": \"Phase 1\",\n      \"geography\": \"United States; United Kingdom\",\n      \"sources\": [\n        \"https://trial.medpath.com/clinical-trial/e9357df4650cb6b7/nct06600789-safety-tolerability-ct7439-solid-malignancies\",\n        \"https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase\",\n        \"https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor\"\n      ]\n    }\n  ],\n  \"rejected_reason\": null\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 75111,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 12593,
+    "output_tokens_details": {
+      "reasoning_tokens": 12337
+    },
+    "total_tokens": 87704
+  },
+  "user": null,
+  "metadata": {}
+}

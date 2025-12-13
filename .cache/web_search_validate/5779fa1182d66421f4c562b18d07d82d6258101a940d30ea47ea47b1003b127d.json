@@ -1,0 +1,114 @@
+{
+  "id": "resp_0cd87d6d5f5b2de200693c8ebd64a481949e87177a1ea16acb",
+  "object": "response",
+  "created_at": 1765576381,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0cd87d6d5f5b2de200693c8ebddd0c819491d825e6d891fe71",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0cd87d6d5f5b2de200693c8ebfb2dc8194bae341c2fb101a39",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "ICH GCP drug candidate"
+      }
+    },
+    {
+      "id": "rs_0cd87d6d5f5b2de200693c8ec1a1dc81949e099101f5c6122c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0cd87d6d5f5b2de200693c8ec8f88c81948ba9aa6b15c8981a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/e6r3-good-clinical-practice-gcp"
+      }
+    },
+    {
+      "id": "rs_0cd87d6d5f5b2de200693c8ec9cf008194a13b2b87355b35cc",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0cd87d6d5f5b2de200693c8ecff5688194886fbffe0602e5b8",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": false,\n  \"assets\": [],\n  \"rejected_reason\": \"Candidate identifier \\\"ICH GCP\\\" refers to the ICH E6 Good Clinical Practice (GCP) clinical-trial guideline (not a drug asset), so sponsor/target/modality/indication/development stage/geography cannot be populated. Evidence: https://www.fda.gov/regulatory-information/search-fda-guidance-documents/e6r3-good-clinical-practice-gcp ; https://www.ema.europa.eu/en/ich-e6-good-clinical-practice-scientific-guideline\"\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 13259,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 1195,
+    "output_tokens_details": {
+      "reasoning_tokens": 1064
+    },
+    "total_tokens": 14454
+  },
+  "user": null,
+  "metadata": {}
+}

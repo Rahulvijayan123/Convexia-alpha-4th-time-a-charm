@@ -1,0 +1,114 @@
+{
+  "id": "resp_0e95292090b9fe0100693c80f87b9881908eba47a78ab8b984",
+  "object": "response",
+  "created_at": 1765572856,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0e95292090b9fe0100693c80f8c02c8190bda934993be40068",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e95292090b9fe0100693c80f9eb388190bc8f5f6d40fdc80b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "mTNBC drug candidate \"mTNBC\""
+      }
+    },
+    {
+      "id": "rs_0e95292090b9fe0100693c80fc75e081908b88164637c25107",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e95292090b9fe0100693c810b003081908d27f696c4c45dd2",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"mTNBC\" \"drug\" code name"
+      }
+    },
+    {
+      "id": "rs_0e95292090b9fe0100693c810ca6fc819099a51f63d24756c0",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0e95292090b9fe0100693c8116a9688190a383391bb34af987",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": false,\n  \"assets\": [],\n  \"rejected_reason\": \"The candidate identifier \\\"mTNBC\\\" is not a drug asset; it is a disease abbreviation meaning metastatic triple-negative breast cancer (an indication). Evidence: https://breast-cancer-research.biomedcentral.com/articles/10.1186/s13058-019-1210-4 and https://www.lbbc.org/about-breast-cancer/types-breast-cancer/metastatic-breast-cancer/metastatic-triple-negative. Because it is not a specific therapeutic candidate, required drug-asset fields (sponsor/target/modality/development_stage/geography) cannot be populated.\"\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 13513,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 1794,
+    "output_tokens_details": {
+      "reasoning_tokens": 1644
+    },
+    "total_tokens": 15307
+  },
+  "user": null,
+  "metadata": {}
+}

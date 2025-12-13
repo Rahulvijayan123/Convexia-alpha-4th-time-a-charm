@@ -1,0 +1,572 @@
+{
+  "id": "resp_05534acc56f1f75600693c929f36a48194b63cc379bbb49867",
+  "object": "response",
+  "created_at": 1765577375,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_05534acc56f1f75600693c92a06e148194b577a849c428bf86",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05534acc56f1f75600693c92a1bfbc8194af9525f2570f2c38",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:worldwide.espacenet.com CDK12 CDK13 inhibitor"
+      }
+    },
+    {
+      "id": "rs_05534acc56f1f75600693c92a32adc8194a9312bc757b39f07",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05534acc56f1f75600693c92a3a1fc8194b56a2f02dc69e53c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12 CDK13 inhibitor site:worldwide.espacenet.com"
+      }
+    },
+    {
+      "id": "rs_05534acc56f1f75600693c92a4bdd08194b40d2d764510af82",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05534acc56f1f75600693c92a6900081948d4a45229f0e3fd6",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_05534acc56f1f75600693c92a80f008194aad492539a2f413f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05534acc56f1f75600693c92a9000c8194aa0fe5d844684e54",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "worldwide.espacenet.com CDK12 inhibitor"
+      }
+    },
+    {
+      "id": "rs_05534acc56f1f75600693c92ab8dec819496ffe9693b603f19",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05534acc56f1f75600693c92acd5408194ab7f41cbec45e66e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:worldwide.espacenet.com WO2021138215A1"
+      }
+    },
+    {
+      "id": "rs_05534acc56f1f75600693c92aef05c8194b9e4e314243c2ac2",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05534acc56f1f75600693c92b4a7948194bc25da2901ba7c91",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:worldwide.espacenet.com/patent/search/family CDK12"
+      }
+    },
+    {
+      "id": "rs_05534acc56f1f75600693c92b8490081949edeaeb231ad5e2f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05534acc56f1f75600693c92bb1e0481948db3425b09a7a0bf",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"worldwide.espacenet.com\" \"WO2021138215\" biblio"
+      }
+    },
+    {
+      "id": "rs_05534acc56f1f75600693c92bd4d988194871f0b744122894e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05534acc56f1f75600693c92be1390819482934a1e165b4d59",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CC=WO\" \"NR=2021138215A1\" \"worldwide.espacenet.com\""
+      }
+    },
+    {
+      "id": "rs_05534acc56f1f75600693c92c12eb88194951cd41dce50645f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05534acc56f1f75600693c92cc361c819486d4bdaece22e007",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.chemsrc.com/en/cas/1702809-17-3_1549375.html"
+      }
+    },
+    {
+      "id": "rs_05534acc56f1f75600693c92d0631c8194bbf85d16a0193259",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05534acc56f1f75600693c92d450e48194b94cef8b35da91b0",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "WO2021138215A1",
+        "url": "https://patents.google.com/patent/WO2021138215A1/en"
+      }
+    },
+    {
+      "id": "rs_05534acc56f1f75600693c92d7f1dc81949da116c1728ff59c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05534acc56f1f75600693c92dd67388194a4c59b1e2caf04f3",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "ZSQ836 CDK12 CDK13 covalent compound"
+      }
+    },
+    {
+      "id": "rs_05534acc56f1f75600693c92e02e8c8194ba978b2d26221d6c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05534acc56f1f75600693c92e5f3348194b8ea1943b4b89787",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://insilico.com/pipeline_target_cdk12/13"
+      }
+    },
+    {
+      "id": "rs_05534acc56f1f75600693c92e8401c8194b28001c096ef3b57",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05534acc56f1f75600693c92e9c2f48194be47fb561b2a0e99",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_05534acc56f1f75600693c92eb16e881948d03d75b84fde90d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05534acc56f1f75600693c92f1d14481948e7fd0a154ecfc54",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.medchemexpress.cn/zsq836.html"
+      }
+    },
+    {
+      "id": "rs_05534acc56f1f75600693c92f3a8648194a8ed267d89d7d461",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05534acc56f1f75600693c92f466c48194a31acf7aaf54afa7",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "CAS No.",
+        "url": "https://www.nature.com/articles/nchembio.2166"
+      }
+    },
+    {
+      "id": "rs_05534acc56f1f75600693c92f7e5908194a616043c7a35cfda",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05534acc56f1f75600693c92faf1288194b7ab1a804e5209cd",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://dcchemicals.com/product_show-zsq836.html"
+      }
+    },
+    {
+      "id": "rs_05534acc56f1f75600693c92fe8d288194a4ae8eb52878d3ff",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05534acc56f1f75600693c92ff30848194af857bc4ab1ab784",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "ZSQ836 (ZSQ 836)",
+        "url": "https://dcchemicals.com/product_show-zsq836.html"
+      }
+    },
+    {
+      "id": "rs_05534acc56f1f75600693c93017d6881948f1c7dbc85b922ab",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05534acc56f1f75600693c9302b3f081948cd4a7a4bed6d2c3",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "Indications",
+        "url": "https://insilico.com/pipeline_target_cdk12/13"
+      }
+    },
+    {
+      "id": "rs_05534acc56f1f75600693c930556608194a17fb91c1b64ee06",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05534acc56f1f75600693c931055c481948d6570bccc8b3b5b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/CN119874626A/en"
+      }
+    },
+    {
+      "id": "rs_05534acc56f1f75600693c9311d22881949f64811bb2a2e579",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_05534acc56f1f75600693c932338d481948b9f9254131ea96d",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 360,
+              "start_index": 287,
+              "title": "THZ531 | CAS#:1702809-17-3 | Chemsrc\n    ",
+              "url": "https://www.chemsrc.com/en/cas/1702809-17-3_1549375.html"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 560,
+              "start_index": 487,
+              "title": "THZ531 | CAS#:1702809-17-3 | Chemsrc\n    ",
+              "url": "https://www.chemsrc.com/en/cas/1702809-17-3_1549375.html"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 745,
+              "start_index": 672,
+              "title": "THZ531 | CAS#:1702809-17-3 | Chemsrc\n    ",
+              "url": "https://www.chemsrc.com/en/cas/1702809-17-3_1549375.html"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 875,
+              "start_index": 802,
+              "title": "THZ531 | CAS#:1702809-17-3 | Chemsrc\n    ",
+              "url": "https://www.chemsrc.com/en/cas/1702809-17-3_1549375.html"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1057,
+              "start_index": 996,
+              "title": "Covalent targeting of remote cysteine residues to develop CDK12 and CDK13 inhibitors | Nature Chemical Biology",
+              "url": "https://www.nature.com/articles/nchembio.2166"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1295,
+              "start_index": 1234,
+              "title": "Covalent targeting of remote cysteine residues to develop CDK12 and CDK13 inhibitors | Nature Chemical Biology",
+              "url": "https://www.nature.com/articles/nchembio.2166"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1426,
+              "start_index": 1365,
+              "title": "Covalent targeting of remote cysteine residues to develop CDK12 and CDK13 inhibitors | Nature Chemical Biology",
+              "url": "https://www.nature.com/articles/nchembio.2166"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1547,
+              "start_index": 1486,
+              "title": "Covalent targeting of remote cysteine residues to develop CDK12 and CDK13 inhibitors | Nature Chemical Biology",
+              "url": "https://www.nature.com/articles/nchembio.2166"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1711,
+              "start_index": 1636,
+              "title": "WO2021138215A1 - Treatment of cancer with cdk12/13 inhibitors \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2021138215A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1918,
+              "start_index": 1843,
+              "title": "WO2021138215A1 - Treatment of cancer with cdk12/13 inhibitors \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2021138215A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2041,
+              "start_index": 1966,
+              "title": "WO2021138215A1 - Treatment of cancer with cdk12/13 inhibitors \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2021138215A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2172,
+              "start_index": 2097,
+              "title": "WO2021138215A1 - Treatment of cancer with cdk12/13 inhibitors \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2021138215A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2328,
+              "start_index": 2255,
+              "title": "US11666578B2 - Small molecule inhibitors of CDK12/CDK13 \n        - Google Patents",
+              "url": "https://patents.google.com/patent/US11666578B2/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2529,
+              "start_index": 2456,
+              "title": "US11666578B2 - Small molecule inhibitors of CDK12/CDK13 \n        - Google Patents",
+              "url": "https://patents.google.com/patent/US11666578B2/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2645,
+              "start_index": 2572,
+              "title": "US11666578B2 - Small molecule inhibitors of CDK12/CDK13 \n        - Google Patents",
+              "url": "https://patents.google.com/patent/US11666578B2/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2785,
+              "start_index": 2712,
+              "title": "US11666578B2 - Small molecule inhibitors of CDK12/CDK13 \n        - Google Patents",
+              "url": "https://patents.google.com/patent/US11666578B2/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3007,
+              "start_index": 2937,
+              "title": "Noncovalent CDK12/13 dual inhibitors-based PROTACs degrade CDK12-Cyclin K complex and induce synthetic lethality with PARP inhibitor - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34864331/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3249,
+              "start_index": 3179,
+              "title": "Noncovalent CDK12/13 dual inhibitors-based PROTACs degrade CDK12-Cyclin K complex and induce synthetic lethality with PARP inhibitor - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34864331/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3457,
+              "start_index": 3387,
+              "title": "Noncovalent CDK12/13 dual inhibitors-based PROTACs degrade CDK12-Cyclin K complex and induce synthetic lethality with PARP inhibitor - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34864331/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3559,
+              "start_index": 3496,
+              "title": "CDK12/13 | Insilico Medicine",
+              "url": "https://insilico.com/pipeline_target_cdk12/13"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3766,
+              "start_index": 3703,
+              "title": "CDK12/13 | Insilico Medicine",
+              "url": "https://insilico.com/pipeline_target_cdk12/13"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3907,
+              "start_index": 3844,
+              "title": "CDK12/13 | Insilico Medicine",
+              "url": "https://insilico.com/pipeline_target_cdk12/13"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4018,
+              "start_index": 3955,
+              "title": "CDK12/13 | Insilico Medicine",
+              "url": "https://insilico.com/pipeline_target_cdk12/13"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4134,
+              "start_index": 4065,
+              "title": "ZSQ836|CAS 2634811-35-9|DC Chemicals",
+              "url": "https://dcchemicals.com/product_show-zsq836.html"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4317,
+              "start_index": 4248,
+              "title": "ZSQ836|CAS 2634811-35-9|DC Chemicals",
+              "url": "https://dcchemicals.com/product_show-zsq836.html"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4519,
+              "start_index": 4450,
+              "title": "ZSQ836|CAS 2634811-35-9|DC Chemicals",
+              "url": "https://dcchemicals.com/product_show-zsq836.html"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4621,
+              "start_index": 4552,
+              "title": "ZSQ836|CAS 2634811-35-9|DC Chemicals",
+              "url": "https://dcchemicals.com/product_show-zsq836.html"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4779,
+              "start_index": 4706,
+              "title": "CN119874626A - CDK12/13 inhibitor and application thereof \n        - Google Patents",
+              "url": "https://patents.google.com/patent/CN119874626A/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4980,
+              "start_index": 4907,
+              "title": "CN119874626A - CDK12/13 inhibitor and application thereof \n        - Google Patents",
+              "url": "https://patents.google.com/patent/CN119874626A/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 5101,
+              "start_index": 5028,
+              "title": "CN119874626A - CDK12/13 inhibitor and application thereof \n        - Google Patents",
+              "url": "https://patents.google.com/patent/CN119874626A/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 5264,
+              "start_index": 5191,
+              "title": "CN119874626A - CDK12/13 inhibitor and application thereof \n        - Google Patents",
+              "url": "https://patents.google.com/patent/CN119874626A/en"
+            }
+          ],
+          "logprobs": [],
+          "text": "Espacenet (`worldwide.espacenet.com`) patent detail pages returned **403 Forbidden** when accessed from this environment (e.g., the Espacenet link-out from WO2021138215A1). Sources below are non-Espacenet alternatives surfaced via web search.\n\n- **THZ531 | CAS#:1702809-17-3 | Chemsrc** ([chemsrc.com](https://www.chemsrc.com/en/cas/1702809-17-3_1549375.html))  \n  - URL: `https://www.chemsrc.com/en/cas/1702809-17-3_1549375.html`  \n  - Quote snippets:  \n    - “CAS Number 1702809-17-3” ([chemsrc.com](https://www.chemsrc.com/en/cas/1702809-17-3_1549375.html))  \n    - “THZ531 is a covalent inhibitor of both CDK12 and CDK13 with IC50s of 158 nM and 69 nM, respectively.” ([chemsrc.com](https://www.chemsrc.com/en/cas/1702809-17-3_1549375.html))  \n    - “Target CDK12:158 nM (IC50) CDK13:69 nM (IC50)” ([chemsrc.com](https://www.chemsrc.com/en/cas/1702809-17-3_1549375.html))  \n\n- **Covalent targeting of remote cysteine residues to develop CDK12 and CDK13 inhibitors | Nature Chemical Biology** ([nature.com](https://www.nature.com/articles/nchembio.2166))  \n  - URL: `https://www.nature.com/articles/nchembio.2166`  \n  - Quote snippets:  \n    - “Covalent targeting of remote cysteine residues to develop CDK12 and CDK13 inhibitors” ([nature.com](https://www.nature.com/articles/nchembio.2166))  \n    - “first-in-class CDK12 and CDK13 covalent inhibitor, THZ531.” ([nature.com](https://www.nature.com/articles/nchembio.2166))  \n    - “Co-crystallization of THZ531 with CDK12–cyclin K” ([nature.com](https://www.nature.com/articles/nchembio.2166))  \n\n- **WO2021138215A1 - Treatment of cancer with cdk12/13 inhibitors - Google Patents** ([patents.google.com](https://patents.google.com/patent/WO2021138215A1/en))  \n  - URL: `https://patents.google.com/patent/WO2021138215A1/en`  \n  - Quote snippets:  \n    - “Publication number WO2021138215A1” ([patents.google.com](https://patents.google.com/patent/WO2021138215A1/en))  \n    - “Application number PCT/US2020/066967” ([patents.google.com](https://patents.google.com/patent/WO2021138215A1/en))  \n    - “Treatment of cancer with cdk12/13 inhibitors” ([patents.google.com](https://patents.google.com/patent/WO2021138215A1/en))  \n\n- **US11666578B2 - Small molecule inhibitors of CDK12/CDK13 - Google Patents** ([patents.google.com](https://patents.google.com/patent/US11666578B2/en))  \n  - URL: `https://patents.google.com/patent/US11666578B2/en`  \n  - Quote snippets:  \n    - “Publication number US11666578B2” ([patents.google.com](https://patents.google.com/patent/US11666578B2/en))  \n    - “Application number US17/053,652” ([patents.google.com](https://patents.google.com/patent/US11666578B2/en))  \n    - “US11666578B2 - Small molecule inhibitors of CDK12/CDK13” ([patents.google.com](https://patents.google.com/patent/US11666578B2/en))  \n\n- **Noncovalent CDK12/13 dual inhibitors-based PROTACs degrade CDK12-Cyclin K complex and induce synthetic lethality with PARP inhibitor - PubMed** ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/34864331/))  \n  - URL: `https://pubmed.ncbi.nlm.nih.gov/34864331/`  \n  - Quote snippets:  \n    - “a potent PROTAC degrader PP-C8 based on the noncovalent dual inhibitors of CDK12/13” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/34864331/))  \n    - “PP-C8 demonstrates profound synergistic antiproliferative effects with PARP inhibitor in triple-negative breast cancer (TNBC).” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/34864331/))  \n\n- **CDK12/13 | Insilico Medicine** ([insilico.com](https://insilico.com/pipeline_target_cdk12/13))  \n  - URL: `https://insilico.com/pipeline_target_cdk12/13`  \n  - Quote snippets:  \n    - “Cyclin-dependent kinase 12/13 (CDK12/13) Inhibitor:” ([insilico.com](https://insilico.com/pipeline_target_cdk12/13))  \n    - “In vivo efficacy studies – Combo study with Olaparib and Cisplatin” ([insilico.com](https://insilico.com/pipeline_target_cdk12/13))  \n    - “Triple negative breast cancer (TNBC)” ([insilico.com](https://insilico.com/pipeline_target_cdk12/13))  \n\n- **ZSQ836|CAS 2634811-35-9|DC Chemicals** ([dcchemicals.com](https://dcchemicals.com/product_show-zsq836.html))  \n  - URL: `https://dcchemicals.com/product_show-zsq836.html`  \n  - Quote snippets:  \n    - “Cat. No.:  DC73184” ([dcchemicals.com](https://dcchemicals.com/product_show-zsq836.html))  \n    - “ZSQ836 (ZSQ 836) is a potent, selective and orally bioavailable CDK12/CDK13 covalent inhibitor with IC50 of 32 nM (CDK12)” ([dcchemicals.com](https://dcchemicals.com/product_show-zsq836.html))  \n    - “Cas No.: 2634811-35-9” ([dcchemicals.com](https://dcchemicals.com/product_show-zsq836.html))  \n\n- **CN119874626A - CDK12/13 inhibitor and application thereof - Google Patents** ([patents.google.com](https://patents.google.com/patent/CN119874626A/en))  \n  - URL: `https://patents.google.com/patent/CN119874626A/en`  \n  - Quote snippets:  \n    - “Publication number CN119874626A” ([patents.google.com](https://patents.google.com/patent/CN119874626A/en))  \n    - “Application number CN202510052053.6A” ([patents.google.com](https://patents.google.com/patent/CN119874626A/en))  \n    - “including, but not limited to, breast cancer, ovarian cancer, prostate cancer.” ([patents.google.com](https://patents.google.com/patent/CN119874626A/en))"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 65586,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 7833,
+    "output_tokens_details": {
+      "reasoning_tokens": 6425
+    },
+    "total_tokens": 73419
+  },
+  "user": null,
+  "metadata": {}
+}

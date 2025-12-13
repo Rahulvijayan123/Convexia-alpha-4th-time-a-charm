@@ -1,0 +1,436 @@
+{
+  "id": "resp_0400bd6332bcd8a300693c804b785c81969686090a6ad1b82a",
+  "object": "response",
+  "created_at": 1765572683,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0400bd6332bcd8a300693c804c8cf08196b77443f6114d4a06",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0400bd6332bcd8a300693c804db1f08196a47eecdf0a5aec34",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT06449222 CDK12"
+      }
+    },
+    {
+      "id": "rs_0400bd6332bcd8a300693c804fa0dc8196aee69119e66adf27",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0400bd6332bcd8a300693c8051d4748196aa295a5b56d5ac44",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT06449222"
+      }
+    },
+    {
+      "id": "rs_0400bd6332bcd8a300693c80533ac08196b25be3b7b6e6edeb",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0400bd6332bcd8a300693c805760548196afa022e7c95d89eb",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "clinicaltrials.gov api v2 NCT06449222"
+      }
+    },
+    {
+      "id": "rs_0400bd6332bcd8a300693c8058f2a08196ae871a6c86c83ae6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0400bd6332bcd8a300693c80598be48196bf54fede6466d1b7",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_0400bd6332bcd8a300693c805a707481968bc8ca812484e8b9",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0400bd6332bcd8a300693c805b3d0881969e7e5629a9501739",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "https://clinicaltrials.gov/api/v2/studies/NCT06449222"
+      }
+    },
+    {
+      "id": "rs_0400bd6332bcd8a300693c805de78881968479d81ec4211939",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0400bd6332bcd8a300693c805f93588196bd215870e5094ad5",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "clinicaltrials.gov/api/v2/studies/NCT06449222 json"
+      }
+    },
+    {
+      "id": "rs_0400bd6332bcd8a300693c8062998c8196b8fe6b46522e9f83",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0400bd6332bcd8a300693c8064b5b08196b095ccb7619b4756",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "ct2/show/NCT06449222 displayxml"
+      }
+    },
+    {
+      "id": "rs_0400bd6332bcd8a300693c8066f3e08196bbad8b23ba34d9cb",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0400bd6332bcd8a300693c8067be3c8196b5b0578e59e8415c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "api/legacy/public-xml/NCT06449222"
+      }
+    },
+    {
+      "id": "rs_0400bd6332bcd8a300693c806b70c08196ba14d363e5da249b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0400bd6332bcd8a300693c8071906c8196a558b86d37948a3a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://cdek.pharmacy.purdue.edu/trial/NCT06449222/"
+      }
+    },
+    {
+      "id": "rs_0400bd6332bcd8a300693c807272988196a8ba137eb8ca7c8f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0400bd6332bcd8a300693c8073bd4c8196a2353b624a0c3753",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://cdek.pharmacy.purdue.edu/api/125379/"
+      }
+    },
+    {
+      "id": "rs_0400bd6332bcd8a300693c8074eb548196899b4e83cba7c149",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0400bd6332bcd8a300693c809f4da08196a501cac20d1a7ae0",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "Locations",
+        "url": "https://cdek.pharmacy.purdue.edu/trial/NCT06449222/"
+      }
+    },
+    {
+      "id": "rs_0400bd6332bcd8a300693c80a0eacc8196bf746f5ec0bafb70",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0400bd6332bcd8a300693c80a2f73c8196a5c5e42a40565d03",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://cdek.pharmacy.purdue.edu/trial/NCT06449222/"
+      }
+    },
+    {
+      "id": "rs_0400bd6332bcd8a300693c80a416748196aa23d8d6f3562c26",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0400bd6332bcd8a300693c80a899888196bb25c0184bc6cf96",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT06449222?rank=1&term=NCT06449222"
+      }
+    },
+    {
+      "id": "rs_0400bd6332bcd8a300693c80a97c7081968a34dddb3af609e8",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0400bd6332bcd8a300693c80ac371081968621e6df3c42c740",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT06449222 locations countries"
+      }
+    },
+    {
+      "id": "rs_0400bd6332bcd8a300693c80aef74481969578fa32a08e3d29",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0400bd6332bcd8a300693c80c855bc819690fceaac0932a8cc",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"public-xml\" \"NCT06449222\""
+      }
+    },
+    {
+      "id": "rs_0400bd6332bcd8a300693c80cd15e081968e67bbbcaf71371b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0400bd6332bcd8a300693c80d1943c81968fdeee0623ef2fbb",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov \"NCT06449222\" \"api/legacy/public-xml\""
+      }
+    },
+    {
+      "id": "rs_0400bd6332bcd8a300693c80d53d20819696920f1806dc9f04",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0400bd6332bcd8a300693c80d636ac8196b0d221fc7760b7de",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT06449222"
+      }
+    },
+    {
+      "id": "rs_0400bd6332bcd8a300693c80d76bfc8196a4f1f87d941dae8b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0400bd6332bcd8a300693c80d98fe481968c1886b07f77bccf",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "https://clinicaltrials.gov/ct2/show/NCT06449222?displayxml=true"
+      }
+    },
+    {
+      "id": "rs_0400bd6332bcd8a300693c80df42648196a0cd8b3aad0223c5",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0400bd6332bcd8a300693c80e200048196a8e68d4934c1bdcd",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://fdaaa.trialstracker.net/trial/NCT06449222/"
+      }
+    },
+    {
+      "id": "rs_0400bd6332bcd8a300693c80e303048196aa75c241b8334a9e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0400bd6332bcd8a300693c80f282948196a46e745439625c64",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "https://clinicaltrials.gov/data-api/api#get-/studies/-nctId-"
+      }
+    },
+    {
+      "id": "rs_0400bd6332bcd8a300693c80f638848196b94028b22bd8a390",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0400bd6332bcd8a300693c80f762088196a82ae89ba6c2358e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/data-api/api"
+      }
+    },
+    {
+      "id": "rs_0400bd6332bcd8a300693c80f8f35c8196882235c1a15b9e3b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0400bd6332bcd8a300693c8105d32c819685baaa5d2f4b6bfd",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://cdek.pharmacy.purdue.edu/trial/NCT06449222/"
+      }
+    },
+    {
+      "id": "rs_0400bd6332bcd8a300693c81087a308196803dfdfac29bcbcc",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0400bd6332bcd8a300693c8112cafc8196b8aac8b6e49f2f2f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT06449222 locations \"United States\" breast cancer"
+      }
+    },
+    {
+      "id": "rs_0400bd6332bcd8a300693c811740788196892ecbad6d9bba83",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0400bd6332bcd8a300693c8148f8588196addd217ce517df06",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.careacross.com/clinical-trials/trial/NCT06449222"
+      }
+    },
+    {
+      "id": "rs_0400bd6332bcd8a300693c814adea081969400d9e7a46a2eab",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0400bd6332bcd8a300693c8151c1788196afa8a9464002367f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.careacross.com/clinical-trials/trial/NCT06449222"
+      }
+    },
+    {
+      "id": "rs_0400bd6332bcd8a300693c81547630819681969b232ee7c6fb",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0400bd6332bcd8a300693c816878d88196977e2e7f4cc67b08",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": true,\n  \"assets\": [\n    {\n      \"drug_name_code\": \"BNT327\",\n      \"sponsor\": \"BioNTech SE\",\n      \"target\": \"CD274 (PD-L1); VEGFA (VEGF-A)\",\n      \"modality\": \"Bispecific monoclonal antibody (mAb)\",\n      \"indication\": \"Locally advanced/metastatic triple-negative breast cancer (mTNBC)\",\n      \"development_stage\": \"Phase 2\",\n      \"geography\": \"United States; Australia; United Kingdom\",\n      \"sources\": [\n        \"https://cdek.pharmacy.purdue.edu/api/125379/\",\n        \"https://cdek.pharmacy.purdue.edu/trial/NCT06449222/\",\n        \"https://www.careacross.com/clinical-trials/trial/NCT06449222\"\n      ]\n    }\n  ],\n  \"rejected_reason\": null\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 91617,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 14785,
+    "output_tokens_details": {
+      "reasoning_tokens": 14586
+    },
+    "total_tokens": 106402
+  },
+  "user": null,
+  "metadata": {}
+}

@@ -1,0 +1,353 @@
+{
+  "id": "resp_0a4684f94dce886900693c929f350081939d11839e953e988e",
+  "object": "response",
+  "created_at": 1765577375,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0a4684f94dce886900693c92a04c0881938c55c3419ab7aecc",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a4684f94dce886900693c92a299808193a8c05993bfe3df23",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CTIS CDK12 inhibitor trial"
+      }
+    },
+    {
+      "id": "rs_0a4684f94dce886900693c92a4c6a8819399c3c5fd167a4c65",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a4684f94dce886900693c92a6c82c8193886cc68a17792573",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CT7439 CTIS clinical trial"
+      }
+    },
+    {
+      "id": "rs_0a4684f94dce886900693c92aa297c8193839296236e2546d4",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a4684f94dce886900693c92aba4f48193a9e7053eb2a19d5e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:euclinicaltrials.eu CT7439"
+      }
+    },
+    {
+      "id": "rs_0a4684f94dce886900693c92ae9aa88193b631982f43e918d3",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a4684f94dce886900693c92af9be48193aad03f247d5ca786",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:ctis.eu CDK12"
+      }
+    },
+    {
+      "id": "rs_0a4684f94dce886900693c92b1388c8193915fa25bdcfba131",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a4684f94dce886900693c92b2299481938da96693c5bb6307",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://ctis.eu/search"
+      }
+    },
+    {
+      "id": "rs_0a4684f94dce886900693c92b3b5d48193a7a1aaa8b5dd1af8",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a4684f94dce886900693c92b5c5b4819392c84e9c65c8b464",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://ctis.eu/search/help.php"
+      }
+    },
+    {
+      "id": "rs_0a4684f94dce886900693c92b6d3148193b6257a67889ba6bd",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a4684f94dce886900693c92be05108193933bc119091d4557",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CT7439 EudraCT"
+      }
+    },
+    {
+      "id": "rs_0a4684f94dce886900693c92c2048481939c3cfa9232456b04",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a4684f94dce886900693c92c972148193b41924a0d99f1cec",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0a4684f94dce886900693c92cb2a088193a1b98148324ea5ae",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a4684f94dce886900693c92cc804c8193b34c720bedb25ce0",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_0a4684f94dce886900693c92cd492c81938833a384e5fa6fc1",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a4684f94dce886900693c92cdd9b48193b2af47a148857b6e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "clinicaltrials.gov ct2 show NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0a4684f94dce886900693c92d01a0c8193b5e8e9462a7b3069",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a4684f94dce886900693c92d31a68819393a65c658144e3a9",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT06600789 site:clinicaltrials.gov \"CT7439\""
+      }
+    },
+    {
+      "id": "rs_0a4684f94dce886900693c92d616788193bfdd7e30fa696185",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a4684f94dce886900693c92da13788193ac4f1c36cb2ec040",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "ctis.eu/search CDK12"
+      }
+    },
+    {
+      "id": "rs_0a4684f94dce886900693c92dd4134819380e516b0cd69cf6c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a4684f94dce886900693c92e4c0788193aaa722d9afaa0293",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase"
+      }
+    },
+    {
+      "id": "rs_0a4684f94dce886900693c92e7d548819387188740c68ad210",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a4684f94dce886900693c92e916f48193a2282ac7a2933cfa",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://fdaaa.trialstracker.net/trial/NCT06600789/"
+      }
+    },
+    {
+      "id": "rs_0a4684f94dce886900693c92ea819c8193b1524bf53f195e62",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a4684f94dce886900693c92ecf9188193bf016688131b8001",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CT7439 patent WO"
+      }
+    },
+    {
+      "id": "rs_0a4684f94dce886900693c92f18ca881938a402559fb8794fa",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a4684f94dce886900693c92f8433c8193a5a117b362baec3e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubs.rsc.org/en/content/articlehtml/2025/cb/d4cb00190g"
+      }
+    },
+    {
+      "id": "rs_0a4684f94dce886900693c92f9896c8193b6cc5ee4a12fc367",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a4684f94dce886900693c92fa652c8193bd6f8b1eb25e7838",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "10.1038",
+        "url": "https://www.nature.com/articles/s41586-020-2374-x"
+      }
+    },
+    {
+      "id": "rs_0a4684f94dce886900693c92fcfa988193bc21e70b80a7729d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a4684f94dce886900693c92ff0b408193b459c235a3807b93",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "CT7439 Capsules",
+        "url": "https://cdek.pharmacy.purdue.edu/trial/NCT06600789/"
+      }
+    },
+    {
+      "id": "rs_0a4684f94dce886900693c930242948193b913d50672446d73",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a4684f94dce886900693c93040428819399c51b2c9f627c68",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.carricktherapeutics.com/news-media/press-releases/detail/20/carrick-therapeutics-announces-u-s-fda-clearance-of-ind"
+      }
+    },
+    {
+      "id": "rs_0a4684f94dce886900693c9304f7588193ad6b92e60e9eac6d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0a4684f94dce886900693c9319f6b48193a8847deb099e5c67",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "- **Title:** Trial | NCT06600789 (Clinical Drug Experience Knowledgebase — Purdue)\n  - **URL:** `https://cdek.pharmacy.purdue.edu/trial/NCT06600789/`\n  - **Direct quotes:**\n    - > Trial | NCT06600789\n    - > Intervention/Treatment CT7439 Capsules (0.5 mg, 1mg, 3mg)\n    - > Prior therapy with a specific CDK12/13 inhibitor, within any timeframe prior to the first dose of CT7439.\n\n- **Title:** Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor) (Carrick Therapeutics)\n  - **URL:** `https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase`\n  - **Direct quotes:**\n    - > Phase 1 clinical trial evaluating CT7439, a novel cyclin dependent kinase 12/13 (CDK12/13) inhibitor / Cyclin-K glue-degrader.\n    - > Clinical trial details can also be found on www.clinicaltrials.gov under study ID: NCT06600789.\n    - > The clinical trial is enrolling patients with advanced solid tumors, including ovarian, breast and Ewing's Sarcoma.\n\n- **Title:** Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor) (GlobeNewswire)\n  - **URL:** `https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html`\n  - **Direct quotes:**\n    - > Phase 1 clinical trial evaluating CT7439, a novel cyclin dependent kinase 12/13 (CDK12/13) inhibitor / Cyclin-K glue-degrader.\n    - > Clinical trial details can also be found on www.clinicaltrials.gov under study ID: NCT06600789.\n\n- **Title:** Carrick Therapeutics Announces U.S. FDA Clearance of IND for CT7439, a First-In-Class Inhibitor of CDK12/13 (Carrick Therapeutics)\n  - **URL:** `https://www.carricktherapeutics.com/news-media/press-releases/detail/20/carrick-therapeutics-announces-u-s-fda-clearance-of-ind`\n  - **Direct quotes:**\n    - > Investigational New Drug (IND) application for CT7439, a novel cyclin dependent kinase 12/13 (CDK12/13) inhibitor.\n    - > initiate the Phase 1 clinical trial in the first half of 2024\n    - > advanced solid tumors, including breast, ovarian and Ewing's Sarcoma.\n\n- **Title:** NCT06600789: An ongoing trial by Carrick Therapeutics Limited (FDAAA TrialsTracker / AllTrials)\n  - **URL:** `https://fdaaa.trialstracker.net/trial/NCT06600789/`\n  - **Direct quotes:**\n    - > NCT06600789: An ongoing trial by Carrick Therapeutics Limited\n    - > Start date Aug. 16, 2024\n    - > Required reporting date April 22, 2027, midnight\n\n- **Title:** Discovery and design of molecular glue enhancers of CDK12–DDB1 interactions for targeted degradation of cyclin K (RSC Chemical Biology)\n  - **URL:** `https://pubs.rsc.org/en/content/articlehtml/2025/cb/d4cb00190g`\n  - **Direct quotes:**\n    - > DOI: 10.1039/D4CB00190G\n    - > The CDK12 inhibitor SR-4835 promotes the proteasomal degradation of cyclin K\n    - > including the clinical pan-CDK inhibitor dinaciclib, into cyclin K degraders.\n\n- **Title:** The CDK inhibitor CR8 acts as a molecular glue degrader that depletes cyclin K (Nature)\n  - **URL:** `https://www.nature.com/articles/s41586-020-2374-x`\n  - **Direct quotes:**\n    - > formation of a complex between CDK12–cyclin K and the CUL4 adaptor protein DDB1\n    - > https://doi.org/10.1038/s41586-020-2374-x"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 62050,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 7046,
+    "output_tokens_details": {
+      "reasoning_tokens": 6054
+    },
+    "total_tokens": 69096
+  },
+  "user": null,
+  "metadata": {}
+}

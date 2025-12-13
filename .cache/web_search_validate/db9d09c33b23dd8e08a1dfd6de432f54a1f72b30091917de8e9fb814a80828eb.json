@@ -1,0 +1,114 @@
+{
+  "id": "resp_0fad16ec662f653500693c914f33a88195a021f801d787bff7",
+  "object": "response",
+  "created_at": 1765577039,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0fad16ec662f653500693c91505b1481958206a0d28df2297c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0fad16ec662f653500693c91532f788195956f1464b8f45d0e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"0.5 mg\" CDK12 TNBC"
+      }
+    },
+    {
+      "id": "rs_0fad16ec662f653500693c9155d1d881959e086413186d07cb",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0fad16ec662f653500693c915b467c8195afe9846e7499a891",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"0.5 mg\" \"CDK12\" inhibitor"
+      }
+    },
+    {
+      "id": "rs_0fad16ec662f653500693c915dab088195848e950751ce517d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0fad16ec662f653500693c916eb2dc81958b75663eb12e8d1a",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": false,\n  \"assets\": [],\n  \"rejected_reason\": \"Candidate identifier '0.5 mg' is a dosage strength (not a unique drug name/code, trial ID, or patent ID). Web search shows multiple unrelated products using '0.5 mg' (e.g., varenicline tartrate 0.5 mg pill: https://www.drugs.com/imprints/0-5-35770.html ; rasagiline mesylate 0.5 mg pill: https://www.drugs.com/imprints/0-5-28854.html ; lorazepam 0.5 mg product listing: https://mms.mckesson.com/product/1103859/Major-Pharmaceuticals-00904600760). No evidence links '0.5 mg' to a specific CDK12 or CDK12/13 small molecule/PROTAC/glue degrader asset for TNBC, so required fields (sponsor/target/modality/indication/development_stage/geography) cannot be completed.\"\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 13190,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 2046,
+    "output_tokens_details": {
+      "reasoning_tokens": 1822
+    },
+    "total_tokens": 15236
+  },
+  "user": null,
+  "metadata": {}
+}

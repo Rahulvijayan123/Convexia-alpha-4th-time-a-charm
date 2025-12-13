@@ -1,0 +1,302 @@
+{
+  "id": "resp_01e989eb503cf96a00693c900146c881948ade6cfa071168cb",
+  "object": "response",
+  "created_at": 1765576705,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_01e989eb503cf96a00693c9001aa44819489356b474a7ab333",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_01e989eb503cf96a00693c9005175c819483c50c9554c978ca",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:euclinicaltrials.eu CDK12 CDK13"
+      }
+    },
+    {
+      "id": "rs_01e989eb503cf96a00693c9006a0908194b033094862324351",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_01e989eb503cf96a00693c9007b9d8819495ff8f2bd646a2ae",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:euclinicaltrials.eu CDK12"
+      }
+    },
+    {
+      "id": "rs_01e989eb503cf96a00693c90090068819486f07ee19aaee9c8",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_01e989eb503cf96a00693c900c3b1c81949845e310e4da79ba",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "euclinicaltrials.eu CDK12/13"
+      }
+    },
+    {
+      "id": "rs_01e989eb503cf96a00693c900e09d48194b1e8a3c0a66254e0",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_01e989eb503cf96a00693c900fb9d88194895b76a6e553d3bd",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "euclinicaltrials.eu search clinical trials"
+      }
+    },
+    {
+      "id": "rs_01e989eb503cf96a00693c9011f55c8194a5208eaa15a565c1",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_01e989eb503cf96a00693c901311948194a4f145cc58b53819",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://euclinicaltrials.eu/"
+      }
+    },
+    {
+      "id": "rs_01e989eb503cf96a00693c9013cb148194bda0c93805e789b8",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_01e989eb503cf96a00693c901460e881948a9cf8a9b81e8f89",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://euclinicaltrials.eu/search-for-clinical-trials/"
+      }
+    },
+    {
+      "id": "rs_01e989eb503cf96a00693c90151ddc8194a08d11283641714a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_01e989eb503cf96a00693c9017ae4c8194b76949cd23f6fd34",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://euclinicaltrials.eu/search-for-clinical-trials/"
+      }
+    },
+    {
+      "id": "rs_01e989eb503cf96a00693c9018d44c81948ac36a939fffcabf",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_01e989eb503cf96a00693c901cddec8194a3d0bdc068064b72",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:euclinicaltrials.eu \"2022-\" \"CDK12\""
+      }
+    },
+    {
+      "id": "rs_01e989eb503cf96a00693c901f54d08194a6f7b7ba774e610e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_01e989eb503cf96a00693c9020778881949cc2a7be22f8303f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:euclinicaltrials.eu api ctis public"
+      }
+    },
+    {
+      "id": "rs_01e989eb503cf96a00693c902416708194a37c0947c4c53f10",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_01e989eb503cf96a00693c9029c2fc8194b824b700985dfe75",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://euclinicaltrials.eu/ctis-public-api"
+      }
+    },
+    {
+      "id": "rs_01e989eb503cf96a00693c902ab63c819495dea7de9462bb15",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_01e989eb503cf96a00693c902b6e348194aacc058076669526",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_01e989eb503cf96a00693c902c75908194afdc2c1700cb7007",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_01e989eb503cf96a00693c903116388194ba8c84ce1af78d36",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_01e989eb503cf96a00693c90325fb88194bdc3550b7d91e543",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_01e989eb503cf96a00693c9040c2f8819490a9e798936da4c6",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT06600789 \"EU clinical trial number\""
+      }
+    },
+    {
+      "id": "rs_01e989eb503cf96a00693c9043916c8194b3da8b97a62b8828",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_01e989eb503cf96a00693c904e443081949a3cc726acd0d431",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://euclinicaltrials.eu/search-for-clinical-trials/trial-map/?lang=en"
+      }
+    },
+    {
+      "id": "rs_01e989eb503cf96a00693c904f45f88194b6750df6396b7a61",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_01e989eb503cf96a00693c905e8a0c81949deb778b85d422ee",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "cdk12 site:euclinicaltrials.eu/ctis-public"
+      }
+    },
+    {
+      "id": "rs_01e989eb503cf96a00693c90622eec819484014bcda400fbc2",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_01e989eb503cf96a00693c906c4a388194808b249395258ca6",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 703,
+              "start_index": 623,
+              "title": "Search for clinical trials - EMA",
+              "url": "https://euclinicaltrials.eu/search-for-clinical-trials/"
+            }
+          ],
+          "logprobs": [],
+          "text": "No sources found for the exact web-search query **`site:euclinicaltrials.eu CDK12 CDK13`** (and close variants like `site:euclinicaltrials.eu/ctis-public CDK12` / `CDK13`). I’m therefore unable to return any **euclinicaltrials.eu** pages with direct-quote snippets containing **CDK12/CDK13** identifiers/targets/modalities/indications from that domain.\n\nContext on why this can happen (relevant to reproducing the search):\n- The **CTIS public search pages** appear to be largely **UI/JS-driven**, and the HTML returned from the “Search for clinical trials” routes contains mostly navigation text rather than trial records. ([euclinicaltrials.eu](https://euclinicaltrials.eu/search-for-clinical-trials/))\n- The underlying **CTIS public API search endpoint** is not directly retrievable via a simple open/GET (request was blocked with **403 Forbidden**), which prevents me (in this environment) from programmatically enumerating CDK12/CDK13 trials and then opening their corresponding public pages. ([]())"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 42288,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 4978,
+    "output_tokens_details": {
+      "reasoning_tokens": 4726
+    },
+    "total_tokens": 47266
+  },
+  "user": null,
+  "metadata": {}
+}

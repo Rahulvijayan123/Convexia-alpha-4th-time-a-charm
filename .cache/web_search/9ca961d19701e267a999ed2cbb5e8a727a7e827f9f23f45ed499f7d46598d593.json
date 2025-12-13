@@ -1,0 +1,313 @@
+{
+  "id": "resp_0c4ebc78d80823ac00693c8d6af7f48196a643a5967c53f219",
+  "object": "response",
+  "created_at": 1765576042,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0c4ebc78d80823ac00693c8d6b61ec8196bbd8f9f3c97e21f4",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c4ebc78d80823ac00693c8d6c36d48196b54672454dd6e3df",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CDK12 inhibitor\" NCT"
+      }
+    },
+    {
+      "id": "rs_0c4ebc78d80823ac00693c8d6ef3308196b25424ebc1e2c8ba",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c4ebc78d80823ac00693c8d72308c8196b0ccac000a0d4721",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT06600789 CT7439 CDK12/13 inhibitor clinicaltrials.gov"
+      }
+    },
+    {
+      "id": "rs_0c4ebc78d80823ac00693c8d746bd48196a69d45b156377616",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c4ebc78d80823ac00693c8d78f0808196b14473907f12044d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CDK12\" inhibitor \"NCT\" \"Phase 1\""
+      }
+    },
+    {
+      "id": "rs_0c4ebc78d80823ac00693c8d7ce3b88196bf44b99c01783812",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c4ebc78d80823ac00693c8d7dbaa48196ab7ac0e56cf99db2",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT06600789 site:clinicaltrials.gov"
+      }
+    },
+    {
+      "id": "rs_0c4ebc78d80823ac00693c8d7fcc1c8196a027a9fab4108382",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c4ebc78d80823ac00693c8d808b908196936dad5f4174233c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0c4ebc78d80823ac00693c8d81620881969acaf937d010e13b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c4ebc78d80823ac00693c8d820b448196a5d5a97b695b5ab7",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0c4ebc78d80823ac00693c8d83762c8196b3e824b93471f120",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c4ebc78d80823ac00693c8d8a76a48196ab267a4b358e0da7",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT06600789 site:clinicaltrials.gov \"CT7439\""
+      }
+    },
+    {
+      "id": "rs_0c4ebc78d80823ac00693c8d8d5ea48196873009926da8d180",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c4ebc78d80823ac00693c8d98e1a48196832265b48551028b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html"
+      }
+    },
+    {
+      "id": "rs_0c4ebc78d80823ac00693c8d9bd0bc8196b5dec5d30af6ba38",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c4ebc78d80823ac00693c8d9ec9748196a809df39856c8070",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "Intervention",
+        "url": "https://ichgcp.net/clinical-trials-registry/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0c4ebc78d80823ac00693c8da1a45c8196ae5d5b569cf5c069",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c4ebc78d80823ac00693c8da75bf88196ac696951fa6cd461",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://ichgcp.net/clinical-trials-registry/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0c4ebc78d80823ac00693c8dab9ab48196b9840d82415b7486",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c4ebc78d80823ac00693c8dad8bc0819685da9f1e7e968bb7",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "THZ531",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31615655/"
+      }
+    },
+    {
+      "id": "rs_0c4ebc78d80823ac00693c8daf6a8081969bbcada2f13bc7e7",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c4ebc78d80823ac00693c8db1149081968a89911202388384",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://ichgcp.net/clinical-trials-registry/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0c4ebc78d80823ac00693c8db362c8819698d6e9619ddf1830",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c4ebc78d80823ac00693c8db524788196a31ea98d92966ae4",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://cdek.pharmacy.purdue.edu/trial/NCT06600789/"
+      }
+    },
+    {
+      "id": "rs_0c4ebc78d80823ac00693c8db88e7c819699dd3aa91a6cf05f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c4ebc78d80823ac00693c8dbb08d881968aaeeb6ec9cc3b0a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.tocris.com/products/nct-02_7551"
+      }
+    },
+    {
+      "id": "rs_0c4ebc78d80823ac00693c8dbdd0fc8196a84d2a4896799a70",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c4ebc78d80823ac00693c8dc013608196ae6db565419d8efe",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "##  Abstract",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33753926/"
+      }
+    },
+    {
+      "id": "rs_0c4ebc78d80823ac00693c8dc275d88196a36aa84116a8c957",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c4ebc78d80823ac00693c8dc41d148196938a8cfb4273ee39",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33753926/"
+      }
+    },
+    {
+      "id": "rs_0c4ebc78d80823ac00693c8dc71838819685ea8e2dcb5d1c88",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0c4ebc78d80823ac00693c8de2b27c81969a9776595581669d",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "- **Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor)**  \n  - URL: https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html  \n  - Quote snippets:  \n    - “CT7439, a novel cyclin dependent kinase 12/13 (CDK12/13) inhibitor / Cyclin-K glue-degrader.”  \n    - “under study ID: NCT06600789.”  \n    - “advanced solid tumors, including ovarian, breast and Ewing's Sarcoma.”\n\n- **Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor)**  \n  - URL: https://www.carricktherapeutics.com/news-media/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase  \n  - Quote snippets:  \n    - “CT7439, a novel cyclin dependent kinase 12/13 (CDK12/13) inhibitor / Cyclin-K glue-degrader.”  \n    - “under study ID: NCT06600789.”  \n    - “CT7439 is an inhibitor of CDK12/13 as well as a 'glue degrader' of Cyclin-K”\n\n- **CT7439 Capsules (0.5 mg, 1mg, 3mg) in Solid Malignancies — Clinical Trials Registry (ICH GCP)**  \n  - URL: https://ichgcp.net/clinical-trials-registry/NCT06600789  \n  - Quote snippets:  \n    - “Clinical Trial NCT06600789”  \n    - “Drug: CT7439 Capsules (0.5 mg, 1mg, 3mg)”  \n    - “Conditions  * Solid Malignancies”\n\n- **Trial | NCT06600789 — Clinical Drug Experience Knowledgebase (CDEK)**  \n  - URL: https://cdek.pharmacy.purdue.edu/trial/NCT06600789/  \n  - Quote snippets:  \n    - “Trial | NCT06600789”  \n    - “Intervention/Treatment  CT7439 Capsules (0.5 mg, 1mg, 3mg)”  \n    - “CT7439 capsules administered by mouth once a day as monotherapy”\n\n- **A Modular Phase 1/2 Study With CT7439 in Participants With Solid Malignancies — CenterWatch**  \n  - URL: https://www.centerwatch.com/clinical-trials/listings/NCT06600789/a-modular-phase-1-2-study-with-ct7439-in-participants-with-solid-malignancies  \n  - Quote snippets:  \n    - “Clinical Study ID  NCT06600789”  \n    - “Treatment  CT7439 Capsules (0.5 mg, 1mg, 3mg)”  \n    - “CT7439_001”\n\n- **Therapeutic Targeting of CDK12/CDK13 in Triple-Negative Breast Cancer — PubMed**  \n  - URL: https://pubmed.ncbi.nlm.nih.gov/31668947/  \n  - Quote snippets:  \n    - “SR-4835, a highly selective dual inhibitor of CDK12 and CDK13”  \n    - “triple-negative breast cancer (TNBC)”\n\n- **Targeting CDK12-mediated transcription regulation in anaplastic thyroid carcinoma — PubMed**  \n  - URL: https://pubmed.ncbi.nlm.nih.gov/31615655/  \n  - Quote snippets:  \n    - “highly sensitive to THZ531, a potent inhibitor of the transcriptional cyclin-dependent kinase (CDK), CDK12.”  \n    - “Anaplastic thyroid carcinoma (ATC)”\n\n- **Discovery and resistance mechanism of a selective CDK12 degrader — PubMed**  \n  - URL: https://pubmed.ncbi.nlm.nih.gov/33753926/  \n  - Quote snippets:  \n    - “a CDK12-specific degrader, BSJ-4-116.”  \n    - “in combination with the poly(ADP-ribose) polymerase inhibitor olaparib”\n\n- **NCT 02 | Molecular Glues — Tocris Bioscience**  \n  - URL: https://www.tocris.com/products/nct-02_7551  \n  - Quote snippets:  \n    - “Description: Molecular glue; induces degradation of CCNK and CDK12”  \n    - “NCT 02 acts as a molecular glue that induces proteasomal degradation of CCNK and CDK12”  \n    - “CAS Number  790245-61-3”"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 64876,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 6401,
+    "output_tokens_details": {
+      "reasoning_tokens": 5359
+    },
+    "total_tokens": 71277
+  },
+  "user": null,
+  "metadata": {}
+}

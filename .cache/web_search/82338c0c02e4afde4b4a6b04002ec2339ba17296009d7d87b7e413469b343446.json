@@ -1,0 +1,390 @@
+{
+  "id": "resp_0844c5aa2e965de800693c9590b3d881979329550a140cd7b8",
+  "object": "response",
+  "created_at": 1765578128,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0844c5aa2e965de800693c9591096081978ce5c5981b05979e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0844c5aa2e965de800693c959260248197aa3c21c9ce87129c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CDK12\" \"bifunctional compound\" patent"
+      }
+    },
+    {
+      "id": "rs_0844c5aa2e965de800693c959396f48197aefca07521aa7ba1",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0844c5aa2e965de800693c95951cdc8197b3cbb4ceb35a4fed",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "20220227734 CDK12 bifunctional compounds Cereblon lenalidomide"
+      }
+    },
+    {
+      "id": "rs_0844c5aa2e965de800693c95970a2c8197991fb1e23a0f84f0",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0844c5aa2e965de800693c9597eaa88197a7a89a0459961f4f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "US20220227734A1 site:patents.google.com CDK12 degrader"
+      }
+    },
+    {
+      "id": "rs_0844c5aa2e965de800693c959980ec8197b36a57c8297520dc",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0844c5aa2e965de800693c959c03888197b73f02744efebf8c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/WO2020219650A1/zh"
+      }
+    },
+    {
+      "id": "rs_0844c5aa2e965de800693c959d4d148197a5a1927799f6bb3f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0844c5aa2e965de800693c959e0d408197b929af5943ab9bf4",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "bifunctional",
+        "url": "https://patents.google.com/patent/WO2020219650A1/zh"
+      }
+    },
+    {
+      "id": "rs_0844c5aa2e965de800693c959ff70c81978bd4976063b001f1",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0844c5aa2e965de800693c95a359c88197b14e76b6d6a37e46",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/WO2020219650A1/en"
+      }
+    },
+    {
+      "id": "rs_0844c5aa2e965de800693c95a4ea1c8197954bc2176e8ded69",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0844c5aa2e965de800693c95a5b0b881978af3676343b2d01f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "bifunctional",
+        "url": "https://patents.google.com/patent/WO2020219650A1/en"
+      }
+    },
+    {
+      "id": "rs_0844c5aa2e965de800693c95a80514819799d2fce502ece1a4",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0844c5aa2e965de800693c95a9bb1c8197946221c9ef5321ab",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patentimages.storage.googleapis.com/33/1c/33/c8b1c9ac3a2654/WO2020219650A1.pdf"
+      }
+    },
+    {
+      "id": "rs_0844c5aa2e965de800693c95aa7690819784643b4901699811",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0844c5aa2e965de800693c95b0c318819788bec97fc5ba3915",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/WO2020219650A1/en"
+      }
+    },
+    {
+      "id": "rs_0844c5aa2e965de800693c95b4587081979d41a8f52d9a8c1c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0844c5aa2e965de800693c95b513ec81979d05b155af133180",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/WO2020219650A1/en"
+      }
+    },
+    {
+      "id": "rs_0844c5aa2e965de800693c95b78f548197ad75ce180b15df53",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0844c5aa2e965de800693c95b8c8c8819798b816fb41212a50",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/WO2020219650A1/en"
+      }
+    },
+    {
+      "id": "rs_0844c5aa2e965de800693c95bb78f081979cd51a3c82173e64",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0844c5aa2e965de800693c95bda97081978c8ad9d14d2fd07a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/US20220227734A1/en"
+      }
+    },
+    {
+      "id": "rs_0844c5aa2e965de800693c95c075788197b0fb2b24d8751a1c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0844c5aa2e965de800693c95c128e881979753999fe093d3ed",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/US20220227734A1/en"
+      }
+    },
+    {
+      "id": "rs_0844c5aa2e965de800693c95c4200881979dfc5e5a580a734d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0844c5aa2e965de800693c95c6aa488197ac644f0dca11dcb1",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/WO2022093742A1/en"
+      }
+    },
+    {
+      "id": "rs_0844c5aa2e965de800693c95ca7e9481978c4fc54e4a39d9e1",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0844c5aa2e965de800693c95cbc1888197b85c95a528ec296a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/WO2022093742A1/en"
+      }
+    },
+    {
+      "id": "rs_0844c5aa2e965de800693c95d05cb88197a6110847bff0fc58",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0844c5aa2e965de800693c95d6cc408197a2e770a9277555ee",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/US20220227734A1/en"
+      }
+    },
+    {
+      "id": "rs_0844c5aa2e965de800693c95d9d4308197a15e8168ed3a22e1",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0844c5aa2e965de800693c95e86f00819793c721b956750327",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 182,
+              "start_index": 106,
+              "title": "US20220227734A1 - Degraders of cyclin-dependent kinase 12 (cdk12) and uses thereof \n        - Google Patents",
+              "url": "https://patents.google.com/patent/US20220227734A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 400,
+              "start_index": 324,
+              "title": "US20220227734A1 - Degraders of cyclin-dependent kinase 12 (cdk12) and uses thereof \n        - Google Patents",
+              "url": "https://patents.google.com/patent/US20220227734A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 602,
+              "start_index": 526,
+              "title": "US20220227734A1 - Degraders of cyclin-dependent kinase 12 (cdk12) and uses thereof \n        - Google Patents",
+              "url": "https://patents.google.com/patent/US20220227734A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 789,
+              "start_index": 713,
+              "title": "US20220227734A1 - Degraders of cyclin-dependent kinase 12 (cdk12) and uses thereof \n        - Google Patents",
+              "url": "https://patents.google.com/patent/US20220227734A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 973,
+              "start_index": 898,
+              "title": "WO2020219650A1 - Degraders of cyclin-dependent kinase 12 (cdk12) and uses thereof \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2020219650A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1188,
+              "start_index": 1113,
+              "title": "WO2020219650A1 - Degraders of cyclin-dependent kinase 12 (cdk12) and uses thereof \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2020219650A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1445,
+              "start_index": 1370,
+              "title": "WO2020219650A1 - Degraders of cyclin-dependent kinase 12 (cdk12) and uses thereof \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2020219650A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1618,
+              "start_index": 1543,
+              "title": "WO2022093742A1 - Compounds for targeted protein degradation of kinases \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2022093742A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1833,
+              "start_index": 1758,
+              "title": "WO2022093742A1 - Compounds for targeted protein degradation of kinases \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2022093742A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1985,
+              "start_index": 1910,
+              "title": "WO2022093742A1 - Compounds for targeted protein degradation of kinases \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2022093742A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2114,
+              "start_index": 2039,
+              "title": "WO2022093742A1 - Compounds for targeted protein degradation of kinases \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2022093742A1/en"
+            }
+          ],
+          "logprobs": [],
+          "text": "- **US20220227734A1 — Degraders of cyclin-dependent kinase 12 (cdk12) and uses thereof — Google Patents** ([patents.google.com](https://patents.google.com/patent/US20220227734A1/en))  \n  - URL: `https://patents.google.com/patent/US20220227734A1/en`  \n  - Direct quote snippets:\n    - > “Publication number  US20220227734A1” ([patents.google.com](https://patents.google.com/patent/US20220227734A1/en))  \n    - > “a bifunctional molecule … (e.g., lenalidomide, thalidomide, VHL ligand) … (e.g., CDK (e.g., CDK9 and/or CDK12)))” ([patents.google.com](https://patents.google.com/patent/US20220227734A1/en))  \n    - > “proliferative diseases, such as cancers (e.g., ovarian cancer, breast cancer, or prostate cancer)” ([patents.google.com](https://patents.google.com/patent/US20220227734A1/en))  \n\n- **WO2020219650A1 — Degraders of cyclin-dependent kinase 12 (cdk12) and uses thereof — Google Patents** ([patents.google.com](https://patents.google.com/patent/WO2020219650A1/en))  \n  - URL: `https://patents.google.com/patent/WO2020219650A1/en`  \n  - Direct quote snippets:\n    - > “Publication number  WO2020219650A1” ([patents.google.com](https://patents.google.com/patent/WO2020219650A1/en))  \n    - > “lenalidomide, thalidomide and therefore may be useful in promoting and/or inducing the degradation of the target protein (e.g., kinase (e.g., CDK (e.g., CDK9, CDK12))).” ([patents.google.com](https://patents.google.com/patent/WO2020219650A1/en))  \n\n- **WO2022093742A1 — Compounds for targeted protein degradation of kinases — Google Patents** ([patents.google.com](https://patents.google.com/patent/WO2022093742A1/en))  \n  - URL: `https://patents.google.com/patent/WO2022093742A1/en`  \n  - Direct quote snippets:\n    - > “Publication number  WO2022093742A1” ([patents.google.com](https://patents.google.com/patent/WO2022093742A1/en))  \n    - > “protein kinase targeting heterobifunctional degrader molecules.” ([patents.google.com](https://patents.google.com/patent/WO2022093742A1/en))  \n    - > “CDC7, CDK10, CDK12, CDK13, CDK14, CDK16,” ([patents.google.com](https://patents.google.com/patent/WO2022093742A1/en))"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 66669,
+    "input_tokens_details": {
+      "cached_tokens": 4096
+    },
+    "output_tokens": 4902,
+    "output_tokens_details": {
+      "reasoning_tokens": 4304
+    },
+    "total_tokens": 71571
+  },
+  "user": null,
+  "metadata": {}
+}

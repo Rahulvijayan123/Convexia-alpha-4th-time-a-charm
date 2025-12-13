@@ -1,0 +1,213 @@
+{
+  "id": "resp_0dcee6ec7878c56a00693c8bf0904c8190854255753ce6b069",
+  "object": "response",
+  "created_at": 1765575664,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0dcee6ec7878c56a00693c8bf0ded88190a662155f620b314f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0dcee6ec7878c56a00693c8bff5f6c81909af2559136fa323c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK13 inhibitor THZ531 CDK12 CDK13"
+      }
+    },
+    {
+      "id": "rs_0dcee6ec7878c56a00693c8c01ecd48190b2a51609079d884b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0dcee6ec7878c56a00693c8c1a849081909b50f368b49c742d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT06600789 CT7439 CDK12/13 inhibitor cyclin-K glue degrader"
+      }
+    },
+    {
+      "id": "rs_0dcee6ec7878c56a00693c8c1c5418819089bce71443dfcce6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0dcee6ec7878c56a00693c8c1c9aec81908e804b70b3c5a423",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "ClinicalTrials.gov NCT06600789 CT7439"
+      }
+    },
+    {
+      "id": "rs_0dcee6ec7878c56a00693c8c1f0aa08190bd6e06a02b9c73be",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0dcee6ec7878c56a00693c8c216b748190b17f115e3471772c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0dcee6ec7878c56a00693c8c22e41c81909564465b10a169f1",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0dcee6ec7878c56a00693c8c28803c8190afe84eb0c7093af7",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://cdek.pharmacy.purdue.edu/trial/NCT06600789/"
+      }
+    },
+    {
+      "id": "rs_0dcee6ec7878c56a00693c8c2a5f3c8190959918d7e5480e4d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0dcee6ec7878c56a00693c8c2bb64c8190aef59504a4ba8f25",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://cdek.pharmacy.purdue.edu/trial/NCT06600789/"
+      }
+    },
+    {
+      "id": "rs_0dcee6ec7878c56a00693c8c2d00b881908f0da74e5da819b9",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0dcee6ec7878c56a00693c8c2f2f7481909c021f4cf1f3f0a6",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "Locations",
+        "url": "https://ichgcp.net/clinical-trials-registry/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0dcee6ec7878c56a00693c8c3118d881909dd61e93b4aeea87",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0dcee6ec7878c56a00693c8c32ab248190a42f71849fab9bc3",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor"
+      }
+    },
+    {
+      "id": "rs_0dcee6ec7878c56a00693c8c33fa348190a92910c719f21517",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0dcee6ec7878c56a00693c8c43abac8190b8764347fc488545",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "SR-4835 developed by Syros CDK12/13 inhibitor"
+      }
+    },
+    {
+      "id": "rs_0dcee6ec7878c56a00693c8c46b2008190bac35dc2c866f4c0",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0dcee6ec7878c56a00693c8c9c36ec8190b60728f8e24c6beb",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": true,\n  \"assets\": [\n    {\n      \"drug_name_code\": \"CT7439\",\n      \"sponsor\": \"Carrick Therapeutics Limited\",\n      \"target\": \"CDK12; CDK13; Cyclin-K\",\n      \"modality\": \"Small-molecule CDK12/13 inhibitor / Cyclin-K molecular glue degrader\",\n      \"indication\": \"Solid malignancies (advanced solid tumors incl. breast cancer)\",\n      \"development_stage\": \"Phase 1/Phase 2\",\n      \"geography\": \"United States; United Kingdom\",\n      \"sources\": [\n        \"https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor\",\n        \"https://ichgcp.net/clinical-trials-registry/NCT06600789\",\n        \"https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html\"\n      ]\n    }\n  ],\n  \"rejected_reason\": null\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 40292,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 9427,
+    "output_tokens_details": {
+      "reasoning_tokens": 9170
+    },
+    "total_tokens": 49719
+  },
+  "user": null,
+  "metadata": {}
+}

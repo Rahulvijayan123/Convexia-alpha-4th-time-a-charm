@@ -1,0 +1,226 @@
+{
+  "id": "resp_03bace0ec7135aab00693c8ebd658c8195a7fc79733c761a6c",
+  "object": "response",
+  "created_at": 1765576381,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_03bace0ec7135aab00693c8ebdd8408195b1b686dbab25663d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_03bace0ec7135aab00693c8ecf1e988195af2061df84b9626e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12 inhibitor Phase 1 trial"
+      }
+    },
+    {
+      "id": "rs_03bace0ec7135aab00693c8ed0aea881959b80de3edafd1d4a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_03bace0ec7135aab00693c8ed8b7e08195ad7e643173b60e8c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT06600789 CT7439 CDK12/13 inhibitor Cyclin K glue degrader"
+      }
+    },
+    {
+      "id": "rs_03bace0ec7135aab00693c8edaca4881958ebb5d7bd4e7975e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_03bace0ec7135aab00693c8edd09688195a0f6eb63fd0ebb6e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_03bace0ec7135aab00693c8eddaa688195a96b1a55b629b439",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_03bace0ec7135aab00693c8ee21a5081959b9bc407a89e5474",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_03bace0ec7135aab00693c8ee2f4b08195becbc24ef3944f1c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_03bace0ec7135aab00693c8ee46b6c8195abf90a721ef60708",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "clinicaltrials.gov api query full_studies NCT06600789"
+      }
+    },
+    {
+      "id": "rs_03bace0ec7135aab00693c8ee6737481959f635a2a07c6a5c9",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_03bace0ec7135aab00693c8ee8241481958462be20c2603a27",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "https://clinicaltrials.gov/api/v2/studies/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_03bace0ec7135aab00693c8eeacf70819599dcb9b758dd9b50",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_03bace0ec7135aab00693c8eebfa9c8195908793abc5b8da9e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "Study Details NCT06600789"
+      }
+    },
+    {
+      "id": "rs_03bace0ec7135aab00693c8eee26188195a749e0df708c4bd8",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_03bace0ec7135aab00693c8eefd1e88195aded7313d55523d0",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT06600789 clinicaltrials.gov/study"
+      }
+    },
+    {
+      "id": "rs_03bace0ec7135aab00693c8ef35780819587eeda7ba5a78859",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_03bace0ec7135aab00693c8ef8232481959c1d9532833bef2c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://cdek.pharmacy.purdue.edu/trial/NCT06600789/"
+      }
+    },
+    {
+      "id": "rs_03bace0ec7135aab00693c8ef947e08195a8b5dc3025d5721e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_03bace0ec7135aab00693c8efa5f848195a064d32a45c3a19b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "United States",
+        "url": "https://www.centerwatch.com/clinical-trials/listings/NCT06600789/a-modular-phase-1-2-study-with-ct7439-in-participants-with-solid-malignancies"
+      }
+    },
+    {
+      "id": "rs_03bace0ec7135aab00693c8efcc668819593a4cdd52d1a7403",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_03bace0ec7135aab00693c8f279b3c81959a031c067c4a4cf6",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": false,\n  \"assets\": [],\n  \"rejected_reason\": \"Candidate identifier 'Phase 1' is a development stage label, not a unique drug name/code, trial ID, or patent ID, so required fields (sponsor/target/modality/indication/geography) cannot be unambiguously attributed to a single drug asset.\"\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 39878,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 6692,
+    "output_tokens_details": {
+      "reasoning_tokens": 6611
+    },
+    "total_tokens": 46570
+  },
+  "user": null,
+  "metadata": {}
+}

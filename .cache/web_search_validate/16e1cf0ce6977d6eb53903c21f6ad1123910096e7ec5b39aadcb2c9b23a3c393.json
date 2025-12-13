@@ -1,0 +1,114 @@
+{
+  "id": "resp_03550a0906cc265300693c941e4ef88194a8faf7b151f13faa",
+  "object": "response",
+  "created_at": 1765577758,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_03550a0906cc265300693c941e9d9c8194bdf60a7af5ebbcb0",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_03550a0906cc265300693c9434a12481948de393f50aa8b103",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"proteolysis-targeting chimera\" PROTAC definition heterobifunctional molecule"
+      }
+    },
+    {
+      "id": "rs_03550a0906cc265300693c94368bc88194a944fd1238a3a109",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_03550a0906cc265300693c9437b2ac8194b5169aab1a37cc07",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12 PROTAC degrader \"CDK12\" \"PROTAC\""
+      }
+    },
+    {
+      "id": "rs_03550a0906cc265300693c94398a648194b4cd22b3b4fbcce5",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_03550a0906cc265300693c94652fc48194a591005221ae8ac8",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": false,\n  \"assets\": [],\n  \"rejected_reason\": \"Candidate identifier \\\"proteolysis-targeting chimera (PROTAC)\\\" describes a general drug modality/technology (a class of heterobifunctional degraders), not a single drug asset; therefore sponsor/target/indication/development stage/geography cannot be uniquely determined from the identifier alone (see definition: https://jhoonline.biomedcentral.com/articles/10.1186/s13045-020-00885-3).\"\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 13905,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 4065,
+    "output_tokens_details": {
+      "reasoning_tokens": 3947
+    },
+    "total_tokens": 17970
+  },
+  "user": null,
+  "metadata": {}
+}

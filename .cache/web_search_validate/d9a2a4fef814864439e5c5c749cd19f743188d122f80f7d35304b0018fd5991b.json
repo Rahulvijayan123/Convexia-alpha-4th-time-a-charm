@@ -1,0 +1,156 @@
+{
+  "id": "resp_069c7a207fd5abf100693c914f2edc8197ba13686af02397b0",
+  "object": "response",
+  "created_at": 1765577039,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_069c7a207fd5abf100693c91504c1481978ca0ccbbe8de5da7",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_069c7a207fd5abf100693c915328988197a8978a5cc3782946",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"1mg\" CDK12 inhibitor"
+      }
+    },
+    {
+      "id": "rs_069c7a207fd5abf100693c9155bc0c8197b1fa11424009f6a7",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_069c7a207fd5abf100693c91596a7881978f1f815de9646464",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"1mg\" CDK12 13 PROTAC TNBC"
+      }
+    },
+    {
+      "id": "rs_069c7a207fd5abf100693c915b7ea081978319420bfdca7708",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_069c7a207fd5abf100693c9164e3708197b9f529e21a9f3e38",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"1MG\" clinical trial drug"
+      }
+    },
+    {
+      "id": "rs_069c7a207fd5abf100693c9166c7e8819793666679f93c5451",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_069c7a207fd5abf100693c9169d07c819791f54bb299c9dba7",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"1MG\" \"CDK12\" patent"
+      }
+    },
+    {
+      "id": "rs_069c7a207fd5abf100693c916be3488197b2bcfbe29ca549ac",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_069c7a207fd5abf100693c917f5a9081979f2082676309ab31",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"compound 1mg\" CDK12"
+      }
+    },
+    {
+      "id": "rs_069c7a207fd5abf100693c9181c6048197a49a084dc3d50a38",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_069c7a207fd5abf100693c918bec608197963fa4f2c734061f",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": false,\n  \"assets\": [],\n  \"rejected_reason\": \"The identifier \\\"1mg\\\" is not a unique drug/asset name; it is used as a quantity/unit (e.g., a \\\"1 mg\\\" pack size on compound product pages such as SR-4835: https://www.targetmol.com/compound/sr-4835) and also appears as part of the brand name \\\"Tata 1mg\\\" (an online pharmacy/health platform, not a CDK12/13 therapeutic asset: https://www.1mg.com/information/1mg-is-now-tata-1mg). Therefore sponsor/target/modality/indication/development stage/geography cannot be uniquely assigned.\"\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 26908,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 3560,
+    "output_tokens_details": {
+      "reasoning_tokens": 3403
+    },
+    "total_tokens": 30468
+  },
+  "user": null,
+  "metadata": {}
+}

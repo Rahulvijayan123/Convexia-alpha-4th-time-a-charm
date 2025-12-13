@@ -1,0 +1,171 @@
+{
+  "id": "resp_06f90b41edb4408b00693c8ed18e1c8197acb386de4c9f4c5a",
+  "object": "response",
+  "created_at": 1765576401,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_06f90b41edb4408b00693c8ed206e08197862849bad6f8646d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_06f90b41edb4408b00693c8ed44b7c8197b8474bfe4f8c3aaa",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CT7439 Capsules"
+      }
+    },
+    {
+      "id": "rs_06f90b41edb4408b00693c8ed5b8248197a32572a5c7e01672",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_06f90b41edb4408b00693c8ed69e7c819786daaca35a196fe4",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT06600789 CT7439 capsules"
+      }
+    },
+    {
+      "id": "rs_06f90b41edb4408b00693c8ed9262c8197a2d44d5b440ba731",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_06f90b41edb4408b00693c8ee8aa148197b0e24d65008cff36",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov NCT06600789"
+      }
+    },
+    {
+      "id": "rs_06f90b41edb4408b00693c8eeb91a08197a0cb672a3cbb70ba",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_06f90b41edb4408b00693c8eeeb9308197906f07ee0a0f0bb3",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_06f90b41edb4408b00693c8eeffadc819793812aecfb3e1b1f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_06f90b41edb4408b00693c8f0a7f808197b406a55adfc82cb3",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor"
+      }
+    },
+    {
+      "id": "rs_06f90b41edb4408b00693c8f0bcda08197b3b797a3f3286ca3",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_06f90b41edb4408b00693c8f0c9d608197bb9b40d1cd28703b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "Sponsor",
+        "url": "https://ichgcp.net/clinical-trials-registry/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_06f90b41edb4408b00693c8f0e24a48197a80c377b007b242d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_06f90b41edb4408b00693c8f2901988197b12b2c9106a800b2",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": true,\n  \"assets\": [\n    {\n      \"drug_name_code\": \"CT7439 Capsules\",\n      \"sponsor\": \"Carrick Therapeutics Limited\",\n      \"target\": \"CDK12/13 and Cyclin-K\",\n      \"modality\": \"CDK12/13 inhibitor / Cyclin-K glue degrader (molecular glue degrader)\",\n      \"indication\": \"Solid malignancies (advanced solid tumors, including ovarian, breast and Ewing's sarcoma)\",\n      \"development_stage\": \"Phase 1/Phase 2 (recruiting; first-in-human study)\",\n      \"geography\": \"United States; United Kingdom\",\n      \"sources\": [\n        \"https://ichgcp.net/clinical-trials-registry/NCT06600789\",\n        \"https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor\",\n        \"https://www.carricktherapeutics.com/news-media/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase\"\n      ]\n    }\n  ],\n  \"rejected_reason\": null\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 28074,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 5234,
+    "output_tokens_details": {
+      "reasoning_tokens": 4989
+    },
+    "total_tokens": 33308
+  },
+  "user": null,
+  "metadata": {}
+}

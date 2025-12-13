@@ -1,0 +1,325 @@
+{
+  "id": "resp_06a022388cd8ecb200693c941e25c48193ad7045a4d82233f0",
+  "object": "response",
+  "created_at": 1765577758,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_06a022388cd8ecb200693c941e94ac8193a9141853fc821a43",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_06a022388cd8ecb200693c942c57248193b359a0fb9117635a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12 molecular glue degrader"
+      }
+    },
+    {
+      "id": "rs_06a022388cd8ecb200693c942e15a88193a3ccb2fd4c7d01dd",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_06a022388cd8ecb200693c944023108193bdb60a3a1dcf310c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"molecular glue\" clinical trial drug"
+      }
+    },
+    {
+      "id": "rs_06a022388cd8ecb200693c9441e4c08193b1f0fa8a091b32a6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_06a022388cd8ecb200693c9452264c8193a780ae34e0bd3fa5",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"Molecular Glue\" \"CAS\" \"drug\""
+      }
+    },
+    {
+      "id": "rs_06a022388cd8ecb200693c9453dd008193949a57c4c8c862d4",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_06a022388cd8ecb200693c9467077c819383318cc432c1851c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://elifesciences.org/articles/59994"
+      }
+    },
+    {
+      "id": "rs_06a022388cd8ecb200693c9467d530819386477f712a313519",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_06a022388cd8ecb200693c9477ba40819385f8f0a560d77cab",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39450271/"
+      }
+    },
+    {
+      "id": "rs_06a022388cd8ecb200693c947883108193969d1487d1ac017e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_06a022388cd8ecb200693c947dd2a48193a6db5bf21ecf9194",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "SR-4835 CDK12 inhibitor developer company"
+      }
+    },
+    {
+      "id": "rs_06a022388cd8ecb200693c9481f95481939db2956ce13eadd2",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_06a022388cd8ecb200693c9483cd5c8193a6afcbc0fdec5e67",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31668947/"
+      }
+    },
+    {
+      "id": "rs_06a022388cd8ecb200693c9484bb548193a570dfa3237d38bf",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_06a022388cd8ecb200693c94a1181881938abd479859477935",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "LL-K12-18 dual-site molecular glue CDK12 DDB1 Nat Commun 2024 6477"
+      }
+    },
+    {
+      "id": "rs_06a022388cd8ecb200693c94a3d3bc819394ec4d4040a9e4d6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_06a022388cd8ecb200693c94a50a2c8193b7d0f5ff17b525a4",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_06a022388cd8ecb200693c94a5d2088193a0c658cb42c70d61",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_06a022388cd8ecb200693c94a74adc81938e73fa7ab7e61e18",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.nature.com/articles/s41467-024-50642-0"
+      }
+    },
+    {
+      "id": "rs_06a022388cd8ecb200693c94a81808819397647f747ace142b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_06a022388cd8ecb200693c94a9694c8193b30746140a64c43a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "Affiliations",
+        "url": "https://www.nature.com/articles/s41467-024-50642-0"
+      }
+    },
+    {
+      "id": "rs_06a022388cd8ecb200693c94aa88a881939aa3f1cef3a795ff",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_06a022388cd8ecb200693c94acd0fc8193b76a43ded52be0fd",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.nature.com/articles/s41467-024-50642-0.pdf"
+      }
+    },
+    {
+      "id": "rs_06a022388cd8ecb200693c94ae325481939dd1703d5d046d06",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_06a022388cd8ecb200693c94ca8e208193a501a1c13bde9006",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "triple",
+        "url": "https://www.nature.com/articles/s41467-024-50642-0.pdf"
+      }
+    },
+    {
+      "id": "rs_06a022388cd8ecb200693c94cd4c3c8193a5d69995e7e37270",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_06a022388cd8ecb200693c94d645688193920d7cd44a7ecb12",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "MDA-MB-231 triple-negative breast cancer cell line source"
+      }
+    },
+    {
+      "id": "rs_06a022388cd8ecb200693c94d9c8a88193a1f5e0bd5b75698e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_06a022388cd8ecb200693c94dbd3548193a08f4243c8ff93ad",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "Cellosaurus CVCL_0062 triple negative"
+      }
+    },
+    {
+      "id": "rs_06a022388cd8ecb200693c94ded9a08193b9eb7e0d2516f079",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_06a022388cd8ecb200693c94e17d088193b695a4087980a184",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.cellosaurus.org/CVCL_0062"
+      }
+    },
+    {
+      "id": "rs_06a022388cd8ecb200693c94e3d7bc819392b00bdecb38ce05",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_06a022388cd8ecb200693c94e788088193a57cf411b9b6f044",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.cellosaurus.org/CVCL_0419"
+      }
+    },
+    {
+      "id": "rs_06a022388cd8ecb200693c94e99878819384bad5916925d28d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_06a022388cd8ecb200693c952a67c48193ba9a14e39de53fe5",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": false,\n  \"assets\": [],\n  \"rejected_reason\": \"Candidate identifier \\\"molecular glue\\\" is a broad modality/class term (not a specific drug name/code), so sponsor/target/indication/development stage/geography cannot be uniquely determined. Definitions/examples: https://en.wikipedia.org/wiki/Molecular_glue ; https://www.cas.org/es-es/resources/cas-insights/molecular-glues-protein-degraders\"\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 81851,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 16623,
+    "output_tokens_details": {
+      "reasoning_tokens": 16523
+    },
+    "total_tokens": 98474
+  },
+  "user": null,
+  "metadata": {}
+}

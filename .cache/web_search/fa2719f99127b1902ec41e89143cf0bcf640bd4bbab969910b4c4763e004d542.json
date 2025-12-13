@@ -1,0 +1,435 @@
+{
+  "id": "resp_038bdc0b59a5786700693c8d6af8d08195860cb9bdc8d54234",
+  "object": "response",
+  "created_at": 1765576043,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_038bdc0b59a5786700693c8d6b5b748195b7f26601ee1c738d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_038bdc0b59a5786700693c8d6e6cf88195b9b3a0bfaa04f585",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CDK12\" inhibitor \"corporate presentation\" filetype:pdf"
+      }
+    },
+    {
+      "id": "rs_038bdc0b59a5786700693c8d6f87b4819588ef87b33536d2b6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_038bdc0b59a5786700693c8d77901c8195922dd937c85146e1",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CDK12\" inhibitor pdf \"corporate presentation\""
+      }
+    },
+    {
+      "id": "rs_038bdc0b59a5786700693c8d793520819596ce990ef85c6c3a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_038bdc0b59a5786700693c8d7f726881958166ccbee303b7d6",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "Syros \"corporate presentation\" pdf CDK12"
+      }
+    },
+    {
+      "id": "rs_038bdc0b59a5786700693c8d81ed108195be3076a8ddea7b42",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_038bdc0b59a5786700693c8d8559bc819592ff7438f841aea4",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "Kinnate \"corporate presentation\" CDK12 filetype:pdf"
+      }
+    },
+    {
+      "id": "rs_038bdc0b59a5786700693c8d87c9548195bfcc0f64a5855c8a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_038bdc0b59a5786700693c8d8c2d3c819590b0bac15ea95b09",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:kinnate.com corporate presentation pdf CDK12"
+      }
+    },
+    {
+      "id": "rs_038bdc0b59a5786700693c8d8eec208195b414bf794393f4f0",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_038bdc0b59a5786700693c8d8fe2148195ba63476258f3a137",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "Kinnate corporate presentation pdf"
+      }
+    },
+    {
+      "id": "rs_038bdc0b59a5786700693c8d93747481959a7ca92c911ccb95",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_038bdc0b59a5786700693c8d9536508195ba3b5add65f67e74",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "ir.kinnate.com static-files corporate presentation pdf"
+      }
+    },
+    {
+      "id": "rs_038bdc0b59a5786700693c8d97fc948195b7061b68c0e8cdcb",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_038bdc0b59a5786700693c8d9d0f4c8195bcc7de0cf9e9b404",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_038bdc0b59a5786700693c8d9e43608195a63bb572c945fc59",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_038bdc0b59a5786700693c8d9fa95481958ea268024c6b03a7",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "Syros 8-K January 7 2019 exhibit 99.1 pdf"
+      }
+    },
+    {
+      "id": "rs_038bdc0b59a5786700693c8da2b7c08195a0a855e57f851e0b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_038bdc0b59a5786700693c8da4cc50819586bc8002d57b9bad",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.sec.gov/Archives/edgar/data/1556263/000119312524003863/d108883d8k.htm"
+      }
+    },
+    {
+      "id": "rs_038bdc0b59a5786700693c8da73b5881959446036eaf12f1e8",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_038bdc0b59a5786700693c8da7d6308195a5f7f59c6e125033",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.sec.gov/Archives/edgar/data/1556263/000119312524003863/d108883dex991.htm"
+      }
+    },
+    {
+      "id": "rs_038bdc0b59a5786700693c8da94f78819592dd6d2cfc3e38b5",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_038bdc0b59a5786700693c8dacfb748195ad1bff0c742a9c0a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "Kinnate q4cdn corporate presentation pdf"
+      }
+    },
+    {
+      "id": "rs_038bdc0b59a5786700693c8db0cc148195afa8200769db2b62",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_038bdc0b59a5786700693c8db11cf481958382ddb682f710f6",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"kinnate\" \"q4cdn.com\" filetype:pdf"
+      }
+    },
+    {
+      "id": "rs_038bdc0b59a5786700693c8db384c88195a518f7d958399908",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_038bdc0b59a5786700693c8db454a08195a523a57cbbc4e0dc",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"investor\".kinnate.com \"static-files\" pdf"
+      }
+    },
+    {
+      "id": "rs_038bdc0b59a5786700693c8db729948195989d0c69cdf47202",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_038bdc0b59a5786700693c8dbb8670819583952d77c814adc9",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "syros corporate presentation January 2024 pdf"
+      }
+    },
+    {
+      "id": "rs_038bdc0b59a5786700693c8dc20e2c81959f0f1d822c914c20",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_038bdc0b59a5786700693c8dc550dc819598c063f216000d15",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CDK12\" covalent inhibitor \"investor presentation\" filetype:pdf"
+      }
+    },
+    {
+      "id": "rs_038bdc0b59a5786700693c8dc9cab88195b5ba796bdcb4653c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_038bdc0b59a5786700693c8dcdd11c81958007aad9dd5a9b23",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.onclive.com/view/kin-2787-looks-to-fill-unmet-need-in-class-ii-iii-braf-altered-solid-tumors"
+      }
+    },
+    {
+      "id": "rs_038bdc0b59a5786700693c8dd0486481958f162db74ade1d26",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_038bdc0b59a5786700693c8dd411d08195985060afa29b9db9",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "static-files",
+        "url": "https://www.onclive.com/view/kin-2787-looks-to-fill-unmet-need-in-class-ii-iii-braf-altered-solid-tumors"
+      }
+    },
+    {
+      "id": "rs_038bdc0b59a5786700693c8dd5e2a4819588fc132e49a71ae0",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_038bdc0b59a5786700693c8dd6a62881958442bc28c2a09d71",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_038bdc0b59a5786700693c8dd91f7c8195abea1242b7a57192",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_038bdc0b59a5786700693c8ddc60b08195824f6ce295c4298a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "eeb5e193-3a14-4133-9d56-c0145dca699b pdf"
+      }
+    },
+    {
+      "id": "rs_038bdc0b59a5786700693c8de2f0108195bf72ad826071050b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_038bdc0b59a5786700693c8de5677c8195b1c1c1cc795689b1",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "Kinnate \"Corporate Presentation\" Exhibit 99.1 site:sec.gov"
+      }
+    },
+    {
+      "id": "rs_038bdc0b59a5786700693c8deb7f508195abde9dd7a682ebe7",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_038bdc0b59a5786700693c8df7508c81959a686003e0303032",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "web.archive.org eeb5e193-3a14-4133-9d56-c0145dca699b"
+      }
+    },
+    {
+      "id": "rs_038bdc0b59a5786700693c8dff7bd48195aa2d49d43aa3ab70",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_038bdc0b59a5786700693c8e02b3f08195a7f5f584497077db",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"KIN-2787\" \"investor presentation\" pdf \"Kinnate\""
+      }
+    },
+    {
+      "id": "rs_038bdc0b59a5786700693c8e068a5c8195a66d5695ba3cf196",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_038bdc0b59a5786700693c8e0a37dc8195a178bbc36f1728c6",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.sec.gov/Archives/edgar/data/1556263/000119312522188617/d372133d8k.htm"
+      }
+    },
+    {
+      "id": "rs_038bdc0b59a5786700693c8e0c4ea48195b0f4ca3325ec7cf3",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_038bdc0b59a5786700693c8e0d266481958c458bcbb49f14a0",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.sec.gov/Archives/edgar/data/1556263/000119312522188617/d372133dex992.htm"
+      }
+    },
+    {
+      "id": "rs_038bdc0b59a5786700693c8e1086288195ae6559b670941c04",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_038bdc0b59a5786700693c8e268e1881959995e16bed5e80c0",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "- **Syros Pharmaceuticals, Inc. — “An Expression Makes a World of Difference July 2022 (Exhibit 99.2)”**\n  - URL: `https://www.sec.gov/Archives/edgar/data/1556263/000119312522188617/d372133dex992.htm`\n  - Direct quotes (identifiers/targets/modalities/indications):\n    - “Development candidate named from **CDK12 program** **3Q 2022**”\n    - “**SY-5609**  (oral **CDK7 inhibitor**)”\n    - “**CDK12 inhibitor** **CDK11 inhibitor** **WRN inhibitor**”\n\n- **Syros Pharmaceuticals, Inc. — “Syros to Present New Preclinical Data on its CDK12 Inhibitor Program at the AACR Annual Meeting 2022” (Business Wire)**\n  - URL: `https://www.businesswire.com/news/home/20220308005018/en/Syros-to-Present-New-Preclinical-Data-on-its-CDK12-Inhibitor-Program-at-the-American-Association-for-Cancer-Research-AACR-Annual-Meeting-2022`\n  - Direct quotes (identifiers/targets/modalities/indications):\n    - “Syros’ orally available, selective **CDK12 inhibitor**”\n    - “Abstract Number: **5393**”\n    - “Presentation Title: An oral and selective **CDK12 inhibitor** demonstrates robust anti-tumor activity”\n\n- **Syros Pharmaceuticals, Inc. — “An Expression Makes a World of Difference January 2019” (corporate slide presentation text as filed)**\n  - URL: `https://edgar.secdatabase.com/54/110465919000970/filing-main.htm`\n  - Direct quotes (identifiers/targets/modalities/indications):\n    - “**CDK12/13 Inhibitor**”\n    - “**SY-1365** (**CDK7 inhibitor**)”\n    - “**SY-5609** (Oral **CDK7 inhibitor**)”\n\n- **Kinnate Biopharma Inc. — Annual Report excerpt discussing CDK12 (10-K text as posted by Fintel)**\n  - URL: `https://fintel.io/doc/sec-kinnate-biopharma-inc-1797768-10k-2023-march-15-19431-843`\n  - Direct quotes (identifiers/targets/modalities/indications):\n    - “**CDK12 inhibition** is expected to produce large tandem duplications”\n    - “limit the expression of DDR genes including **BRCA1** and **BRCA2**”\n    - “combination therapy with currently-approved **PARP inhibitors**”"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 91048,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 8269,
+    "output_tokens_details": {
+      "reasoning_tokens": 7689
+    },
+    "total_tokens": 99317
+  },
+  "user": null,
+  "metadata": {}
+}

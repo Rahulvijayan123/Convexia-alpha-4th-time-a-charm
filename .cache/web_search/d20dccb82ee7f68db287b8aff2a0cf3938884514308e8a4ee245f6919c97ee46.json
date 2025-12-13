@@ -1,0 +1,442 @@
+{
+  "id": "resp_07a683dbcd7e24cf00693c90014df48195a99b72b117f6fb9c",
+  "object": "response",
+  "created_at": 1765576705,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_07a683dbcd7e24cf00693c9001e7148195983b36dde27e4e96",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07a683dbcd7e24cf00693c9004c83481959c2c207e74bcaab1",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CDK12/13\" dual inhibitor investor presentation filetype:pdf"
+      }
+    },
+    {
+      "id": "rs_07a683dbcd7e24cf00693c9006a0b081958dd9e0683fe5f79c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07a683dbcd7e24cf00693c9007fcb88195986a29ba213f1fb6",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "Carrick Therapeutics investor presentation CT7439 pdf"
+      }
+    },
+    {
+      "id": "rs_07a683dbcd7e24cf00693c90099898819597cb31822c7eae43",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07a683dbcd7e24cf00693c900ad6d881958f002c06fcf76dc4",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_07a683dbcd7e24cf00693c900c6e94819595e77f0beb4031dd",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07a683dbcd7e24cf00693c900d5f0081959c59162d7985f1fa",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:ladrxcorp.com \"CDK12/13\" pdf"
+      }
+    },
+    {
+      "id": "rs_07a683dbcd7e24cf00693c900f8cd8819590cdac4c6a35b874",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07a683dbcd7e24cf00693c9012c454819592974b6634721a65",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CDK12/13\" \"investor presentation\" filetype:pdf"
+      }
+    },
+    {
+      "id": "rs_07a683dbcd7e24cf00693c9016177c81958909aa538e89dc0a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07a683dbcd7e24cf00693c9016b83c81958643345ca97db419",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:carricktherapeutics.com presentation pdf"
+      }
+    },
+    {
+      "id": "rs_07a683dbcd7e24cf00693c90199f948195a774e268c0efd6eb",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07a683dbcd7e24cf00693c901b3d248195a47b21ae334473e1",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"Cyclin-K\" \"CDK12/13\" \"investor presentation\" filetype:pdf"
+      }
+    },
+    {
+      "id": "rs_07a683dbcd7e24cf00693c901f3b74819593983cc0823fc79d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07a683dbcd7e24cf00693c901fdf988195b8ba0bbdc765ca64",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.carricktherapeutics.com/investors/news-events/presentations"
+      }
+    },
+    {
+      "id": "rs_07a683dbcd7e24cf00693c9021e4cc8195aa21a8016420004a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07a683dbcd7e24cf00693c9025d2e48195bf59cefb384d12a0",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"SR-4835\" investor presentation filetype:pdf"
+      }
+    },
+    {
+      "id": "rs_07a683dbcd7e24cf00693c902956208195b9a021bcef284d0d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07a683dbcd7e24cf00693c902dbd388195aae15eb1f82c22ad",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CDK12/13\" \"presentation\" \"PDF\" \"investor\""
+      }
+    },
+    {
+      "id": "rs_07a683dbcd7e24cf00693c9031788c8195a26e1f0b3e62c556",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07a683dbcd7e24cf00693c9034c45081958e1cbe6d96798241",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:carricktherapeutics.com filetype:pdf samuraciclib"
+      }
+    },
+    {
+      "id": "rs_07a683dbcd7e24cf00693c903954988195bbe8b3005c058ffd",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07a683dbcd7e24cf00693c9041d398819593e5124f38eafe8c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CT7439 filetype:pdf"
+      }
+    },
+    {
+      "id": "rs_07a683dbcd7e24cf00693c9044f29081958c93fdfa5df5cf4c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07a683dbcd7e24cf00693c904889c081958d477c8c38aeac97",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/US11666578B2/fr"
+      }
+    },
+    {
+      "id": "rs_07a683dbcd7e24cf00693c904a9d848195b625dc8fadb2e18d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07a683dbcd7e24cf00693c904c4d808195b1fad5bdaa277752",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patentimages.storage.googleapis.com/d7/bb/4e/b539efd4f7d429/US11666578.pdf"
+      }
+    },
+    {
+      "id": "rs_07a683dbcd7e24cf00693c904ea36c8195b29b39b6231e3e0e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07a683dbcd7e24cf00693c904f22408195a680a11592a993ab",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patentimages.storage.googleapis.com/db/4e/33/aea35e1a8cc03d/EP4085053A4.pdf"
+      }
+    },
+    {
+      "id": "rs_07a683dbcd7e24cf00693c9050cd608195808bb1c647a8ab8a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07a683dbcd7e24cf00693c9067bfd481959ed2900f762c7e9b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.jci.org/articles/view/193745/pdf"
+      }
+    },
+    {
+      "id": "rs_07a683dbcd7e24cf00693c906c2b1c8195987f62e4d019b409",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07a683dbcd7e24cf00693c906d53ec8195acdbc0c862feb292",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2024-09-23_Carrick_Therapeutics_Announces_First_Patient_25.pdf"
+      }
+    },
+    {
+      "id": "rs_07a683dbcd7e24cf00693c906f86c481958f5b6b65a52bbdb4",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07a683dbcd7e24cf00693c9072318c8195970a186e9e5c0ff2",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/20/carrick-therapeutics-announces-u-s-fda-clearance-of-ind"
+      }
+    },
+    {
+      "id": "rs_07a683dbcd7e24cf00693c9073b17081959c9afe75c8920635",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07a683dbcd7e24cf00693c9073f1148195aec66b99c5a01add",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2023-09-07_Carrick_Therapeutics_Announces_U_S_FDA_Clearance_20.pdf"
+      }
+    },
+    {
+      "id": "rs_07a683dbcd7e24cf00693c90774cd081959e72b52e2473a8af",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07a683dbcd7e24cf00693c9079e9408195a633cf1be8853707",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "Carrick Therapeutics \"company presentation\" filetype:pdf"
+      }
+    },
+    {
+      "id": "rs_07a683dbcd7e24cf00693c907e7a308195b6ddf0f330420727",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07a683dbcd7e24cf00693c908207548195bcf232312783cb3f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "Download",
+        "url": "https://www.jci.org/articles/view/193745/pdf"
+      }
+    },
+    {
+      "id": "rs_07a683dbcd7e24cf00693c908494ec819581cb7367703b0fdc",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07a683dbcd7e24cf00693c9084e7bc8195afe8e8c7fa048bd7",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_07a683dbcd7e24cf00693c9086c5d48195b4f472f2abd0d264",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07a683dbcd7e24cf00693c9087c50081959eed03a299907fd5",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_07a683dbcd7e24cf00693c9089d21881959bc7de8f937e605b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_07a683dbcd7e24cf00693c909b06388195bb90543b33a1c0f1",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 754,
+              "start_index": 562,
+              "title": "Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor)",
+              "url": "https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2024-09-23_Carrick_Therapeutics_Announces_First_Patient_25.pdf"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1594,
+              "start_index": 1398,
+              "title": "Carrick Therapeutics Announces U.S. FDA Clearance of IND for CT7439, a First-In-Class Inhibitor of CDK12/13",
+              "url": "https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2023-09-07_Carrick_Therapeutics_Announces_U_S_FDA_Clearance_20.pdf"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1965,
+              "start_index": 1892,
+              "title": "US11666578B2 - Small molecule inhibitors of CDK12/CDK13 \n        - Google Patents",
+              "url": "https://patents.google.com/patent/US11666578B2/fr"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2423,
+              "start_index": 2299,
+              "title": "",
+              "url": "https://patentimages.storage.googleapis.com/db/4e/33/aea35e1a8cc03d/EP4085053A4.pdf"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2876,
+              "start_index": 2819,
+              "title": "\nJCI -\nCDK12/13 inactivation triggers STING-mediated antitumor immunity in preclinical models\n",
+              "url": "https://www.jci.org/articles/view/193745/pdf"
+            }
+          ],
+          "logprobs": [],
+          "text": "- **Title:** Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor) (PDF)  \n  **URL:** `https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2024-09-23_Carrick_Therapeutics_Announces_First_Patient_25.pdf`  \n  **Direct quote snippets:**\n  > “evaluating **CT7439**, a novel cyclin dependent kinase 12/13 (**CDK12/13**) inhibitor / **Cyclin-K glue-degrader**.”  \n  > “under study ID: **NCT06600789**.”  \n  > “including **ovarian**, **breast** and **Ewing's Sarcoma**.” ([d1io3yog0oux5.cloudfront.net](https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2024-09-23_Carrick_Therapeutics_Announces_First_Patient_25.pdf))\n\n- **Title:** Carrick Therapeutics Announces U.S. FDA Clearance of IND for CT7439, a First-In-Class Inhibitor of CDK12/13 (PDF)  \n  **URL:** `https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2023-09-07_Carrick_Therapeutics_Announces_U_S_FDA_Clearance_20.pdf`  \n  **Direct quote snippets:**\n  > “(FDA) has cleared the Company’s Investigational New Drug (**IND**) application for **CT7439**, a novel cyclin dependent kinase 12/13 (**CDK12/13**) inhibitor.”  \n  > “initiate the Phase 1 clinical trial in the **first half of 2024**”  \n  > “including **breast**, **ovarian** and **Ewing's Sarcoma**.” ([d1io3yog0oux5.cloudfront.net](https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2023-09-07_Carrick_Therapeutics_Announces_U_S_FDA_Clearance_20.pdf))\n\n- **Title:** US11666578B2 — Small molecule inhibitors of CDK12/CDK13 (Google Patents)  \n  **URL:** `https://patents.google.com/patent/US11666578B2/fr`  \n  **Direct quote snippets:**\n  > “**US11666578B2** - **Small molecule inhibitors of CDK12/CDK13**”  \n  > “Application number **US17/053,652**” ([patents.google.com](https://patents.google.com/patent/US11666578B2/fr))\n\n- **Title:** EP4085053A4 — CANCER TREATMENT WITH CDK12/13 INHIBITORS (PDF)  \n  **URL:** `https://patentimages.storage.googleapis.com/db/4e/33/aea35e1a8cc03d/EP4085053A4.pdf`  \n  **Direct quote snippets:**\n  > “**EP4085053A4**”  \n  > “Application number: **EP 20 91 05 51**”  \n  > “**WO 2019213403 A1 (KINNATE BIOPHARMA INC [US])**” ([patentimages.storage.googleapis.com](https://patentimages.storage.googleapis.com/db/4e/33/aea35e1a8cc03d/EP4085053A4.pdf))\n\n- **Title:** JCI — CDK12/13 inactivation triggers STING-mediated antitumor immunity in preclinical models  \n  **URL:** `https://www.jci.org/articles/view/193745/pdf`  \n  **Direct quote snippets:**\n  > “**CDK12/13** inactivation triggers **STING**-mediated antitumor immunity in preclinical models”  \n  > “**CDK12/13** degradation delayed tumor growth and synergized with **anti–PD-1** therapy” ([jci.org](https://www.jci.org/articles/view/193745/pdf))"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 76117,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 7498,
+    "output_tokens_details": {
+      "reasoning_tokens": 6670
+    },
+    "total_tokens": 83615
+  },
+  "user": null,
+  "metadata": {}
+}

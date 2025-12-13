@@ -1,0 +1,295 @@
+{
+  "id": "resp_0f776c3343c2230000693c96c3deb08193a133c84c68b306b5",
+  "object": "response",
+  "created_at": 1765578435,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0f776c3343c2230000693c96c428d08193bc884c7ed849ff14",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f776c3343c2230000693c96c70554819399d0900d3a4b9db9",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CCNK PROTAC"
+      }
+    },
+    {
+      "id": "rs_0f776c3343c2230000693c96c9721c819383ca6c58556219f7",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f776c3343c2230000693c96d779888193b0a5c8353963daf1",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "HQ461 cyclin K degrader sponsor company"
+      }
+    },
+    {
+      "id": "rs_0f776c3343c2230000693c96d90b98819382a0470c1349fa14",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f776c3343c2230000693c96e26ccc819392acaf1b9f2cbe14",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CCNK\" \"phase\" trial drug"
+      }
+    },
+    {
+      "id": "rs_0f776c3343c2230000693c96e536d08193bc858586a2c85e45",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f776c3343c2230000693c96e803208193bc586a6f7e2071c3",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CT7439 clinical trial"
+      }
+    },
+    {
+      "id": "rs_0f776c3343c2230000693c96ea3e8c819391bb41d40c705276",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f776c3343c2230000693c96ef1aec8193bdf865854085eae5",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov NCT06600789 CT7439"
+      }
+    },
+    {
+      "id": "rs_0f776c3343c2230000693c96f1c2688193b3b8192c5b662124",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f776c3343c2230000693c970732908193bb0b609a33052bcc",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0f776c3343c2230000693c97084b848193978cfa94add5dbe0",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f776c3343c2230000693c9710c7e0819392b1ddc180768453",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_0f776c3343c2230000693c9711984081939525fafea57b2817",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f776c3343c2230000693c9712c08881938565d1d53dc01576",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "https://clinicaltrials.gov/api/v2/studies/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0f776c3343c2230000693c971535f88193a1833e15c72a75fa",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f776c3343c2230000693c97164cd8819391755f330b8caf0f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "api/v2/studies/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0f776c3343c2230000693c9718bd788193a249b9ae4c9590e0",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f776c3343c2230000693c9720476481939bbb87f957c3b213",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://cdek.pharmacy.purdue.edu/trial/NCT06600789/"
+      }
+    },
+    {
+      "id": "rs_0f776c3343c2230000693c972114a08193ac0727cda099a4e9",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f776c3343c2230000693c972aa548819385ea06c31b9d590a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "clinicaltrials.gov api query full_studies NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0f776c3343c2230000693c972fe5b08193998e0049ba8b8bdc",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f776c3343c2230000693c973357148193ba5d9857adc4a3a8",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "ct2/show/NCT06600789 displayxml"
+      }
+    },
+    {
+      "id": "rs_0f776c3343c2230000693c973715e48193b20d819a506eb0b8",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f776c3343c2230000693c973912108193b30b56c6c25c30cd",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov \"NCT06600789\""
+      }
+    },
+    {
+      "id": "rs_0f776c3343c2230000693c973d38988193a670d60b25a69230",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f776c3343c2230000693c9774de1081938a5b32e964b30058",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CCNK gene cyclin K encoded by CCNK"
+      }
+    },
+    {
+      "id": "rs_0f776c3343c2230000693c9778d5208193999248cb7cf9c135",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f776c3343c2230000693c979ca790819391d8eb5de6da9635",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34864331/"
+      }
+    },
+    {
+      "id": "rs_0f776c3343c2230000693c979f1ba88193b98672289f7cdb72",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0f776c3343c2230000693c97bfb0b481938381dbc915ec35f7",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": false,\n  \"assets\": [],\n  \"rejected_reason\": \"CCNK is a human gene/protein target (cyclin K), not a drug asset identifier; therefore sponsor/modality/indication/stage/geography for a drug cannot be validated. Evidence: https://www.ncbi.nlm.nih.gov/gene/8812 ; https://en.wikipedia.org/wiki/Cyclin_K\"\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 67980,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 15076,
+    "output_tokens_details": {
+      "reasoning_tokens": 14984
+    },
+    "total_tokens": 83056
+  },
+  "user": null,
+  "metadata": {}
+}

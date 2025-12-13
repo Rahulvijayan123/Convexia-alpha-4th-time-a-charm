@@ -1,0 +1,438 @@
+{
+  "id": "resp_05fbdbc9b12e3ac000693c959096d0819484f7bde8ec3b99e9",
+  "object": "response",
+  "created_at": 1765578128,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_05fbdbc9b12e3ac000693c959237f881949e0879f38bb3b635",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05fbdbc9b12e3ac000693c9594154c819498e9e9fa0ebecfb2",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12 PROTAC degrader pipeline company"
+      }
+    },
+    {
+      "id": "rs_05fbdbc9b12e3ac000693c9594edc48194accc1e8b2d43e5f7",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05fbdbc9b12e3ac000693c9596795c8194997d488e24617c27",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CT7439 cyclin-K glue degrader CDK12 company pipeline"
+      }
+    },
+    {
+      "id": "rs_05fbdbc9b12e3ac000693c9598939c8194adedeca517780f8d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05fbdbc9b12e3ac000693c959b55cc81949db6c88791b6fd5f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "Cyclin K degrader company CDK12"
+      }
+    },
+    {
+      "id": "rs_05fbdbc9b12e3ac000693c959d4e40819499d444b511eb9c34",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05fbdbc9b12e3ac000693c95a1bc8c8194b8ff8f90eeb3c425",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CDK12\" \"Cyclin-K\" degrader company"
+      }
+    },
+    {
+      "id": "rs_05fbdbc9b12e3ac000693c95a3b6208194b4e60c24029e3b80",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05fbdbc9b12e3ac000693c95a551188194bdd32160a9154a47",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT06600789 CT7439 CDK12/13 Cyclin-K degrader"
+      }
+    },
+    {
+      "id": "rs_05fbdbc9b12e3ac000693c95a7e7a88194a0fe8145ea10ddda",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05fbdbc9b12e3ac000693c95a930cc8194ba1d78b021eeebaa",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov NCT06600789 CT7439"
+      }
+    },
+    {
+      "id": "rs_05fbdbc9b12e3ac000693c95ab635081948efb8c2c09cdc72f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05fbdbc9b12e3ac000693c95ad9ba081949c7c92b385ac5b74",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_05fbdbc9b12e3ac000693c95af265c8194ae16802dcf44e7a3",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05fbdbc9b12e3ac000693c95b0eb248194b81204c0940e6deb",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "ClinicalTrials.gov NCT06600789 study"
+      }
+    },
+    {
+      "id": "rs_05fbdbc9b12e3ac000693c95b281388194a1185299fe90988b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05fbdbc9b12e3ac000693c95b3b5908194a2f6d9e59a101953",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12 PROTAC WO patent"
+      }
+    },
+    {
+      "id": "rs_05fbdbc9b12e3ac000693c95b720b0819483d048507e250d51",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05fbdbc9b12e3ac000693c95b86f74819482c5d1ed1c01586f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "BSJ-4-116 patent WO"
+      }
+    },
+    {
+      "id": "rs_05fbdbc9b12e3ac000693c95bc5a7c81949034f222b8af670f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05fbdbc9b12e3ac000693c95cb21188194bc3d22026dc0fd02",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor"
+      }
+    },
+    {
+      "id": "rs_05fbdbc9b12e3ac000693c95ce2950819498ccd260811d1044",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05fbdbc9b12e3ac000693c95cf55c0819497de26e155ef845d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "Cat. No.",
+        "url": "https://www.tocris.com/products/bsj-4-116_7528"
+      }
+    },
+    {
+      "id": "rs_05fbdbc9b12e3ac000693c95d27b148194877ec54f38c2d4b4",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_05fbdbc9b12e3ac000693c95ded05c819485913e0a44bc7bd1",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 315,
+              "start_index": 224,
+              "title": "CDK12/13 Inhibitor :: Carrick Therapeutics, Inc.",
+              "url": "https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 538,
+              "start_index": 447,
+              "title": "CDK12/13 Inhibitor :: Carrick Therapeutics, Inc.",
+              "url": "https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 719,
+              "start_index": 628,
+              "title": "CDK12/13 Inhibitor :: Carrick Therapeutics, Inc.",
+              "url": "https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1382,
+              "start_index": 1182,
+              "title": "Carrick Therapeutics Announces First Patient Dosed in Phase",
+              "url": "https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1685,
+              "start_index": 1485,
+              "title": "Carrick Therapeutics Announces First Patient Dosed in Phase",
+              "url": "https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1917,
+              "start_index": 1717,
+              "title": "Carrick Therapeutics Announces First Patient Dosed in Phase",
+              "url": "https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2209,
+              "start_index": 2128,
+              "title": "\n\n    \n        Trial | NCT06600789\n    \n\n",
+              "url": "https://cdek.pharmacy.purdue.edu/trial/NCT06600789/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2382,
+              "start_index": 2301,
+              "title": "\n\n    \n        Trial | NCT06600789\n    \n\n",
+              "url": "https://cdek.pharmacy.purdue.edu/trial/NCT06600789/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2531,
+              "start_index": 2450,
+              "title": "\n\n    \n        Trial | NCT06600789\n    \n\n",
+              "url": "https://cdek.pharmacy.purdue.edu/trial/NCT06600789/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2923,
+              "start_index": 2835,
+              "title": "Noncovalent CDK12/13 dual inhibitors-based PROTACs degrade CDK12-Cyclin K complex and induce synthetic lethality with PARP inhibitor - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34864331/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3104,
+              "start_index": 3016,
+              "title": "Noncovalent CDK12/13 dual inhibitors-based PROTACs degrade CDK12-Cyclin K complex and induce synthetic lethality with PARP inhibitor - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34864331/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3476,
+              "start_index": 3388,
+              "title": "Development of an orally bioavailable CDK12/13 degrader and induction of synthetic lethality with AKT pathway inhibition - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39353441/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3619,
+              "start_index": 3531,
+              "title": "Development of an orally bioavailable CDK12/13 degrader and induction of synthetic lethality with AKT pathway inhibition - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39353441/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3738,
+              "start_index": 3650,
+              "title": "Development of an orally bioavailable CDK12/13 degrader and induction of synthetic lethality with AKT pathway inhibition - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39353441/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3979,
+              "start_index": 3917,
+              "title": "BSJ-4-116 | Active Degraders | Tocris Bioscience",
+              "url": "https://www.tocris.com/products/bsj-4-116_7528"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4096,
+              "start_index": 4034,
+              "title": "BSJ-4-116 | Active Degraders | Tocris Bioscience",
+              "url": "https://www.tocris.com/products/bsj-4-116_7528"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4227,
+              "start_index": 4165,
+              "title": "BSJ-4-116 | Active Degraders | Tocris Bioscience",
+              "url": "https://www.tocris.com/products/bsj-4-116_7528"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4538,
+              "start_index": 4450,
+              "title": "Discovery and resistance mechanism of a selective CDK12 degrader - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/33753926/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4672,
+              "start_index": 4584,
+              "title": "Discovery and resistance mechanism of a selective CDK12 degrader - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/33753926/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4944,
+              "start_index": 4862,
+              "title": "Probe BSJ-4-116 | Chemical Probes Portal",
+              "url": "https://www.chemicalprobes.org/bsj-4-116?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 5077,
+              "start_index": 4995,
+              "title": "Probe BSJ-4-116 | Chemical Probes Portal",
+              "url": "https://www.chemicalprobes.org/bsj-4-116?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 5348,
+              "start_index": 5265,
+              "title": "YJ1206 | CDK12/13 PROTAC | Probechem Biochemicals",
+              "url": "https://www.probechem.com/products_YJ1206.html?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 5508,
+              "start_index": 5425,
+              "title": "YJ1206 | CDK12/13 PROTAC | Probechem Biochemicals",
+              "url": "https://www.probechem.com/products_YJ1206.html?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 5804,
+              "start_index": 5708,
+              "title": "PROTAC CDK12/13 Degrader-1 - Immunomart",
+              "url": "https://immunomart.org/product/protac-cdk12-13-degrader-1/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 5928,
+              "start_index": 5832,
+              "title": "PROTAC CDK12/13 Degrader-1 - Immunomart",
+              "url": "https://immunomart.org/product/protac-cdk12-13-degrader-1/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 6071,
+              "start_index": 5975,
+              "title": "PROTAC CDK12/13 Degrader-1 - Immunomart",
+              "url": "https://immunomart.org/product/protac-cdk12-13-degrader-1/?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "- **Title:** CDK12/13 Inhibitor :: Carrick Therapeutics, Inc.\n  - **URL:** `https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor`\n  - **Direct quote snippets:**\n    - “CT7439: CDK12/13 inhibitor/Cyclin-K Degrader” ([carricktherapeutics.com](https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor))\n    - “CT7439 is a CDK12/13/Cyclin-K degrader… implicated in multiple cancer types including breast, ovarian and Ewing's Sarcoma.” ([carricktherapeutics.com](https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor))\n    - “Our CDK12/13 inhibitor/Cyclin-K degrader… acts as… a 'glue degrader' of Cyclin-K” ([carricktherapeutics.com](https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor))\n\n- **Title:** Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor) (GlobeNewswire)\n  - **URL:** `https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html`\n  - **Direct quote snippets:**\n    - “Phase 1 clinical trial evaluating CT7439, a… (CDK12/13) inhibitor / Cyclin-K glue-degrader.” ([globenewswire.com](https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html))\n    - “enrolling patients with advanced solid tumors, including ovarian, breast and Ewing's Sarcoma.” ([globenewswire.com](https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html))\n    - “study ID: NCT06600789.” ([globenewswire.com](https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html))\n\n- **Title:** Trial | NCT06600789 (Clinical Drug Experience Knowledgebase — Purdue)\n  - **URL:** `https://cdek.pharmacy.purdue.edu/trial/NCT06600789/`\n  - **Direct quote snippets:**\n    - “Trial | NCT06600789” ([cdek.pharmacy.purdue.edu](https://cdek.pharmacy.purdue.edu/trial/NCT06600789/))\n    - “A Modular… Phase 1/2… to Evaluate… CT7439… in Participants With Solid Malignancies” ([cdek.pharmacy.purdue.edu](https://cdek.pharmacy.purdue.edu/trial/NCT06600789/))\n    - “Intervention/Treatment… CT7439 Capsules (0.5 mg, 1mg, 3mg)” ([cdek.pharmacy.purdue.edu](https://cdek.pharmacy.purdue.edu/trial/NCT06600789/))\n\n- **Title:** Noncovalent CDK12/13 dual inhibitors-based PROTACs degrade CDK12-Cyclin K complex and induce synthetic lethality with PARP inhibitor (PubMed)\n  - **URL:** `https://pubmed.ncbi.nlm.nih.gov/34864331/`\n  - **Direct quote snippets:**\n    - “we have synthesized a potent PROTAC degrader PP-C8” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/34864331/?utm_source=openai))\n    - “synergistic antiproliferative effects with PARP inhibitor in… breast cancer (TNBC).” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/34864331/?utm_source=openai))\n\n- **Title:** Development of an orally bioavailable CDK12/13 degrader and induction of synthetic lethality with AKT pathway inhibition (PubMed)\n  - **URL:** `https://pubmed.ncbi.nlm.nih.gov/39353441/`\n  - **Direct quote snippets:**\n    - “selective CDK12/13 PROTAC degrader, YJ9069” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/39353441/?utm_source=openai))\n    - “orally bioavailable CDK12/13 degrader, YJ1206” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/39353441/?utm_source=openai))\n    - “prostate cancer cells” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/39353441/?utm_source=openai))\n\n- **Title:** BSJ-4-116 | Active Degraders | Tocris Bioscience\n  - **URL:** `https://www.tocris.com/products/bsj-4-116_7528`\n  - **Direct quote snippets:**\n    - “Cat. No. 7528” ([tocris.com](https://www.tocris.com/products/bsj-4-116_7528))\n    - “Description: Selective CDK12 PROTAC® Degrader” ([tocris.com](https://www.tocris.com/products/bsj-4-116_7528))\n    - “sensitizes them to PARP inhibitor Olaparib (Cat. No. 7579).” ([tocris.com](https://www.tocris.com/products/bsj-4-116_7528))\n\n- **Title:** Discovery and resistance mechanism of a selective CDK12 degrader (PubMed)\n  - **URL:** `https://pubmed.ncbi.nlm.nih.gov/33753926/`\n  - **Direct quote snippets:**\n    - “a CDK12-specific degrader, BSJ-4-116.” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/33753926/?utm_source=openai))\n    - “combination with… inhibitor olaparib” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/33753926/?utm_source=openai))\n\n- **Title:** Probe BSJ-4-116 | Chemical Probes Portal\n  - **URL:** `https://www.chemicalprobes.org/bsj-4-116`\n  - **Direct quote snippets:**\n    - “BSJ-4-116 : Degrader (PROTAC) of CDK12” ([chemicalprobes.org](https://www.chemicalprobes.org/bsj-4-116?utm_source=openai))\n    - “DOI Reference: 10.1038/s41589-021-00765-y” ([chemicalprobes.org](https://www.chemicalprobes.org/bsj-4-116?utm_source=openai))\n\n- **Title:** YJ1206 | CDK12/13 PROTAC | Probechem Biochemicals\n  - **URL:** `https://www.probechem.com/products_YJ1206.html`\n  - **Direct quote snippets:**\n    - “CAS No.: 3053716-98-3” ([probechem.com](https://www.probechem.com/products_YJ1206.html?utm_source=openai))\n    - “YJ1206 is a selective, orally bioavailable CDK12/13 PROTAC degrader” ([probechem.com](https://www.probechem.com/products_YJ1206.html?utm_source=openai))\n\n- **Title:** PROTAC CDK12/13 Degrader-1 (Immunomart)\n  - **URL:** `https://immunomart.org/product/protac-cdk12-13-degrader-1/`\n  - **Direct quote snippets:**\n    - “PROTAC CDK12/13 Degrader-1 (7f)” ([immunomart.org](https://immunomart.org/product/protac-cdk12-13-degrader-1/?utm_source=openai))\n    - “Web ID – HY-151110” ([immunomart.org](https://immunomart.org/product/protac-cdk12-13-degrader-1/?utm_source=openai))\n    - “can be used in breast cancer research” ([immunomart.org](https://immunomart.org/product/protac-cdk12-13-degrader-1/?utm_source=openai))"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 51017,
+    "input_tokens_details": {
+      "cached_tokens": 4096
+    },
+    "output_tokens": 5569,
+    "output_tokens_details": {
+      "reasoning_tokens": 4041
+    },
+    "total_tokens": 56586
+  },
+  "user": null,
+  "metadata": {}
+}

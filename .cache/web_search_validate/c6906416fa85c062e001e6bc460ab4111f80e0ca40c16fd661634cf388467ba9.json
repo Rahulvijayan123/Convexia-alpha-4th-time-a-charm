@@ -1,0 +1,295 @@
+{
+  "id": "resp_00c9042495c8251800693c804b7e90819092a0b5f0a519ae5e",
+  "object": "response",
+  "created_at": 1765572683,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_00c9042495c8251800693c804c95b8819092b584d395189cc8",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00c9042495c8251800693c8050e9b08190adda75611434a696",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT07045311"
+      }
+    },
+    {
+      "id": "rs_00c9042495c8251800693c80533b108190b5cac35ae03d743a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00c9042495c8251800693c80624c848190aaacdb20b756661d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT07045311"
+      }
+    },
+    {
+      "id": "rs_00c9042495c8251800693c8062e28881908d3589a77f416f59",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00c9042495c8251800693c8065653481908a44acc0ad58e31a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_00c9042495c8251800693c80663564819088aaffaaa2a4a77f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00c9042495c8251800693c8067cb4481908d826b3fd43346b1",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "clinicaltrials.gov api/v2/studies NCT07045311"
+      }
+    },
+    {
+      "id": "rs_00c9042495c8251800693c80690c508190a4398dcc79541298",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00c9042495c8251800693c8069c4f8819099f936c589c48fa9",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "https://clinicaltrials.gov/api/v2/studies/NCT07045311"
+      }
+    },
+    {
+      "id": "rs_00c9042495c8251800693c806bcacc8190bafb90363bb8995a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00c9042495c8251800693c806da1588190b42d285d131c40d9",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "api/v2/studies/NCT07045311"
+      }
+    },
+    {
+      "id": "rs_00c9042495c8251800693c806f33bc819091aae998e8ef8160",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00c9042495c8251800693c8073cfbc8190aa46b8f1a4dd4791",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT07045311"
+      }
+    },
+    {
+      "id": "rs_00c9042495c8251800693c8074c85881908a344ee19cce42f8",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00c9042495c8251800693c80785e8c8190bb89da0e70012787",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "ct2/show/NCT07045311"
+      }
+    },
+    {
+      "id": "rs_00c9042495c8251800693c807b45288190944147aca6f26a84",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00c9042495c8251800693c80845d548190bf4c15d18991ad80",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pryzm.ozmosi.com/product/js-207"
+      }
+    },
+    {
+      "id": "rs_00c9042495c8251800693c808566e0819088ef43d86dab5636",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00c9042495c8251800693c80870df08190ab3c46df045bf1dd",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://go.drugbank.com/drugs/DB00062/clinical_trials?conditions=DBCOND0068542%2CDBCOND0080211&phase=2&purpose=treatment&status=recruiting"
+      }
+    },
+    {
+      "id": "rs_00c9042495c8251800693c8087fbb4819094739d1f2252ea93",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00c9042495c8251800693c80914888819088a03281797a99ab",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "9MW2821 target modality"
+      }
+    },
+    {
+      "id": "rs_00c9042495c8251800693c8093fd38819094ae5eea83c2319a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00c9042495c8251800693c809b6dec8190b353d44f352dbd3f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://biotechhunter.com/trials/NCT07045311"
+      }
+    },
+    {
+      "id": "rs_00c9042495c8251800693c809ca72481908dade50ce2a3061b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00c9042495c8251800693c80ac9eb0819080fafc44ae0f67df",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.trialx.com/clinical-trials/listings/307936/js207-combination-therapy-in-triple-negative-breast-cancer/"
+      }
+    },
+    {
+      "id": "rs_00c9042495c8251800693c80adf40c8190bfec05ae5f398ac5",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00c9042495c8251800693c80f98eb481908bc21894ad1fc64f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "JS207 Shanghai Junshi Bioscience PD-1 VEGF bispecific"
+      }
+    },
+    {
+      "id": "rs_00c9042495c8251800693c80fced208190a72fdb73fa9fd091",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00c9042495c8251800693c8117a5a08190acfa7bc56d652472",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://mabwell.com/en/news_info/id-156.html"
+      }
+    },
+    {
+      "id": "rs_00c9042495c8251800693c8119a8748190bead58fcf3024b65",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_00c9042495c8251800693c812d56688190836ddd1ffe2a8844",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": true,\n  \"assets\": [\n    {\n      \"drug_name_code\": \"JS207\",\n      \"sponsor\": \"Shanghai Junshi Bioscience Co., Ltd.\",\n      \"target\": \"PD-1 (PDCD1) and VEGF\",\n      \"modality\": \"Bispecific antibody\",\n      \"indication\": \"Recurrent or metastatic triple-negative breast cancer (TNBC) (first-line combination therapy)\",\n      \"development_stage\": \"Phase 2\",\n      \"geography\": \"China\",\n      \"sources\": [\n        \"https://biotechhunter.com/trials/NCT07045311\",\n        \"https://www.trialx.com/clinical-trials/listings/307936/js207-combination-therapy-in-triple-negative-breast-cancer/\",\n        \"https://www.cancer.gov/publications/dictionaries/cancer-drug/def/anti-pd-1-anti-vegf-bispecific-antibody-js207\",\n        \"https://www.globenewswire.com/news-release/2025/10/17/3168415/0/en/Junshi-Biosciences-Announces-FDA-s-Approval-of-IND-Application-for-Phase-2-3-Clinical-Study-of-JS207-for-the-Neoadjuvant-Treatment-of-NSCLC-Patients.html\"\n      ]\n    },\n    {\n      \"drug_name_code\": \"9MW2821\",\n      \"sponsor\": \"Mabwell (Shanghai) Bioscience Co., Ltd.\",\n      \"target\": \"Nectin-4 (PVRL4)\",\n      \"modality\": \"Antibody-drug conjugate (ADC) (anti-nectin-4 mAb conjugated to MMAE)\",\n      \"indication\": \"Recurrent or metastatic triple-negative breast cancer (TNBC) (in combination with JS207)\",\n      \"development_stage\": \"Phase 2\",\n      \"geography\": \"China\",\n      \"sources\": [\n        \"https://biotechhunter.com/trials/NCT07045311\",\n        \"https://www.trialx.com/clinical-trials/listings/307936/js207-combination-therapy-in-triple-negative-breast-cancer/\",\n        \"https://www.cancer.gov/publications/dictionaries/cancer-drug/def/bulumtatug-fuvedotin\",\n        \"https://mabwell.com/en/news_info/id-156.html\"\n      ]\n    }\n  ],\n  \"rejected_reason\": null\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 53357,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 13257,
+    "output_tokens_details": {
+      "reasoning_tokens": 12736
+    },
+    "total_tokens": 66614
+  },
+  "user": null,
+  "metadata": {}
+}

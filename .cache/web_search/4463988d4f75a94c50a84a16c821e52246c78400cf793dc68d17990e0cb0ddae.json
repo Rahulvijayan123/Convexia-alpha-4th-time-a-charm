@@ -1,0 +1,476 @@
+{
+  "id": "resp_0a865f594f45f0c000693c816b78a48197a6236b8fa8d2295c",
+  "object": "response",
+  "created_at": 1765572971,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0a865f594f45f0c000693c816bf3748197b4b4a417efe54580",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a865f594f45f0c000693c816d3ab48197b3caaae513af7e45",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12 PROTAC WO assignee compound"
+      }
+    },
+    {
+      "id": "rs_0a865f594f45f0c000693c816ff0588197bc17ab4187ba23c6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a865f594f45f0c000693c81723c048197bbc68bdc1866f1bf",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CT7439 WO patent"
+      }
+    },
+    {
+      "id": "rs_0a865f594f45f0c000693c8174453c81979114994c08d7dc9a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a865f594f45f0c000693c81766adc81979cb63560ef773055",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "WO CDK12 CDK13 inhibitor SR-4835 purine benzimidazole assignee"
+      }
+    },
+    {
+      "id": "rs_0a865f594f45f0c000693c817925a88197ace4fb303a20707d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a865f594f45f0c000693c81795ed4819782f7c607aaf934ad",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:patentscope.wipo.int CDK12 WO"
+      }
+    },
+    {
+      "id": "rs_0a865f594f45f0c000693c817cdee48197b2baafeb03a72e3c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a865f594f45f0c000693c818035f4819794739cb90b088966",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CT7439 NCT"
+      }
+    },
+    {
+      "id": "rs_0a865f594f45f0c000693c818415e48197bc2a6b511925e8c6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a865f594f45f0c000693c818e57d88197864a1a894973ab04",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/WO2021138215A1/en"
+      }
+    },
+    {
+      "id": "rs_0a865f594f45f0c000693c8190320c8197ad694d3742bd42dc",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a865f594f45f0c000693c8191164081979cb9d12a893cff53",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "Publication number",
+        "url": "https://patents.google.com/patent/WO2019217421A1/en"
+      }
+    },
+    {
+      "id": "rs_0a865f594f45f0c000693c8194484c8197a5c00d3abe46a7be",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a865f594f45f0c000693c8195c1508197a2d2e712aca73816",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/WO2019217421A1/en"
+      }
+    },
+    {
+      "id": "rs_0a865f594f45f0c000693c8197c0488197bd1fdb89f6453ba6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a865f594f45f0c000693c8198416481979f7266bf2ce85f6d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase"
+      }
+    },
+    {
+      "id": "rs_0a865f594f45f0c000693c819974ac8197b572ca8e1a338e8b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a865f594f45f0c000693c819d08cc8197ae864140280283ff",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "breast cancer",
+        "url": "https://patents.google.com/patent/WO2019217421A1/en"
+      }
+    },
+    {
+      "id": "rs_0a865f594f45f0c000693c819eadf08197b797fce09b5b3250",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a865f594f45f0c000693c81a091348197bb10f0060a16a618",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "THZ531",
+        "url": "https://patents.google.com/patent/WO2018098361A1/en"
+      }
+    },
+    {
+      "id": "rs_0a865f594f45f0c000693c81a33cfc8197a88f8956486b0f79",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a865f594f45f0c000693c81af5a80819799fd825aef1c67de",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://ip-coster.com/PCTCostCalculation?id=PCT%2FIB2023%2F056952"
+      }
+    },
+    {
+      "id": "rs_0a865f594f45f0c000693c81b27d9881979cc4137b1fbfdedc",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a865f594f45f0c000693c81b440bc81978c0a4bfdd86bb07d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34864331/"
+      }
+    },
+    {
+      "id": "rs_0a865f594f45f0c000693c81b6f2bc8197ab0ba135be161b2e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a865f594f45f0c000693c81b87110819789ea105734677a5a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "PP-C8",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34864331/"
+      }
+    },
+    {
+      "id": "rs_0a865f594f45f0c000693c81bcebe481979bffb72c1ca3e1b0",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a865f594f45f0c000693c81c9cfa881979a1e7f9753bc6762",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.axonmedchem.com/4281-ll-k12-18"
+      }
+    },
+    {
+      "id": "rs_0a865f594f45f0c000693c81cb0b608197b28fd44fc8d9cb14",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0a865f594f45f0c000693c81d2422c81979ce8c5d523ec7be3",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 312,
+              "start_index": 237,
+              "title": "WO2021138215A1 - Treatment of cancer with cdk12/13 inhibitors \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2021138215A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 439,
+              "start_index": 364,
+              "title": "WO2021138215A1 - Treatment of cancer with cdk12/13 inhibitors \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2021138215A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 617,
+              "start_index": 542,
+              "title": "WO2021138215A1 - Treatment of cancer with cdk12/13 inhibitors \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2021138215A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 929,
+              "start_index": 854,
+              "title": "WO2019217421A1 - Small molecule inhibitors of cdk12/cdk13 \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2019217421A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1061,
+              "start_index": 986,
+              "title": "WO2019217421A1 - Small molecule inhibitors of cdk12/cdk13 \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2019217421A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1228,
+              "start_index": 1153,
+              "title": "WO2019217421A1 - Small molecule inhibitors of cdk12/cdk13 \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2019217421A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1565,
+              "start_index": 1490,
+              "title": "WO2018098361A1 - Inhibitors of cyclin-dependent kinase 12 (cdk12) and uses thereof \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2018098361A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1703,
+              "start_index": 1628,
+              "title": "WO2018098361A1 - Inhibitors of cyclin-dependent kinase 12 (cdk12) and uses thereof \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2018098361A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1866,
+              "start_index": 1791,
+              "title": "WO2018098361A1 - Inhibitors of cyclin-dependent kinase 12 (cdk12) and uses thereof \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2018098361A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2443,
+              "start_index": 2272,
+              "title": "Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor) :: Carrick Therapeutics, Inc.",
+              "url": "https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2648,
+              "start_index": 2477,
+              "title": "Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor) :: Carrick Therapeutics, Inc.",
+              "url": "https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2877,
+              "start_index": 2706,
+              "title": "Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor) :: Carrick Therapeutics, Inc.",
+              "url": "https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3238,
+              "start_index": 3154,
+              "title": "IP-Coster | WO2024009232 | SUBSTITUTED N-(PYRIDIN-2-YL)ACETAMIDE DERIVATIVES AS CDK12/13 INHIBITORS",
+              "url": "https://ip-coster.com/PCTCostCalculation?id=PCT%2FIB2023%2F056952"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3373,
+              "start_index": 3289,
+              "title": "IP-Coster | WO2024009232 | SUBSTITUTED N-(PYRIDIN-2-YL)ACETAMIDE DERIVATIVES AS CDK12/13 INHIBITORS",
+              "url": "https://ip-coster.com/PCTCostCalculation?id=PCT%2FIB2023%2F056952"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3515,
+              "start_index": 3431,
+              "title": "IP-Coster | WO2024009232 | SUBSTITUTED N-(PYRIDIN-2-YL)ACETAMIDE DERIVATIVES AS CDK12/13 INHIBITORS",
+              "url": "https://ip-coster.com/PCTCostCalculation?id=PCT%2FIB2023%2F056952"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3804,
+              "start_index": 3734,
+              "title": "Noncovalent CDK12/13 dual inhibitors-based PROTACs degrade CDK12-Cyclin K complex and induce synthetic lethality with PARP inhibitor - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34864331/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3961,
+              "start_index": 3891,
+              "title": "Noncovalent CDK12/13 dual inhibitors-based PROTACs degrade CDK12-Cyclin K complex and induce synthetic lethality with PARP inhibitor - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34864331/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4279,
+              "start_index": 4209,
+              "title": "Discovery of ZLC491 as a Potent, Selective, and Orally Bioavailable CDK12/13 PROTAC Degrader - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39388374/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4421,
+              "start_index": 4351,
+              "title": "Discovery of ZLC491 as a Potent, Selective, and Orally Bioavailable CDK12/13 PROTAC Degrader - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39388374/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4787,
+              "start_index": 4717,
+              "title": "Therapeutic Targeting of CDK12/CDK13 in Triple-Negative Breast Cancer - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/31668947/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 5129,
+              "start_index": 5059,
+              "title": "Discovery of novel imidazo[1,2-b]pyridazine derivatives as potent covalent inhibitors of CDK12/13 - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39955845/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 5261,
+              "start_index": 5191,
+              "title": "Discovery of novel imidazo[1,2-b]pyridazine derivatives as potent covalent inhibitors of CDK12/13 - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39955845/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 5540,
+              "start_index": 5477,
+              "title": "LL-K12-18 | CDK12-DDB1enhancer,Cyclin K degrader | Axon 4281 | Axon Medchem",
+              "url": "https://www.axonmedchem.com/4281-ll-k12-18"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 5673,
+              "start_index": 5610,
+              "title": "LL-K12-18 | CDK12-DDB1enhancer,Cyclin K degrader | Axon 4281 | Axon Medchem",
+              "url": "https://www.axonmedchem.com/4281-ll-k12-18"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 5779,
+              "start_index": 5716,
+              "title": "LL-K12-18 | CDK12-DDB1enhancer,Cyclin K degrader | Axon 4281 | Axon Medchem",
+              "url": "https://www.axonmedchem.com/4281-ll-k12-18"
+            }
+          ],
+          "logprobs": [],
+          "text": "- **Title:** WO2021138215A1 — Treatment of cancer with cdk12/13 inhibitors (Google Patents)  \n  - **URL:** `https://patents.google.com/patent/WO2021138215A1/en`  \n  - **Direct quote snippets:**  \n    - “WO2021138215A1 PCT/US2020/066967” ([patents.google.com](https://patents.google.com/patent/WO2021138215A1/en))  \n    - “Current Assignee … Kinnate Biopharma Inc” ([patents.google.com](https://patents.google.com/patent/WO2021138215A1/en))  \n    - “compositions and methods for the treatment of cancer include… triple negative breast cancer” ([patents.google.com](https://patents.google.com/patent/WO2021138215A1/en))  \n\n- **Title:** WO2019217421A1 — Small molecule inhibitors of cdk12/cdk13 (Google Patents)  \n  - **URL:** `https://patents.google.com/patent/WO2019217421A1/en`  \n  - **Direct quote snippets:**  \n    - “WO2019217421A1 PCT/US2019/031116” ([patents.google.com](https://patents.google.com/patent/WO2019217421A1/en))  \n    - “Current Assignee … Scripps Research Institute” ([patents.google.com](https://patents.google.com/patent/WO2019217421A1/en))  \n    - “CDK12 mutations… breast cancer including triple negative breast cancer… - THZ531” ([patents.google.com](https://patents.google.com/patent/WO2019217421A1/en))  \n\n- **Title:** WO2018098361A1 — Inhibitors of cyclin-dependent kinase 12 (cdk12) and uses thereof (Google Patents)  \n  - **URL:** `https://patents.google.com/patent/WO2018098361A1/en`  \n  - **Direct quote snippets:**  \n    - “WO2018098361A1 PCT/US2017/063132” ([patents.google.com](https://patents.google.com/patent/WO2018098361A1/en))  \n    - “Current Assignee … Dana Farber Cancer Institute Inc” ([patents.google.com](https://patents.google.com/patent/WO2018098361A1/en))  \n    - “CDK12 has also been found to contribute to the development of breast cancer.” ([patents.google.com](https://patents.google.com/patent/WO2018098361A1/en))  \n\n- **Title:** Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor) (Carrick Therapeutics)  \n  - **URL:** `https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase`  \n  - **Direct quote snippets:**  \n    - “CT7439… (CDK12/13) inhibitor / Cyclin-K glue-degrader.” ([carricktherapeutics.com](https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase))  \n    - “study ID: NCT06600789.” ([carricktherapeutics.com](https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase))  \n    - “including ovarian, breast and Ewing's Sarcoma.” ([carricktherapeutics.com](https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase))  \n\n- **Title:** WO2024009232 — SUBSTITUTED N-(PYRIDIN-2-YL)ACETAMIDE DERIVATIVES AS CDK12/13 INHIBITORS (IP-Coster)  \n  - **URL:** `https://ip-coster.com/PCTCostCalculation?id=PCT%2FIB2023%2F056952`  \n  - **Direct quote snippets:**  \n    - “Publication Number WO/2024/009232” ([ip-coster.com](https://ip-coster.com/PCTCostCalculation?id=PCT%2FIB2023%2F056952))  \n    - “Applicants ** AURIGENE ONCOLOGY LIMITED” ([ip-coster.com](https://ip-coster.com/PCTCostCalculation?id=PCT%2FIB2023%2F056952))  \n    - “therapeutically useful as CDK12/13 inhibitors.” ([ip-coster.com](https://ip-coster.com/PCTCostCalculation?id=PCT%2FIB2023%2F056952))  \n\n- **Title:** Noncovalent CDK12/13 dual inhibitors-based PROTACs… (PP-C8) (PubMed)  \n  - **URL:** `https://pubmed.ncbi.nlm.nih.gov/34864331/`  \n  - **Direct quote snippets:**  \n    - “a potent PROTAC degrader PP-C8” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/34864331/))  \n    - “PP-C8… effects with PARP inhibitor in triple-negative breast cancer (TNBC).” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/34864331/))  \n\n- **Title:** Discovery of ZLC491 as a Potent… CDK12/13 PROTAC Degrader (PubMed)  \n  - **URL:** `https://pubmed.ncbi.nlm.nih.gov/39388374/`  \n  - **Direct quote snippets:**  \n    - “therapeutic approach for triple-negative breast cancer (TNBC)” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/39388374/))  \n    - “we report the discovery of ZLC491… CDK12/13 PROTAC degrader.” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/39388374/))  \n\n- **Title:** Therapeutic Targeting of CDK12/CDK13 in Triple-Negative Breast Cancer (SR-4835) (PubMed)  \n  - **URL:** `https://pubmed.ncbi.nlm.nih.gov/31668947/`  \n  - **Direct quote snippets:**  \n    - “SR-4835… dual inhibitor of CDK12 and CDK13… triple-negative breast cancer (TNBC) cells.” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/31668947/))  \n\n- **Title:** Discovery of novel imidazo[1,2-b]pyridazine derivatives… (compound 24; THZ531) (PubMed)  \n  - **URL:** `https://pubmed.ncbi.nlm.nih.gov/39955845/`  \n  - **Direct quote snippets:**  \n    - “compound 24… CDK12 IC_{50} of 15.5 nM… CDK13 IC_{50} of 12.2 nM.” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/39955845/))  \n    - “TNBC cell lines MDA-MB-231 and MDA-MB-468… THZ531.” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/39955845/))  \n\n- **Title:** LL-K12-18 | CDK12-DDB1enhancer, Cyclin K degrader | Axon 4281 (Axon Medchem)  \n  - **URL:** `https://www.axonmedchem.com/4281-ll-k12-18`  \n  - **Direct quote snippets:**  \n    - “CAS:  3081311-94-3” ([axonmedchem.com](https://www.axonmedchem.com/4281-ll-k12-18))  \n    - “molecular glue LL-K12-18… CDK12-DDB1… degrader of cyclin K” ([axonmedchem.com](https://www.axonmedchem.com/4281-ll-k12-18))  \n    - “MDA-MB-231… MDA-MB-468… SR-4835” ([axonmedchem.com](https://www.axonmedchem.com/4281-ll-k12-18))"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 75072,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 6737,
+    "output_tokens_details": {
+      "reasoning_tokens": 5177
+    },
+    "total_tokens": 81809
+  },
+  "user": null,
+  "metadata": {}
+}

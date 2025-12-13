@@ -1,0 +1,128 @@
+{
+  "id": "resp_0a429658c5614b8200693c9461c7a48193860e2a74a73e267f",
+  "object": "response",
+  "created_at": 1765577825,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0a429658c5614b8200693c9462dbdc81939a3892597d0d01cd",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a429658c5614b8200693c94678fa08193b438078148fced4f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "DDB1-CUL4-RBX1 drug candidate"
+      }
+    },
+    {
+      "id": "rs_0a429658c5614b8200693c946a51348193a52fd07325ad5a07",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a429658c5614b8200693c949155188193beec8795a7187335",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "HQ461 molecular glue cyclin K degradation DDB1-CUL4-RBX1 development stage"
+      }
+    },
+    {
+      "id": "rs_0a429658c5614b8200693c9494b6a481938e55598548d58a0f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a429658c5614b8200693c94a067748193b1bb9266f3515d37",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"DDB1-CUL4-RBX1\" inhibitor drug"
+      }
+    },
+    {
+      "id": "rs_0a429658c5614b8200693c94a3d5588193abfc8508893ae416",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0a429658c5614b8200693c94b2e94881939984bdfb399978fd",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": false,\n  \"assets\": [],\n  \"rejected_reason\": \"Candidate identifier \\\"DDB1-CUL4-RBX1\\\" refers to a CUL4-RBX1-DDB1 E3 ubiquitin ligase protein complex (mechanism/target component), not a therapeutic drug asset; therefore sponsor/indication/development stage/geography cannot be assigned. Evidence: https://pubmed.ncbi.nlm.nih.gov/32804079/ ; https://pubmed.ncbi.nlm.nih.gov/25108355/\"\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20268,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 5380,
+    "output_tokens_details": {
+      "reasoning_tokens": 5261
+    },
+    "total_tokens": 25648
+  },
+  "user": null,
+  "metadata": {}
+}

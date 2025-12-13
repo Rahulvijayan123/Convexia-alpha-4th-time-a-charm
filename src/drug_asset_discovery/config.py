@@ -42,13 +42,13 @@ class OptionalFetchConfig(BaseModel):
 
 
 class TimeoutsConfig(BaseModel):
-    openai_seconds: int = 90
+    openai_seconds: int = 600
 
 
 class RunConfig(BaseModel):
     version: str
     model: str = "gpt-5.2"
-    workers: int = 4
+    workers: int = 12
     max_rounds: int = 8
     stop_after_no_new_validated_rounds: int = 3
     min_successful_workers_per_round: int = 2
@@ -56,6 +56,18 @@ class RunConfig(BaseModel):
     max_frontier_size: int = 30
     validation_batch_size_per_round: int = 12
     max_total_validations: int = 80
+    # v1.2 loop_mode: novelty-first stopping
+    min_new_identifiers_per_cycle: int = 5
+    patience_cycles: int = 2
+    # v1.2 Stage B: small verification batch
+    verify_top_k: int = 12
+    verification_concurrency: int = 6
+    # v1.2: determinism only for orchestration randomness (not search)
+    orchestration_seed: int = 1337
+    # v1.2 Stage A: configurable additional regex patterns (applied to snippets)
+    harvest_regex_patterns: list[str] = Field(default_factory=list)
+    # Budget guardrail (also enforced by prompt + post-parse checks)
+    max_web_search_calls_per_worker_cycle: int = 2
     retrieval: RetrievalConfig = Field(default_factory=RetrievalConfig)
     optional_fetch: OptionalFetchConfig = Field(default_factory=OptionalFetchConfig)
     reasoning_effort: dict[str, ReasoningEffort] = Field(
@@ -63,9 +75,12 @@ class RunConfig(BaseModel):
             "worker_planning": "xhigh",
             "validation": "xhigh",
             "extraction": "low",
+            "loop_worker": "xhigh",
+            "verifier": "xhigh",
         }
     )
     timeouts: TimeoutsConfig = Field(default_factory=TimeoutsConfig)
+    validation_concurrency: int = 10
 
 
 @dataclass(frozen=True)
@@ -74,6 +89,9 @@ class PromptBundle:
     worker_planner: str
     recall_llm_extractor: str
     validator: str
+    # v1.2 loop_mode prompts (optional for older prompt versions)
+    loop_worker: str = ""
+    verifier: str = ""
 
 
 def repo_root() -> Path:
@@ -87,8 +105,8 @@ def load_config(version: str) -> RunConfig:
     cfg = RunConfig.model_validate(raw)
     if cfg.model != "gpt-5.2":
         raise ValueError(f"Non-negotiable: model must be 'gpt-5.2' (got {cfg.model!r})")
-    if cfg.workers < 3 or cfg.workers > 4:
-        raise ValueError("Non-negotiable: Loop Mode requires 3 to 4 workers")
+    if cfg.workers < 3 or cfg.workers > 16:
+        raise ValueError("Non-negotiable: Loop Mode requires between 3 and 16 workers")
     return cfg
 
 
@@ -99,6 +117,8 @@ def load_prompts(version: str) -> PromptBundle:
         worker_planner=(base / "worker_planner.md").read_text(encoding="utf-8"),
         recall_llm_extractor=(base / "recall_llm_extractor.md").read_text(encoding="utf-8"),
         validator=(base / "validator.md").read_text(encoding="utf-8"),
+        loop_worker=(base / "loop_worker.md").read_text(encoding="utf-8") if (base / "loop_worker.md").exists() else "",
+        verifier=(base / "verifier.md").read_text(encoding="utf-8") if (base / "verifier.md").exists() else "",
     )
 
 

@@ -1,0 +1,368 @@
+{
+  "id": "resp_046b9878935512ce00693c8d6af4ac8193ada37434d52d2a01",
+  "object": "response",
+  "created_at": 1765576043,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_046b9878935512ce00693c8d6c197c81938207e162d5722cec",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_046b9878935512ce00693c8d6db29c8193b35e5ed33338778e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrialsregister.eu CDK12 inhibitor breast cancer"
+      }
+    },
+    {
+      "id": "rs_046b9878935512ce00693c8d6f75c48193a3a8621b7e42293a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_046b9878935512ce00693c8d769c0081938d6df20ef21648ab",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrialsregister.eu \"CDK12\" inhibitor breast cancer"
+      }
+    },
+    {
+      "id": "rs_046b9878935512ce00693c8d7989088193b7d4bbef083a9a8c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_046b9878935512ce00693c8d7c325c8193a2dc5968d1e65de5",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2018-003007-19/ES"
+      }
+    },
+    {
+      "id": "rs_046b9878935512ce00693c8d7ef85881938eb6e642693d447b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_046b9878935512ce00693c8d8218fc8193b169b3436a1d724b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrialsregister.eu CDK12 breast cancer olaparib EudraCT"
+      }
+    },
+    {
+      "id": "rs_046b9878935512ce00693c8d84bbbc8193a51b2db57711734f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_046b9878935512ce00693c8d881804819398bff33072a9407b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2020-001940-25/DE"
+      }
+    },
+    {
+      "id": "rs_046b9878935512ce00693c8d8911e481938556369660494618",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_046b9878935512ce00693c8d8995b081939edc8777d9419ece",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "CDK12",
+        "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2018-003007-19/ES"
+      }
+    },
+    {
+      "id": "rs_046b9878935512ce00693c8d8b6f8c8193bcec8a0430bf4aa5",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_046b9878935512ce00693c8d8d0c00819397caff0b51f510a5",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2019-001745-40/ES"
+      }
+    },
+    {
+      "id": "rs_046b9878935512ce00693c8d8f0e708193b8c72f2d87465a3b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_046b9878935512ce00693c8d9478c88193844fb93acb15ce72",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrialsregister.eu CDK12 \"breast\" \"EudraCT number\""
+      }
+    },
+    {
+      "id": "rs_046b9878935512ce00693c8d974ed88193a8228ee248e42ee1",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_046b9878935512ce00693c8d98fc708193a9dd32b9413e5295",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrialsregister.eu \"CDK12\" \"PALB2\" breast"
+      }
+    },
+    {
+      "id": "rs_046b9878935512ce00693c8d9bd07481938f2c7c17cd1cb233",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_046b9878935512ce00693c8d9f8d408193afe41f436afb5272",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrialsregister.eu CDK12 \"HER2 negative breast\""
+      }
+    },
+    {
+      "id": "rs_046b9878935512ce00693c8da2d2ec8193a608c4bd2f529c5f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_046b9878935512ce00693c8da6ce4c81938440861aefd36ba4",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrialsregister.eu CDK12 \"breast cancer\" \"PARP\""
+      }
+    },
+    {
+      "id": "rs_046b9878935512ce00693c8dabe4188193ba7dc3dc5c667d97",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_046b9878935512ce00693c8dbd15248193b1377356a1acc7f0",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2018-003007-19/ES"
+      }
+    },
+    {
+      "id": "rs_046b9878935512ce00693c8dbf3bc48193ad4f008232929eae",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_046b9878935512ce00693c8dc1c4b48193a4c4af6c685fe7f9",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2018-003007-19/ES"
+      }
+    },
+    {
+      "id": "rs_046b9878935512ce00693c8dc3f0cc819385c3640cf17217ec",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_046b9878935512ce00693c8dd98ecc81939197f6fdea10d63e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2018-003007-19/DK"
+      }
+    },
+    {
+      "id": "rs_046b9878935512ce00693c8ddbff70819385a56b504b3aa633",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_046b9878935512ce00693c8e0ac55481938a1fbd30492a2862",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 405,
+              "start_index": 302,
+              "title": "\n\t\t    \n                \n                \n                \n                    Clinical Trials Register\n                \n            \n\t\t",
+              "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2018-003007-19/ES"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 625,
+              "start_index": 522,
+              "title": "\n\t\t    \n                \n                \n                \n                    Clinical Trials Register\n                \n            \n\t\t",
+              "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2018-003007-19/ES"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 838,
+              "start_index": 735,
+              "title": "\n\t\t    \n                \n                \n                \n                    Clinical Trials Register\n                \n            \n\t\t",
+              "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2018-003007-19/ES"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1070,
+              "start_index": 967,
+              "title": "\n\t\t    \n                \n                \n                \n                    Clinical Trials Register\n                \n            \n\t\t",
+              "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2018-003007-19/ES"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1479,
+              "start_index": 1376,
+              "title": "\n\t\t    \n                \n                \n                \n                    Clinical Trials Register\n                \n            \n\t\t",
+              "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2018-003007-19/DK"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1699,
+              "start_index": 1596,
+              "title": "\n\t\t    \n                \n                \n                \n                    Clinical Trials Register\n                \n            \n\t\t",
+              "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2018-003007-19/DK"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1852,
+              "start_index": 1749,
+              "title": "\n\t\t    \n                \n                \n                \n                    Clinical Trials Register\n                \n            \n\t\t",
+              "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2018-003007-19/DK"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2084,
+              "start_index": 1981,
+              "title": "\n\t\t    \n                \n                \n                \n                    Clinical Trials Register\n                \n            \n\t\t",
+              "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2018-003007-19/DK"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2519,
+              "start_index": 2416,
+              "title": "\n\t\t    \n                \n                \n                \n                    Clinical Trials Register\n                \n            \n\t\t",
+              "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2019-001745-40/ES"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2739,
+              "start_index": 2636,
+              "title": "\n\t\t    \n                \n                \n                \n                    Clinical Trials Register\n                \n            \n\t\t",
+              "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2019-001745-40/ES"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2952,
+              "start_index": 2849,
+              "title": "\n\t\t    \n                \n                \n                \n                    Clinical Trials Register\n                \n            \n\t\t",
+              "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2019-001745-40/ES"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3127,
+              "start_index": 3024,
+              "title": "\n\t\t    \n                \n                \n                \n                    Clinical Trials Register\n                \n            \n\t\t",
+              "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2019-001745-40/ES"
+            }
+          ],
+          "logprobs": [],
+          "text": "- **Title:** A Phase 2 Study of Olaparib Monotherapy in Participants with Previously Treated, Homologous Recombination Repair Mutation (HRRm) or Homologous Recombination Deficiency (HRD) Positive Advanced Cancer  \n  - **URL:** `https://www.clinicaltrialsregister.eu/ctr-search/trial/2018-003007-19/ES` ([clinicaltrialsregister.eu](https://www.clinicaltrialsregister.eu/ctr-search/trial/2018-003007-19/ES))  \n  - **Direct quote snippets (identifiers/targets/modalities/indications):**\n    - “EudraCT Number:2018-003007-19” ([clinicaltrialsregister.eu](https://www.clinicaltrialsregister.eu/ctr-search/trial/2018-003007-19/ES))  \n    - “solid tumor (except breast or ovarian cancers whose tumor has a germline or somatic BRCA mutation)” ([clinicaltrialsregister.eu](https://www.clinicaltrialsregister.eu/ctr-search/trial/2018-003007-19/ES))  \n    - “(ie, BRCA1, BRCA2, ATM, BARD1, BRIP1, CDK12, CHEK1, CHEK2, FANCL, PALB2, PPP2R2A, RAD51B, RAD51C, RAD51D, and RAD54L)” ([clinicaltrialsregister.eu](https://www.clinicaltrialsregister.eu/ctr-search/trial/2018-003007-19/ES))  \n\n- **Title:** A Phase 2 Study of Olaparib Monotherapy in Participants with Previously Treated, Homologous Recombination Repair Mutation (HRRm) or Homologous Recombination Deficiency (HRD) Positive Advanced Cancer  \n  - **URL:** `https://www.clinicaltrialsregister.eu/ctr-search/trial/2018-003007-19/DK` ([clinicaltrialsregister.eu](https://www.clinicaltrialsregister.eu/ctr-search/trial/2018-003007-19/DK))  \n  - **Direct quote snippets (identifiers/targets/modalities/indications):**\n    - “EudraCT Number:2018-003007-19” ([clinicaltrialsregister.eu](https://www.clinicaltrialsregister.eu/ctr-search/trial/2018-003007-19/DK))  \n    - “D.3.2 Product code AZD2281, KU-0059436” ([clinicaltrialsregister.eu](https://www.clinicaltrialsregister.eu/ctr-search/trial/2018-003007-19/DK))  \n    - “(ie, BRCA1, BRCA2, ATM, BARD1, BRIP1, CDK12, CHEK1, CHEK2, FANCL, PALB2, PPP2R2A, RAD51B, RAD51C, RAD51D, and RAD54L)” ([clinicaltrialsregister.eu](https://www.clinicaltrialsregister.eu/ctr-search/trial/2018-003007-19/DK))  \n\n- **Title:** A Phase 2 Study of Olaparib in Combination with Pembrolizumab in Participants with Previously Treated, Homologous Recombination Repair Mutation (HRRm) and/or Homologous Recombination Deficiency (HRD)-Positive Advanced Cancer  \n  - **URL:** `https://www.clinicaltrialsregister.eu/ctr-search/trial/2019-001745-40/ES` ([clinicaltrialsregister.eu](https://www.clinicaltrialsregister.eu/ctr-search/trial/2019-001745-40/ES))  \n  - **Direct quote snippets (identifiers/targets/modalities/indications):**\n    - “EudraCT Number:2019-001745-40” ([clinicaltrialsregister.eu](https://www.clinicaltrialsregister.eu/ctr-search/trial/2019-001745-40/ES))  \n    - “solid tumor (except breast or ovarian cancers whose tumor has a germline or somatic BRCA mutation)” ([clinicaltrialsregister.eu](https://www.clinicaltrialsregister.eu/ctr-search/trial/2019-001745-40/ES))  \n    - “BRCA1, BRCA2, ATM, BARD1, BRIP1, CDK12, CHEK1, CHEK2, FANCL,” ([clinicaltrialsregister.eu](https://www.clinicaltrialsregister.eu/ctr-search/trial/2019-001745-40/ES))"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 64790,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 9591,
+    "output_tokens_details": {
+      "reasoning_tokens": 8774
+    },
+    "total_tokens": 74381
+  },
+  "user": null,
+  "metadata": {}
+}

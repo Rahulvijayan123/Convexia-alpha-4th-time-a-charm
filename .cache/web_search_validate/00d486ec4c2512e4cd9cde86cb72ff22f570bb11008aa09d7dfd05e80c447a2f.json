@@ -1,0 +1,185 @@
+{
+  "id": "resp_03356f8c73252b7700693c89d10e488190ab05d47f43e434d2",
+  "object": "response",
+  "created_at": 1765575121,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_03356f8c73252b7700693c89d19e188190aaaeacdbb662762b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_03356f8c73252b7700693c89e802288190a2164d00354f45eb",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "OlympiA trial olaparib HER2-negative early breast cancer sponsor AstraZeneca Merck"
+      }
+    },
+    {
+      "id": "rs_03356f8c73252b7700693c89ead2488190ad6315be556c8e5c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_03356f8c73252b7700693c8a0418088190a5adf288ac50524b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "OlympiA CDK12 inhibitor"
+      }
+    },
+    {
+      "id": "rs_03356f8c73252b7700693c8a056dd481908e9a357bd8c45e50",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_03356f8c73252b7700693c8a33f98c8190b6c90802d942730b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-olaparib-adjuvant-treatment-high-risk-early-breast-cancer"
+      }
+    },
+    {
+      "id": "rs_03356f8c73252b7700693c8a34c0cc81909d5e831e95dfb6b6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_03356f8c73252b7700693c8a354eb48190b997f4e0de8d18ef",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/208558s023lbl.pdf"
+      }
+    },
+    {
+      "id": "rs_03356f8c73252b7700693c8a365c3c81908401f4bc396300de",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_03356f8c73252b7700693c8a3a98508190a2abff911f861470",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "PARP1",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/208558s023lbl.pdf"
+      }
+    },
+    {
+      "id": "rs_03356f8c73252b7700693c8a3bf1c48190a950fbc6366f1d9d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_03356f8c73252b7700693c8a4665808190b722fa6430862277",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"OlympiA\" \"CDK12\" \"CDK13\""
+      }
+    },
+    {
+      "id": "rs_03356f8c73252b7700693c8a48cbe88190babbfd0e87775916",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_03356f8c73252b7700693c8a8196408190ac592c0caed6af09",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCI olaparib small molecule PARP inhibitor"
+      }
+    },
+    {
+      "id": "rs_03356f8c73252b7700693c8a8451348190ba06e6c81075570e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_03356f8c73252b7700693c8aa7cb8481908ae3d413326d114a",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": true,\n  \"assets\": [\n    {\n      \"drug_name_code\": \"LYNPARZA (olaparib)\",\n      \"sponsor\": \"AstraZeneca Pharmaceuticals, LP\",\n      \"target\": \"PARP1, PARP2, PARP3\",\n      \"modality\": \"Small-molecule PARP inhibitor\",\n      \"indication\": \"Adjuvant treatment of adult patients with deleterious or suspected deleterious germline BRCA-mutated (gBRCAm), HER2-negative high-risk early breast cancer after neoadjuvant or adjuvant chemotherapy\",\n      \"development_stage\": \"Approved (US FDA; 2022-03-11; approval based on OlympiA Phase III trial)\",\n      \"geography\": \"United States\",\n      \"sources\": [\n        \"https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-olaparib-adjuvant-treatment-high-risk-early-breast-cancer\",\n        \"https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/208558s023lbl.pdf\",\n        \"https://clinicaltrials.gov/study/NCT02032823\",\n        \"https://www.cancer.gov/publications/dictionaries/cancer-drug/def/olaparib\"\n      ]\n    }\n  ],\n  \"rejected_reason\": null\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 42362,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 14710,
+    "output_tokens_details": {
+      "reasoning_tokens": 14414
+    },
+    "total_tokens": 57072
+  },
+  "user": null,
+  "metadata": {}
+}

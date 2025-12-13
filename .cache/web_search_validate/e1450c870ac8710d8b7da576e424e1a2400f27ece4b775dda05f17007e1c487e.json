@@ -1,0 +1,114 @@
+{
+  "id": "resp_0c6f76ae78337c8c00693c80a87a7c8195a331db64ffaa63de",
+  "object": "response",
+  "created_at": 1765572776,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0c6f76ae78337c8c00693c80a8b64081959f5621c8757b79bd",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c6f76ae78337c8c00693c80afd4b08195a628fefd971368cb",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"Breast Cancer\" drug code"
+      }
+    },
+    {
+      "id": "rs_0c6f76ae78337c8c00693c80b28bac8195aedb4701fcc9e5c6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c6f76ae78337c8c00693c80c130408195ba802a3de5fcad3f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"Breast Cancer\" site:drugbank.com"
+      }
+    },
+    {
+      "id": "rs_0c6f76ae78337c8c00693c80c3fbb08195ae9a2cc00ff4759c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0c6f76ae78337c8c00693c80c8a79c8195971055ba3bf76525",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": false,\n  \"assets\": [],\n  \"rejected_reason\": \"Candidate identifier 'Breast Cancer' is an indication/disease term, not a specific drug name/code or asset; therefore required asset fields (sponsor/target/modality/stage/geography) cannot be attributed to this identifier. Reference (example breast-cancer drug list): https://www.cancer.gov/about-cancer/treatment/drugs/breast\"\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 14070,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 2045,
+    "output_tokens_details": {
+      "reasoning_tokens": 1947
+    },
+    "total_tokens": 16115
+  },
+  "user": null,
+  "metadata": {}
+}

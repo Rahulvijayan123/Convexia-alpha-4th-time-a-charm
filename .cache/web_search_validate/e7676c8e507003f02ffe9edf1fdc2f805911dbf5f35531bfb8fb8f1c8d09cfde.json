@@ -1,0 +1,156 @@
+{
+  "id": "resp_0076a08447a60e6000693c8375a18c819480b4a5574895bd77",
+  "object": "response",
+  "created_at": 1765573493,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0076a08447a60e6000693c837613088194b22ca0d3374db194",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0076a08447a60e6000693c8377b6608194b48cbd600826635c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "ZLC491 drug"
+      }
+    },
+    {
+      "id": "rs_0076a08447a60e6000693c83791af481949bf440e502e16180",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0076a08447a60e6000693c837e02208194af3ff1f60007d715",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11513923/"
+      }
+    },
+    {
+      "id": "rs_0076a08447a60e6000693c837e9e1c8194a9b8fe6713b6d309",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0076a08447a60e6000693c838a672c8194911aaa2e6a8604ad",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "ZLC491 patent"
+      }
+    },
+    {
+      "id": "rs_0076a08447a60e6000693c838bcea08194a94bbdcdb438f713",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0076a08447a60e6000693c838d41b08194addb86600583930b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"ZLC491\" \"patent\" \"CDK12\" \"CDK13\""
+      }
+    },
+    {
+      "id": "rs_0076a08447a60e6000693c838f4cbc8194b00d2b284beac0f0",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0076a08447a60e6000693c83a9c208819480999e508d01bde0",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://synapse.patsnap.com/drug/3aa79266dfb34182a224795bb895b608"
+      }
+    },
+    {
+      "id": "rs_0076a08447a60e6000693c83aac3688194b6090170113769d3",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0076a08447a60e6000693c83ec24248194b3d4004b87ee6f02",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": true,\n  \"assets\": [\n    {\n      \"drug_name_code\": \"ZLC491\",\n      \"sponsor\": \"University of Michigan\",\n      \"target\": \"CDK12/13 (cyclin-dependent kinases 12 and 13)\",\n      \"modality\": \"PROTAC degrader\",\n      \"indication\": \"Triple-negative breast cancer (TNBC)\",\n      \"development_stage\": \"Preclinical\",\n      \"geography\": \"United States\",\n      \"sources\": [\n        \"https://pmc.ncbi.nlm.nih.gov/articles/PMC11513923/\",\n        \"https://pubmed.ncbi.nlm.nih.gov/39388374/\",\n        \"https://synapse.patsnap.com/drug/3aa79266dfb34182a224795bb895b608\"\n      ]\n    }\n  ],\n  \"rejected_reason\": null\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 26218,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 7146,
+    "output_tokens_details": {
+      "reasoning_tokens": 6954
+    },
+    "total_tokens": 33364
+  },
+  "user": null,
+  "metadata": {}
+}

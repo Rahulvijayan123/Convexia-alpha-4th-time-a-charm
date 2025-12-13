@@ -1,0 +1,283 @@
+{
+  "id": "resp_05ee0a104c47b26900693c9590b7888195b5cf1c3942f23b43",
+  "object": "response",
+  "created_at": 1765578128,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_05ee0a104c47b26900693c9590f57881958b602302eea8e5bc",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05ee0a104c47b26900693c9591d79c8195bfcfbb5881bcafb1",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CDK12\" \"molecular glue\" degrader press release"
+      }
+    },
+    {
+      "id": "rs_05ee0a104c47b26900693c959376cc8195998e8f790fd90a90",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05ee0a104c47b26900693c959516b88195b667663b99928196",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:businesswire.com CDK12 molecular glue"
+      }
+    },
+    {
+      "id": "rs_05ee0a104c47b26900693c9596983c8195bbf6d408775a4943",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05ee0a104c47b26900693c95995ef48195ae0573b7eb8d9187",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"Cyclin-K\" \"glue degrader\" press release"
+      }
+    },
+    {
+      "id": "rs_05ee0a104c47b26900693c959b93fc8195b6772f4b609c208d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05ee0a104c47b26900693c959e2c408195997134b5e95dfbbf",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.carricktherapeutics.com/news-media/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase"
+      }
+    },
+    {
+      "id": "rs_05ee0a104c47b26900693c959fb15c819594c8a8f12d4fbbdb",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05ee0a104c47b26900693c95a6400c8195a0e9064ecf813f9c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT06600789 CT7439"
+      }
+    },
+    {
+      "id": "rs_05ee0a104c47b26900693c95a8ea548195b88da56e757fa4c5",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05ee0a104c47b26900693c95a9362081958c00699caa746ab3",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "clinicaltrials.gov \"NCT06600789\" CT7439 CDK12/13"
+      }
+    },
+    {
+      "id": "rs_05ee0a104c47b26900693c95ad4df48195971db2bcb340f96e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05ee0a104c47b26900693c95adda588195a7326a9eadff0242",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_05ee0a104c47b26900693c95aefefc81958badb2077845dcf4",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05ee0a104c47b26900693c95b7bcf081958af1dc91a46f1229",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://cdek.pharmacy.purdue.edu/trial/NCT06600789/"
+      }
+    },
+    {
+      "id": "rs_05ee0a104c47b26900693c95ba05088195b4d2607e6a0742b5",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_05ee0a104c47b26900693c95c4b1b48195ac3a05182e91e895",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 598,
+              "start_index": 438,
+              "title": "Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor) :: Carrick Therapeutics, Inc.",
+              "url": "https://www.carricktherapeutics.com/news-media/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 863,
+              "start_index": 703,
+              "title": "Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor) :: Carrick Therapeutics, Inc.",
+              "url": "https://www.carricktherapeutics.com/news-media/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1102,
+              "start_index": 942,
+              "title": "Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor) :: Carrick Therapeutics, Inc.",
+              "url": "https://www.carricktherapeutics.com/news-media/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1826,
+              "start_index": 1626,
+              "title": "Carrick Therapeutics Announces U.S. FDA Clearance of IND",
+              "url": "https://www.globenewswire.com/news-release/2023/09/07/2739242/0/en/Carrick-Therapeutics-Announces-U-S-FDA-Clearance-of-IND-for-CT7439-a-First-In-Class-Inhibitor-of-CDK12-13.html"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2111,
+              "start_index": 1911,
+              "title": "Carrick Therapeutics Announces U.S. FDA Clearance of IND",
+              "url": "https://www.globenewswire.com/news-release/2023/09/07/2739242/0/en/Carrick-Therapeutics-Announces-U-S-FDA-Clearance-of-IND-for-CT7439-a-First-In-Class-Inhibitor-of-CDK12-13.html"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2390,
+              "start_index": 2190,
+              "title": "Carrick Therapeutics Announces U.S. FDA Clearance of IND",
+              "url": "https://www.globenewswire.com/news-release/2023/09/07/2739242/0/en/Carrick-Therapeutics-Announces-U-S-FDA-Clearance-of-IND-for-CT7439-a-First-In-Class-Inhibitor-of-CDK12-13.html"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3112,
+              "start_index": 2912,
+              "title": "Carrick Therapeutics Announces First Patient Dosed in Phase",
+              "url": "https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3437,
+              "start_index": 3237,
+              "title": "Carrick Therapeutics Announces First Patient Dosed in Phase",
+              "url": "https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3669,
+              "start_index": 3469,
+              "title": "Carrick Therapeutics Announces First Patient Dosed in Phase",
+              "url": "https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4000,
+              "start_index": 3919,
+              "title": "\n\n    \n        Trial | NCT06600789\n    \n\n",
+              "url": "https://cdek.pharmacy.purdue.edu/trial/NCT06600789/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4168,
+              "start_index": 4087,
+              "title": "\n\n    \n        Trial | NCT06600789\n    \n\n",
+              "url": "https://cdek.pharmacy.purdue.edu/trial/NCT06600789/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4293,
+              "start_index": 4212,
+              "title": "\n\n    \n        Trial | NCT06600789\n    \n\n",
+              "url": "https://cdek.pharmacy.purdue.edu/trial/NCT06600789/"
+            }
+          ],
+          "logprobs": [],
+          "text": "- **Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor)**  \n  **URL:** `https://www.carricktherapeutics.com/news-media/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase`  \n  **Direct quote snippets (identifiers/targets/modalities/indications):**  \n  > “CT7439, a novel cyclin dependent kinase 12/13 (CDK12/13) inhibitor / Cyclin-K glue-degrader.” ([carricktherapeutics.com](https://www.carricktherapeutics.com/news-media/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase))  \n  > “Clinical trial details can also be found on www.clinicaltrials.gov under study ID: NCT06600789.” ([carricktherapeutics.com](https://www.carricktherapeutics.com/news-media/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase))  \n  > “advanced solid tumors, including ovarian, breast and Ewing's Sarcoma.” ([carricktherapeutics.com](https://www.carricktherapeutics.com/news-media/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase))  \n\n- **Carrick Therapeutics Announces U.S. FDA Clearance of IND for CT7439, a First-In-Class Inhibitor of CDK12/13**  \n  **URL:** `https://www.globenewswire.com/news-release/2023/09/07/2739242/0/en/Carrick-Therapeutics-Announces-U-S-FDA-Clearance-of-IND-for-CT7439-a-First-In-Class-Inhibitor-of-CDK12-13.html`  \n  **Direct quote snippets (identifiers/targets/modalities/indications):**  \n  > “the Company’s Investigational New Drug (IND) application for CT7439, a novel cyclin dependent kinase 12/13 (CDK12/13) inhibitor.” ([globenewswire.com](https://www.globenewswire.com/news-release/2023/09/07/2739242/0/en/Carrick-Therapeutics-Announces-U-S-FDA-Clearance-of-IND-for-CT7439-a-First-In-Class-Inhibitor-of-CDK12-13.html))  \n  > “CT7439 is an inhibitor of CDK12/13 as well as a 'glue degrader' of Cyclin-K” ([globenewswire.com](https://www.globenewswire.com/news-release/2023/09/07/2739242/0/en/Carrick-Therapeutics-Announces-U-S-FDA-Clearance-of-IND-for-CT7439-a-First-In-Class-Inhibitor-of-CDK12-13.html))  \n  > “advanced solid tumors, including breast, ovarian and Ewing's Sarcoma.” ([globenewswire.com](https://www.globenewswire.com/news-release/2023/09/07/2739242/0/en/Carrick-Therapeutics-Announces-U-S-FDA-Clearance-of-IND-for-CT7439-a-First-In-Class-Inhibitor-of-CDK12-13.html))  \n\n- **Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor)**  \n  **URL:** `https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html`  \n  **Direct quote snippets (identifiers/targets/modalities/indications):**  \n  > “Phase 1 clinical trial evaluating CT7439, a novel cyclin dependent kinase 12/13 (CDK12/13) inhibitor / Cyclin-K glue-degrader.” ([globenewswire.com](https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html))  \n  > “The clinical trial is enrolling patients with advanced solid tumors, including ovarian, breast and Ewing's Sarcoma.” ([globenewswire.com](https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html))  \n  > “study ID: NCT06600789.” ([globenewswire.com](https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html))  \n\n- **Trial | NCT06600789 (Clinical Drug Experience Knowledgebase, Purdue)**  \n  **URL:** `https://cdek.pharmacy.purdue.edu/trial/NCT06600789/`  \n  **Direct quote snippets (identifiers/targets/modalities/indications):**  \n  > “Trial | NCT06600789” ([cdek.pharmacy.purdue.edu](https://cdek.pharmacy.purdue.edu/trial/NCT06600789/))  \n  > “A Modular Phase 1/2 Study With CT7439 in Participants With Solid Malignancies” ([cdek.pharmacy.purdue.edu](https://cdek.pharmacy.purdue.edu/trial/NCT06600789/))  \n  > “CT7439 Capsules (0.5 mg, 1mg, 3mg)” ([cdek.pharmacy.purdue.edu](https://cdek.pharmacy.purdue.edu/trial/NCT06600789/))"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 32851,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 3883,
+    "output_tokens_details": {
+      "reasoning_tokens": 3004
+    },
+    "total_tokens": 36734
+  },
+  "user": null,
+  "metadata": {}
+}

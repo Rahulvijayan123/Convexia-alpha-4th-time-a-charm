@@ -1,0 +1,379 @@
+{
+  "id": "resp_05aaa8b936b02bfb00693c8bf0c0248193877d2980af199b8e",
+  "object": "response",
+  "created_at": 1765575664,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_05aaa8b936b02bfb00693c8bf1272881939c4d7e2482addcf5",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05aaa8b936b02bfb00693c8bfa6bc08193a409222ec1878e50",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "SR-4835 CDK12/13 inhibitor triple negative breast cancer"
+      }
+    },
+    {
+      "id": "rs_05aaa8b936b02bfb00693c8bfbfaa08193baca93946db983cf",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05aaa8b936b02bfb00693c8c02ebd0819395680953784152fb",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT06600789 CT7439 locations"
+      }
+    },
+    {
+      "id": "rs_05aaa8b936b02bfb00693c8c04e11c8193bff05a5c8cabaf2f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05aaa8b936b02bfb00693c8c05d5008193a9764502c56a1268",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "clinicaltrials.gov NCT06600789 CT7439"
+      }
+    },
+    {
+      "id": "rs_05aaa8b936b02bfb00693c8c0754888193bd63d1a2870929ee",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05aaa8b936b02bfb00693c8c09fdb48193b313f8e2317a50a8",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov NCT06600789"
+      }
+    },
+    {
+      "id": "rs_05aaa8b936b02bfb00693c8c0c1634819394189c0dcf4fbb2b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05aaa8b936b02bfb00693c8c0c53a08193a73738c859aacecb",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_05aaa8b936b02bfb00693c8c0e4cfc8193ae51cd990a07f84e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05aaa8b936b02bfb00693c8c25cc5081939be090783374d463",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://ichgcp.net/clinical-trials-registry/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_05aaa8b936b02bfb00693c8c2769508193b7ad658d02754bfd",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05aaa8b936b02bfb00693c8c2bbdd08193a1dc50b511e2d08a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CDK12/13\" inhibitor Phase 1"
+      }
+    },
+    {
+      "id": "rs_05aaa8b936b02bfb00693c8c2f50648193b11252f7cc1a270f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05aaa8b936b02bfb00693c8c5a290c81939980cb73de530e8d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CDK12/13\" inhibitor pipeline"
+      }
+    },
+    {
+      "id": "rs_05aaa8b936b02bfb00693c8c5d57208193a2aee362fc6b8222",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05aaa8b936b02bfb00693c8c5e9f388193b3550551b63ab9f1",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://insilico.com/pipeline_target_cdk12/13"
+      }
+    },
+    {
+      "id": "rs_05aaa8b936b02bfb00693c8c5f71a4819393a64c75c1be93a6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05aaa8b936b02bfb00693c8c6bbc7c819380cf486fcadd0482",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor"
+      }
+    },
+    {
+      "id": "rs_05aaa8b936b02bfb00693c8c6dbb648193b8b4786e9160a82a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05aaa8b936b02bfb00693c8c78cc8c8193b2bae5f90a3b9864",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CT7439 small molecule"
+      }
+    },
+    {
+      "id": "rs_05aaa8b936b02bfb00693c8c7bf37c8193b195b817d1fec6a5",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05aaa8b936b02bfb00693c8c9a4c3081938a4b0a896bc94444",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"Cyclin-K\" degrader clinical trial"
+      }
+    },
+    {
+      "id": "rs_05aaa8b936b02bfb00693c8c9d79bc8193a85917bf0d3a84bf",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05aaa8b936b02bfb00693c8ca542b88193bc5c2b68c3390061",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CDK12/13\" inhibitor \"IND\""
+      }
+    },
+    {
+      "id": "rs_05aaa8b936b02bfb00693c8ca97c648193aeb81a239d030c88",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05aaa8b936b02bfb00693c8cb09e708193853ee60b23656dff",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "ISM9274 clinical trial"
+      }
+    },
+    {
+      "id": "rs_05aaa8b936b02bfb00693c8cb3b3e08193a189fe504e2bcdd4",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05aaa8b936b02bfb00693c8cb9d07c81939e215fa21e8bcbae",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "ISM9274 IND approval"
+      }
+    },
+    {
+      "id": "rs_05aaa8b936b02bfb00693c8cbe68b48193bf47e8d9afeb94d7",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05aaa8b936b02bfb00693c8cc03e0c8193985d612152b5ea89",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_05aaa8b936b02bfb00693c8cc19dd8819396c7f602a8d3dba0",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05aaa8b936b02bfb00693c8cc29b0c8193ba5b5b3fd297525e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "https://clinicaltrials.gov/ct2/show/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_05aaa8b936b02bfb00693c8cc600948193b8b6b4f5499efd4b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05aaa8b936b02bfb00693c8cc7afc48193ac3b13a9db1293c4",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "clinicaltrials.gov ct2 show NCT06600789 site:clinicaltrials.gov"
+      }
+    },
+    {
+      "id": "rs_05aaa8b936b02bfb00693c8ccc37288193976a00bd85f9c459",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05aaa8b936b02bfb00693c8cce8840819395a564293b756b2c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov \"NCT06600789\" \"CT7439\""
+      }
+    },
+    {
+      "id": "rs_05aaa8b936b02bfb00693c8cd3ca7c8193818bf7484d6b817b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05aaa8b936b02bfb00693c8cd7f5d08193b6fab7e72fceac2f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "ISM9274 IND 2024 2025"
+      }
+    },
+    {
+      "id": "rs_05aaa8b936b02bfb00693c8cdcf91c8193ba27db1bed743d58",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05aaa8b936b02bfb00693c8ce7bab081939ca6743b944499cd",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CT7439 triple negative breast cancer"
+      }
+    },
+    {
+      "id": "rs_05aaa8b936b02bfb00693c8cedc15c8193bbc65c0445afc590",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_05aaa8b936b02bfb00693c8d0383b88193a63c6342ca856773",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": true,\n  \"assets\": [\n    {\n      \"drug_name_code\": \"CT7439\",\n      \"sponsor\": \"Carrick Therapeutics Limited\",\n      \"target\": \"CDK12/13; Cyclin-K\",\n      \"modality\": \"CDK12/13 inhibitor / Cyclin-K molecular glue degrader\",\n      \"indication\": \"Advanced solid malignancies (advanced solid tumors), including breast, ovarian and Ewing's sarcoma\",\n      \"development_stage\": \"Phase 1/2\",\n      \"geography\": \"United States; United Kingdom\",\n      \"sources\": [\n        \"https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor\",\n        \"https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase\",\n        \"https://ichgcp.net/clinical-trials-registry/NCT06600789\"\n      ]\n    }\n  ],\n  \"rejected_reason\": null\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 90331,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 14083,
+    "output_tokens_details": {
+      "reasoning_tokens": 13851
+    },
+    "total_tokens": 104414
+  },
+  "user": null,
+  "metadata": {}
+}

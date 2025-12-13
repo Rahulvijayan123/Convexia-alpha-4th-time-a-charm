@@ -1,0 +1,357 @@
+{
+  "id": "resp_0b8d6679a0a4f29500693c8d6af3fc8195a323c7d9a4b98658",
+  "object": "response",
+  "created_at": 1765576042,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0b8d6679a0a4f29500693c8d6b43708195b47b77f6815d10bf",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0b8d6679a0a4f29500693c8d6cd8b48195be5de277e70d9562",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12 PROTAC degrader patent WO"
+      }
+    },
+    {
+      "id": "rs_0b8d6679a0a4f29500693c8d6fbd588195a35161d1baf676f1",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0b8d6679a0a4f29500693c8d70b3a08195adb33ee2931a074d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:patentscope.wipo.int CDK12 degrader WO"
+      }
+    },
+    {
+      "id": "rs_0b8d6679a0a4f29500693c8d736538819593a29450f27be011",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0b8d6679a0a4f29500693c8d751b648195ba342b53418159be",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/EP3958861A4/fr"
+      }
+    },
+    {
+      "id": "rs_0b8d6679a0a4f29500693c8d75fc448195a57d2a8d351fe014",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0b8d6679a0a4f29500693c8d7778f8819596b3f4b6d8aa2edc",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "WO2024175065",
+        "url": "https://patents.google.com/patent/WO2024175065A1/fr"
+      }
+    },
+    {
+      "id": "rs_0b8d6679a0a4f29500693c8d78c1e08195b821d23b0b0cad72",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0b8d6679a0a4f29500693c8d7b060c819597d2f9edb1606661",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/WO2024175065A1/fr"
+      }
+    },
+    {
+      "id": "rs_0b8d6679a0a4f29500693c8d7c4e948195bf97af15d3e1ab5d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0b8d6679a0a4f29500693c8d7e343881958dcd5d824ac1d5cd",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "Proxygen CDK12 cyclin K degradation inducer WO patent"
+      }
+    },
+    {
+      "id": "rs_0b8d6679a0a4f29500693c8d83b86c8195a13b3c0b0cbcf47b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0b8d6679a0a4f29500693c8d849e2c8195a93ef2c64d17f71a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "PP-C8 CDK12 PROTAC WO patent"
+      }
+    },
+    {
+      "id": "rs_0b8d6679a0a4f29500693c8d89a8948195a2dd5e0a660ccc37",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0b8d6679a0a4f29500693c8d8afbec81958166fbcaba0f4cbc",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/WO2020219650A1/fr"
+      }
+    },
+    {
+      "id": "rs_0b8d6679a0a4f29500693c8d8c5ee48195b4c3d016a79c63a0",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0b8d6679a0a4f29500693c8d8d7ab881959404dadaa945efb9",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "CDK12",
+        "url": "https://patents.google.com/patent/WO2020219650A1/fr"
+      }
+    },
+    {
+      "id": "rs_0b8d6679a0a4f29500693c8d9018d8819586d484ee083ed792",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0b8d6679a0a4f29500693c8d91ee408195ad04d5e613c7bb11",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "Dégrade",
+        "url": "https://patents.google.com/patent/WO2020219650A1/fr"
+      }
+    },
+    {
+      "id": "rs_0b8d6679a0a4f29500693c8d944f6c8195b0c98e31e3aa943a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0b8d6679a0a4f29500693c8d95b6888195b9e86ecd5ec9ba98",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/WO2020219650A1/fr"
+      }
+    },
+    {
+      "id": "rs_0b8d6679a0a4f29500693c8d97fea48195a18ed6ac932f1979",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0b8d6679a0a4f29500693c8d99776081959b464d37965f8c2a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "cyclin-dependent",
+        "url": "https://patents.google.com/patent/WO2020219650A1/fr"
+      }
+    },
+    {
+      "id": "rs_0b8d6679a0a4f29500693c8d9bdd988195ae327043eb966774",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0b8d6679a0a4f29500693c8db29e508195a9c1b55e01de0fe1",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 407,
+              "start_index": 332,
+              "title": "WO2024175065A1 - Agent de dégradation contenant un substituant aryle pour cdk12/13, son procédé de préparation, et composition pharmaceutique et son utilisation \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2024175065A1/fr"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 566,
+              "start_index": 491,
+              "title": "WO2024175065A1 - Agent de dégradation contenant un substituant aryle pour cdk12/13, son procédé de préparation, et composition pharmaceutique et son utilisation \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2024175065A1/fr"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 788,
+              "start_index": 713,
+              "title": "WO2024175065A1 - Agent de dégradation contenant un substituant aryle pour cdk12/13, son procédé de préparation, et composition pharmaceutique et son utilisation \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2024175065A1/fr"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1131,
+              "start_index": 1056,
+              "title": "WO2020219650A1 - Dégradeurs de la kinase cycline-dépendante 12 (cdk12) et leurs utilisations \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2020219650A1/fr"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1370,
+              "start_index": 1295,
+              "title": "WO2020219650A1 - Dégradeurs de la kinase cycline-dépendante 12 (cdk12) et leurs utilisations \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2020219650A1/fr"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1588,
+              "start_index": 1513,
+              "title": "WO2020219650A1 - Dégradeurs de la kinase cycline-dépendante 12 (cdk12) et leurs utilisations \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2020219650A1/fr"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1900,
+              "start_index": 1828,
+              "title": "EP3958861A4 - Dégradeurs de la kinase cycline-dépendante 12 (cdk12) et leurs utilisations \n        - Google Patents",
+              "url": "https://patents.google.com/patent/EP3958861A4/fr"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2106,
+              "start_index": 2034,
+              "title": "EP3958861A4 - Dégradeurs de la kinase cycline-dépendante 12 (cdk12) et leurs utilisations \n        - Google Patents",
+              "url": "https://patents.google.com/patent/EP3958861A4/fr"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2474,
+              "start_index": 2386,
+              "title": "Discovery and resistance mechanism of a selective CDK12 degrader - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/33753926/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2664,
+              "start_index": 2576,
+              "title": "Discovery and resistance mechanism of a selective CDK12 degrader - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/33753926/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3059,
+              "start_index": 2971,
+              "title": "Noncovalent CDK12/13 dual inhibitors-based PROTACs degrade CDK12-Cyclin K complex and induce synthetic lethality with PARP inhibitor - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34864331/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3297,
+              "start_index": 3209,
+              "title": "Noncovalent CDK12/13 dual inhibitors-based PROTACs degrade CDK12-Cyclin K complex and induce synthetic lethality with PARP inhibitor - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34864331/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3685,
+              "start_index": 3597,
+              "title": "Development of an orally bioavailable CDK12/13 degrader and induction of synthetic lethality with AKT pathway inhibition - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39353441/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3873,
+              "start_index": 3785,
+              "title": "Development of an orally bioavailable CDK12/13 degrader and induction of synthetic lethality with AKT pathway inhibition - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39353441/?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "- **Title:** WO2024175065A1 - Agent de dégradation contenant un substituant aryle pour cdk12/13, son procédé de préparation, et composition pharmaceutique et son utilisation - Google Patents  \n  - **URL:** `https://patents.google.com/patent/WO2024175065A1/fr`  \n  - **Quote snippets:**\n    - “Publication number **WO2024175065A1**” ([patents.google.com](https://patents.google.com/patent/WO2024175065A1/fr))  \n    - “the compound of the present invention is a **CDK12/13 protein degrader**” ([patents.google.com](https://patents.google.com/patent/WO2024175065A1/fr))  \n    - “**FIG6** is a result of measuring the proliferation inhibition activity of the compounds on the **prostate cancer** cell line **VCap**.” ([patents.google.com](https://patents.google.com/patent/WO2024175065A1/fr))  \n\n- **Title:** WO2020219650A1 - Dégradeurs de la kinase cycline-dépendante 12 (cdk12) et leurs utilisations - Google Patents  \n  - **URL:** `https://patents.google.com/patent/WO2020219650A1/fr`  \n  - **Quote snippets:**\n    - “Publication number **WO2020219650A1**” ([patents.google.com](https://patents.google.com/patent/WO2020219650A1/fr))  \n    - “**Cyclin-dependent kinase 12 (CDK12)** and **Cyclin-dependent kinase 13 (CDK13)** are elongation regulators of RNA polymerase II-mediated transcription…” ([patents.google.com](https://patents.google.com/patent/WO2020219650A1/fr))  \n    - “**CDK12 inhibitor THZ-5-31** … before treatment with exemplary **CDK12 inhibitor BSJ-0423 (BSJ-04-023)** at **250 nM** for 6 hours.” ([patents.google.com](https://patents.google.com/patent/WO2020219650A1/fr))  \n\n- **Title:** EP3958861A4 - Dégradeurs de la kinase cycline-dépendante 12 (cdk12) et leurs utilisations - Google Patents  \n  - **URL:** `https://patents.google.com/patent/EP3958861A4/fr`  \n  - **Quote snippets:**\n    - “**EP3958861A4**” ([patents.google.com](https://patents.google.com/patent/EP3958861A4/fr))  \n    - “**PCT/US2020/029483** **WO2020219650A1** … Dégradeurs de la kinase cycline-dépendante 12 (**cdk12**) et leurs utilisations” ([patents.google.com](https://patents.google.com/patent/EP3958861A4/fr))  \n\n- **Title:** Discovery and resistance mechanism of a selective CDK12 degrader - PubMed  \n  - **URL:** `https://pubmed.ncbi.nlm.nih.gov/33753926/`  \n  - **Quote snippets:**\n    - “we report the rational design and characterization of a **CDK12-specific degrader, BSJ-4-116**.” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/33753926/?utm_source=openai))  \n    - “**BSJ-4-116** … in combination with the poly(ADP-ribose) polymerase inhibitor **olaparib**” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/33753926/?utm_source=openai))  \n\n- **Title:** Noncovalent CDK12/13 dual inhibitors-based PROTACs degrade CDK12-Cyclin K complex and induce synthetic lethality with PARP inhibitor - PubMed  \n  - **URL:** `https://pubmed.ncbi.nlm.nih.gov/34864331/`  \n  - **Quote snippets:**\n    - “we have synthesized a potent **PROTAC degrader PP-C8**” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/34864331/?utm_source=openai))  \n    - “**PP-C8** demonstrates profound synergistic antiproliferative effects with **PARP inhibitor** in triple-negative breast cancer (**TNBC**).” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/34864331/?utm_source=openai))  \n\n- **Title:** Development of an orally bioavailable CDK12/13 degrader and induction of synthetic lethality with AKT pathway inhibition - PubMed  \n  - **URL:** `https://pubmed.ncbi.nlm.nih.gov/39353441/`  \n  - **Quote snippets:**\n    - “we develop a selective **CDK12/13 PROTAC degrader, YJ9069**” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/39353441/?utm_source=openai))  \n    - “Modifications of **YJ9069** yielded an orally bioavailable **CDK12/13 degrader, YJ1206**” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/39353441/?utm_source=openai))"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 54030,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 4301,
+    "output_tokens_details": {
+      "reasoning_tokens": 3276
+    },
+    "total_tokens": 58331
+  },
+  "user": null,
+  "metadata": {}
+}

@@ -1,0 +1,406 @@
+{
+  "id": "resp_0610d49c19ecfcb700693c9590b7088195b12e9fb62998f03a",
+  "object": "response",
+  "created_at": 1765578128,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0610d49c19ecfcb700693c959117a88195ab19f8faf9bcf647",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0610d49c19ecfcb700693c95925e6c8195b3abf454cac8ceee",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CTIS CDK12 inhibitor phase 1"
+      }
+    },
+    {
+      "id": "rs_0610d49c19ecfcb700693c9593cf94819597eb03b6d85f119d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0610d49c19ecfcb700693c9594db148195808ddfdc87fba961",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "clinicaltrials.europa.eu CT7439"
+      }
+    },
+    {
+      "id": "rs_0610d49c19ecfcb700693c95967ad48195a30c083e32465f86",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0610d49c19ecfcb700693c95980e088195b6875b4488b60144",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.ema.europa.eu/en/human-regulatory-overview/research-development/clinical-trials-human-medicines/clinical-trials-information-system"
+      }
+    },
+    {
+      "id": "rs_0610d49c19ecfcb700693c9598b1bc8195b43411c7dead2664",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0610d49c19ecfcb700693c95996fd481959155cf947788e98e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://euclinicaltrials.eu/search-for-clinical-trials/?lang=en"
+      }
+    },
+    {
+      "id": "rs_0610d49c19ecfcb700693c959a03208195a19f0d366fe5c6b1",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0610d49c19ecfcb700693c959c646c81958bbafeeba9fe899e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "euclinicaltrials.eu public api clinical trial number"
+      }
+    },
+    {
+      "id": "rs_0610d49c19ecfcb700693c959fa3c0819593f478e3dad8b55d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0610d49c19ecfcb700693c95a035cc8195b82e9fa2dfca154f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CT7439 \"EU clinical trial number\""
+      }
+    },
+    {
+      "id": "rs_0610d49c19ecfcb700693c95a2a9fc8195af35e7e2d87b8084",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0610d49c19ecfcb700693c95a3a43081958d3e93a0bc231848",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_0610d49c19ecfcb700693c95a509848195979b2d97e43883b4",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0610d49c19ecfcb700693c95a59c248195b86fa500f94052c9",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_0610d49c19ecfcb700693c95a6b93c8195be9246d8488bbfa8",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0610d49c19ecfcb700693c95a82cc08195b17b6d8f780282f3",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:euclinicaltrials.eu \"#/view/\""
+      }
+    },
+    {
+      "id": "rs_0610d49c19ecfcb700693c95ab5fe4819584fe7072a49b4eee",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0610d49c19ecfcb700693c95acd5b8819599422ed0dd4af13b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT06600789 EU CT number"
+      }
+    },
+    {
+      "id": "rs_0610d49c19ecfcb700693c95af0ca881959b29a28a4832794a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0610d49c19ecfcb700693c95b106dc8195bdd85d7a67914909",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:ctis.eu CT7439"
+      }
+    },
+    {
+      "id": "rs_0610d49c19ecfcb700693c95b4b680819587bccb9fcd9033ad",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0610d49c19ecfcb700693c95b6c848819597f5bbe3a2f49f5d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "ClinicalTrials.gov NCT06600789 CT7439"
+      }
+    },
+    {
+      "id": "rs_0610d49c19ecfcb700693c95ba795081958f7c8ce8e66aaa1a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0610d49c19ecfcb700693c95c19dc0819584d60bc7f48cbe21",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://euclinicaltrials.eu/search-for-clinical-trials/trial-map/?lang=en"
+      }
+    },
+    {
+      "id": "rs_0610d49c19ecfcb700693c95c29b5c8195b96caa70dbb197e2",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0610d49c19ecfcb700693c95c5081c81958fa3086bee2a155d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_0610d49c19ecfcb700693c95c66c688195b7e7b5340d35803c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0610d49c19ecfcb700693c95c7fedc8195b85b231745c9da93",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:euclinicaltrials.eu \"search-for-clinical-trials\" advanced search criteria"
+      }
+    },
+    {
+      "id": "rs_0610d49c19ecfcb700693c95ccfd7c81958a9e557706ee2ae8",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0610d49c19ecfcb700693c95cd83e48195af19fd77fb121c3d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://euclinicaltrials.eu/view-clinical-trial/"
+      }
+    },
+    {
+      "id": "rs_0610d49c19ecfcb700693c95ce78f88195ac81d1505e678d2c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0610d49c19ecfcb700693c95d071048195913988e69f69ba3a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:euclinicaltrials.eu \"view-clinical-trial\" \"2024-\""
+      }
+    },
+    {
+      "id": "rs_0610d49c19ecfcb700693c95d61fe8819592047488c7d837c0",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0610d49c19ecfcb700693c95d841bc819596c35d9665b573b2",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:ctis.eu/search CT7439"
+      }
+    },
+    {
+      "id": "rs_0610d49c19ecfcb700693c95dc1d2c819592855e12a4d276c5",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0610d49c19ecfcb700693c95de43508195a1fd232fa79d3232",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:ctis.eu/search \"CT7439\""
+      }
+    },
+    {
+      "id": "rs_0610d49c19ecfcb700693c95e46a548195831e4830ac3f1421",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0610d49c19ecfcb700693c95e84f9c8195bf29f2aa51a03ec0",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"https://ctis.eu/search/?q=CT7439\""
+      }
+    },
+    {
+      "id": "rs_0610d49c19ecfcb700693c95eb407c81958ebdcbeb2ec08935",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0610d49c19ecfcb700693c95f14d4881959cbc24a2904bc2f7",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CT7439_001\" \"2024-\" \"-00\""
+      }
+    },
+    {
+      "id": "rs_0610d49c19ecfcb700693c95f5d3a881959e13e0bd191a48e2",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0610d49c19ecfcb700693c9609bfd881958c0596c726623b4c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor"
+      }
+    },
+    {
+      "id": "rs_0610d49c19ecfcb700693c960cb3e8819597a21fe8e0bfecbb",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0610d49c19ecfcb700693c960d8c188195967dd061cdd955ca",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "CT7439_001",
+        "url": "https://ichgcp.net/clinical-trials-registry/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0610d49c19ecfcb700693c9611049c81958f18a93aa2f79c63",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0610d49c19ecfcb700693c961cade48195b4f07e04bd82fe76",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "- **Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor)**  \n  URL: `https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html`  \n  Snippets:\n  - “Phase 1 clinical trial evaluating **CT7439**, a novel cyclin dependent kinase 12/13 (**CDK12/13**) inhibitor / **Cyclin-K glue-degrader**.”\n  - “Clinical trial details can also be found on www.clinicaltrials.gov under study ID: **NCT06600789**.”\n  - “advanced solid tumors, including **ovarian**, **breast** and **Ewing's Sarcoma**.”\n\n- **Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor) :: Carrick Therapeutics, Inc.**  \n  URL: `https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase`  \n  Snippets:\n  - “Phase 1 clinical trial evaluating **CT7439**, a novel cyclin dependent kinase 12/13 (**CDK12/13**) inhibitor / **Cyclin-K glue-degrader**.”\n  - “Clinical trial details can also be found on www.clinicaltrials.gov under study ID: **NCT06600789**.”\n  - “advanced solid tumors, including **ovarian**, **breast** and **Ewing's Sarcoma**.”\n\n- **Carrick Therapeutics Announces U.S. FDA Clearance of IND for CT7439, a First-In-Class Inhibitor of CDK12/13 :: Carrick Therapeutics, Inc.**  \n  URL: `https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/20/carrick-therapeutics-announces-u-s-fda-clearance-of-ind`  \n  Snippets:\n  - “Investigational New Drug (**IND**) application for **CT7439**, a novel cyclin dependent kinase 12/13 (**CDK12/13**) inhibitor.”\n  - “initiate the **Phase 1** clinical trial in the first half of **2024**”\n  - “advanced solid tumors, including **breast**, **ovarian** and **Ewing's Sarcoma**.”\n\n- **CT7439: CDK12/13 inhibitor/Cyclin-K Degrader :: Carrick Therapeutics, Inc. (Pipeline page)**  \n  URL: `https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor`  \n  Snippets:\n  - “**CT7439: CDK12/13 inhibitor/Cyclin-K Degrader**”\n  - “The compound acts as an inhibitor of **CDK12** but also as a ‘**glue degrader**’ of **Cyclin-K**”\n  - “potential to synergise with other agents targeting **DDR** such as the **PARP inhibitors**.”\n\n- **Trial | NCT06600789 (Clinical Drug Experience Knowledgebase – Purdue)**  \n  URL: `https://cdek.pharmacy.purdue.edu/trial/NCT06600789/`  \n  Snippets:\n  - “Trial | **NCT06600789**”\n  - “Intervention/Treatment **CT7439 Capsules (0.5 mg, 1mg, 3mg)**”\n  - “Indication/Condition **Solid Malignancies**”\n\n- **CT7439 Capsules (0.5 mg, 1mg, 3mg) in Solid Malignancies – Clinical Trials Registry – ICH GCP**  \n  URL: `https://ichgcp.net/clinical-trials-registry/NCT06600789`  \n  Snippets:\n  - “#### Other Study ID Numbers” / “* **CT7439_001**”\n  - “#### Keywords” / “* **First In Human**” / “* **Solid Malignancies**”\n\n- **FDA Clears IND Application for First-in-Class CDK12/13 Inhibitor | CancerNetwork**  \n  URL: `https://www.cancernetwork.com/view/fda-clears-ind-application-for-first-in-class-cdk12-13-inhibitor`  \n  Snippets:\n  - “A planned **phase 1** trial will examine **CDK12/13 inhibitor CT7439**”\n  - “clearance to an investigational new drug (**IND**) application for **CDK12/13 inhibitor CT7439**”\n  - “including **breast** and **ovarian cancer**, as well as **Ewing’s sarcoma**.”"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 79565,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 7634,
+    "output_tokens_details": {
+      "reasoning_tokens": 6578
+    },
+    "total_tokens": 87199
+  },
+  "user": null,
+  "metadata": {}
+}

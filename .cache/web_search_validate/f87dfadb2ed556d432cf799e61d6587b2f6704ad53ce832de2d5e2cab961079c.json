@@ -1,0 +1,128 @@
+{
+  "id": "resp_07342e5a8426678200693c89d117f88195bad15e1ad5e20510",
+  "object": "response",
+  "created_at": 1765575121,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_07342e5a8426678200693c89d1695c8195ab89349282ebaa73",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07342e5a8426678200693c89d4eb788195bfe2ff5dcc4cc3bb",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "BRCA drug code BRCA"
+      }
+    },
+    {
+      "id": "rs_07342e5a8426678200693c89d6c314819598e690c940160bf0",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07342e5a8426678200693c89e5b5bc819593330ad1fe0fea5c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "BRCA acronym breast cancer susceptibility gene BRCA1 BRCA2 NCBI Gene"
+      }
+    },
+    {
+      "id": "rs_07342e5a8426678200693c89e867e881959ec9cc8c62ca4698",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07342e5a8426678200693c8a0ae2c081959cc1f68ca6f39cd3",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"BRCA\" \"investigational\" drug"
+      }
+    },
+    {
+      "id": "rs_07342e5a8426678200693c8a0d6a5881959d8d5c26acca2b95",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_07342e5a8426678200693c8a1bf38481958b4df26eb7814a48",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": false,\n  \"assets\": [],\n  \"rejected_reason\": \"Candidate identifier \\\"BRCA\\\" refers to BRCA1/BRCA2 genes (a hereditary cancer risk biomarker / DNA-repair tumor suppressor genes), not a specific drug asset name/code; no drug named or coded \\\"BRCA\\\" with sponsor/target/modality/stage details could be identified. Evidence: https://medlineplus.gov/genetics/gene/brca1/ ; https://www.ncbi.nlm.nih.gov/books/n/gene/brca1/\"\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 19115,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 3772,
+    "output_tokens_details": {
+      "reasoning_tokens": 3650
+    },
+    "total_tokens": 22887
+  },
+  "user": null,
+  "metadata": {}
+}

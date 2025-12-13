@@ -1,0 +1,421 @@
+{
+  "id": "resp_0ee332dff9b2db8a00693c8bf0b1048190a70222e0154b684d",
+  "object": "response",
+  "created_at": 1765575664,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0ee332dff9b2db8a00693c8bf1bd9c81909bcecdb5ac3ed46e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ee332dff9b2db8a00693c8bfa63c48190a17541769619c421",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12/13 inhibitor drug candidate"
+      }
+    },
+    {
+      "id": "rs_0ee332dff9b2db8a00693c8bfcafb08190bc03f9e7d7b018a4",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ee332dff9b2db8a00693c8c033a688190a4ce06d48062ec04",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "SR-4835 Therapeutic Targeting of CDK12/CDK13 in Triple-Negative Breast Cancer Cancer Cell 2019 SR-4835 discovered by"
+      }
+    },
+    {
+      "id": "rs_0ee332dff9b2db8a00693c8c05d3748190b863ccdd11173ffd",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ee332dff9b2db8a00693c8c1dfd348190840b6399fc874373",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12 CDK13 molecular glue degrader"
+      }
+    },
+    {
+      "id": "rs_0ee332dff9b2db8a00693c8c2058b481908215ef351a88d70f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ee332dff9b2db8a00693c8c26e2048190a7f0a93178677fa6",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31668947/"
+      }
+    },
+    {
+      "id": "rs_0ee332dff9b2db8a00693c8c27db948190841afab7d0d4ce81",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ee332dff9b2db8a00693c8c3a79f881909c385564af70fae6",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35938508/"
+      }
+    },
+    {
+      "id": "rs_0ee332dff9b2db8a00693c8c3c36e88190b9c407ff47738939",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ee332dff9b2db8a00693c8c401b288190a66d6d6f8c5158f3",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34864331/"
+      }
+    },
+    {
+      "id": "rs_0ee332dff9b2db8a00693c8c42397081909512a894447d9594",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ee332dff9b2db8a00693c8c4739688190982923b8257dd83d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11513923/"
+      }
+    },
+    {
+      "id": "rs_0ee332dff9b2db8a00693c8c48ac308190ac41d4e203910c8b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ee332dff9b2db8a00693c8c49d7b48190a2c8a704fdd2674b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "competing",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11513923/"
+      }
+    },
+    {
+      "id": "rs_0ee332dff9b2db8a00693c8c4c7a4c819086ff7dd55800524a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ee332dff9b2db8a00693c8c57098c8190b8d68840bf4bbff3",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "THZ531 covalent inhibitor CDK12 CDK13 PubMed 2016 Zhang"
+      }
+    },
+    {
+      "id": "rs_0ee332dff9b2db8a00693c8c5a32c88190bdfb5ee173640971",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ee332dff9b2db8a00693c8c5b78fc8190a11d3af9ec28b542",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27571479/"
+      }
+    },
+    {
+      "id": "rs_0ee332dff9b2db8a00693c8c5c852c8190a7ed7bc165de5cbf",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ee332dff9b2db8a00693c8c7a53248190b108a8bfbded6568",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "SR-4835 clinical trial"
+      }
+    },
+    {
+      "id": "rs_0ee332dff9b2db8a00693c8c7d50d88190a1680d5132d1dcf8",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ee332dff9b2db8a00693c8c7ea3dc8190954bcdf283e681bb",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "SR-4835 site:clinicaltrials.gov"
+      }
+    },
+    {
+      "id": "rs_0ee332dff9b2db8a00693c8c82701481908e0d4baaba812321",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ee332dff9b2db8a00693c8c8823cc819094de96e535b498cd",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT06600789 CT7439"
+      }
+    },
+    {
+      "id": "rs_0ee332dff9b2db8a00693c8c8b29d4819084a0255d9cbb5712",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ee332dff9b2db8a00693c8c8bf1d08190b998c2bcfb010d81",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0ee332dff9b2db8a00693c8c8dcc2c8190bb2611626e1a7a23",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ee332dff9b2db8a00693c8c8fc00c81909d8424f0506470a5",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_0ee332dff9b2db8a00693c8c911428819094ab262dae6eafa0",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ee332dff9b2db8a00693c8c958e1881908bc9fce74137dcbb",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT06600789 site:clinicaltrials.gov"
+      }
+    },
+    {
+      "id": "rs_0ee332dff9b2db8a00693c8c9990148190ab2f5076737d5c0f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ee332dff9b2db8a00693c8c9f2b288190af1a2a1d2a3720e7",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "Study Details NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0ee332dff9b2db8a00693c8ca44c4c819094db27f960d72111",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ee332dff9b2db8a00693c8ca60a6c8190a5c6cd891a88ee5f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "clinicaltrials.gov api v2 studies NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0ee332dff9b2db8a00693c8caaf7d88190ae6758f3b96c74b0",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ee332dff9b2db8a00693c8cae233c81908e2504fa919b3aa6",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "clinicaltrials.gov/api/v2/studies/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0ee332dff9b2db8a00693c8cb2ea908190b08b92c579139534",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ee332dff9b2db8a00693c8cb589ec8190aad9030552d9cc70",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov/api/v2/studies NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0ee332dff9b2db8a00693c8cb8f0ec819082d2373626fccb63",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ee332dff9b2db8a00693c8cd5b68c8190b0a6fbd5d50e810e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_0ee332dff9b2db8a00693c8cd6e28481908eb364263922839c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ee332dff9b2db8a00693c8cd80aa08190a0d4a00fb359fa7d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "ct2/show/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0ee332dff9b2db8a00693c8cde47748190bf1dd2e599a1dc54",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ee332dff9b2db8a00693c8ce625088190be6b41df4cd7a9af",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "https://clinicaltrials.gov/ct2/show/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0ee332dff9b2db8a00693c8ce99ba08190b2e119b1173015ee",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ee332dff9b2db8a00693c8d0bd9ac8190a7c588092c77ed2b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor"
+      }
+    },
+    {
+      "id": "rs_0ee332dff9b2db8a00693c8d0ec5988190bb4f8514ce9534f8",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0ee332dff9b2db8a00693c8d6519248190a3f06f113d6334d2",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": true,\n  \"assets\": [\n    {\n      \"drug_name_code\": \"CT7439\",\n      \"sponsor\": \"Carrick Therapeutics Limited\",\n      \"target\": \"CDK12; CDK13; Cyclin K\",\n      \"modality\": \"Small molecule (CDK12/13 inhibitor; Cyclin-K glue degrader)\",\n      \"indication\": \"Advanced solid tumors (including breast, ovarian and Ewing’s sarcoma)\",\n      \"development_stage\": \"Phase 1/2\",\n      \"geography\": \"United States; United Kingdom\",\n      \"sources\": [\n        \"https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor\",\n        \"https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase-1-clinical-trial-of-ct7439-cdk12-13-inhibitor\",\n        \"https://www.careacross.com/clinical-trials/trial/NCT06600789\"\n      ]\n    },\n    {\n      \"drug_name_code\": \"SR-4835\",\n      \"sponsor\": \"Moffitt Cancer Center and Research Institute\",\n      \"target\": \"CDK12; CDK13\",\n      \"modality\": \"Small molecule (dual CDK12/13 inhibitor)\",\n      \"indication\": \"Triple-negative breast cancer (TNBC)\",\n      \"development_stage\": \"Preclinical (no clinical development reported)\",\n      \"geography\": \"United States\",\n      \"sources\": [\n        \"https://pubmed.ncbi.nlm.nih.gov/31668947/\",\n        \"https://immunomart.org/product/sr-4835/\",\n        \"https://www.axonmedchem.com/3184-sr-4835\"\n      ]\n    },\n    {\n      \"drug_name_code\": \"7f\",\n      \"sponsor\": \"University of Michigan\",\n      \"target\": \"CDK12; CDK13\",\n      \"modality\": \"PROTAC degrader\",\n      \"indication\": \"Triple-negative breast cancer (TNBC)\",\n      \"development_stage\": \"Preclinical\",\n      \"geography\": \"United States; China\",\n      \"sources\": [\n        \"https://pubmed.ncbi.nlm.nih.gov/35938508/\",\n        \"https://pmc.ncbi.nlm.nih.gov/articles/PMC9876424/\"\n      ]\n    },\n    {\n      \"drug_name_code\": \"ZLC491\",\n      \"sponsor\": \"University of Michigan\",\n      \"target\": \"CDK12; CDK13\",\n      \"modality\": \"PROTAC degrader\",\n      \"indication\": \"Triple-negative breast cancer (TNBC)\",\n      \"development_stage\": \"Preclinical\",\n      \"geography\": \"United States; China\",\n      \"sources\": [\n        \"https://pmc.ncbi.nlm.nih.gov/articles/PMC11513923/\",\n        \"https://pubmed.ncbi.nlm.nih.gov/39388374/\"\n      ]\n    }\n  ],\n  \"rejected_reason\": null\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 99164,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 20803,
+    "output_tokens_details": {
+      "reasoning_tokens": 20140
+    },
+    "total_tokens": 119967
+  },
+  "user": null,
+  "metadata": {}
+}

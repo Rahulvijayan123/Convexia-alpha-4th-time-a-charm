@@ -1,0 +1,226 @@
+{
+  "id": "resp_0e1582769fd82e9f00693c914f356481979c7ae1fd677b4b3a",
+  "object": "response",
+  "created_at": 1765577039,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0e1582769fd82e9f00693c914f8ab48197b930200ff539fd41",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e1582769fd82e9f00693c9152e9f48197a5e672b6381ed6a3",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"August 16, 2024\" CDK12 inhibitor"
+      }
+    },
+    {
+      "id": "rs_0e1582769fd82e9f00693c9154b40c819783c88216f4c9038e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e1582769fd82e9f00693c91597a9c819795ebf6530d1b11d6",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"August 16, 2024\" \"CDK12\" \"breast\""
+      }
+    },
+    {
+      "id": "rs_0e1582769fd82e9f00693c915b88908197989d348bf426bbe6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e1582769fd82e9f00693c9181ac9081978ceeff04d828784a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"August 16, 2024\" \"CDK12\" \"PROTAC\" breast cancer"
+      }
+    },
+    {
+      "id": "rs_0e1582769fd82e9f00693c918401ac81978e9b661407e8a409",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e1582769fd82e9f00693c9185d018819786db225a6f8bea3f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0e1582769fd82e9f00693c918670e88197af621f2244b1afb8",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e1582769fd82e9f00693c918a46f481979262eea77831a3a5",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/ct2/show/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0e1582769fd82e9f00693c918b41548197bcec673c6a1b2626",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e1582769fd82e9f00693c9194dca88197b5560013f6547c6c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CT7439 CDK12/13 inhibitor Carrick Therapeutics"
+      }
+    },
+    {
+      "id": "rs_0e1582769fd82e9f00693c9197ea848197a211ef2c255d621c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e1582769fd82e9f00693c91bd11a08197a0e9eeff8f68067a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor"
+      }
+    },
+    {
+      "id": "rs_0e1582769fd82e9f00693c91bdbc2c81978f85cb6d9de9052f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e1582769fd82e9f00693c91c0c8b0819786199c63f89759b2",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.carricktherapeutics.com/news-media/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase"
+      }
+    },
+    {
+      "id": "rs_0e1582769fd82e9f00693c91c18a5c8197b464db7bc2366592",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e1582769fd82e9f00693c91c584388197afbb236c486d2ca9",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.centerwatch.com/clinical-trials/listings/NCT06600789/a-modular-phase-1-2-study-with-ct7439-in-participants-with-solid-malignancies"
+      }
+    },
+    {
+      "id": "rs_0e1582769fd82e9f00693c91c654808197bc3e628c150eed03",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e1582769fd82e9f00693c91e420a8819795825a1e1fc5d132",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"August 16, 2024\" \"CDK12/13\" inhibitor \"first patient\""
+      }
+    },
+    {
+      "id": "rs_0e1582769fd82e9f00693c91e6e1cc8197833d90f758d48717",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0e1582769fd82e9f00693c92367ed88197b4c6d4735b79d749",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": false,\n  \"assets\": [],\n  \"rejected_reason\": \"Candidate identifier \\\"August 16, 2024\\\" is a calendar date and does not uniquely identify a specific CDK12/CDK12/13 drug asset (name/code, trial ID, or patent), so the required asset fields cannot be populated.\"\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 37153,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 11828,
+    "output_tokens_details": {
+      "reasoning_tokens": 11751
+    },
+    "total_tokens": 48981
+  },
+  "user": null,
+  "metadata": {}
+}

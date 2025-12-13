@@ -1,0 +1,409 @@
+{
+  "id": "resp_0ace6739c58e57de00693c8d6afa248190a00372c48a5dfb8c",
+  "object": "response",
+  "created_at": 1765576043,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0ace6739c58e57de00693c8d6b3624819084719b8323341d01",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ace6739c58e57de00693c8d6e8de4819094ff193df1b2399a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12 degrader corporate presentation pipeline PDF"
+      }
+    },
+    {
+      "id": "rs_0ace6739c58e57de00693c8d7035f881909080e08cc53b5be6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ace6739c58e57de00693c8d71e188819080ab291f458f1e52",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12 degrader pipeline \"corporate presentation\" filetype:pdf"
+      }
+    },
+    {
+      "id": "rs_0ace6739c58e57de00693c8d7477a881909130ba649aa942f6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ace6739c58e57de00693c8d7832d88190bd1fd4d831371940",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CDK12\" degrader \"Corporate Presentation\" \"PDF\" \"degrader\""
+      }
+    },
+    {
+      "id": "rs_0ace6739c58e57de00693c8d7b7bdc8190bb2a16eb4a8e07b7",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ace6739c58e57de00693c8d7fa03c8190b8533fc5700918e0",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CDK12\" \"degrader\" filetype:pdf \"pipeline\""
+      }
+    },
+    {
+      "id": "rs_0ace6739c58e57de00693c8d8238ac81908566d2cb004d010e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ace6739c58e57de00693c8d88ccb08190902c7d67095b2d74",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CDK12 degrader\" filetype:pdf \"presentation\""
+      }
+    },
+    {
+      "id": "rs_0ace6739c58e57de00693c8d8c13dc8190910fa2527db3d7af",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ace6739c58e57de00693c8d95ac348190a8fabd9c9cfe7a4b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"Cyclin K\" degrader \"corporate presentation\" filetype:pdf"
+      }
+    },
+    {
+      "id": "rs_0ace6739c58e57de00693c8d992a98819099990918e1eba5ad",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ace6739c58e57de00693c8d9a8224819096974d34ddf7d30a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CT-7439 corporate presentation pdf"
+      }
+    },
+    {
+      "id": "rs_0ace6739c58e57de00693c8d9e65c08190b686d322095c8e3b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ace6739c58e57de00693c8da035548190bd69d293dba383d0",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "Carrick Therapeutics presentations PDF CT7439"
+      }
+    },
+    {
+      "id": "rs_0ace6739c58e57de00693c8da3d7d481908be33fae6093c1e9",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ace6739c58e57de00693c8da4797881909f43d970b94095a0",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.carricktherapeutics.com/investors/news-events/presentations"
+      }
+    },
+    {
+      "id": "rs_0ace6739c58e57de00693c8da65b308190956a5082e601ba2f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ace6739c58e57de00693c8daa0df88190a770516224645be3",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "Carrick Therapeutics corporate presentation pdf CT7439"
+      }
+    },
+    {
+      "id": "rs_0ace6739c58e57de00693c8dae7f6c819094e6c3ded3fc51b4",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ace6739c58e57de00693c8db984d88190af10c6123629649b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor"
+      }
+    },
+    {
+      "id": "rs_0ace6739c58e57de00693c8dbbfa08819088040e5eb801090e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ace6739c58e57de00693c8dbd13588190a22e138e2fa530d7",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/20/carrick-therapeutics-announces-u-s-fda-clearance-of-ind"
+      }
+    },
+    {
+      "id": "rs_0ace6739c58e57de00693c8dc01c288190b83239e6a29f9c9b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ace6739c58e57de00693c8dc08c9c8190b5837c899e5e5db5",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "BSJ-4-116",
+        "url": "https://physicianresources.dana-farber.org/news/dana-farber-research-publication-7-1-2021"
+      }
+    },
+    {
+      "id": "rs_0ace6739c58e57de00693c8dc2fc408190ab60c4326e5df41a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ace6739c58e57de00693c8dc52720819086a4e76ebce49c9d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2024-09-23_Carrick_Therapeutics_Announces_First_Patient_25.pdf"
+      }
+    },
+    {
+      "id": "rs_0ace6739c58e57de00693c8dc7543881909cc42bd6508a9ef2",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ace6739c58e57de00693c8dc813cc8190a6c3fa41321e2de0",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov NCT06600789 CT7439"
+      }
+    },
+    {
+      "id": "rs_0ace6739c58e57de00693c8dcc7208819089273908a3f51312",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ace6739c58e57de00693c8dccacb88190bfe18a0064c890d2",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0ace6739c58e57de00693c8dce258481909231dad32fd613cf",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ace6739c58e57de00693c8dcf81888190a5ef068902fa377d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_0ace6739c58e57de00693c8dd0f7488190835d6592edb31989",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ace6739c58e57de00693c8dd1a5ac8190a1e1d59eefef2d35",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "https://clinicaltrials.gov/study/NCT06600789?tab=study-details"
+      }
+    },
+    {
+      "id": "rs_0ace6739c58e57de00693c8dd545608190a53d1b74531f4335",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ace6739c58e57de00693c8dd704d48190afc2f9091a958cb0",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0ace6739c58e57de00693c8ddc03088190aa83b356f01d1769",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ace6739c58e57de00693c8ddd2c288190b93681f86009583b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT06600789 CT7439 clinicaltrials.gov study details"
+      }
+    },
+    {
+      "id": "rs_0ace6739c58e57de00693c8de3df8481908be061f94556176d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ace6739c58e57de00693c8defe8808190807d485e611c70db",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.sec.gov/Archives/edgar/data/1601830/000160183024000148/exhibit991-rxrxsept2024.htm"
+      }
+    },
+    {
+      "id": "rs_0ace6739c58e57de00693c8df2454c81909d03eee8eb6484cb",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ace6739c58e57de00693c8df37e0c81909edc88784fd0a617",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://ichgcp.net/clinical-trials-registry/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0ace6739c58e57de00693c8df5e30881909369fe5dfef53c3a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ace6739c58e57de00693c8df72b78819095b0bbebf90c4c24",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "CT7439_001",
+        "url": "https://www.centerwatch.com/clinical-trials/listings/NCT06600789/a-modular-phase-1-2-study-with-ct7439-in-participants-with-solid-malignancies"
+      }
+    },
+    {
+      "id": "rs_0ace6739c58e57de00693c8df965848190893023e2794a5fa4",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0ace6739c58e57de00693c8e0008388190a878948239c2cb25",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "- **Title:** Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor) (PDF)  \n  **URL:** `https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2024-09-23_Carrick_Therapeutics_Announces_First_Patient_25.pdf`  \n  **Direct quote snippets:**\n  - “evaluating **CT7439**, a novel cyclin dependent kinase 12/13 (**CDK12/13**) inhibitor / **Cyclin-K glue-degrader**.”\n  - “under study ID: **NCT06600789**.”\n  - “**CT7439** is an inhibitor of **CDK12/13** as well as a ‘**glue degrader**’ of **Cyclin-K**”\n\n- **Title:** Carrick Therapeutics Announces U.S. FDA Clearance of IND for CT7439, a First-In-Class Inhibitor of CDK12/13 (PDF)  \n  **URL:** `https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2023-09-07_Carrick_Therapeutics_Announces_U_S_FDA_Clearance_20.pdf`  \n  **Direct quote snippets:**\n  - “Investigational New Drug (**IND**) application for **CT7439**, a novel cyclin dependent kinase 12/13 (**CDK12/13**) inhibitor.”\n  - “**CT7439** is an inhibitor of **CDK12/13** as well as a ‘**glue degrader**’ of **Cyclin-K**”\n  - “patients with advanced solid tumors, including breast, ovarian and **Ewing’s Sarcoma**.”\n\n- **Title:** CT7439: CDK12/13 inhibitor/Cyclin-K Degrader (Carrick Therapeutics pipeline page)  \n  **URL:** `https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor`  \n  **Direct quote snippets:**\n  - “## **CT7439: CDK12/13 inhibitor/Cyclin-K Degrader**”\n  - “**CT7439** is a **CDK12/13/Cyclin-K degrader**”\n  - “multiple cancer types including breast, ovarian and **Ewing's Sarcoma**.”\n\n- **Title:** exhibit991-rxrxsept2024 (Recursion corporate presentation on SEC)  \n  **URL:** `https://www.sec.gov/Archives/edgar/data/1601830/000160183024000148/exhibit991-rxrxsept2024.htm`  \n  **Direct quote snippets:**\n  - “**REC-1245**  Advanced HR-Proficient Cancers  **RBM39**”\n  - “Potential first-in-class **molecular glue degrader**… **RBM39**… mimicking **CDK12** biology independent of **CDK13**”\n  - “Preclinical: **REC-1245**  **REC-1245: RBM39 Inhibition for Advanced HR-Proficient Cancers**”\n\n- **Title:** Dana-Farber Research Publication, 7.1.2021 (Selective CDK12 degrader)  \n  **URL:** `https://physicianresources.dana-farber.org/news/dana-farber-research-publication-7-1-2021`  \n  **Direct quote snippets:**\n  - “Selective CDK12 Degrader”\n  - “a CDK12-specific degrader, **BSJ-4-116**.”\n  - “poly(ADP-ribose) polymerase inhibitor **olaparib**”\n\n- **Title:** A Modular Phase 1/2 Study With CT7439 in Participants With Solid Malignancies (CenterWatch listing)  \n  **URL:** `https://www.centerwatch.com/clinical-trials/listings/NCT06600789/a-modular-phase-1-2-study-with-ct7439-in-participants-with-solid-malignancies`  \n  **Direct quote snippets:**\n  - “#### Clinical Study ID  **NCT06600789**  **CT7439_001**”\n  - “#### Treatment  **CT7439 Capsules (0.5 mg, 1mg, 3mg)**”\n  - “#### Condition  **Neoplasms**  **All Solid Tumors**”"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 88355,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 7202,
+    "output_tokens_details": {
+      "reasoning_tokens": 6209
+    },
+    "total_tokens": 95557
+  },
+  "user": null,
+  "metadata": {}
+}

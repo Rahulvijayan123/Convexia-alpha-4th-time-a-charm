@@ -1,0 +1,128 @@
+{
+  "id": "resp_06f5d870e574503b00693c916a9af48197a29635179fa37b77",
+  "object": "response",
+  "created_at": 1765577066,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_06f5d870e574503b00693c916b048c8197ba3f6edfac15cc47",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_06f5d870e574503b00693c916e2f5081978b51109901a29123",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "PP-C8 CDK12"
+      }
+    },
+    {
+      "id": "rs_06f5d870e574503b00693c916fe7e4819788b168a95974e78e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_06f5d870e574503b00693c918476ac8197ab8538a93e80a484",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34864331/"
+      }
+    },
+    {
+      "id": "rs_06f5d870e574503b00693c91853d24819783707249b5ae5050",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_06f5d870e574503b00693c918a4eb481978005fd00fabad723",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://synapse.patsnap.com/drug/d7193879f4df4170bdcb0c2955d08d50"
+      }
+    },
+    {
+      "id": "rs_06f5d870e574503b00693c918b07748197a2604a5edf985067",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_06f5d870e574503b00693c91a671388197aa705cec95d6edbc",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": true,\n  \"assets\": [\n    {\n      \"drug_name_code\": \"PP-C8\",\n      \"sponsor\": \"Zhejiang University\",\n      \"target\": \"CDK12 (CDK12–Cyclin K complex)\",\n      \"modality\": \"PROTAC (proteolysis-targeting chimera) degrader\",\n      \"indication\": \"Triple-negative breast cancer (TNBC)\",\n      \"development_stage\": \"Preclinical\",\n      \"geography\": \"China\",\n      \"sources\": [\n        \"https://synapse.patsnap.com/drug/d7193879f4df4170bdcb0c2955d08d50\",\n        \"https://pubmed.ncbi.nlm.nih.gov/34864331/\",\n        \"https://doi.org/10.1016/j.ejmech.2021.114012\"\n      ]\n    }\n  ],\n  \"rejected_reason\": null\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 17517,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 3800,
+    "output_tokens_details": {
+      "reasoning_tokens": 3597
+    },
+    "total_tokens": 21317
+  },
+  "user": null,
+  "metadata": {}
+}

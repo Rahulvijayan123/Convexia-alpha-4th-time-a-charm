@@ -1,0 +1,494 @@
+{
+  "id": "resp_0987ae6791aa3dd100693c9590b3608190a27ff598a53296eb",
+  "object": "response",
+  "created_at": 1765578128,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0987ae6791aa3dd100693c959123b88190bac82cac090f30f5",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0987ae6791aa3dd100693c9592056081908b1a0084193c5456",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12 CDK13 dual inhibitor patent WO"
+      }
+    },
+    {
+      "id": "rs_0987ae6791aa3dd100693c95934280819091f2613376b5b99b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0987ae6791aa3dd100693c95954bb4819090a4e027219bb3cd",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:patents.google.com WO CDK12 CDK13 inhibitor"
+      }
+    },
+    {
+      "id": "rs_0987ae6791aa3dd100693c9596c56c81909e8b018292e8bd79",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0987ae6791aa3dd100693c959947948190a15264d1b6d3bfe9",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "WO2021176049 CDK12 patent"
+      }
+    },
+    {
+      "id": "rs_0987ae6791aa3dd100693c959b8b948190bff41b717c506ff4",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0987ae6791aa3dd100693c959ce03881909a53490c22fcd05c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "WO2025167975 CDK12 CDK13 inhibitor"
+      }
+    },
+    {
+      "id": "rs_0987ae6791aa3dd100693c959f58f48190afc09509d349199e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0987ae6791aa3dd100693c95a0f31c8190ae5317e602130840",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "WO2025167975 patentscope"
+      }
+    },
+    {
+      "id": "rs_0987ae6791aa3dd100693c95a580d481908c6e3453d1497c06",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0987ae6791aa3dd100693c95a5d030819082e62c008cdf5e10",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_0987ae6791aa3dd100693c95a6a3ac8190be5005b4e3c3157b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0987ae6791aa3dd100693c95a79bf0819086596ed0b597357e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:patentscope.wipo.int WO2025167975"
+      }
+    },
+    {
+      "id": "rs_0987ae6791aa3dd100693c95aa06d88190ae78600da54fa8e2",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0987ae6791aa3dd100693c95adea18819087da29d4619f8199",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:patents.google.com CDK12 CDK13 WO2024"
+      }
+    },
+    {
+      "id": "rs_0987ae6791aa3dd100693c95b326a481909b8875bab24d0de3",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0987ae6791aa3dd100693c95bb28a88190b1d7bf0706107d5a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/WO2021138215A1/en"
+      }
+    },
+    {
+      "id": "rs_0987ae6791aa3dd100693c95bdfd2081909172368a527c4453",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0987ae6791aa3dd100693c95c0cb1c8190981ffef984aeeb61",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "Publication number",
+        "url": "https://patents.google.com/patent/WO2019217421A1/en"
+      }
+    },
+    {
+      "id": "rs_0987ae6791aa3dd100693c95c3d0c48190a85907f9d01c1656",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0987ae6791aa3dd100693c95c53f1c81908ef1529671d8276f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/WO2019217421A1/en"
+      }
+    },
+    {
+      "id": "rs_0987ae6791aa3dd100693c95c765dc8190b8a1ad9e2b4f8ea0",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0987ae6791aa3dd100693c95c8ec688190868f02979c65a355",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/WO2024032561A1/en"
+      }
+    },
+    {
+      "id": "rs_0987ae6791aa3dd100693c95ca4dd48190bcd3a6b58d18feb2",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0987ae6791aa3dd100693c95ccca7481908da780b39c57bdff",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "CDK12 and/or CDK13",
+        "url": "https://patents.google.com/patent/WO2022263604A1/zh"
+      }
+    },
+    {
+      "id": "rs_0987ae6791aa3dd100693c95d00e1081908e8c450a7ba02369",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0987ae6791aa3dd100693c95d132c08190a7bda037d8cb5bfc",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/WO2025167978A1/en"
+      }
+    },
+    {
+      "id": "rs_0987ae6791aa3dd100693c95d270248190a5703fd9ace24283",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0987ae6791aa3dd100693c95e34b708190825cd4ff7d4edbbe",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 162,
+              "start_index": 87,
+              "title": "WO2021138215A1 - Treatment of cancer with cdk12/13 inhibitors \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2021138215A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 303,
+              "start_index": 228,
+              "title": "WO2021138215A1 - Treatment of cancer with cdk12/13 inhibitors \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2021138215A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 446,
+              "start_index": 371,
+              "title": "WO2021138215A1 - Treatment of cancer with cdk12/13 inhibitors \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2021138215A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 672,
+              "start_index": 597,
+              "title": "WO2021138215A1 - Treatment of cancer with cdk12/13 inhibitors \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2021138215A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 870,
+              "start_index": 795,
+              "title": "WO2021138215A1 - Treatment of cancer with cdk12/13 inhibitors \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2021138215A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1032,
+              "start_index": 957,
+              "title": "WO2019217421A1 - Small molecule inhibitors of cdk12/cdk13 \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2019217421A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1173,
+              "start_index": 1098,
+              "title": "WO2019217421A1 - Small molecule inhibitors of cdk12/cdk13 \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2019217421A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1316,
+              "start_index": 1241,
+              "title": "WO2019217421A1 - Small molecule inhibitors of cdk12/cdk13 \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2019217421A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1443,
+              "start_index": 1368,
+              "title": "WO2019217421A1 - Small molecule inhibitors of cdk12/cdk13 \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2019217421A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1574,
+              "start_index": 1499,
+              "title": "WO2019217421A1 - Small molecule inhibitors of cdk12/cdk13 \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2019217421A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1772,
+              "start_index": 1697,
+              "title": "WO2024032561A1 - Inhibitors of cyclin-dependent kinase (cdk) 12 and/or cdk13 and uses thereof \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2024032561A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1913,
+              "start_index": 1838,
+              "title": "WO2024032561A1 - Inhibitors of cyclin-dependent kinase (cdk) 12 and/or cdk13 and uses thereof \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2024032561A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2056,
+              "start_index": 1981,
+              "title": "WO2024032561A1 - Inhibitors of cyclin-dependent kinase (cdk) 12 and/or cdk13 and uses thereof \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2024032561A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2231,
+              "start_index": 2156,
+              "title": "WO2024032561A1 - Inhibitors of cyclin-dependent kinase (cdk) 12 and/or cdk13 and uses thereof \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2024032561A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2358,
+              "start_index": 2283,
+              "title": "WO2024032561A1 - Inhibitors of cyclin-dependent kinase (cdk) 12 and/or cdk13 and uses thereof \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2024032561A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2565,
+              "start_index": 2490,
+              "title": "WO2025167978A1 - Cyclin-dependent kinase (cdk) 12 and/or cdk13 inhibitor combinations and uses thereof \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2025167978A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2706,
+              "start_index": 2631,
+              "title": "WO2025167978A1 - Cyclin-dependent kinase (cdk) 12 and/or cdk13 inhibitor combinations and uses thereof \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2025167978A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2849,
+              "start_index": 2774,
+              "title": "WO2025167978A1 - Cyclin-dependent kinase (cdk) 12 and/or cdk13 inhibitor combinations and uses thereof \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2025167978A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3033,
+              "start_index": 2958,
+              "title": "WO2025167978A1 - Cyclin-dependent kinase (cdk) 12 and/or cdk13 inhibitor combinations and uses thereof \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2025167978A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3160,
+              "start_index": 3085,
+              "title": "WO2025167978A1 - Cyclin-dependent kinase (cdk) 12 and/or cdk13 inhibitor combinations and uses thereof \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2025167978A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3381,
+              "start_index": 3306,
+              "title": "WO2022263604A1 - Substituted pyrazolo[1,5-a]pyrimidine-7-amine compounds as cdk inhibitors and their therapeutic use \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2022263604A1/zh"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3522,
+              "start_index": 3447,
+              "title": "WO2022263604A1 - Substituted pyrazolo[1,5-a]pyrimidine-7-amine compounds as cdk inhibitors and their therapeutic use \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2022263604A1/zh"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3665,
+              "start_index": 3590,
+              "title": "WO2022263604A1 - Substituted pyrazolo[1,5-a]pyrimidine-7-amine compounds as cdk inhibitors and their therapeutic use \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2022263604A1/zh"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3832,
+              "start_index": 3757,
+              "title": "WO2022263604A1 - Substituted pyrazolo[1,5-a]pyrimidine-7-amine compounds as cdk inhibitors and their therapeutic use \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2022263604A1/zh"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4003,
+              "start_index": 3928,
+              "title": "WO2022263604A1 - Substituted pyrazolo[1,5-a]pyrimidine-7-amine compounds as cdk inhibitors and their therapeutic use \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2022263604A1/zh"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4170,
+              "start_index": 4098,
+              "title": "WO2023091726A1 - Inhibitors of cyclin‑dependent kinase 12 (cdk12) \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2023091726A1"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4305,
+              "start_index": 4233,
+              "title": "WO2023091726A1 - Inhibitors of cyclin‑dependent kinase 12 (cdk12) \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2023091726A1"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4445,
+              "start_index": 4373,
+              "title": "WO2023091726A1 - Inhibitors of cyclin‑dependent kinase 12 (cdk12) \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2023091726A1"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4639,
+              "start_index": 4567,
+              "title": "WO2023091726A1 - Inhibitors of cyclin‑dependent kinase 12 (cdk12) \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2023091726A1"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4820,
+              "start_index": 4748,
+              "title": "WO2023091726A1 - Inhibitors of cyclin‑dependent kinase 12 (cdk12) \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2023091726A1"
+            }
+          ],
+          "logprobs": [],
+          "text": "- **WO2021138215A1 – “Treatment of cancer with cdk12/13 inhibitors” (Google Patents)** ([patents.google.com](https://patents.google.com/patent/WO2021138215A1/en))  \n  - URL: `https://patents.google.com/patent/WO2021138215A1/en` ([patents.google.com](https://patents.google.com/patent/WO2021138215A1/en))  \n  - Direct quotes:\n    - “Publication number **WO2021138215A1**” ([patents.google.com](https://patents.google.com/patent/WO2021138215A1/en))  \n    - “the compositions useful for the methods of treating cancer disclosed herein comprise heterocyclic **CDK12/13 inhibitors** described herein.” ([patents.google.com](https://patents.google.com/patent/WO2021138215A1/en))  \n    - “method of treating a **triple-negative breast cancer**… comprising administering… a compound of **Formula (I)**” ([patents.google.com](https://patents.google.com/patent/WO2021138215A1/en))  \n\n- **WO2019217421A1 – “Small molecule inhibitors of cdk12/cdk13” (Google Patents)** ([patents.google.com](https://patents.google.com/patent/WO2019217421A1/en))  \n  - URL: `https://patents.google.com/patent/WO2019217421A1/en` ([patents.google.com](https://patents.google.com/patent/WO2019217421A1/en))  \n  - Direct quotes:\n    - “Publication number **WO2019217421A1**” ([patents.google.com](https://patents.google.com/patent/WO2019217421A1/en))  \n    - “Application number **PCT/US2019/031116**” ([patents.google.com](https://patents.google.com/patent/WO2019217421A1/en))  \n    - “Small molecule inhibitors of **cdk12/cdk13**” ([patents.google.com](https://patents.google.com/patent/WO2019217421A1/en))  \n\n- **WO2024032561A1 – “Inhibitors of cyclin-dependent kinase (cdk) 12 and/or cdk13 and uses thereof” (Google Patents)** ([patents.google.com](https://patents.google.com/patent/WO2024032561A1/en))  \n  - URL: `https://patents.google.com/patent/WO2024032561A1/en` ([patents.google.com](https://patents.google.com/patent/WO2024032561A1/en))  \n  - Direct quotes:\n    - “Publication number **WO2024032561A1**” ([patents.google.com](https://patents.google.com/patent/WO2024032561A1/en))  \n    - “Inhibitors of cyclin-dependent kinase (**cdk**) **12** and/or **cdk13** and uses thereof” ([patents.google.com](https://patents.google.com/patent/WO2024032561A1/en))  \n    - “Application number **PCT/CN2023/111521**” ([patents.google.com](https://patents.google.com/patent/WO2024032561A1/en))  \n\n- **WO2025167978A1 – “Cyclin-dependent kinase (cdk) 12 and/or cdk13 inhibitor combinations and uses thereof” (Google Patents)** ([patents.google.com](https://patents.google.com/patent/WO2025167978A1/en))  \n  - URL: `https://patents.google.com/patent/WO2025167978A1/en` ([patents.google.com](https://patents.google.com/patent/WO2025167978A1/en))  \n  - Direct quotes:\n    - “Publication number **WO2025167978A1**” ([patents.google.com](https://patents.google.com/patent/WO2025167978A1/en))  \n    - “Cyclin-dependent kinase (**cdk**) **12** and/or **cdk13 inhibitor combinations** and uses thereof” ([patents.google.com](https://patents.google.com/patent/WO2025167978A1/en))  \n    - “Application number **PCT/CN2025/075993**” ([patents.google.com](https://patents.google.com/patent/WO2025167978A1/en))  \n\n- **WO2022263604A1 – “Substituted pyrazolo[1,5-a]pyrimidine-7-amine compounds as cdk inhibitors and their therapeutic use” (Google Patents)** ([patents.google.com](https://patents.google.com/patent/WO2022263604A1/zh))  \n  - URL: `https://patents.google.com/patent/WO2022263604A1/zh` ([patents.google.com](https://patents.google.com/patent/WO2022263604A1/zh))  \n  - Direct quotes:\n    - “Publication number **WO2022263604A1**” ([patents.google.com](https://patents.google.com/patent/WO2022263604A1/zh))  \n    - “the PPA compounds described herein are potent **CDK12 and/or CDK13 inhibitors**…” ([patents.google.com](https://patents.google.com/patent/WO2022263604A1/zh))  \n    - “the PPA compounds described herein may also act as selective **Cyclin K degraders**…” ([patents.google.com](https://patents.google.com/patent/WO2022263604A1/zh))  \n\n- **WO2023091726A1 – “Inhibitors of cyclin‑dependent kinase 12 (cdk12)” (Google Patents)** ([patents.google.com](https://patents.google.com/patent/WO2023091726A1))  \n  - URL: `https://patents.google.com/patent/WO2023091726A1` ([patents.google.com](https://patents.google.com/patent/WO2023091726A1))  \n  - Direct quotes:\n    - “Publication number **WO2023091726A1**” ([patents.google.com](https://patents.google.com/patent/WO2023091726A1))  \n    - “pharmaceutical composition comprising an **inhibitor of CDK12 and/or CDK13** (e.g., a compound of formula (I))” ([patents.google.com](https://patents.google.com/patent/WO2023091726A1))  \n    - “the second therapeutic agent can target a **synthetic lethal partner** to **CDK12 and/or CDK13**.” ([patents.google.com](https://patents.google.com/patent/WO2023091726A1))"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 58685,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 5780,
+    "output_tokens_details": {
+      "reasoning_tokens": 4546
+    },
+    "total_tokens": 64465
+  },
+  "user": null,
+  "metadata": {}
+}

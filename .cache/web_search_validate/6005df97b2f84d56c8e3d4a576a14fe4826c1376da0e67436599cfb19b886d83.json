@@ -1,0 +1,114 @@
+{
+  "id": "resp_0a83489e803a875d00693c914f5cfc8194828549e15de84df5",
+  "object": "response",
+  "created_at": 1765577039,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0a83489e803a875d00693c91506a58819494968b324b1316d6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a83489e803a875d00693c915798888194ac229f62fe1a6d35",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "MDA-MB-231 what is it cell line ATCC HTB-26"
+      }
+    },
+    {
+      "id": "rs_0a83489e803a875d00693c9158ff608194a94ef47a8c290084",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a83489e803a875d00693c915b923c8194ad0d1d5432d5874a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "MDA-MB-231 Cellosaurus CVCL_0062"
+      }
+    },
+    {
+      "id": "rs_0a83489e803a875d00693c915d20c081948b3ab0dcbb9d4767",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0a83489e803a875d00693c916909c08194adc00aed97085b75",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": false,\n  \"assets\": [],\n  \"rejected_reason\": \"MDA-MB-231 is a human breast cancer cell line (ATCC HTB-26 / Cellosaurus CVCL_0062), not a drug/therapeutic asset, so sponsor/target/modality/indication/development stage/geography fields are not applicable. Sources: https://www.atcc.org/products/htb-26 ; https://www.cellosaurus.org/CVCL_0062\"\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 13022,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 1571,
+    "output_tokens_details": {
+      "reasoning_tokens": 1458
+    },
+    "total_tokens": 14593
+  },
+  "user": null,
+  "metadata": {}
+}

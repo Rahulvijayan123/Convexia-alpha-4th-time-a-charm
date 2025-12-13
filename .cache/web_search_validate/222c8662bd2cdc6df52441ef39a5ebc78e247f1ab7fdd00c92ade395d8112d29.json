@@ -1,0 +1,242 @@
+{
+  "id": "resp_0e44acb15c3dab2800693c83b7e7f88196ad29b7587f5c6df4",
+  "object": "response",
+  "created_at": 1765573559,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0e44acb15c3dab2800693c83b853288196977f0437c4cfd40a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e44acb15c3dab2800693c83bba3a481969e9ac491dde7b84c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "THZ531 CDK12 CDK13 covalent inhibitor THZ531"
+      }
+    },
+    {
+      "id": "rs_0e44acb15c3dab2800693c83bd71a48196adaa33bc03c20a4a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e44acb15c3dab2800693c83c0d0548196b5cd5a878ecb3ec9",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "THZ531 TNBC CDK12 inhibitor"
+      }
+    },
+    {
+      "id": "rs_0e44acb15c3dab2800693c83c2c5c48196b37039f4d6e62506",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e44acb15c3dab2800693c83c740188196bf1e3a9c54e076af",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27571479/"
+      }
+    },
+    {
+      "id": "rs_0e44acb15c3dab2800693c83c815888196adf9e23efc90a3f9",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e44acb15c3dab2800693c83d792c08196837475e9ad6ed620",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39955845/"
+      }
+    },
+    {
+      "id": "rs_0e44acb15c3dab2800693c83d856c48196bac35f3c0d087803",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e44acb15c3dab2800693c83d8d4a08196a30dc42172bc4263",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "THZ531",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39955845/"
+      }
+    },
+    {
+      "id": "rs_0e44acb15c3dab2800693c83da5b208196b4777b4146d81324",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e44acb15c3dab2800693c83dfb4308196984702fbe5a06184",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "THZ531 MDA-MB-231 THZ531 CDK12"
+      }
+    },
+    {
+      "id": "rs_0e44acb15c3dab2800693c83e1f7088196944782b8c2c0d789",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e44acb15c3dab2800693c83f4cf80819682f96350800c38e9",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://breast-cancer-research.biomedcentral.com/articles/10.1186/s13058-023-01648-x"
+      }
+    },
+    {
+      "id": "rs_0e44acb15c3dab2800693c83f5e5f481969190cde95439b4d1",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e44acb15c3dab2800693c83f7e40881969b499e0deb72a89a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.chemicalprobes.org/thz531"
+      }
+    },
+    {
+      "id": "rs_0e44acb15c3dab2800693c83f892f48196b30787facff37ce6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e44acb15c3dab2800693c8406e2ac8196b401cdc42c9a3197",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.selleckchem.com/products/thz531.html"
+      }
+    },
+    {
+      "id": "rs_0e44acb15c3dab2800693c840802748196abe986ef6559b5ca",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e44acb15c3dab2800693c84220cdc8196a7edf48242c3622e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "Gray",
+        "url": "https://www.selleckchem.com/products/thz531.html"
+      }
+    },
+    {
+      "id": "rs_0e44acb15c3dab2800693c842377f08196988faffe91cae207",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e44acb15c3dab2800693c843d70f88196b72f8fbc1b22a3c2",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "THZ531 site:clinicaltrials.gov"
+      }
+    },
+    {
+      "id": "rs_0e44acb15c3dab2800693c844273fc81969d7ac5475a93e08a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0e44acb15c3dab2800693c845fad588196bdfa7d440b15d600",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": true,\n  \"assets\": [\n    {\n      \"drug_name_code\": \"THZ531\",\n      \"sponsor\": \"Dana-Farber Cancer Institute\",\n      \"target\": \"CDK12 and CDK13\",\n      \"modality\": \"Small-molecule covalent inhibitor\",\n      \"indication\": \"Triple-negative breast cancer (TNBC) (preclinical TNBC cell-line studies/combination screens)\",\n      \"development_stage\": \"Preclinical (research use only; in vitro/in-cell chemical probe; no in vivo validations listed)\",\n      \"geography\": \"United States (Boston, Massachusetts)\",\n      \"sources\": [\n        \"https://pubmed.ncbi.nlm.nih.gov/27571479/\",\n        \"https://www.chemicalprobes.org/thz531\",\n        \"https://link.springer.com/article/10.1186/s13058-023-01648-x\",\n        \"https://www.selleckchem.com/products/thz531.html\",\n        \"https://pubmed.ncbi.nlm.nih.gov/39955845/\"\n      ]\n    }\n  ],\n  \"rejected_reason\": null\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 54389,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 10524,
+    "output_tokens_details": {
+      "reasoning_tokens": 10280
+    },
+    "total_tokens": 64913
+  },
+  "user": null,
+  "metadata": {}
+}

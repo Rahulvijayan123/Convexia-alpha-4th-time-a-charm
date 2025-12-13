@@ -1,0 +1,100 @@
+{
+  "id": "resp_0ffdde377137ea4d00693c80ea20a881949e50c1922ddbb87d",
+  "object": "response",
+  "created_at": 1765572842,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0ffdde377137ea4d00693c80eb38508194a6c078b6564b9c1d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ffdde377137ea4d00693c80f1b58c81948fa689abb957b037",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"locally advanced/metastatic triple-negative breast cancer\" mTNBC"
+      }
+    },
+    {
+      "id": "rs_0ffdde377137ea4d00693c80f455e88194bfcd350fa0cd8f1b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0ffdde377137ea4d00693c8108e82c819492cddaec512a3506",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": false,\n  \"assets\": [],\n  \"rejected_reason\": \"The candidate identifier \\\"locally advanced/metastatic triple-negative breast cancer (mTNBC)\\\" is an indication/disease description, not a specific drug asset (no drug name/code), so sponsor/target/modality/development stage/geography cannot be determined. Example of the phrase used as an indication: https://www.trodelvyhcp.com/mtnbc/about-mtnbc\"\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 9161,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 1885,
+    "output_tokens_details": {
+      "reasoning_tokens": 1780
+    },
+    "total_tokens": 11046
+  },
+  "user": null,
+  "metadata": {}
+}

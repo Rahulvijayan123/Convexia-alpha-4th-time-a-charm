@@ -1,0 +1,382 @@
+{
+  "id": "resp_04ec613d78f1767400693c8d6ae6748195b5ae64215142653c",
+  "object": "response",
+  "created_at": 1765576042,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_04ec613d78f1767400693c8d6c2790819592f78e52585d6663",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04ec613d78f1767400693c8d70aa548195aec256ad140e5d82",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrialsregister.europa.eu CDK12 inhibitor"
+      }
+    },
+    {
+      "id": "rs_04ec613d78f1767400693c8d721ca08195bc72e2616bdd813c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04ec613d78f1767400693c8d72b03c8195964dd723d06a40f8",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrialsregister.europa.eu CDK12"
+      }
+    },
+    {
+      "id": "rs_04ec613d78f1767400693c8d751d2c81959463561d8be8f650",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04ec613d78f1767400693c8d781c50819585bdc1e69719c6fb",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrialsregister.eu \"CDK12\""
+      }
+    },
+    {
+      "id": "rs_04ec613d78f1767400693c8d7ac4e08195b8809f3140d43e67",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04ec613d78f1767400693c8d7cae388195ae2d151f79873fd3",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_04ec613d78f1767400693c8d7f6a588195bef79965c2ea2f25",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04ec613d78f1767400693c8d80decc8195953bf0257317525a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrialsregister.eu \"CT7439\""
+      }
+    },
+    {
+      "id": "rs_04ec613d78f1767400693c8d85530c8195acc62d8765729ce9",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04ec613d78f1767400693c8d87bca88195a9c09d085b73b949",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=CDK12"
+      }
+    },
+    {
+      "id": "rs_04ec613d78f1767400693c8d8a1c248195bc9e0fd846e15a92",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04ec613d78f1767400693c8d8ec83481958053357bc4b2678a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"Clinical trials for\" CDK12 site:clinicaltrialsregister.eu/ctr-search/search"
+      }
+    },
+    {
+      "id": "rs_04ec613d78f1767400693c8d91fa888195ac7546c71ae49883",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04ec613d78f1767400693c8d998db08195849207145da5a5e1",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrialsregister.europa.eu CDK12"
+      }
+    },
+    {
+      "id": "rs_04ec613d78f1767400693c8d9d01708195bf9468dda9e75cd9",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04ec613d78f1767400693c8da77f648195b602740e9c380340",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html"
+      }
+    },
+    {
+      "id": "rs_04ec613d78f1767400693c8daa49948195a962f767bc21f304",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04ec613d78f1767400693c8daad9148195b00ba8e407f37605",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "CT7439",
+        "url": "https://www.cic.vc/carrick-therapeutics-announces-first-patient-dosed-in-phase-1-clinical-trial/"
+      }
+    },
+    {
+      "id": "rs_04ec613d78f1767400693c8dad07ac8195bbb8e34aea104fa8",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04ec613d78f1767400693c8dad7e388195ba6c52fc53b8edac",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT06600789 CT7439 CDK12/13"
+      }
+    },
+    {
+      "id": "rs_04ec613d78f1767400693c8db0b8708195843ad926895ea276",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04ec613d78f1767400693c8db29350819585093acefa792910",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov \"NCT06600789\" \"CT7439\""
+      }
+    },
+    {
+      "id": "rs_04ec613d78f1767400693c8db618288195b6c6088ce1fd097a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04ec613d78f1767400693c8dbc158c8195967e72261c941e39",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.centerwatch.com/clinical-trials/listings/NCT06600789/a-modular-phase-1-2-study-with-ct7439-in-participants-with-solid-malignancies"
+      }
+    },
+    {
+      "id": "rs_04ec613d78f1767400693c8dbe62348195b427e2209f258e52",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04ec613d78f1767400693c8dbf09b08195a9337baa2867d534",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "CT7439",
+        "url": "https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/20/carrick-therapeutics-announces-u-s-fda-clearance-of-ind"
+      }
+    },
+    {
+      "id": "rs_04ec613d78f1767400693c8dc23278819581a114540872b606",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04ec613d78f1767400693c8dc749d881959271cb527b357349",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://breast-cancer-research.biomedcentral.com/articles/10.1186/s13058-025-02101-x"
+      }
+    },
+    {
+      "id": "rs_04ec613d78f1767400693c8dca478081959b8b5fef04c00ed0",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04ec613d78f1767400693c8dcc726481958a7ee3d1926f0bb6",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://breast-cancer-research.biomedcentral.com/articles/10.1186/s13058-025-02101-x"
+      }
+    },
+    {
+      "id": "rs_04ec613d78f1767400693c8dcedcf08195b85b452c1c593dce",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04ec613d78f1767400693c8dd052b081958c48c60a1ff157c3",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://breast-cancer-research.biomedcentral.com/articles/10.1186/s13058-025-02101-x"
+      }
+    },
+    {
+      "id": "rs_04ec613d78f1767400693c8dd357548195975bec5af54f37b6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04ec613d78f1767400693c8dd748848195a486109c3eb359da",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://breast-cancer-research.biomedcentral.com/articles/10.1186/s13058-025-02101-x"
+      }
+    },
+    {
+      "id": "rs_04ec613d78f1767400693c8dda4bf4819589347c0bc189e3f1",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_04ec613d78f1767400693c8e00a9d08195bb5a1131fdb4b845",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 733,
+              "start_index": 533,
+              "title": "Carrick Therapeutics Announces First Patient Dosed in Phase",
+              "url": "https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1388,
+              "start_index": 1228,
+              "title": "Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor) :: Carrick Therapeutics, Inc.",
+              "url": "https://www.carricktherapeutics.com/news-media/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2126,
+              "start_index": 1959,
+              "title": "Carrick Therapeutics Announces U.S. FDA Clearance of IND for CT7439, a First-In-Class Inhibitor of CDK12/13 :: Carrick Therapeutics, Inc.",
+              "url": "https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/20/carrick-therapeutics-announces-u-s-fda-clearance-of-ind"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2706,
+              "start_index": 2543,
+              "title": "A Modular Phase 1/2 Study With CT7439 in Participants With Solid Malignancies | Clinical Research Trial Listing",
+              "url": "https://www.centerwatch.com/clinical-trials/listings/NCT06600789/a-modular-phase-1-2-study-with-ct7439-in-participants-with-solid-malignancies"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3218,
+              "start_index": 3080,
+              "title": "A Modular Phase 1/2 Study With CT7439 in Participants With Solid Malignancies | MedPath",
+              "url": "https://trial.medpath.com/clinical-trial/e9357df4650cb6b7/nct06600789-safety-tolerability-ct7439-solid-malignancies"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3760,
+              "start_index": 3630,
+              "title": "Non-enzymatic SETD1A activity drives breast cancer cell proliferation via cyclin K | Breast Cancer Research",
+              "url": "https://breast-cancer-research.biomedcentral.com/articles/10.1186/s13058-025-02101-x"
+            }
+          ],
+          "logprobs": [],
+          "text": "- **Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor)**  \n  URL: `https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html`  \n  Quote snippets:  \n  - “CT7439, a novel cyclin dependent kinase 12/13 (CDK12/13) inhibitor / Cyclin-K glue-degrader.”  \n  - “advanced solid tumors, including ovarian, breast and Ewing's Sarcoma.”  \n  - “study ID: NCT06600789.” ([globenewswire.com](https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html))\n\n- **Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor)**  \n  URL: `https://www.carricktherapeutics.com/news-media/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase`  \n  Quote snippets:  \n  - “CT7439, a novel cyclin dependent kinase 12/13 (CDK12/13) inhibitor / Cyclin-K glue-degrader.”  \n  - “under study ID: NCT06600789.”  \n  - “advanced solid tumors, including ovarian, breast and Ewing's Sarcoma.” ([carricktherapeutics.com](https://www.carricktherapeutics.com/news-media/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase))\n\n- **Carrick Therapeutics Announces U.S. FDA Clearance of IND for CT7439, a First-In-Class Inhibitor of CDK12/13**  \n  URL: `https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/20/carrick-therapeutics-announces-u-s-fda-clearance-of-ind`  \n  Quote snippets:  \n  - “Investigational New Drug (IND) application for CT7439, a novel cyclin dependent kinase 12/13 (CDK12/13) inhibitor.”  \n  - “CT7439 is an inhibitor of CDK12/13 as well as a 'glue degrader' of Cyclin-K”  \n  - “advanced solid tumors, including breast, ovarian and Ewing's Sarcoma.” ([carricktherapeutics.com](https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/20/carrick-therapeutics-announces-u-s-fda-clearance-of-ind))\n\n- **A Modular Phase 1/2 Study With CT7439 in Participants With Solid Malignancies (CenterWatch listing)**  \n  URL: `https://www.centerwatch.com/clinical-trials/listings/NCT06600789/a-modular-phase-1-2-study-with-ct7439-in-participants-with-solid-malignancies`  \n  Quote snippets:  \n  - “CT7439 Capsules (0.5 mg, 1mg, 3mg)”  \n  - “NCT06600789” / “CT7439_001”  \n  - “Prior therapy with a specific CDK12/13 inhibitor” ([centerwatch.com](https://www.centerwatch.com/clinical-trials/listings/NCT06600789/a-modular-phase-1-2-study-with-ct7439-in-participants-with-solid-malignancies))\n\n- **A Modular Phase 1/2 Study With CT7439 in Participants With Solid Malignancies (MedPath trial record)**  \n  URL: `https://trial.medpath.com/clinical-trial/e9357df4650cb6b7/nct06600789-safety-tolerability-ct7439-solid-malignancies`  \n  Quote snippets:  \n  - “Drug: CT7439 Capsules (0.5 mg, 1mg, 3mg)”  \n  - “Registration Number NCT06600789”  \n  - “Phase 1/2, FIH study” ([trial.medpath.com](https://trial.medpath.com/clinical-trial/e9357df4650cb6b7/nct06600789-safety-tolerability-ct7439-solid-malignancies))\n\n- **Non-enzymatic SETD1A activity drives breast cancer cell proliferation via cyclin K (Breast Cancer Research; 2025)**  \n  URL: `https://breast-cancer-research.biomedcentral.com/articles/10.1186/s13058-025-02101-x`  \n  Quote snippets:  \n  - “CT7439, a dual inhibitor of CDK12/13 and a cyclin K glue degrader”  \n  - “phase I/II clinical trial for advanced solid tumors, including breast cancer (NCT06600789).” ([breast-cancer-research.biomedcentral.com](https://breast-cancer-research.biomedcentral.com/articles/10.1186/s13058-025-02101-x))"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 73244,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 7558,
+    "output_tokens_details": {
+      "reasoning_tokens": 6599
+    },
+    "total_tokens": 80802
+  },
+  "user": null,
+  "metadata": {}
+}

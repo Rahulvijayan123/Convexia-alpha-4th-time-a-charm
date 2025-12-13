@@ -1,0 +1,670 @@
+{
+  "id": "resp_0c090e54d8adf5b400693c929f2ac48195b7086ba0e95c4124",
+  "object": "response",
+  "created_at": 1765577375,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0c090e54d8adf5b400693c92a0608c8195a5fc3f9aad58d117",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c090e54d8adf5b400693c92a18f608195a92d3bedc9f47ed7",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CDK12\" PROTAC pipeline company"
+      }
+    },
+    {
+      "id": "rs_0c090e54d8adf5b400693c92a3e74081959760ead2310dfb99",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c090e54d8adf5b400693c92a5b61c819592fdc975b4ef296b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12 degrader company pipeline"
+      }
+    },
+    {
+      "id": "rs_0c090e54d8adf5b400693c92a7c74c8195b635e407ec23d64d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c090e54d8adf5b400693c92a91de081959336e62028b1d333",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CT7439 clinical trial NCT"
+      }
+    },
+    {
+      "id": "rs_0c090e54d8adf5b400693c92ab06e88195a57001727316d17c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c090e54d8adf5b400693c92adee4081958f096107ba9af913",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT06600789 CT7439"
+      }
+    },
+    {
+      "id": "rs_0c090e54d8adf5b400693c92b02cec81959b17c0416d23f3cd",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c090e54d8adf5b400693c92b09cb08195b66920716c53ea12",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov NCT06600789 CT7439"
+      }
+    },
+    {
+      "id": "rs_0c090e54d8adf5b400693c92b4aa4481958745297bb80b94c1",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c090e54d8adf5b400693c92b658cc81959f659fca22ea1f17",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0c090e54d8adf5b400693c92b7be848195aa425798085c1176",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c090e54d8adf5b400693c92ba3c448195be2ee75c8e46bc60",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "YJ1206 CDK12/13 PROTAC company"
+      }
+    },
+    {
+      "id": "rs_0c090e54d8adf5b400693c92bd2a788195b00e6669b7e00bd1",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c090e54d8adf5b400693c92c03c508195b140e404400b2474",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CDK12\" PROTAC \"Phase 1\""
+      }
+    },
+    {
+      "id": "rs_0c090e54d8adf5b400693c92c411808195bb11cf8915257533",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c090e54d8adf5b400693c92c5ccd48195a0d763a12f1bb100",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "Proxygen CDK12 cyclin K degradation inducer patent WO"
+      }
+    },
+    {
+      "id": "rs_0c090e54d8adf5b400693c92c955c88195be89838766792182",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c090e54d8adf5b400693c92cb051881959884c3ee1714d4f7",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:patents.google.com Proxygen CDK12 cyclin K degrader"
+      }
+    },
+    {
+      "id": "rs_0c090e54d8adf5b400693c92cd91808195aae16596b1fb4762",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c090e54d8adf5b400693c92cf7898819599fa817f72fce289",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"Proxygen\" \"cyclin K\" \"WO\""
+      }
+    },
+    {
+      "id": "rs_0c090e54d8adf5b400693c92d3240c8195a99054d386d383b7",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c090e54d8adf5b400693c92d538708195845fc5891af2696f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "Proxygen cyclin K degrader patent WO"
+      }
+    },
+    {
+      "id": "rs_0c090e54d8adf5b400693c92d8df5081959f30fd90971cc2eb",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c090e54d8adf5b400693c92e5ea148195920c3c49230b8a69",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor"
+      }
+    },
+    {
+      "id": "rs_0c090e54d8adf5b400693c92e9992881958f301620a655f3ad",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c090e54d8adf5b400693c92eaaf6081959b7687e3168c70cc",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "BSJ-4-116 is",
+        "url": "https://www.tocris.com/products/bsj-4-116_7528"
+      }
+    },
+    {
+      "id": "rs_0c090e54d8adf5b400693c92edf3748195b9b77be3f94ba6d6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c090e54d8adf5b400693c92f0084c8195a4d5873720b80aec",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "PCT/EP2024",
+        "url": "https://patents.google.com/patent/WO2024125551A1/en"
+      }
+    },
+    {
+      "id": "rs_0c090e54d8adf5b400693c92f36fa4819581fb046b5211b656",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c090e54d8adf5b400693c92f5c0f48195bdabbb0d799870cc",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_0c090e54d8adf5b400693c92f849dc8195a0ffd9dccf1ea1ee",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c090e54d8adf5b400693c92f9d58c8195b43a1effee318f2a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "WO2025040546 Proxygen"
+      }
+    },
+    {
+      "id": "rs_0c090e54d8adf5b400693c92ffd0488195b7c18c98993f4506",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c090e54d8adf5b400693c9304b17481958e6eb7cd15ae3f36",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://synapse.patsnap.com/drug/8fb030514b004a0eb2b730b10ce2bbd0"
+      }
+    },
+    {
+      "id": "rs_0c090e54d8adf5b400693c9307fe1c8195be7f5c30ec11ee91",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c090e54d8adf5b400693c93124df48195b0d9ee1c8ba47f6b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.jci.org/articles/view/193745/sd/6"
+      }
+    },
+    {
+      "id": "rs_0c090e54d8adf5b400693c9314f8e08195894eacdde422dc45",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c090e54d8adf5b400693c9316a08881959eee023f036ce8c7",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "YJ1206",
+        "url": "https://www.jci.org/articles/view/193745/sd/6"
+      }
+    },
+    {
+      "id": "rs_0c090e54d8adf5b400693c931bc0f48195a0bb162a0484d6a1",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c090e54d8adf5b400693c93264e5081959aff424eb658ff7f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12435847/"
+      }
+    },
+    {
+      "id": "rs_0c090e54d8adf5b400693c93297764819589269d6d88476f2e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c090e54d8adf5b400693c932aa2488195a265905892c80ccf",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12435847/"
+      }
+    },
+    {
+      "id": "rs_0c090e54d8adf5b400693c932e98f481958bacdd9c0dcc518c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0c090e54d8adf5b400693c933eb7108195b3f414021da97ba3",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 168,
+              "start_index": 77,
+              "title": "CDK12/13 Inhibitor :: Carrick Therapeutics, Inc.",
+              "url": "https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 424,
+              "start_index": 333,
+              "title": "CDK12/13 Inhibitor :: Carrick Therapeutics, Inc.",
+              "url": "https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 563,
+              "start_index": 472,
+              "title": "CDK12/13 Inhibitor :: Carrick Therapeutics, Inc.",
+              "url": "https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 727,
+              "start_index": 636,
+              "title": "CDK12/13 Inhibitor :: Carrick Therapeutics, Inc.",
+              "url": "https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1025,
+              "start_index": 865,
+              "title": "Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor) :: Carrick Therapeutics, Inc.",
+              "url": "https://www.carricktherapeutics.com/news-media/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1467,
+              "start_index": 1307,
+              "title": "Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor) :: Carrick Therapeutics, Inc.",
+              "url": "https://www.carricktherapeutics.com/news-media/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1683,
+              "start_index": 1523,
+              "title": "Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor) :: Carrick Therapeutics, Inc.",
+              "url": "https://www.carricktherapeutics.com/news-media/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1881,
+              "start_index": 1721,
+              "title": "Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor) :: Carrick Therapeutics, Inc.",
+              "url": "https://www.carricktherapeutics.com/news-media/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2066,
+              "start_index": 1976,
+              "title": "CT-7439 - Drug Targets, Indications, Patents  - Synapse",
+              "url": "https://synapse.patsnap.com/drug/8fb030514b004a0eb2b730b10ce2bbd0"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2304,
+              "start_index": 2214,
+              "title": "CT-7439 - Drug Targets, Indications, Patents  - Synapse",
+              "url": "https://synapse.patsnap.com/drug/8fb030514b004a0eb2b730b10ce2bbd0"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2431,
+              "start_index": 2341,
+              "title": "CT-7439 - Drug Targets, Indications, Patents  - Synapse",
+              "url": "https://synapse.patsnap.com/drug/8fb030514b004a0eb2b730b10ce2bbd0"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2582,
+              "start_index": 2492,
+              "title": "CT-7439 - Drug Targets, Indications, Patents  - Synapse",
+              "url": "https://synapse.patsnap.com/drug/8fb030514b004a0eb2b730b10ce2bbd0"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2824,
+              "start_index": 2754,
+              "title": "Noncovalent CDK12/13 dual inhibitors-based PROTACs degrade CDK12-Cyclin K complex and induce synthetic lethality with PARP inhibitor - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34864331/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3024,
+              "start_index": 2954,
+              "title": "Noncovalent CDK12/13 dual inhibitors-based PROTACs degrade CDK12-Cyclin K complex and induce synthetic lethality with PARP inhibitor - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34864331/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3211,
+              "start_index": 3141,
+              "title": "Noncovalent CDK12/13 dual inhibitors-based PROTACs degrade CDK12-Cyclin K complex and induce synthetic lethality with PARP inhibitor - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34864331/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3325,
+              "start_index": 3255,
+              "title": "Noncovalent CDK12/13 dual inhibitors-based PROTACs degrade CDK12-Cyclin K complex and induce synthetic lethality with PARP inhibitor - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34864331/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3466,
+              "start_index": 3404,
+              "title": "BSJ-4-116 | Active Degraders | Tocris Bioscience",
+              "url": "https://www.tocris.com/products/bsj-4-116_7528"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3678,
+              "start_index": 3616,
+              "title": "BSJ-4-116 | Active Degraders | Tocris Bioscience",
+              "url": "https://www.tocris.com/products/bsj-4-116_7528"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3798,
+              "start_index": 3736,
+              "title": "BSJ-4-116 | Active Degraders | Tocris Bioscience",
+              "url": "https://www.tocris.com/products/bsj-4-116_7528"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3912,
+              "start_index": 3850,
+              "title": "BSJ-4-116 | Active Degraders | Tocris Bioscience",
+              "url": "https://www.tocris.com/products/bsj-4-116_7528"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4066,
+              "start_index": 4006,
+              "title": "YJ1206 | CDK12/13 PROTAC Degrader | Prostate Cancer | TargetMol",
+              "url": "https://www.targetmol.com/compound/yj1206"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4266,
+              "start_index": 4206,
+              "title": "YJ1206 | CDK12/13 PROTAC Degrader | Prostate Cancer | TargetMol",
+              "url": "https://www.targetmol.com/compound/yj1206"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4400,
+              "start_index": 4340,
+              "title": "YJ1206 | CDK12/13 PROTAC Degrader | Prostate Cancer | TargetMol",
+              "url": "https://www.targetmol.com/compound/yj1206"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4541,
+              "start_index": 4481,
+              "title": "YJ1206 | CDK12/13 PROTAC Degrader | Prostate Cancer | TargetMol",
+              "url": "https://www.targetmol.com/compound/yj1206"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4740,
+              "start_index": 4664,
+              "title": "\n            CDK12/13 inactivation triggers STING-mediated antitumor immunity in preclinical models - PMC\n        ",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12435847/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4962,
+              "start_index": 4886,
+              "title": "\n            CDK12/13 inactivation triggers STING-mediated antitumor immunity in preclinical models - PMC\n        ",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12435847/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 5118,
+              "start_index": 5042,
+              "title": "\n            CDK12/13 inactivation triggers STING-mediated antitumor immunity in preclinical models - PMC\n        ",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12435847/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 5259,
+              "start_index": 5183,
+              "title": "\n            CDK12/13 inactivation triggers STING-mediated antitumor immunity in preclinical models - PMC\n        ",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12435847/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 5432,
+              "start_index": 5357,
+              "title": "WO2024125551A1 - Cyclin k degrader and use thereof \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2024125551A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 5695,
+              "start_index": 5620,
+              "title": "WO2024125551A1 - Cyclin k degrader and use thereof \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2024125551A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 5839,
+              "start_index": 5764,
+              "title": "WO2024125551A1 - Cyclin k degrader and use thereof \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2024125551A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 5958,
+              "start_index": 5883,
+              "title": "WO2024125551A1 - Cyclin k degrader and use thereof \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2024125551A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 6160,
+              "start_index": 6070,
+              "title": "CCNK degraders(Proxygen) - Drug Targets, Indications, Patents  - Synapse",
+              "url": "https://synapse.patsnap.com/drug/61279009e6954effaeadb5cae39b3fb3"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 6409,
+              "start_index": 6319,
+              "title": "CCNK degraders(Proxygen) - Drug Targets, Indications, Patents  - Synapse",
+              "url": "https://synapse.patsnap.com/drug/61279009e6954effaeadb5cae39b3fb3"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 6520,
+              "start_index": 6430,
+              "title": "CCNK degraders(Proxygen) - Drug Targets, Indications, Patents  - Synapse",
+              "url": "https://synapse.patsnap.com/drug/61279009e6954effaeadb5cae39b3fb3"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 6686,
+              "start_index": 6596,
+              "title": "CCNK degraders(Proxygen) - Drug Targets, Indications, Patents  - Synapse",
+              "url": "https://synapse.patsnap.com/drug/61279009e6954effaeadb5cae39b3fb3"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 7062,
+              "start_index": 6837,
+              "title": "INTERNATIONAL PATENT: PROXYGEN GMBH FILES APPLICATION FOR \"PYRAZOLE COMPOUNDS AS CULLIN RING UBIQUITIN LIGASE COMPOUNDS\"",
+              "url": "https://www.htsyndication.com/us-fed-news/article/international-patent%3A-proxygen-gmbh-files-application-for--pyrazole-compounds-as-cullin-ring-ubiquitin-ligase-compounds-/22213259192?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 7576,
+              "start_index": 7351,
+              "title": "INTERNATIONAL PATENT: PROXYGEN GMBH FILES APPLICATION FOR \"PYRAZOLE COMPOUNDS AS CULLIN RING UBIQUITIN LIGASE COMPOUNDS\"",
+              "url": "https://www.htsyndication.com/us-fed-news/article/international-patent%3A-proxygen-gmbh-files-application-for--pyrazole-compounds-as-cullin-ring-ubiquitin-ligase-compounds-/22213259192?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 7841,
+              "start_index": 7616,
+              "title": "INTERNATIONAL PATENT: PROXYGEN GMBH FILES APPLICATION FOR \"PYRAZOLE COMPOUNDS AS CULLIN RING UBIQUITIN LIGASE COMPOUNDS\"",
+              "url": "https://www.htsyndication.com/us-fed-news/article/international-patent%3A-proxygen-gmbh-files-application-for--pyrazole-compounds-as-cullin-ring-ubiquitin-ligase-compounds-/22213259192?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "- **Source**\n  - **Title:** CDK12/13 Inhibitor :: Carrick Therapeutics, Inc. ([carricktherapeutics.com](https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor))  \n  - **URL:** `https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor`\n  - **Direct quote snippets:**\n    - “CT7439: CDK12/13 inhibitor/Cyclin-K Degrader” ([carricktherapeutics.com](https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor))\n    - “CT7439 is a CDK12/13/Cyclin-K degrader” ([carricktherapeutics.com](https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor))\n    - “an inhibitor of CDK12 but also as a 'glue degrader' of Cyclin-K” ([carricktherapeutics.com](https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor))\n\n- **Source**\n  - **Title:** Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor) ([carricktherapeutics.com](https://www.carricktherapeutics.com/news-media/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase))  \n  - **URL:** `https://www.carricktherapeutics.com/news-media/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase`\n  - **Direct quote snippets:**\n    - “CT7439, a novel cyclin dependent kinase 12/13 (CDK12/13) inhibitor / Cyclin-K glue-degrader.” ([carricktherapeutics.com](https://www.carricktherapeutics.com/news-media/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase))\n    - “including ovarian, breast and Ewing's Sarcoma.” ([carricktherapeutics.com](https://www.carricktherapeutics.com/news-media/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase))\n    - “under study ID: NCT06600789.” ([carricktherapeutics.com](https://www.carricktherapeutics.com/news-media/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase))\n\n- **Source**\n  - **Title:** CT-7439 - Drug Targets, Indications, Patents - Synapse (PatSnap) ([synapse.patsnap.com](https://synapse.patsnap.com/drug/8fb030514b004a0eb2b730b10ce2bbd0))  \n  - **URL:** `https://synapse.patsnap.com/drug/8fb030514b004a0eb2b730b10ce2bbd0`\n  - **Direct quote snippets:**\n    - “Synonyms CT-7439, CT7439” ([synapse.patsnap.com](https://synapse.patsnap.com/drug/8fb030514b004a0eb2b730b10ce2bbd0))\n    - “Target CCNK x CDK12 x CDK13” ([synapse.patsnap.com](https://synapse.patsnap.com/drug/8fb030514b004a0eb2b730b10ce2bbd0))\n    - “Clinical Trials associated with CT-7439 NCT06600789” ([synapse.patsnap.com](https://synapse.patsnap.com/drug/8fb030514b004a0eb2b730b10ce2bbd0))\n\n- **Source**\n  - **Title:** Noncovalent CDK12/13 dual inhibitors-based PROTACs degrade CDK12-Cyclin K complex and induce synthetic lethality with PARP inhibitor - PubMed ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/34864331/))  \n  - **URL:** `https://pubmed.ncbi.nlm.nih.gov/34864331/`\n  - **Direct quote snippets:**\n    - “a potent PROTAC degrader PP-C8” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/34864331/))\n    - “PP-C8 demonstrates profound synergistic antiproliferative effects… in triple-negative breast cancer (TNBC).” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/34864331/))\n    - “Keywords:  CDK12; Cyclin K; PROTAC” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/34864331/))\n\n- **Source**\n  - **Title:** BSJ-4-116 | Active Degraders | Tocris Bioscience ([tocris.com](https://www.tocris.com/products/bsj-4-116_7528))  \n  - **URL:** `https://www.tocris.com/products/bsj-4-116_7528`\n  - **Direct quote snippets:**\n    - “Description: Selective CDK12 PROTAC® Degrader” ([tocris.com](https://www.tocris.com/products/bsj-4-116_7528))\n    - “BSJ-4-116 is a selective CDK12 PROTAC® Degrader.” ([tocris.com](https://www.tocris.com/products/bsj-4-116_7528))\n    - “sensitizes them to PARP inhibitor Olaparib” ([tocris.com](https://www.tocris.com/products/bsj-4-116_7528))\n\n- **Source**\n  - **Title:** YJ1206 | CDK12/13 PROTAC Degrader | Prostate Cancer | TargetMol ([targetmol.com](https://www.targetmol.com/compound/yj1206))  \n  - **URL:** `https://www.targetmol.com/compound/yj1206`\n  - **Direct quote snippets:**\n    - “Catalog No. T200845 Cas No. 3053716-98-3” ([targetmol.com](https://www.targetmol.com/compound/yj1206))\n    - “YJ1206 is a highly potent and selective CDK12/13 PROTAC degrader” ([targetmol.com](https://www.targetmol.com/compound/yj1206))\n    - “inhibits the proliferation of a subpopulation of prostate cancer cells.” ([targetmol.com](https://www.targetmol.com/compound/yj1206))\n\n- **Source**\n  - **Title:** CDK12/13 inactivation triggers STING-mediated antitumor immunity in preclinical models - PMC ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC12435847/))  \n  - **URL:** `https://pmc.ncbi.nlm.nih.gov/articles/PMC12435847/`\n  - **Direct quote snippets:**\n    - “dual CDK12/13 PROTAC degrader, YJ1206” ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC12435847/))\n    - “a molecular glue degrader of cyclin K, CT7439, which inhibits CDK12/13” ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC12435847/))\n    - “phase I clinical trial (ClinicalTrials.gov NCT06600789)” ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC12435847/))\n\n- **Source**\n  - **Title:** WO2024125551A1 - Cyclin k degrader and use thereof - Google Patents ([patents.google.com](https://patents.google.com/patent/WO2024125551A1/en))  \n  - **URL:** `https://patents.google.com/patent/WO2024125551A1/en`\n  - **Direct quote snippets:**\n    - “The CDK12/13 complex phosphorylates the C-terminal domain of RNA polymerase II” ([patents.google.com](https://patents.google.com/patent/WO2024125551A1/en))\n    - “CDK12/13 is considered a potential target for tumor therapy” ([patents.google.com](https://patents.google.com/patent/WO2024125551A1/en))\n    - “PCT/CN2023/138417 … WO2024125551A1” ([patents.google.com](https://patents.google.com/patent/WO2024125551A1/en))\n\n- **Source**\n  - **Title:** CCNK degraders(Proxygen) - Drug Targets, Indications, Patents - Synapse (PatSnap) ([synapse.patsnap.com](https://synapse.patsnap.com/drug/61279009e6954effaeadb5cae39b3fb3))  \n  - **URL:** `https://synapse.patsnap.com/drug/61279009e6954effaeadb5cae39b3fb3`\n  - **Direct quote snippets:**\n    - “Drug Type Degradable Molecular Glue” ([synapse.patsnap.com](https://synapse.patsnap.com/drug/61279009e6954effaeadb5cae39b3fb3))\n    - “Target CCNK” ([synapse.patsnap.com](https://synapse.patsnap.com/drug/61279009e6954effaeadb5cae39b3fb3))\n    - “Active Indication Infectious Diseases Metabolic Diseases Neoplasms” ([synapse.patsnap.com](https://synapse.patsnap.com/drug/61279009e6954effaeadb5cae39b3fb3))\n\n- **Source**\n  - **Title:** INTERNATIONAL PATENT: PROXYGEN GMBH FILES APPLICATION FOR \"PYRAZOLE COMPOUNDS AS CULLIN RING UBIQUITIN LIGASE COMPOUNDS\" ([htsyndication.com](https://www.htsyndication.com/us-fed-news/article/international-patent%3A-proxygen-gmbh-files-application-for--pyrazole-compounds-as-cullin-ring-ubiquitin-ligase-compounds-/22213259192?utm_source=openai))  \n  - **URL:** `https://www.htsyndication.com/us-fed-news/article/international-patent%3A-proxygen-gmbh-files-application-for--pyrazole-compounds-as-cullin-ring-ubiquitin-ligase-compounds-/22213259192`\n  - **Direct quote snippets:**\n    - “filed a patent application (PCT/EP2024/072945)” ([htsyndication.com](https://www.htsyndication.com/us-fed-news/article/international-patent%3A-proxygen-gmbh-files-application-for--pyrazole-compounds-as-cullin-ring-ubiquitin-ligase-compounds-/22213259192?utm_source=openai))\n    - “publication no. WO/2025/040546” ([htsyndication.com](https://www.htsyndication.com/us-fed-news/article/international-patent%3A-proxygen-gmbh-files-application-for--pyrazole-compounds-as-cullin-ring-ubiquitin-ligase-compounds-/22213259192?utm_source=openai))"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 88806,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 8619,
+    "output_tokens_details": {
+      "reasoning_tokens": 6751
+    },
+    "total_tokens": 97425
+  },
+  "user": null,
+  "metadata": {}
+}

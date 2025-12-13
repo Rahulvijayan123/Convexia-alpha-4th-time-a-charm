@@ -1,0 +1,240 @@
+{
+  "id": "resp_022bd3e2254426fa00693c89d114288195a75ebcc8eac63cb7",
+  "object": "response",
+  "created_at": 1765575121,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_022bd3e2254426fa00693c89d1828481959791b6fe97cfeaa0",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_022bd3e2254426fa00693c89d69538819598726747d888b2b1",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"Germline BRCA\" \"high-risk\" \"HER2-negative\" \"primary breast cancer\" drug"
+      }
+    },
+    {
+      "id": "rs_022bd3e2254426fa00693c89d994a8819584646ca6a517cb83",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_022bd3e2254426fa00693c89eea3e88195866316e351461ed5",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"Germline BRCA Mutated High Risk HER2 Negative Primary Breast Cancer\""
+      }
+    },
+    {
+      "id": "rs_022bd3e2254426fa00693c89f0b7c48195a5407232c4926d75",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_022bd3e2254426fa00693c8a02d974819596b43c7d8675319a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT02032823 Olaparib as Adjuvant Treatment in Patients With Germline BRCA Mutated High Risk HER2 Negative Primary Breast Cancer"
+      }
+    },
+    {
+      "id": "rs_022bd3e2254426fa00693c8a057c088195944f07ade147978c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_022bd3e2254426fa00693c8a0fcb8081958b413b07cd412fe3",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://nciformulary.cancer.gov/available_agents/Olaparib.htm"
+      }
+    },
+    {
+      "id": "rs_022bd3e2254426fa00693c8a1090c08195b3f0da9a05e2077c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_022bd3e2254426fa00693c8a205ab08195b6d3a3889bea7b4b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:cancer.gov olaparib small molecule inhibitor of PARP1 PARP2"
+      }
+    },
+    {
+      "id": "rs_022bd3e2254426fa00693c8a2436d081958f5b41404d7806d4",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_022bd3e2254426fa00693c8a2beff08195b0d3679b5aa42897",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:cancer.gov \"Olaparib\" \"small molecule\" \"PARP\""
+      }
+    },
+    {
+      "id": "rs_022bd3e2254426fa00693c8a2f72a48195a7ff0a040503add6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_022bd3e2254426fa00693c8a45dec881958e089c35aac8a0d3",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT02032823"
+      }
+    },
+    {
+      "id": "rs_022bd3e2254426fa00693c8a4799f08195abd12fffd4903aa1",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_022bd3e2254426fa00693c8a58ef70819594f9a5ae7d8e1e68",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://dctd.cancer.gov/drug-discovery-development/reagents-materials/formulary/about/agents/olaparib"
+      }
+    },
+    {
+      "id": "rs_022bd3e2254426fa00693c8a5a30188195bf4d83edb7b679ad",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_022bd3e2254426fa00693c8a5b0d3c8195a531a6a998a42475",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/olaparib"
+      }
+    },
+    {
+      "id": "rs_022bd3e2254426fa00693c8a5c08548195a4e5dc68d98065a5",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_022bd3e2254426fa00693c8a5c8e6c81958f0f41e4884dcde8",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-olaparib-adjuvant-treatment-high-risk-early-breast-cancer"
+      }
+    },
+    {
+      "id": "rs_022bd3e2254426fa00693c8a5d973c8195a34e3854c859252e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_022bd3e2254426fa00693c8a5f2a2c8195bb6142ed4db88f89",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.astrazeneca-us.com/media/press-releases/2022/lynparza-olaparib-approved-in-the-us-as-adjuvant-treatment-for-patients-with-germline-brca-mutated-her2-negative-high-risk-early-breast-cancer-03112022.html"
+      }
+    },
+    {
+      "id": "rs_022bd3e2254426fa00693c8a60808881958cd1e537316ceb96",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_022bd3e2254426fa00693c8a8a21d88195a23011db89cba741",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": true,\n  \"assets\": [\n    {\n      \"drug_name_code\": \"Olaparib (LYNPARZA; AZD2281; KU-0059436)\",\n      \"sponsor\": \"AstraZeneca and Merck & Co., Inc. (MSD outside the US and Canada)\",\n      \"target\": \"PARP-1; PARP-2; PARP-3\",\n      \"modality\": \"Small-molecule PARP inhibitor\",\n      \"indication\": \"Adjuvant treatment of adults with deleterious or suspected deleterious germline BRCA-mutated (gBRCAm) HER2-negative high-risk early/primary breast cancer after neoadjuvant or adjuvant chemotherapy\",\n      \"development_stage\": \"Approved (US FDA; 2022-03-11)\",\n      \"geography\": \"United States (FDA approval); international (OlympiA study population)\",\n      \"sources\": [\n        \"https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-olaparib-adjuvant-treatment-high-risk-early-breast-cancer\",\n        \"https://www.astrazeneca-us.com/media/press-releases/2022/lynparza-olaparib-approved-in-the-us-as-adjuvant-treatment-for-patients-with-germline-brca-mutated-her2-negative-high-risk-early-breast-cancer-03112022.html\",\n        \"https://www.cancer.gov/publications/dictionaries/cancer-drug/def/olaparib\",\n        \"https://dctd.cancer.gov/drug-discovery-development/reagents-materials/formulary/about/agents/olaparib\",\n        \"https://clinicaltrials.gov/study/NCT02032823\"\n      ]\n    }\n  ],\n  \"rejected_reason\": null\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 43421,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 11423,
+    "output_tokens_details": {
+      "reasoning_tokens": 11030
+    },
+    "total_tokens": 54844
+  },
+  "user": null,
+  "metadata": {}
+}

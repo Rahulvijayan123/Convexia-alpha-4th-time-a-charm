@@ -1,0 +1,186 @@
+{
+  "id": "resp_042d5668ed0788e200693c804b7ae88197855327736b05df36",
+  "object": "response",
+  "created_at": 1765572683,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_042d5668ed0788e200693c804c9e588197a1e138b30397e0b3",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_042d5668ed0788e200693c804eeaec8197b9fffe17d58d217e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "JS207 CDK12"
+      }
+    },
+    {
+      "id": "rs_042d5668ed0788e200693c8050d9988197aa2e180f474637a8",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_042d5668ed0788e200693c8053e3b081979e8c703677a1e7a1",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT07045311"
+      }
+    },
+    {
+      "id": "rs_042d5668ed0788e200693c805542608197bd7074897037e8a5",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_042d5668ed0788e200693c8056377c81979e2819cf1a8039a3",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "Sponsor",
+        "url": "https://clinicaltrials.gov/study/NCT07045311"
+      }
+    },
+    {
+      "id": "rs_042d5668ed0788e200693c8057992c81978142eba602ba69a6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_042d5668ed0788e200693c805cb4708197be00432939bf6a26",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://ichgcp.net/clinical-trials-registry/NCT07045311"
+      }
+    },
+    {
+      "id": "rs_042d5668ed0788e200693c805d75a88197b8d93188fe92846d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_042d5668ed0788e200693c806ac4f88197a71ea9c1a9bcb447",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "Sponsor",
+        "url": "https://ichgcp.net/clinical-trials-registry/NCT07045311"
+      }
+    },
+    {
+      "id": "rs_042d5668ed0788e200693c806c6bc08197a8fa6e1871fb6ea1",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_042d5668ed0788e200693c807535648197bce8966fda559c58",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.biospace.com/press-releases/junshi-biosciences-announces-fdas-approval-of-ind-application-for-phase-2-3-clinical-study-of-js207-for-the-neoadjuvant-treatment-of-nsclc-patients"
+      }
+    },
+    {
+      "id": "rs_042d5668ed0788e200693c80768ca8819783dfb5e7e6daad43",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_042d5668ed0788e200693c807796488197a040b5b7a0461318",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40607397/"
+      }
+    },
+    {
+      "id": "rs_042d5668ed0788e200693c8078658881978ec635ad55d067cf",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_042d5668ed0788e200693c80a3e8248197821900027bb53c3d",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": true,\n  \"assets\": [\n    {\n      \"drug_name_code\": \"JS207\",\n      \"sponsor\": \"Shanghai Junshi Bioscience Co., Ltd.\",\n      \"target\": \"PD-1 and VEGFA\",\n      \"modality\": \"Recombinant humanized bispecific antibody (anti-PD-1/anti-VEGF)\",\n      \"indication\": \"Recurrent or metastatic triple-negative breast cancer (TNBC)\",\n      \"development_stage\": \"Phase 2 (Recruiting)\",\n      \"geography\": \"China\",\n      \"sources\": [\n        \"https://ichgcp.net/clinical-trials-registry/NCT07045311\",\n        \"https://clinicaltrials.gov/study/NCT07045311\",\n        \"https://www.biospace.com/press-releases/junshi-biosciences-announces-fdas-approval-of-ind-application-for-phase-2-3-clinical-study-of-js207-for-the-neoadjuvant-treatment-of-nsclc-patients\",\n        \"https://pubmed.ncbi.nlm.nih.gov/40607397/\"\n      ]\n    }\n  ],\n  \"rejected_reason\": null\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 27867,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 5426,
+    "output_tokens_details": {
+      "reasoning_tokens": 5172
+    },
+    "total_tokens": 33293
+  },
+  "user": null,
+  "metadata": {}
+}

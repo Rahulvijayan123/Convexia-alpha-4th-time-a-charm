@@ -1,0 +1,357 @@
+{
+  "id": "resp_023cfffe2938363100693c929f392c8195997276008d5ad380",
+  "object": "response",
+  "created_at": 1765577375,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_023cfffe2938363100693c929f9e0c8195be3ed900110e59b0",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_023cfffe2938363100693c92a0e2b48195b481b6d316424a00",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12 molecular glue degrader patent"
+      }
+    },
+    {
+      "id": "rs_023cfffe2938363100693c92a287808195b861d21c52417b33",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_023cfffe2938363100693c92a4220481958ed3dab790ebf316",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "PCT/CN2020/095482 HQ461 patent"
+      }
+    },
+    {
+      "id": "rs_023cfffe2938363100693c92a812b8819596530b2b8c2c7608",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_023cfffe2938363100693c92a9a68c8195a36418da2badadad",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.bioworld.com/articles/718327-cdk12-cyclin-k-degradation-inducers-disclosed-in-proxygen-patent"
+      }
+    },
+    {
+      "id": "rs_023cfffe2938363100693c92ab5f1c8195b151d8defc8bc07b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_023cfffe2938363100693c92aca1748195ac319a1d86c7284d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "Proxygen CDK12 cyclin K degradation inducer WO2025"
+      }
+    },
+    {
+      "id": "rs_023cfffe2938363100693c92af4714819598ffb635dd208024",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_023cfffe2938363100693c92b49fe08195a33f918b10867757",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/WO2024125551A1/en"
+      }
+    },
+    {
+      "id": "rs_023cfffe2938363100693c92b5ecdc81959dda7578dd0dc5a1",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_023cfffe2938363100693c92b6739c8195b1b22140741c751e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/AU2020263390A1/en"
+      }
+    },
+    {
+      "id": "rs_023cfffe2938363100693c92b7adf88195a34237f3e5d703fd",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_023cfffe2938363100693c92b9a1048195837526e5a8f8e732",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "Proxygen WO cyclin K degrader CDK12"
+      }
+    },
+    {
+      "id": "rs_023cfffe2938363100693c92bce138819595b86efaa3a3a2fb",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_023cfffe2938363100693c92bd997081959a4d94e9ce7d11f5",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://synapse.patsnap.com/drug/61279009e6954effaeadb5cae39b3fb3"
+      }
+    },
+    {
+      "id": "rs_023cfffe2938363100693c92bfd43c8195b20c8756e943a1f5",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_023cfffe2938363100693c92c1b8ac81958ff4168d1ae37fbf",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:patents.google.com Proxygen CDK12 cyclin K degradation inducer"
+      }
+    },
+    {
+      "id": "rs_023cfffe2938363100693c92c6502481959849b2d2a761564f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_023cfffe2938363100693c92c6986c8195b9fb3171c26b9ae0",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/WO2023203174A1/en"
+      }
+    },
+    {
+      "id": "rs_023cfffe2938363100693c92c8ccc08195bf9fe1fab86379f3",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_023cfffe2938363100693c92ca1fe08195a3542dc095d57838",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "CDK12",
+        "url": "https://patents.google.com/patent/WO2023203174A1/en"
+      }
+    },
+    {
+      "id": "rs_023cfffe2938363100693c92cd93f88195b4b9e4a0151cf730",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_023cfffe2938363100693c92cecd7481959ca18a7b219b72c2",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32804079/"
+      }
+    },
+    {
+      "id": "rs_023cfffe2938363100693c92d06f688195bb66d9ab09a239ca",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_023cfffe2938363100693c92d162fc8195a3fe1a6be23e6eb0",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "PCT/CN2020",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32804079/"
+      }
+    },
+    {
+      "id": "rs_023cfffe2938363100693c92d47a348195819d1496f49c422d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_023cfffe2938363100693c92e5bf388195b365271387ea074a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "Cyclin K",
+        "url": "https://patents.google.com/patent/WO2021176049A1/fr"
+      }
+    },
+    {
+      "id": "rs_023cfffe2938363100693c92e81e7c8195b05859d20b98e136",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_023cfffe2938363100693c92f08844819599a23a38a53e23b4",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "CDK12",
+        "url": "https://patents.google.com/patent/WO2024125551A1/en"
+      }
+    },
+    {
+      "id": "rs_023cfffe2938363100693c92f3a05c8195a3057288656b04e9",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_023cfffe2938363100693c930f02248195b324753b20fc9aa5",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 372,
+              "start_index": 302,
+              "title": "Discovery of a molecular glue promoting CDK12-DDB1 interaction to trigger cyclin K degradation - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32804079/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 850,
+              "start_index": 775,
+              "title": "WO2023203174A1 - Heterocyclic cullin ring ubiquitin ligase compounds and uses thereof \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2023203174A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1404,
+              "start_index": 1329,
+              "title": "WO2021176049A1 - Pyrazolopyrazines agissant sur des cancers par inhibition de cdk12 \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2021176049A1/fr"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1893,
+              "start_index": 1818,
+              "title": "WO2022263604A1 - Substituted pyrazolo[1,5-a]pyrimidine-7-amine compounds as cdk inhibitors and their therapeutic use \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2022263604A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2326,
+              "start_index": 2251,
+              "title": "WO2020219650A1 - Degraders of cyclin-dependent kinase 12 (cdk12) and uses thereof \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2020219650A1/zh"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2714,
+              "start_index": 2639,
+              "title": "AU2020263390A1 - Degraders of cyclin-dependent kinase 12 (CDK12) and uses thereof \n      - Google Patents",
+              "url": "https://patents.google.com/patent/AU2020263390A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3121,
+              "start_index": 3046,
+              "title": "WO2024125551A1 - Cyclin k degrader and use thereof \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2024125551A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3527,
+              "start_index": 3451,
+              "title": "US20240368147A1 - Cyclin k degrader \n      - Google Patents",
+              "url": "https://patents.google.com/patent/US20240368147A1/en"
+            }
+          ],
+          "logprobs": [],
+          "text": "- **Discovery of a molecular glue promoting CDK12-DDB1 interaction to trigger cyclin K degradation (PubMed)**  \n  URL: `https://pubmed.ncbi.nlm.nih.gov/32804079/`  \n  Quote snippets:  \n  - “a new molecular glue **HQ461**”  \n  - “A provisional patent application (**PCT/CN2020/095482**) has been filed” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/32804079/))\n\n- **WO2023203174A1 — Heterocyclic cullin ring ubiquitin ligase compounds and uses thereof (Google Patents) — Proxygen**  \n  URL: `https://patents.google.com/patent/WO2023203174A1/en`  \n  Quote snippets:  \n  - “Publication number **WO2023203174A1**”  \n  - “Current Assignee … **Proxygen GmbH**”  \n  - “the **CDK12/Cyclin K** interacts with a CRL complex comprises **CUL4A** or **CUL4B** and **DDB1**.” ([patents.google.com](https://patents.google.com/patent/WO2023203174A1/en))\n\n- **WO2021176049A1 — Pyrazolopyrazines agissant sur des cancers par inhibition de cdk12 (Google Patents)**  \n  URL: `https://patents.google.com/patent/WO2021176049A1/fr`  \n  Quote snippets:  \n  - “Publication number **WO2021176049A1**”  \n  - “compounds which induce the proteolytic degradation of **CDK12** and/or **Cyclin K** in the cell.”  \n  - “for the treatment of lung cancer, breast cancer, liver cancer, colorectal cancer, gastric cancer, prostate cancer and leukemia.” ([patents.google.com](https://patents.google.com/patent/WO2021176049A1/fr))\n\n- **WO2022263604A1 — Substituted pyrazolo[1,5-a]pyrimidine-7-amine compounds as cdk inhibitors and their therapeutic use (Google Patents)**  \n  URL: `https://patents.google.com/patent/WO2022263604A1/en`  \n  Quote snippets:  \n  - “the effect of **THZ-531 , CR8, PPA-005 and PPA-006** on cyclin K degradation in **A673** cells”  \n  - “compounds **PPA-005** and **PPA-006** were also found to degrade **Cyclin K**” ([patents.google.com](https://patents.google.com/patent/WO2022263604A1/en))\n\n- **WO2020219650A1 — Degraders of cyclin-dependent kinase 12 (cdk12) and uses thereof (Google Patents)**  \n  URL: `https://patents.google.com/patent/WO2020219650A1/en`  \n  Quote snippets:  \n  - “Publication number **WO2020219650A1**”  \n  - “**WO2020219650A1 PCT/US2020/029483**”  \n  - “Degraders of cyclin-dependent kinase 12 (**cdk12**) and uses thereof” ([patents.google.com](https://patents.google.com/patent/WO2020219650A1/zh))\n\n- **AU2020263390A1 — Degraders of cyclin-dependent kinase 12 (CDK12) and uses thereof (Google Patents)**  \n  URL: `https://patents.google.com/patent/AU2020263390A1/en`  \n  Quote snippets:  \n  - “Publication number **AU2020263390A1**”  \n  - “Degraders of cyclin-dependent kinase 12 (**CDK12**) and uses thereof” ([patents.google.com](https://patents.google.com/patent/AU2020263390A1/en))\n\n- **WO2024125551A1 — Cyclin k degrader and use thereof (Google Patents)**  \n  URL: `https://patents.google.com/patent/WO2024125551A1/en`  \n  Quote snippets:  \n  - “Publication number **WO2024125551A1**”  \n  - “**WO2024125551A1 PCT/CN2023/138417**”  \n  - “Cyclin K (**CCNK**) is … of cyclin-dependent kinase 12/13 (**CDK12/13**).” ([patents.google.com](https://patents.google.com/patent/WO2024125551A1/en))\n\n- **US20240368147A1 — Cyclin k degrader (Google Patents)**  \n  URL: `https://patents.google.com/patent/US20240368147A1/en`  \n  Quote snippets:  \n  - “Publication number **US20240368147A1**”  \n  - “the CDK inhibitor **CR8** induces the degradation of **Cyclin K** protein through the mechanism of a **molecular glue degrader**.” ([patents.google.com](https://patents.google.com/patent/US20240368147A1/en))"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 76167,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 6895,
+    "output_tokens_details": {
+      "reasoning_tokens": 5791
+    },
+    "total_tokens": 83062
+  },
+  "user": null,
+  "metadata": {}
+}

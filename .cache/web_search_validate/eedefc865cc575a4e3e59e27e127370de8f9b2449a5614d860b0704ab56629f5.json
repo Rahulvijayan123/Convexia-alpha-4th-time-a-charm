@@ -1,0 +1,114 @@
+{
+  "id": "resp_0047d81c40a2478d00693c94680578819085668a7318cb69f6",
+  "object": "response",
+  "created_at": 1765577832,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0047d81c40a2478d00693c946842b88190ac85dfc9630402f0",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0047d81c40a2478d00693c946b7b548190b8df4b0a4fb4b80f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"E3 ubiquitin ligase\" drug candidate name"
+      }
+    },
+    {
+      "id": "rs_0047d81c40a2478d00693c946d639c8190bf0037885172fc02",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0047d81c40a2478d00693c947d4b988190bb6e3ea191dafaf3",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "E3 ubiquitin ligase definition enzyme class ubiquitination"
+      }
+    },
+    {
+      "id": "rs_0047d81c40a2478d00693c947ea5548190b5f5c9dd6241e112",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0047d81c40a2478d00693c94884d708190a1d0ad116d8ffbd2",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": false,\n  \"assets\": [],\n  \"rejected_reason\": \"Candidate identifier \\\"E3 ubiquitin ligase\\\" is a generic biological term describing a large class of enzymes/proteins involved in ubiquitination, not a specific drug/asset with a uniquely attributable sponsor, modality, indication, development stage, and geography. Evidence: https://en.wikipedia.org/wiki/Ubiquitin_ligase ; https://pubmed.ncbi.nlm.nih.gov/16925947/\"\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 14610,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 3027,
+    "output_tokens_details": {
+      "reasoning_tokens": 2919
+    },
+    "total_tokens": 17637
+  },
+  "user": null,
+  "metadata": {}
+}

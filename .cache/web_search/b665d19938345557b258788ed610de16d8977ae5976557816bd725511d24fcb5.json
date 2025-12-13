@@ -1,0 +1,310 @@
+{
+  "id": "resp_0f6afac6fb22d50000693c8aaac3b48196b5c7bd374a2d4c94",
+  "object": "response",
+  "created_at": 1765575338,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0f6afac6fb22d50000693c8aabefdc8196996db168f71d2d17",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f6afac6fb22d50000693c8ab3d7e0819686465e72403e0622",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12 inhibitor clinical trial NCT"
+      }
+    },
+    {
+      "id": "rs_0f6afac6fb22d50000693c8ab77b1481969ea5bcef22229779",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f6afac6fb22d50000693c8ac0ad4c8196874ea3d000c77023",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov CDK12 triple negative breast cancer NCT"
+      }
+    },
+    {
+      "id": "rs_0f6afac6fb22d50000693c8ac2b2748196a6f95508d624ac0b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f6afac6fb22d50000693c8ac3a6188196bb2d2976339c21fc",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CDK12\" \"triple negative breast cancer\" NCT"
+      }
+    },
+    {
+      "id": "rs_0f6afac6fb22d50000693c8ac5fa64819680f8134e1fff35d6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f6afac6fb22d50000693c8ac736388196b7d175752318cb2a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "Proxygen CDK12 cyclin K degradation inducer WO patent"
+      }
+    },
+    {
+      "id": "rs_0f6afac6fb22d50000693c8acaf6548196a110603ddffca115",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f6afac6fb22d50000693c8acef6b481968c42098a468d0c36",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov CDK12 altered breast cancer olaparib"
+      }
+    },
+    {
+      "id": "rs_0f6afac6fb22d50000693c8ad1e818819691e318d9412a1c04",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f6afac6fb22d50000693c8ad2e7b08196a2c1ad0e1ac85067",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "mycancergenome CDK12 clinical trial NCT breast cancer"
+      }
+    },
+    {
+      "id": "rs_0f6afac6fb22d50000693c8ad67e388196834c20f88b91abe5",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f6afac6fb22d50000693c8ad8d12c819686642de487938e60",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0f6afac6fb22d50000693c8ad9d250819682bca4c98e6d6d82",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f6afac6fb22d50000693c8ae0813481968cf63d3a2f6661bf",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_0f6afac6fb22d50000693c8ae174d08196a554acfdb3fa394d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f6afac6fb22d50000693c8ae2c7388196952b9658241271af",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "clinicaltrials.gov api query full_studies NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0f6afac6fb22d50000693c8ae79d948196b2a1858930223d3f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f6afac6fb22d50000693c8ae7ffd88196b51ed3d6ecb9e1a4",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "https://clinicaltrials.gov/api/v2/studies/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0f6afac6fb22d50000693c8aebbebc81969c755580de536d2b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0f6afac6fb22d50000693c8b12eb348196a939bc0f0feca30d",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 792,
+              "start_index": 603,
+              "title": "Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor) :: Carrick Therapeutics, Inc.",
+              "url": "https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1554,
+              "start_index": 1369,
+              "title": "Carrick Therapeutics Announces U.S. FDA Clearance of IND for CT7439, a First-In-Class Inhibitor of CDK12/13 :: Carrick Therapeutics, Inc.",
+              "url": "https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/20/carrick-therapeutics-announces-u-s-fda-clearance-of-ind?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2023,
+              "start_index": 1914,
+              "title": "CDK12/13 Inhibitor :: Carrick Therapeutics, Inc.",
+              "url": "https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2639,
+              "start_index": 2491,
+              "title": "Non-enzymatic SETD1A activity drives breast cancer cell proliferation via cyclin K | Breast Cancer Research | Full Text",
+              "url": "https://breast-cancer-research.biomedcentral.com/articles/10.1186/s13058-025-02101-x?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3076,
+              "start_index": 2988,
+              "title": "Therapeutic Targeting of CDK12/CDK13 in Triple-Negative Breast Cancer - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/31668947/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3467,
+              "start_index": 3388,
+              "title": "SR-4835 | CDK12/13 inhibitor | Axon 3184 | Axon Medchem",
+              "url": "https://www.axonmedchem.com/product/3184?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3903,
+              "start_index": 3815,
+              "title": "Noncovalent CDK12/13 dual inhibitors-based PROTACs degrade CDK12-Cyclin K complex and induce synthetic lethality with PARP inhibitor - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34864331/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4320,
+              "start_index": 4239,
+              "title": "PP-C8 | PROTAC CDK12-Cyclin K Degrader | MedChemExpress",
+              "url": "https://www.medchemexpress.eu/pp-c8.html?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4787,
+              "start_index": 4699,
+              "title": "Discovery of a Highly Potent and Selective Dual PROTAC Degrader of CDK12 and CDK13 - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/35938508/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 5385,
+              "start_index": 5287,
+              "title": "Discovery and design of molecular glue enhancers of CDK12–DDB1 interactions for targeted degradation of cyclin K - RSC Chemical Biology (RSC Publishing) DOI:10.1039/D4CB00190G",
+              "url": "https://pubs.rsc.org/en/content/articlehtml/2025/cb/d4cb00190g?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 5826,
+              "start_index": 5733,
+              "title": "WO2019217421A1 - Small molecule inhibitors of cdk12/cdk13 - Google Patents",
+              "url": "https://patents.google.com/patent/WO2019217421A1/en?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 6225,
+              "start_index": 6134,
+              "title": "US11306070B2 - Inhibitors of cyclin-dependent kinase 12 (CDK12) and uses thereof - Google Patents",
+              "url": "https://patents.google.com/patent/US11306070B2/en?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "- **Title:** Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor) :: Carrick Therapeutics, Inc.  \n  - **URL:** `https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase`  \n  - **Direct quote snippets:**  \n    - “Phase 1 clinical trial evaluating **CT7439**, a novel cyclin dependent kinase 12/13 (**CDK12/13**) inhibitor / **Cyclin-K glue-degrader**.”  \n    - “Clinical trial details can also be found on www.clinicaltrials.gov under study ID: **NCT06600789**.” ([carricktherapeutics.com](https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase?utm_source=openai))\n\n- **Title:** Carrick Therapeutics Announces U.S. FDA Clearance of IND for CT7439, a First-In-Class Inhibitor of CDK12/13 :: Carrick Therapeutics, Inc.  \n  - **URL:** `https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/20/carrick-therapeutics-announces-u-s-fda-clearance-of-ind`  \n  - **Direct quote snippets:**  \n    - “**CT7439**, a novel cyclin dependent kinase 12/13 (**CDK12/13**) inhibitor.”  \n    - “The Company plans to initiate the **Phase 1** clinical trial in the first half of 2024… including **breast**, ovarian and Ewing's Sarcoma.” ([carricktherapeutics.com](https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/20/carrick-therapeutics-announces-u-s-fda-clearance-of-ind?utm_source=openai))\n\n- **Title:** CDK12/13 Inhibitor :: Carrick Therapeutics, Inc. (Pipeline page)  \n  - **URL:** `https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor`  \n  - **Direct quote snippets:**  \n    - “**CT7439: CDK12/13 inhibitor/Cyclin-K Degrader**”  \n    - “The compound acts as an inhibitor of **CDK12** but also as a ‘**glue degrader**’ of **Cyclin-K**…” ([carricktherapeutics.com](https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor?utm_source=openai))\n\n- **Title:** Non-enzymatic SETD1A activity drives breast cancer cell proliferation via cyclin K | *Breast Cancer Research*  \n  - **URL:** `https://breast-cancer-research.biomedcentral.com/articles/10.1186/s13058-025-02101-x`  \n  - **Direct quote snippets:**  \n    - “**CT7439**, a dual inhibitor of **CDK12/13** and a **cyclin K glue degrader**, is now in phase I/II clinical trial… (**NCT06600789**).”  \n    - “We also used **CR8**, another **cyclin K degrader**…” ([breast-cancer-research.biomedcentral.com](https://breast-cancer-research.biomedcentral.com/articles/10.1186/s13058-025-02101-x?utm_source=openai))\n\n- **Title:** Therapeutic Targeting of CDK12/CDK13 in Triple-Negative Breast Cancer - PubMed  \n  - **URL:** `https://pubmed.ncbi.nlm.nih.gov/31668947/`  \n  - **Direct quote snippets:**  \n    - “development of **SR-4835**, a highly selective dual inhibitor of **CDK12** and **CDK13**, which disables **triple-negative breast cancer (TNBC)** cells.” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/31668947/?utm_source=openai))\n\n- **Title:** SR-4835 | CDK12/13 inhibitor | Axon 3184 | Axon Medchem  \n  - **URL:** `https://www.axonmedchem.com/product/3184`  \n  - **Direct quote snippets:**  \n    - “**SR-4835** is a… dual inhibitor of **CDK12** and **CDK13**…”  \n    - “SR-4835 has… anti-**triple-negative breast cancer (TNBC)** activity…” ([axonmedchem.com](https://www.axonmedchem.com/product/3184?utm_source=openai))\n\n- **Title:** Noncovalent CDK12/13 dual inhibitors-based PROTACs… - PubMed  \n  - **URL:** `https://pubmed.ncbi.nlm.nih.gov/34864331/`  \n  - **Direct quote snippets:**  \n    - “a potent **PROTAC degrader PP-C8** based on the noncovalent dual inhibitors of **CDK12/13**…”  \n    - “synergistic… effects… in **triple-negative breast cancer (TNBC)**.” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/34864331/?utm_source=openai))\n\n- **Title:** PP-C8 | PROTAC CDK12-Cyclin K Degrader | MedChemExpress  \n  - **URL:** `https://www.medchemexpress.eu/pp-c8.html`  \n  - **Direct quote snippets:**  \n    - “**PP-C8** is a potent and selective **PROTAC CDK12-Cyclin K degrader**.”  \n    - “**CAS No. : 3032108-74-7**”  \n    - “in **triple-negative breast cancer (TNBC)**.” ([medchemexpress.eu](https://www.medchemexpress.eu/pp-c8.html?utm_source=openai))\n\n- **Title:** Discovery of a Highly Potent and Selective Dual PROTAC Degrader of CDK12 and CDK13 - PubMed  \n  - **URL:** `https://pubmed.ncbi.nlm.nih.gov/35938508/`  \n  - **Direct quote snippets:**  \n    - “dual **CDK12/13 degraders**… The optimal compound **7f** effectively degraded **CDK12** and **CDK13**…”  \n    - “inhibited proliferation of multiple **TNBC** cell lines…” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/35938508/?utm_source=openai))\n\n- **Title:** Discovery and design of molecular glue enhancers of CDK12–DDB1 interactions for targeted degradation of cyclin K - RSC Chemical Biology  \n  - **URL:** `https://pubs.rsc.org/en/content/articlehtml/2025/cb/d4cb00190g`  \n  - **Direct quote snippets:**  \n    - “**SR-4835** occupies the ATP-binding pocket of **CDK12** and bridges the **CDK12–DDB1** interface…”  \n    - “to generate compound **MR-1226**”  \n    - “**MR-1226** effectively degraded **cyclin K** with a **DC_{50} of 50 nM**” ([pubs.rsc.org](https://pubs.rsc.org/en/content/articlehtml/2025/cb/d4cb00190g?utm_source=openai))\n\n- **Title:** WO2019217421A1 - Small molecule inhibitors of cdk12/cdk13 - Google Patents  \n  - **URL:** `https://patents.google.com/patent/WO2019217421A1/en`  \n  - **Direct quote snippets:**  \n    - “**WO2019217421A1 - Small molecule inhibitors of cdk12/cdk13**”  \n    - “Compounds can be used in treatment of cancers, such as **breast cancer**…” ([patents.google.com](https://patents.google.com/patent/WO2019217421A1/en?utm_source=openai))\n\n- **Title:** US11306070B2 - Inhibitors of cyclin-dependent kinase 12 (CDK12) and uses thereof - Google Patents  \n  - **URL:** `https://patents.google.com/patent/US11306070B2/en`  \n  - **Direct quote snippets:**  \n    - “**US11306070B2 - Inhibitors of cyclin-dependent kinase 12 (CDK12) and uses thereof**” ([patents.google.com](https://patents.google.com/patent/US11306070B2/en?utm_source=openai))"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 39051,
+    "input_tokens_details": {
+      "cached_tokens": 4096
+    },
+    "output_tokens": 6815,
+    "output_tokens_details": {
+      "reasoning_tokens": 5137
+    },
+    "total_tokens": 45866
+  },
+  "user": null,
+  "metadata": {}
+}

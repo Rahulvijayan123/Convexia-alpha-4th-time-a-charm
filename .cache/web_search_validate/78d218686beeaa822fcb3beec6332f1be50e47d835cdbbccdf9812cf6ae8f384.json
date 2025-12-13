@@ -1,0 +1,393 @@
+{
+  "id": "resp_00d8ec94319f019a00693c914f340c819796cd30be9bb9c2c2",
+  "object": "response",
+  "created_at": 1765577039,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_00d8ec94319f019a00693c915059488197ae0ed20267001c11",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00d8ec94319f019a00693c915b45b88197ba5be025eefb8e86",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12 CDK13 inhibitor drug development"
+      }
+    },
+    {
+      "id": "rs_00d8ec94319f019a00693c915dd9a8819788c2650757d8c3c7",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00d8ec94319f019a00693c916b9d98819782aac9e9c18c0b05",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12 inhibitor phase 1 trial"
+      }
+    },
+    {
+      "id": "rs_00d8ec94319f019a00693c916d85ec8197845c3bf0b4416803",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00d8ec94319f019a00693c917d7b4081978c04b55457dead96",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CDK12/13\" inhibitor \"Phase 1\" CT7439"
+      }
+    },
+    {
+      "id": "rs_00d8ec94319f019a00693c917f53088197a062aca0c78e84e3",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00d8ec94319f019a00693c91849c0c81978ea85d98dda2d251",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "ISM9274 CDK12/13 Insilico Medicine preclinical candidate"
+      }
+    },
+    {
+      "id": "rs_00d8ec94319f019a00693c918881808197b87dec8d5aa60fee",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00d8ec94319f019a00693c918d2b9c8197bf2844e441549ee1",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_00d8ec94319f019a00693c918ebaac8197a20c93d577253cea",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00d8ec94319f019a00693c9192c4ac8197847ff528ac381331",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_00d8ec94319f019a00693c9193914481979294dc1c15b2b8ed",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00d8ec94319f019a00693c91979880819788c5cf4380b1c76c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov NCT06600789"
+      }
+    },
+    {
+      "id": "rs_00d8ec94319f019a00693c919abb688197862cfe79cddb32d2",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00d8ec94319f019a00693c919ef8208197b1093d5e1fa534aa",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "clinicaltrials.gov api v2 studies NCT06600789"
+      }
+    },
+    {
+      "id": "rs_00d8ec94319f019a00693c91a1c8088197926f335ecfd44bc9",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00d8ec94319f019a00693c91a5945c81978313a06d71bff4bb",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "https://clinicaltrials.gov/api/v2/studies/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_00d8ec94319f019a00693c91a7dc2c81978f9bd933b2400299",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00d8ec94319f019a00693c91a922d881978275bc98550ce7ee",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "api/v2/studies/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_00d8ec94319f019a00693c91ac2c3c8197aee4bfe4f0bd871f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00d8ec94319f019a00693c91b6cad08197a1256020c3bd3729",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_00d8ec94319f019a00693c91b89784819796c8fe209e64314e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00d8ec94319f019a00693c91d21f588197ad2c316ab6df1eb6",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CDK12/13\" inhibitor \"IND\" candidate"
+      }
+    },
+    {
+      "id": "rs_00d8ec94319f019a00693c91d576e08197922918fe167907e4",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00d8ec94319f019a00693c91ef199481978e66681429d21161",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CT7439 small molecule CDK12/13 inhibitor Cyclin K glue degrader"
+      }
+    },
+    {
+      "id": "rs_00d8ec94319f019a00693c91f2cb6c819796b3708d0009862e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00d8ec94319f019a00693c91f75e04819794464ed83d87626e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CT7439\" oral"
+      }
+    },
+    {
+      "id": "rs_00d8ec94319f019a00693c91fcd8c08197ae7d152f12fe1246",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00d8ec94319f019a00693c920678f4819785a631737407ae2a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:insilico.com ISM9274"
+      }
+    },
+    {
+      "id": "rs_00d8ec94319f019a00693c920b4bf48197b2226d7fdaba75cd",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00d8ec94319f019a00693c921cae6881979caf300a478ac007",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://cdek.pharmacy.purdue.edu/trial/NCT06600789/"
+      }
+    },
+    {
+      "id": "rs_00d8ec94319f019a00693c921f595881979e24063c6dbe7b4c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00d8ec94319f019a00693c9222d9188197a660767d713c2e3c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor"
+      }
+    },
+    {
+      "id": "rs_00d8ec94319f019a00693c922581348197999cf853f582c71f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00d8ec94319f019a00693c9226d4048197ae65461c62bdea3e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://trial.medpath.com/clinical-trial/e9357df4650cb6b7/nct06600789-safety-tolerability-ct7439-solid-malignancies"
+      }
+    },
+    {
+      "id": "rs_00d8ec94319f019a00693c92287d088197afb8d700c7405d1e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00d8ec94319f019a00693c92294d448197852e267e80bb4445",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "Trial Locations",
+        "url": "https://trial.medpath.com/clinical-trial/e9357df4650cb6b7/nct06600789-safety-tolerability-ct7439-solid-malignancies"
+      }
+    },
+    {
+      "id": "rs_00d8ec94319f019a00693c922ba4cc8197b938b1e8799a18d4",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00d8ec94319f019a00693c922e97ac8197b079e35cee1225e1",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://insilico.com/pipeline_target_cdk12/13"
+      }
+    },
+    {
+      "id": "rs_00d8ec94319f019a00693c923076b88197a77d4e2f869c911c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00d8ec94319f019a00693c92501d608197a673fa2d2893b716",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "ISM9274 clinical trial"
+      }
+    },
+    {
+      "id": "rs_00d8ec94319f019a00693c92554a2481978503f124fa6f3fbf",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00d8ec94319f019a00693c9263c9a88197a76cf16cf5dfd5c2",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "ISM9274 site:prnewswire.com"
+      }
+    },
+    {
+      "id": "rs_00d8ec94319f019a00693c926b65348197a8f1292c37635e60",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_00d8ec94319f019a00693c929a204881979af0e217f9816c72",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": true,\n  \"assets\": [\n    {\n      \"drug_name_code\": \"CT7439\",\n      \"sponsor\": \"Carrick Therapeutics Limited\",\n      \"target\": \"CDK12/CDK13; Cyclin-K\",\n      \"modality\": \"Oral small-molecule CDK12/13 inhibitor + Cyclin-K molecular glue degrader\",\n      \"indication\": \"Solid malignancies / advanced solid tumors (including breast, ovarian, Ewing's sarcoma)\",\n      \"development_stage\": \"Phase 1/Phase 2 (recruiting)\",\n      \"geography\": \"United States; United Kingdom\",\n      \"sources\": [\n        \"https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor\",\n        \"https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase\",\n        \"https://cdek.pharmacy.purdue.edu/trial/NCT06600789/\",\n        \"https://trial.medpath.com/clinical-trial/e9357df4650cb6b7/nct06600789-safety-tolerability-ct7439-solid-malignancies\"\n      ]\n    },\n    {\n      \"drug_name_code\": \"ISM9274\",\n      \"sponsor\": \"Insilico Medicine\",\n      \"target\": \"CDK12/CDK13\",\n      \"modality\": \"Small-molecule covalent dual inhibitor\",\n      \"indication\": \"Solid tumors (preclinical activity reported particularly in triple-negative breast cancer)\",\n      \"development_stage\": \"Preclinical (PCC; IND-enabling)\",\n      \"geography\": \"Not yet in clinical trials (preclinical/IND-enabling)\",\n      \"sources\": [\n        \"https://www.eurekalert.org/news-releases/1004993\",\n        \"https://www.dovemed.com/current-medical-news/insilico-medicine-nominates-novel-cdk1213-small-molecule-inhibitor-preclinical-candidate-multiple-tumors\"\n      ]\n    }\n  ],\n  \"rejected_reason\": null\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 92603,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 17242,
+    "output_tokens_details": {
+      "reasoning_tokens": 16783
+    },
+    "total_tokens": 109845
+  },
+  "user": null,
+  "metadata": {}
+}

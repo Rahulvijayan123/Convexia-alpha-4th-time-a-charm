@@ -1,0 +1,100 @@
+{
+  "id": "resp_0f44494e1ad3eebd00693c80ca8c308193bb0569684719fe63",
+  "object": "response",
+  "created_at": 1765572810,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0f44494e1ad3eebd00693c80caf33081939f574fc8eedbe28d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f44494e1ad3eebd00693c80d18afc8193bc33a0b238a241ab",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "Chemotherapy is a type of cancer treatment using drugs definition"
+      }
+    },
+    {
+      "id": "rs_0f44494e1ad3eebd00693c80d3e7e88193a264a5aff9b3bfd5",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0f44494e1ad3eebd00693c80e7e70c8193a4a54c9198fb2dfd",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": false,\n  \"assets\": [],\n  \"rejected_reason\": \"\\\"Chemotherapy\\\" is a broad category of cancer drug treatment (many different agents/regimens), not a single CDK12/CDK13-targeted drug asset with a specific sponsor/target/stage/geography; see https://www.cancer.gov/about-cancer/treatment/types/chemotherapy and https://www.mayoclinic.org/tests-procedures/chemotherapy/about/pac-20385033.\"\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 9226,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 1758,
+    "output_tokens_details": {
+      "reasoning_tokens": 1649
+    },
+    "total_tokens": 10984
+  },
+  "user": null,
+  "metadata": {}
+}

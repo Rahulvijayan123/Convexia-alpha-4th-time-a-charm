@@ -1,0 +1,406 @@
+{
+  "id": "resp_0f96729b1493925100693c929f347481979cffa705fa2e55c1",
+  "object": "response",
+  "created_at": 1765577375,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0f96729b1493925100693c929f8244819786189ebc0af7a5ea",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f96729b1493925100693c92a143988197a2ac31ad9310df3d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"cyclin-dependent kinase 12\" inhibitor pipeline filetype:pdf"
+      }
+    },
+    {
+      "id": "rs_0f96729b1493925100693c92a4490081978a5d4af5fa0efcf2",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f96729b1493925100693c92a625d08197837fe802174f7665",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12 inhibitor pipeline pdf presentation"
+      }
+    },
+    {
+      "id": "rs_0f96729b1493925100693c92a842a08197a889bbf16dc2538b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f96729b1493925100693c92ad2adc81978060bf890c25f239",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "THZ531 CDK12 inhibitor filetype:pdf"
+      }
+    },
+    {
+      "id": "rs_0f96729b1493925100693c92af5ae88197adb183c1e73fa11a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f96729b1493925100693c92b166108197ba42c8384617f2a6",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CT7439 filetype:pdf"
+      }
+    },
+    {
+      "id": "rs_0f96729b1493925100693c92b382948197911a854f124e6f5f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f96729b1493925100693c92b481e481979173d7211832c87b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/20/carrick-therapeutics-announces-u-s-fda-clearance-of-ind"
+      }
+    },
+    {
+      "id": "rs_0f96729b1493925100693c92b592608197ae67e7ded048dc39",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f96729b1493925100693c92b73de48197bf2f243b3d543eba",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2023-09-07_Carrick_Therapeutics_Announces_U_S_FDA_Clearance_20.pdf"
+      }
+    },
+    {
+      "id": "rs_0f96729b1493925100693c92b85248819783ca0cc804489d6d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f96729b1493925100693c92bdd31c8197ab610cd9661bd246",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://insight.jci.org/articles/view/190780/pdf"
+      }
+    },
+    {
+      "id": "rs_0f96729b1493925100693c92becf7481978ddddb5e2024348c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f96729b1493925100693c92bfac4c8197838dd56cbd0e2b2c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_0f96729b1493925100693c92c2c0f88197ac4fc2eb63fbd01e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f96729b1493925100693c92c38b308197a0ef4631ab3f4d81",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_0f96729b1493925100693c92c485c881979e2550a1d78d2a2d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f96729b1493925100693c92ca1e408197924a2efe29497179",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/US11306070B2/en"
+      }
+    },
+    {
+      "id": "rs_0f96729b1493925100693c92cbb25c8197838bcabcdd9a8369",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f96729b1493925100693c92cc525c8197905bb471cc33c3e1",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_0f96729b1493925100693c92cd54c88197baf6907486c44e95",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f96729b1493925100693c92d56d08819798442b4d70199096",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.carricktherapeutics.com/investors/news-events/presentations"
+      }
+    },
+    {
+      "id": "rs_0f96729b1493925100693c92d633f48197b98d686ae30fe639",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f96729b1493925100693c92d8d2dc8197b9c9fee9799efe06",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"THZ531\" \"CDK12\" \"CDK13\" filetype:pdf"
+      }
+    },
+    {
+      "id": "rs_0f96729b1493925100693c92dd82248197b3d731e416d484c4",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f96729b1493925100693c92df04d481979fe694e0fb53c09c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase"
+      }
+    },
+    {
+      "id": "rs_0f96729b1493925100693c92e028d88197a081853544a8df26",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f96729b1493925100693c92e05cb88197ae39d6ea22d2f0b4",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2024-09-23_Carrick_Therapeutics_Announces_First_Patient_25.pdf"
+      }
+    },
+    {
+      "id": "rs_0f96729b1493925100693c92e1bb848197ac8e759efdb7fdab",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f96729b1493925100693c92e4072c81978f7af3e75a9b8c9d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.citedrive.com/en/discovery/advances-in-structural-types-and-pharmacochemistry-of-cdk12-inhibitors/"
+      }
+    },
+    {
+      "id": "rs_0f96729b1493925100693c92e5436c8197b496e06c251d0f74",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f96729b1493925100693c92e5c3348197921b1ab229fd8987",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.citedrive.com/en/viewer/?doi=10.2174%2F0115734064362377241217093427"
+      }
+    },
+    {
+      "id": "rs_0f96729b1493925100693c92e8969c8197b8d87a1dfc725326",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f96729b1493925100693c92e9c4608197852bddd93e9c8d29",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": ".pdf",
+        "url": "https://www.citedrive.com/en/viewer/?doi=10.2174%2F0115734064362377241217093427"
+      }
+    },
+    {
+      "id": "rs_0f96729b1493925100693c92ec67d08197bf73e0b39c4dc674",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f96729b1493925100693c92ed43288197927bcc63add47907",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CDK12\" inhibitors review filetype:pdf"
+      }
+    },
+    {
+      "id": "rs_0f96729b1493925100693c92f132c48197a0f0c3dfbc2cb654",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f96729b1493925100693c92f45ac08197af5656749825b4b3",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_0f96729b1493925100693c92f602ac8197bc6eb84937c2cc44",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f96729b1493925100693c92f7a954819788e862ffe3d29f3b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.mdpi.com/2072-6694/13/21/5506"
+      }
+    },
+    {
+      "id": "rs_0f96729b1493925100693c92f8b15c8197a38344b2b76f7cec",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f96729b1493925100693c92f8f8488197a198605285daaba5",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.mdpi.com/2072-6694/13/21/5506/pdf"
+      }
+    },
+    {
+      "id": "rs_0f96729b1493925100693c92fb31f08197a2966e540ad951a8",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f96729b1493925100693c92fc353081979ad61527b4fa6aa1",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "BSJ-4-116",
+        "url": "https://www.mdpi.com/2072-6694/13/21/5506/pdf"
+      }
+    },
+    {
+      "id": "rs_0f96729b1493925100693c92fe86a88197b3b1fc86ad0eb515",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0f96729b1493925100693c930e46c08197b0baae358c1eef2c",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "- **Carrick Therapeutics Announces U.S. FDA Clearance of IND for CT7439, a First-In-Class Inhibitor of CDK12/13 (PDF)**\n  - URL: `https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2023-09-07_Carrick_Therapeutics_Announces_U_S_FDA_Clearance_20.pdf`\n  - Snippets:\n    - “Investigational New Drug (IND) application for **CT7439**, a novel cyclin dependent kinase 12/13 (**CDK12/13**) inhibitor.”\n    - “patients with advanced solid tumors, including **breast, ovarian and Ewing's Sarcoma**.”\n    - “**CT7439** is an inhibitor of **CDK12/13** as well as a 'glue degrader' of **Cyclin-K**”\n\n- **Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor) (PDF)**\n  - URL: `https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2024-09-23_Carrick_Therapeutics_Announces_First_Patient_25.pdf`\n  - Snippets:\n    - “evaluating **CT7439**, a novel cyclin dependent kinase 12/13 (**CDK12/13**) inhibitor / **Cyclin-K glue-degrader**.”\n    - “under study ID: **NCT06600789**.”\n    - “including **ovarian, breast and Ewing's Sarcoma**.”\n\n- **Inhibitors, PROTACs and Molecular Glues as Diverse Therapeutic Modalities to Target Cyclin-Dependent Kinase (MDPI PDF)**\n  - URL: `https://www.mdpi.com/2072-6694/13/21/5506/pdf`\n  - Snippets:\n    - “The Gray lab developed a CDK12-selective degrader, **BSJ-4-116 (47, Figure 8)**”\n    - “promiscuous multi kinase degrader **TL12-186**”\n    - “**NCT No.** … **04802759** … **GDC-9545**, **Abemaciclib**, **Ipatasertib**, **GDC-0077**, **Ribociclib**, **Everolimus**”"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 63542,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 5330,
+    "output_tokens_details": {
+      "reasoning_tokens": 4760
+    },
+    "total_tokens": 68872
+  },
+  "user": null,
+  "metadata": {}
+}

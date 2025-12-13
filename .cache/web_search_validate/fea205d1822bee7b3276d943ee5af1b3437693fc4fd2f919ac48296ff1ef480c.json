@@ -1,0 +1,198 @@
+{
+  "id": "resp_05b61e65379fcb3100693c8bf08ee48194ad4d122e8b891e5b",
+  "object": "response",
+  "created_at": 1765575664,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_05b61e65379fcb3100693c8bf0fa3881948c757888a4c3cd24",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05b61e65379fcb3100693c8bf39ac481948ef11afe4ae080e6",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CN2020 CDK12 inhibitor"
+      }
+    },
+    {
+      "id": "rs_05b61e65379fcb3100693c8bf5cbc4819496c08ca4285b0e24",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05b61e65379fcb3100693c8bfae2f08194849b105fffa7e787",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CN2020\" cancer drug"
+      }
+    },
+    {
+      "id": "rs_05b61e65379fcb3100693c8bfca74c81949d92a5a1257e48c8",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05b61e65379fcb3100693c8c0106d08194ac00c1c85e0e4689",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CN2020\" patent compound"
+      }
+    },
+    {
+      "id": "rs_05b61e65379fcb3100693c8c02ea748194a779d90ed08a9520",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05b61e65379fcb3100693c8c0c0ca48194aa88749009887f11",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CN2020\" \"CDK12\" \"Cyclin\""
+      }
+    },
+    {
+      "id": "rs_05b61e65379fcb3100693c8c0e477c8194b4ed38625470d757",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05b61e65379fcb3100693c8c14b5048194867501d6068745b2",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CN2020 compound inhibitor"
+      }
+    },
+    {
+      "id": "rs_05b61e65379fcb3100693c8c18743c8194b1b0be5f48513697",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05b61e65379fcb3100693c8c1c5aa0819487e2672a46e83f12",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CN-2020\" CDK12"
+      }
+    },
+    {
+      "id": "rs_05b61e65379fcb3100693c8c1f6860819492dd9699bece6c65",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05b61e65379fcb3100693c8c25afec8194b7794ee30a314f94",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CN2020\" site:clinicaltrials.gov"
+      }
+    },
+    {
+      "id": "rs_05b61e65379fcb3100693c8c28df108194b93760e52c076cf1",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_05b61e65379fcb3100693c8c3117dc8194a9e4609a6140cee7",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CN2020\" Carrick Therapeutics"
+      }
+    },
+    {
+      "id": "rs_05b61e65379fcb3100693c8c33bcc4819488683bfdc5abd43b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_05b61e65379fcb3100693c8c4758cc81949fc5fd5f2feb4e12",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": false,\n  \"assets\": [],\n  \"rejected_reason\": \"Unable to verify candidate identifier \\\"CN2020\\\" as a CDK12/CDK12/13 oncology drug asset (no reliable evidence for sponsor/target/modality/indication/stage/geography). Web results for \\\"CN 2020\\\" primarily refer to non-pharmaceutical meanings such as the EU Combined Nomenclature taxonomy (https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http%3A%2F%2Fdata.europa.eu%2Fxsp%2Fcn2020%2Fcn2020) and unrelated product codes (e.g., CN2020 listed among chip products: https://en.chipnorth.com/case/casesdetail_4.shtml).\"\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 36854,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 4951,
+    "output_tokens_details": {
+      "reasoning_tokens": 4773
+    },
+    "total_tokens": 41805
+  },
+  "user": null,
+  "metadata": {}
+}

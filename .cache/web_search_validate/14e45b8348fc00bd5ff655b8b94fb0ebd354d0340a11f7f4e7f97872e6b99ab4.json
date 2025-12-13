@@ -1,0 +1,240 @@
+{
+  "id": "resp_0cf252234c8ffd5200693c914f32c08194bcab244f668d404b",
+  "object": "response",
+  "created_at": 1765577039,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0cf252234c8ffd5200693c914f81d08194b98dcd1531e8a071",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0cf252234c8ffd5200693c916112508194b3d287cef0c9a5f9",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12/13 dual inhibitor triple negative breast cancer"
+      }
+    },
+    {
+      "id": "rs_0cf252234c8ffd5200693c91648ba48194a2ff74b435486432",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0cf252234c8ffd5200693c91871c4c81948e80acabf2a83dea",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31668947/"
+      }
+    },
+    {
+      "id": "rs_0cf252234c8ffd5200693c9187f7808194ad3a07b77f56684d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0cf252234c8ffd5200693c919193148194bf2d6e11de2ad70e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "SR-4835 clinical trial"
+      }
+    },
+    {
+      "id": "rs_0cf252234c8ffd5200693c9193487481948a9c1758cbe20bcb",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0cf252234c8ffd5200693c91acdbf08194abebbf8cf1b80e06",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "Moffitt SR-4835"
+      }
+    },
+    {
+      "id": "rs_0cf252234c8ffd5200693c91b0589c81948718e919c21e81b4",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0cf252234c8ffd5200693c91b3417481948299ff3ceb3b7fc7",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:moffitt.org SR-4835"
+      }
+    },
+    {
+      "id": "rs_0cf252234c8ffd5200693c91b5f8148194985342faa1004d87",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0cf252234c8ffd5200693c91bcb39c81949bfe947327fc3b7d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://synapse.patsnap.com/drug/b77e9233f40445ff9b4faa6db83a2989"
+      }
+    },
+    {
+      "id": "rs_0cf252234c8ffd5200693c91bdc34c8194a8c90b3c0a62fc51",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0cf252234c8ffd5200693c91e3c6448194aa1b50338c3a459f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "THZ531 originator organization"
+      }
+    },
+    {
+      "id": "rs_0cf252234c8ffd5200693c91e65884819490355a4a64e00733",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0cf252234c8ffd5200693c91e70e30819490067ab9b2474d3b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:synapse.patsnap.com THZ531"
+      }
+    },
+    {
+      "id": "rs_0cf252234c8ffd5200693c91e941788194a2dbe3eef22d7685",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0cf252234c8ffd5200693c91e9f6d08194b8e3f8bbc502638d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"THZ531\" \"synapse.patsnap.com/drug\""
+      }
+    },
+    {
+      "id": "rs_0cf252234c8ffd5200693c91ec79888194a79569667f556b5a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0cf252234c8ffd5200693c91f820c48194978573ce7caf567b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37695916/"
+      }
+    },
+    {
+      "id": "rs_0cf252234c8ffd5200693c91f9260481949f5d984671162baf",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0cf252234c8ffd5200693c91fd1890819481947ae93fe86e16",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://synapse.patsnap.com/drug/ff73a40aff58476191136fcb3bb18c9e"
+      }
+    },
+    {
+      "id": "rs_0cf252234c8ffd5200693c91fe02e8819488a1ea9ece70a7c1",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0cf252234c8ffd5200693c923a1b6081949f9bf08689ed3150",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": true,\n  \"assets\": [\n    {\n      \"drug_name_code\": \"SR-4835\",\n      \"sponsor\": \"H. Lee Moffitt Cancer Center & Research Institute, Inc.\",\n      \"target\": \"CDK12; CDK13\",\n      \"modality\": \"Small molecule inhibitor\",\n      \"indication\": \"Triple-negative breast cancer (TNBC)\",\n      \"development_stage\": \"Preclinical\",\n      \"geography\": \"United States\",\n      \"sources\": [\n        \"https://synapse.patsnap.com/drug/b77e9233f40445ff9b4faa6db83a2989\",\n        \"https://pubmed.ncbi.nlm.nih.gov/31668947/\"\n      ]\n    },\n    {\n      \"drug_name_code\": \"THZ-531\",\n      \"sponsor\": \"Syros Pharmaceuticals, Inc.\",\n      \"target\": \"CDK12; CDK13\",\n      \"modality\": \"Covalent small molecule inhibitor\",\n      \"indication\": \"Triple-negative breast cancer (TNBC)\",\n      \"development_stage\": \"Preclinical\",\n      \"geography\": \"United States\",\n      \"sources\": [\n        \"https://synapse.patsnap.com/drug/ff73a40aff58476191136fcb3bb18c9e\",\n        \"https://www.chemicalprobes.org/thz531\",\n        \"https://pubmed.ncbi.nlm.nih.gov/37695916/\"\n      ]\n    }\n  ],\n  \"rejected_reason\": null\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 55198,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 12080,
+    "output_tokens_details": {
+      "reasoning_tokens": 11749
+    },
+    "total_tokens": 67278
+  },
+  "user": null,
+  "metadata": {}
+}

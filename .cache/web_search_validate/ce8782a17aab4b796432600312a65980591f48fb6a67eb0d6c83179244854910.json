@@ -1,0 +1,128 @@
+{
+  "id": "resp_08058b4f339277a000693c914f3488819096d787d42b03555d",
+  "object": "response",
+  "created_at": 1765577039,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_08058b4f339277a000693c914fb6e48190829a799251097b72",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08058b4f339277a000693c916385bc8190b601c3b36224591d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12 inhibitor clinical trial triple-negative breast cancer"
+      }
+    },
+    {
+      "id": "rs_08058b4f339277a000693c916584b08190845577b17f3309fd",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08058b4f339277a000693c916ec2848190aca8b7b5950c60ff",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12 inhibitor drug development company CDK12 clinical trial"
+      }
+    },
+    {
+      "id": "rs_08058b4f339277a000693c9171096c819094a814eee5ee90b6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08058b4f339277a000693c9183ea9481908e664e3fe662475f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCI triple-negative breast cancer definition"
+      }
+    },
+    {
+      "id": "rs_08058b4f339277a000693c9185a9848190ac60838bdb36a2eb",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_08058b4f339277a000693c9194ac04819082a9b66c3d409968",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": false,\n  \"assets\": [],\n  \"rejected_reason\": \"Candidate identifier \\\"triple-negative breast cancer (TNBC)\\\" is an indication/disease entity (see NCI definition: https://www.cancer.gov/publications/dictionaries/cancer-terms/def/triple-negative-breast-cancer), not a specific drug/asset identifier; therefore required drug-asset fields (drug_name_code, sponsor, target, modality, development_stage, geography) cannot be populated.\"\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 19271,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 3981,
+    "output_tokens_details": {
+      "reasoning_tokens": 3871
+    },
+    "total_tokens": 23252
+  },
+  "user": null,
+  "metadata": {}
+}

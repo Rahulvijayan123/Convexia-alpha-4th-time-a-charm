@@ -1,0 +1,128 @@
+{
+  "id": "resp_08d4dc238d9da31200693c941e254c8195892e0482407c5647",
+  "object": "response",
+  "created_at": 1765577758,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_08d4dc238d9da31200693c941e77b08195844abc055adc58bb",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08d4dc238d9da31200693c942573e88195857fe4e5c4b9a57f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"covalent inhibitor\" CDK12 CDK13 triple negative breast cancer"
+      }
+    },
+    {
+      "id": "rs_08d4dc238d9da31200693c9426e8108195886b2f61b968a5d5",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08d4dc238d9da31200693c943ea1a08195a2e3da3be9676ebb",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12 covalent inhibitor drug candidate"
+      }
+    },
+    {
+      "id": "rs_08d4dc238d9da31200693c94403f408195a1d6896a4a6e6729",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08d4dc238d9da31200693c9449e6088195ada3d68b52a3e038",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "ISM9274 CDK12/13 covalent inhibitor Insilico Medicine preclinical candidate geography"
+      }
+    },
+    {
+      "id": "rs_08d4dc238d9da31200693c944cddc48195a509a003a95fb08d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_08d4dc238d9da31200693c945ff960819588af484e4ccffdaf",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": false,\n  \"assets\": [],\n  \"rejected_reason\": \"Candidate identifier \\\"covalent inhibitor\\\" is a generic descriptor, not a unique drug asset name/code. Web results show multiple distinct CDK12/13 covalent inhibitors (e.g., THZ531 https://pubmed.ncbi.nlm.nih.gov/27571479/; ISM9274 https://www.eurekalert.org/news-releases/1004993), so sponsor/target/modality/indication/stage/geography cannot be uniquely attributed to the candidate.\"\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 20289,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 6023,
+    "output_tokens_details": {
+      "reasoning_tokens": 5899
+    },
+    "total_tokens": 26312
+  },
+  "user": null,
+  "metadata": {}
+}

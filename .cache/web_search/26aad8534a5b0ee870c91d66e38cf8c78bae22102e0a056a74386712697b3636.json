@@ -1,0 +1,207 @@
+{
+  "id": "resp_01ac87ef0b10bebc00693c8d6ae89481908804fdd84f414fc4",
+  "object": "response",
+  "created_at": 1765576042,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_01ac87ef0b10bebc00693c8d6b5b4481908a1933fc0459d2e7",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_01ac87ef0b10bebc00693c8d6d05c4819086dda0cf3bc962f7",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrialsregister.eu CDK12 inhibitor \"triple-negative\""
+      }
+    },
+    {
+      "id": "rs_01ac87ef0b10bebc00693c8d6ebf908190ba185bbb8780aaac",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_01ac87ef0b10bebc00693c8d74028c81908977aaa35179ea52",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrialsregister.eu CDK12 \"triple negative\""
+      }
+    },
+    {
+      "id": "rs_01ac87ef0b10bebc00693c8d762ffc819085f8c8bc1e611f21",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_01ac87ef0b10bebc00693c8d7a3b608190b8e5088aa6af8702",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrialsregister.eu/ctr-search/trial CDK12"
+      }
+    },
+    {
+      "id": "rs_01ac87ef0b10bebc00693c8d7cfd848190b2583eabe210cd74",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_01ac87ef0b10bebc00693c8d80861c8190a216024679dc16a0",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrialsregister.eu \"cyclin-dependent kinase 12\" \"triple\""
+      }
+    },
+    {
+      "id": "rs_01ac87ef0b10bebc00693c8d8318ac8190afeaafcfbfc1db01",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_01ac87ef0b10bebc00693c8d8cc15c8190944fdef44f275b3f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2020-004930-39/ES"
+      }
+    },
+    {
+      "id": "rs_01ac87ef0b10bebc00693c8d8e1cfc81909d9a671127764cb9",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_01ac87ef0b10bebc00693c8d911fa481908ee3e9e6a174c62b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "EudraCT",
+        "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2015-000324-29/ES"
+      }
+    },
+    {
+      "id": "rs_01ac87ef0b10bebc00693c8d9389788190a20311b6fff7c3cf",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_01ac87ef0b10bebc00693c8d9515bc8190b20642ddedacfd43",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2016-003608-30/GB"
+      }
+    },
+    {
+      "id": "rs_01ac87ef0b10bebc00693c8d9753e08190891c207192242f4a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_01ac87ef0b10bebc00693c8db1974c8190a97843c42da5c61f",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 607,
+              "start_index": 504,
+              "title": "\n\t\t    \n                \n                \n                \n                    Clinical Trials Register\n                \n            \n\t\t",
+              "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2020-004930-39/ES"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1152,
+              "start_index": 1049,
+              "title": "\n\t\t    \n                \n                \n                \n                    Clinical Trials Register\n                \n            \n\t\t",
+              "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2015-000324-29/ES"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1788,
+              "start_index": 1685,
+              "title": "\n\t\t    \n                \n                \n                \n                    Clinical Trials Register\n                \n            \n\t\t",
+              "url": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2016-003608-30/GB"
+            }
+          ],
+          "logprobs": [],
+          "text": "- **Clinical trials — “A Phase 3, Randomized, Double-Blind Study of Trilaciclib or Placebo … Triple-Negative Breast Cancer (PRESERVE 2)”**\n  - URL: `https://www.clinicaltrialsregister.eu/ctr-search/trial/2020-004930-39/ES`\n  - Direct quote snippets:\n    - “EudraCT Number:2020-004930-39”\n    - “Trilaciclib, a CDK 4/6 Inhibitor, in Patients Receiving Gemcitabine and Carboplatin for Triple-Negative Breast Cancer (TNBC) (PRESERVE 2)”\n    - “A.5.2 US NCT (ClinicalTrials.gov registry) number NCT04799249” ([clinicaltrialsregister.eu](https://www.clinicaltrialsregister.eu/ctr-search/trial/2020-004930-39/ES))\n\n- **Clinical trials — “A Phase I/IIa Trial With BMS-986158 … (BET) Proteins … Selected Advanced Solid Tumors”**\n  - URL: `https://www.clinicaltrialsregister.eu/ctr-search/trial/2015-000324-29/ES`\n  - Direct quote snippets:\n    - “A.2 EudraCT number 2015-000324-29”\n    - “A Phase I/IIa Trial With BMS-986158, a Small Molecule Inhibitor of the Bromodomain and Extra-Terminal (BET) Proteins,”\n    - “E.1.2 Term Triple negative breast cancer” ([clinicaltrialsregister.eu](https://www.clinicaltrialsregister.eu/ctr-search/trial/2015-000324-29/ES))\n\n- **Clinical trials — “A Phase II, Multi Center Study of BGB324 in combination with Pembrolizumab … Triple Negative Breast Cancer (TNBC) …”**\n  - URL: `https://www.clinicaltrialsregister.eu/ctr-search/trial/2016-003608-30/GB`\n  - Direct quote snippets:\n    - “EudraCT Number:2016-003608-30”\n    - “BGB324 in combination with Pembrolizumab in Patients with Previously Treated, Locally Advanced and Unresectable or Mestastic Triple Negative Breast Cancer (TNBC)”\n    - “A.5.2 US NCT (ClinicalTrials.gov registry) number NCT03184558” ([clinicaltrialsregister.eu](https://www.clinicaltrialsregister.eu/ctr-search/trial/2016-003608-30/GB))"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 34058,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 4047,
+    "output_tokens_details": {
+      "reasoning_tokens": 3532
+    },
+    "total_tokens": 38105
+  },
+  "user": null,
+  "metadata": {}
+}

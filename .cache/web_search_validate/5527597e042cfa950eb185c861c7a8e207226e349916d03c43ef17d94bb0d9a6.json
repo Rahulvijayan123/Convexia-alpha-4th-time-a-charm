@@ -1,0 +1,128 @@
+{
+  "id": "resp_0c12466038642fbe00693c89d115d4819095caa2deebf0f576",
+  "object": "response",
+  "created_at": 1765575121,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0c12466038642fbe00693c89d17370819084ff486d1d0d1c42",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c12466038642fbe00693c89d5a108819099da6423f89c3601",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "PgR drug code"
+      }
+    },
+    {
+      "id": "rs_0c12466038642fbe00693c89d7d7788190938f0b608d2a49df",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c12466038642fbe00693c89e23b7c81908da4d741eebd7456",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"PgR\" compound"
+      }
+    },
+    {
+      "id": "rs_0c12466038642fbe00693c89e466908190bb33e0befb8b9db3",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c12466038642fbe00693c89fa5e5481908211bc198344f967",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"PgR\" \"phase\" trial drug"
+      }
+    },
+    {
+      "id": "rs_0c12466038642fbe00693c89fc6dac8190b6bf81c0d94caa9b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0c12466038642fbe00693c8a09aaa08190addfd9a6b5daf416",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": false,\n  \"assets\": [],\n  \"rejected_reason\": \"Candidate identifier \\\"PgR\\\" refers to the progesterone receptor (PGR/PR), used as a breast cancer biomarker/hormone receptor status (e.g., PgR-positive), not a specific drug asset; thus sponsor/target/modality/indication/stage/geography for a drug cannot be validated. Evidence: https://www.cancer.gov/types/breast/diagnosis/breast-cancer-biomarker-tests ; https://bmccancer.biomedcentral.com/articles/10.1186/s12885-017-3331-4\"\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 18503,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 2921,
+    "output_tokens_details": {
+      "reasoning_tokens": 2780
+    },
+    "total_tokens": 21424
+  },
+  "user": null,
+  "metadata": {}
+}

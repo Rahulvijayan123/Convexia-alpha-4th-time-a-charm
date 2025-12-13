@@ -1,0 +1,313 @@
+{
+  "id": "resp_0e16003af60826e900693c95909588819691e0a9e964fbff29",
+  "object": "response",
+  "created_at": 1765578128,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0e16003af60826e900693c9590de548196a2518d2e3a7c7dfc",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e16003af60826e900693c9591af0c8196b756056da889a922",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12 degrader NCT trial"
+      }
+    },
+    {
+      "id": "rs_0e16003af60826e900693c959320b8819684cd1643c99d7956",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e16003af60826e900693c9596182481968224630b6b5c3d48",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov CDK12 degrader"
+      }
+    },
+    {
+      "id": "rs_0e16003af60826e900693c9597cf788196b0324d80a2fe2aaa",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e16003af60826e900693c95988ce48196a24e6557f9b6990c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT06600789 CT7439"
+      }
+    },
+    {
+      "id": "rs_0e16003af60826e900693c959a57908196bbf2845a3f70415d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e16003af60826e900693c959ac79c819684a20426278cbb24",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0e16003af60826e900693c959bb6948196a5fc38ef687b2083",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e16003af60826e900693c959e281481969349f1d611ed284a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "clinicaltrials.gov api v2 studies NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0e16003af60826e900693c95a0c7248196a3321af5c7504a30",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e16003af60826e900693c95a141088196bad28b44980ac4ed",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_0e16003af60826e900693c95a252a48196bbbd13a57ca5c3c5",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e16003af60826e900693c95a3d1688196bfa5c5939863866d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "clinicaltrials.gov/api/v2/studies/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0e16003af60826e900693c95a5f2788196a13273e917eb879b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e16003af60826e900693c95a6ef14819683444ffdd575189b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "Study Details NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0e16003af60826e900693c95a9d5988196bc8413cca617a0fa",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e16003af60826e900693c95aaccb481968efaf29967540b02",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT06600789 trialstoday"
+      }
+    },
+    {
+      "id": "rs_0e16003af60826e900693c95af3154819698e530fcab08b78b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e16003af60826e900693c95b740ac819681a9fd2874dfadb8",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html"
+      }
+    },
+    {
+      "id": "rs_0e16003af60826e900693c95ba957c81969efea715b5caba80",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e16003af60826e900693c95bb2e608196a5845aa38ccd2f9a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "NCT06600789",
+        "url": "https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html"
+      }
+    },
+    {
+      "id": "rs_0e16003af60826e900693c95bf20b4819686134c4fbaabf607",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e16003af60826e900693c95c0aa648196879480088758bc24",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html"
+      }
+    },
+    {
+      "id": "rs_0e16003af60826e900693c95c4572c8196aa82dfd39febf8ed",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e16003af60826e900693c95c529948196bd0860bf1ec6d194",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "NCT06600789",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12435847/"
+      }
+    },
+    {
+      "id": "rs_0e16003af60826e900693c95c793948196b50d229edc52cd77",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e16003af60826e900693c95c8755881968276898c06e73d11",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "NCT06600789",
+        "url": "https://www.carricktherapeutics.com/news-media/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase"
+      }
+    },
+    {
+      "id": "rs_0e16003af60826e900693c95cb27d481968e9e21dd4949bb4b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e16003af60826e900693c95d448788196acd1352967f7d80d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.biospace.com/press-releases/carrick-therapeutics-announces-first-patient-dosed-in-phase-1-clinical-trial-of-ct7439-cdk12-13-inhibitor"
+      }
+    },
+    {
+      "id": "rs_0e16003af60826e900693c95d664cc819685869bbe3b0c2843",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0e16003af60826e900693c95dc27608196a068d308bbdeb0f2",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "NCT02",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34289372/"
+      }
+    },
+    {
+      "id": "rs_0e16003af60826e900693c95de585881969f32acef6fae34a4",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0e16003af60826e900693c96170c888196a8d4158376833d15",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "- **Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor)**  \n  - URL: `https://www.biospace.com/press-releases/carrick-therapeutics-announces-first-patient-dosed-in-phase-1-clinical-trial-of-ct7439-cdk12-13-inhibitor`  \n  - Direct quotes:\n    - “Phase 1 clinical trial evaluating **CT7439**, a novel cyclin dependent kinase 12/13 (**CDK12/13**) inhibitor / **Cyclin-K glue-degrader**.”\n    - “Clinical trial details can also be found on **www.clinicaltrials.gov** under study ID: **NCT06600789**.”\n    - “advanced solid tumors, including **ovarian, breast and Ewing's Sarcoma**.”\n\n- **Trial | NCT06600789 — A Modular Phase 1/2 Study With CT7439 in Participants With Solid Malignancies**  \n  - URL: `https://cdek.pharmacy.purdue.edu/trial/NCT06600789/`  \n  - Direct quotes:\n    - “Trial | **NCT06600789**”\n    - “A Modular Phase 1/2 Study With **CT7439** in Participants With **Solid Malignancies**”\n    - “**CT7439 Capsules (0.5 mg, 1mg, 3mg)**”\n\n- **CDK12/13 inactivation triggers STING-mediated antitumor immunity in preclinical models (J Clin Invest, 2025)**  \n  - URL: `https://pmc.ncbi.nlm.nih.gov/articles/PMC12435847/`  \n  - Direct quotes:\n    - “a molecular glue degrader of cyclin K, **CT7439**, which inhibits **CDK12/13**,”\n    - “has progressed to a phase I clinical trial (ClinicalTrials.gov **NCT06600789**)”\n    - “for patients with **advanced solid tumors**.”\n\n- **Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor)**  \n  - URL: `https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html`  \n  - Direct quotes:\n    - “Phase 1 clinical trial evaluating **CT7439**, a novel cyclin dependent kinase 12/13 (**CDK12/13**) inhibitor / **Cyclin-K glue-degrader**.”\n\n- **NCT 02 | Molecular Glues | Tocris Bioscience**  \n  - URL: `https://www.tocris.com/products/nct-02_7551`  \n  - Direct quotes:\n    - “Description: **Molecular glue; induces degradation of CCNK and CDK12**”\n    - “**NCT 02** acts as a molecular glue that induces proteasomal degradation of **CCNK and CDK12** in **colorectal cancer** spheroid cells in vitro”\n\n- **Degradation of CCNK/CDK12 is a druggable vulnerability of colorectal cancer (Cell Rep. 2021) — PubMed**  \n  - URL: `https://pubmed.ncbi.nlm.nih.gov/34289372/`  \n  - Direct quotes:\n    - “**NCT02** is identified as a candidate with minimal risk of non-specific toxicity.”\n    - “**NCT02** acts as molecular glue that induces ubiquitination of cyclin K (**CCNK**) and proteasomal degradation of CCNK and its complex partner **CDK12**.”"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 63453,
+    "input_tokens_details": {
+      "cached_tokens": 4096
+    },
+    "output_tokens": 7531,
+    "output_tokens_details": {
+      "reasoning_tokens": 6713
+    },
+    "total_tokens": 70984
+  },
+  "user": null,
+  "metadata": {}
+}

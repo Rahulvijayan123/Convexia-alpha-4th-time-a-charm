@@ -1,0 +1,367 @@
+{
+  "id": "resp_02c8f761df1cc9b200693c900145cc81938caf4b919c6ccdbf",
+  "object": "response",
+  "created_at": 1765576705,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_02c8f761df1cc9b200693c9001a8948193ae199102a570e1f8",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_02c8f761df1cc9b200693c90049ff88193ad388662c80d0744",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:patents.google.com CDK12 PROTAC"
+      }
+    },
+    {
+      "id": "rs_02c8f761df1cc9b200693c90065bc4819395f2a01e76df2461",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_02c8f761df1cc9b200693c900a7bf8819393b36630497819c9",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/EP3958861A4/zh"
+      }
+    },
+    {
+      "id": "rs_02c8f761df1cc9b200693c900b6b848193b37989bb0edc3dd6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_02c8f761df1cc9b200693c900bf35881939f77bdbbfd495cc5",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "WO2024175065A1",
+        "url": "https://patents.google.com/patent/WO2024175065A1/zh"
+      }
+    },
+    {
+      "id": "rs_02c8f761df1cc9b200693c900de7208193b9d91c5117307cd1",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_02c8f761df1cc9b200693c90129e948193be47b6c62d37f68a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "蛋白水解靶向嵌合体",
+        "url": "https://patents.google.com/patent/CN116675731A/zh"
+      }
+    },
+    {
+      "id": "rs_02c8f761df1cc9b200693c9014c4b081939adb37070a941bfb",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_02c8f761df1cc9b200693c9016ff34819395cbc3ae6e1b16e9",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/EP3958861A4/en"
+      }
+    },
+    {
+      "id": "rs_02c8f761df1cc9b200693c9018b594819399c0deb50aba5aa6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_02c8f761df1cc9b200693c901ae4808193920698a52817ac5f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:patents.google.com (CDK12 PROTAC) degrader"
+      }
+    },
+    {
+      "id": "rs_02c8f761df1cc9b200693c901cf2cc81939b67ecd4bdf0a805",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_02c8f761df1cc9b200693c901f0c3c8193bf159e0f56db6969",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/WO2020219650A1/zh"
+      }
+    },
+    {
+      "id": "rs_02c8f761df1cc9b200693c902014388193a49d44b5b1c724b4",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_02c8f761df1cc9b200693c9020a57c81938ad8575c40a669e5",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/WO2020219650A1/en"
+      }
+    },
+    {
+      "id": "rs_02c8f761df1cc9b200693c902200d081939cba959ff5868b91",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_02c8f761df1cc9b200693c9022a19481938b45b956e8f8873f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "PROTAC",
+        "url": "https://patents.google.com/patent/WO2020219650A1/en"
+      }
+    },
+    {
+      "id": "rs_02c8f761df1cc9b200693c9025f3a88193be5b0d43655f81ba",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_02c8f761df1cc9b200693c902793e08193a716d250d3a336a7",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/WO2020219650A1/en"
+      }
+    },
+    {
+      "id": "rs_02c8f761df1cc9b200693c902a01e08193af31c70bf975dcea",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_02c8f761df1cc9b200693c902e83b48193ac76208b2b73a801",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "proteolysis targeting",
+        "url": "https://patents.google.com/patent/WO2020219650A1/en"
+      }
+    },
+    {
+      "id": "rs_02c8f761df1cc9b200693c90328f80819390f053e879c3f5c7",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_02c8f761df1cc9b200693c903660ac819396938aad9e0cf167",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/WO2024175065A1/zh"
+      }
+    },
+    {
+      "id": "rs_02c8f761df1cc9b200693c90387ec88193bf4ec4d6207e19a5",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_02c8f761df1cc9b200693c903b964c81938ecc7dd1240c0ea4",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/CN116675731A/en"
+      }
+    },
+    {
+      "id": "rs_02c8f761df1cc9b200693c903d5b6081938a398ad91fc78146",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_02c8f761df1cc9b200693c903f1e4081938dff2b312f6e43e4",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "PROTAC",
+        "url": "https://patents.google.com/patent/EP3958861A4/en"
+      }
+    },
+    {
+      "id": "rs_02c8f761df1cc9b200693c9041baa08193bd8a216202326b0b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_02c8f761df1cc9b200693c9044ae748193ad91744b91ee3df0",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/US20220227734A1/en"
+      }
+    },
+    {
+      "id": "rs_02c8f761df1cc9b200693c9046aa3c8193b64bc1bcbe9626d4",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_02c8f761df1cc9b200693c90477b788193b3a772a77f48b751",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "PROTAC",
+        "url": "https://patents.google.com/patent/US20220227734A1/en"
+      }
+    },
+    {
+      "id": "rs_02c8f761df1cc9b200693c904b4028819384a3eda70b65c482",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_02c8f761df1cc9b200693c904c67f0819387893a49dc70ba7d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "PROTAC proteolysis targeting chimeras",
+        "url": "https://patents.google.com/patent/US20220227734A1/en"
+      }
+    },
+    {
+      "id": "rs_02c8f761df1cc9b200693c904f79608193aecb53965957ab76",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_02c8f761df1cc9b200693c906328448193b81aa275d48fde58",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 551,
+              "start_index": 476,
+              "title": "WO2020219650A1 - Degraders of cyclin-dependent kinase 12 (cdk12) and uses thereof \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2020219650A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1045,
+              "start_index": 969,
+              "title": "US20220227734A1 - Degraders of cyclin-dependent kinase 12 (cdk12) and uses thereof \n        - Google Patents",
+              "url": "https://patents.google.com/patent/US20220227734A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1600,
+              "start_index": 1525,
+              "title": "WO2024175065A1 - 一类含有芳基取代的cdk12/13的降解剂，及其制备方法、药物组合物和应用 \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2024175065A1/zh"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2100,
+              "start_index": 2027,
+              "title": "CN116675731A - Small molecule conjugate of targeted cyclin-dependent kinase 12/13 and application thereof \n        - Google Patents",
+              "url": "https://patents.google.com/patent/CN116675731A/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2570,
+              "start_index": 2498,
+              "title": "EP3958861A4 - Degraders of cyclin-dependent kinase 12 (cdk12) and uses thereof \n        - Google Patents",
+              "url": "https://patents.google.com/patent/EP3958861A4/en"
+            }
+          ],
+          "logprobs": [],
+          "text": "- **Title:** WO2020219650A1 - Degraders of cyclin-dependent kinase 12 (cdk12) and uses thereof - Google Patents  \n  - **URL:** `https://patents.google.com/patent/WO2020219650A1/en`  \n  - **Quote snippets:**  \n    - “Publication number     WO2020219650A1”  \n    - “PROTAC proteolysis targeting chimeras”  \n    - “(e.g., lenalidomide, thalidomide, VHL ligand) and also includes a binder and/or inhibitor of a target protein (e.g., kinase (e.g., CDK (e.g., CDK9 and/or CDK12)))” ([patents.google.com](https://patents.google.com/patent/WO2020219650A1/en))\n\n- **Title:** US20220227734A1 - Degraders of cyclin-dependent kinase 12 (cdk12) and uses thereof - Google Patents  \n  - **URL:** `https://patents.google.com/patent/US20220227734A1/en`  \n  - **Quote snippets:**  \n    - “Publication number     US20220227734A1”  \n    - “PROTAC proteolysis targeting chimeras”  \n    - “Cyclin-dependent kinase 12 (CDK12) and Cyclin-dependent kinase 13 (CDK13) are elongation regulators” ([patents.google.com](https://patents.google.com/patent/US20220227734A1/en))\n\n- **Title:** WO2024175065A1 - 一类含有芳基取代的cdk12/13的降解剂，及其制备方法、药物组合物和应用 - Google Patents  \n  - **URL:** `https://patents.google.com/patent/WO2024175065A1/zh`  \n  - **Quote snippets:**  \n    - “本发明的细胞周期依赖性蛋白激酶12/13（CDK12/13）的降解剂具有式（I）所示结构”  \n    - “PROTAC特指一类可以特异性识别并诱导降解靶蛋白的小分子化合物；分子结构由靶蛋白识别配体、Linker和E3识别配体三部分组成。”  \n    - “Example 57 In vivo pharmacokinetic study of representative compounds zlc-4-91 and zlc-4-93 of cell cycle-dependent protein kinase 12/13 (CDK12/13) degraders” ([patents.google.com](https://patents.google.com/patent/WO2024175065A1/zh))\n\n- **Title:** CN116675731A - Small molecule conjugate of targeted cyclin-dependent kinase 12/13 and application thereof - Google Patents  \n  - **URL:** `https://patents.google.com/patent/CN116675731A/en`  \n  - **Quote snippets:**  \n    - “Publication number     CN116675731A”  \n    - “Its structure is: T-L-E, in formula I, T represents the mother nucleus molecule CDK12/13”  \n    - “UVSMNLNDYGZFPF-UHFFFAOYSA-N pomalidomide” ([patents.google.com](https://patents.google.com/patent/CN116675731A/en))\n\n- **Title:** EP3958861A4 - Degraders of cyclin-dependent kinase 12 (cdk12) and uses thereof - Google Patents  \n  - **URL:** `https://patents.google.com/patent/EP3958861A4/en`  \n  - **Quote snippets:**  \n    - “Publication number     EP3958861A4”  \n    - “Degraders of cyclin-dependent kinase 12 (cdk12) and uses thereof”  \n    - “PCT/US2020/029483  WO2020219650A1 ( en )  2019-04-23  2020-04-23” ([patents.google.com](https://patents.google.com/patent/EP3958861A4/en))"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 75029,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 5317,
+    "output_tokens_details": {
+      "reasoning_tokens": 4403
+    },
+    "total_tokens": 80346
+  },
+  "user": null,
+  "metadata": {}
+}

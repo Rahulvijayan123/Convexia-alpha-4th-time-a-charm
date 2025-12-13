@@ -1,0 +1,459 @@
+{
+  "id": "resp_0c7e4d1a1726f6e400693c8d6af4988197a322cefb08cd7a86",
+  "object": "response",
+  "created_at": 1765576043,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0c7e4d1a1726f6e400693c8d6c2e848197b4e47ea7a789d6f4",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c7e4d1a1726f6e400693c8d6ebab0819783860f57e6eb39b4",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:patentscope.wipo.int CDK12 inhibitor"
+      }
+    },
+    {
+      "id": "rs_0c7e4d1a1726f6e400693c8d7082488197a0a0705a3e8708a8",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c7e4d1a1726f6e400693c8d726bf081979cc7899987a2682a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:patentscope.wipo.int \"CDK12\" inhibitor"
+      }
+    },
+    {
+      "id": "rs_0c7e4d1a1726f6e400693c8d7541208197a9ce384d37bc6642",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c7e4d1a1726f6e400693c8d76af648197a9a4b3d2e740a7a5",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:patentscope.wipo.int/search/en/detail.jsf CDK12"
+      }
+    },
+    {
+      "id": "rs_0c7e4d1a1726f6e400693c8d795cf08197b377a62eedf99891",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c7e4d1a1726f6e400693c8d7cef848197bcbb521b8361514d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12 inhibitor site:patentscope.wipo.int docId WO"
+      }
+    },
+    {
+      "id": "rs_0c7e4d1a1726f6e400693c8d8009b08197a7653eb235387695",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c7e4d1a1726f6e400693c8d8128a88197873b75034b49d447",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_0c7e4d1a1726f6e400693c8d824a2c8197977342d3224cb3b3",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c7e4d1a1726f6e400693c8d82f2c48197bdc489a23a7072d6",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:patentscope.wipo.int/search/en/result.jsf query=CDK12"
+      }
+    },
+    {
+      "id": "rs_0c7e4d1a1726f6e400693c8d85c0bc8197b29b3792a988a9a8",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c7e4d1a1726f6e400693c8d8b4d6481979d7f9a1929993716",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:patentscope.wipo.int CDK12 CDK13"
+      }
+    },
+    {
+      "id": "rs_0c7e4d1a1726f6e400693c8d8eb46481978feba9dece53290d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c7e4d1a1726f6e400693c8d9407dc8197a0c4745e176ae5c4",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CDK12\" \"CDK13\" site:patentscope.wipo.int \"inhibitor\" \"WO\""
+      }
+    },
+    {
+      "id": "rs_0c7e4d1a1726f6e400693c8d9680a48197a65c4143981c5025",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c7e4d1a1726f6e400693c8d9895688197a76827c777f96def",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:patentscope.wipo.int THZ531"
+      }
+    },
+    {
+      "id": "rs_0c7e4d1a1726f6e400693c8d9bd1b08197bd7fead4ca09540e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c7e4d1a1726f6e400693c8d9f46888197af3ae5d35b649e0d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "patentscope \"query=CDK12\" result.jsf"
+      }
+    },
+    {
+      "id": "rs_0c7e4d1a1726f6e400693c8da218bc8197b84bbd62a2ebf3fb",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c7e4d1a1726f6e400693c8da480a88197807a2a88a053df0d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:patentscope.wipo.int WO2024140653"
+      }
+    },
+    {
+      "id": "rs_0c7e4d1a1726f6e400693c8da91aa481978e943cb31be76698",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c7e4d1a1726f6e400693c8daba8888197a69dd1aff8c2c042",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"patentscope.wipo.int\" \"WO2024140653\""
+      }
+    },
+    {
+      "id": "rs_0c7e4d1a1726f6e400693c8dafa9108197b3f195430119f2f5",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c7e4d1a1726f6e400693c8db17c2081978610b3354aa2eede",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patentscope2.wipo.int/search/en/search.js/"
+      }
+    },
+    {
+      "id": "rs_0c7e4d1a1726f6e400693c8db296208197bff66ba8b6b91c11",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c7e4d1a1726f6e400693c8db70c488197bf0a3884e929e611",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2021021912"
+      }
+    },
+    {
+      "id": "rs_0c7e4d1a1726f6e400693c8db992948197978d99f37bb2f2b0",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c7e4d1a1726f6e400693c8dbad3ec819786965b00afaccd54",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patentscope.wipo.int/search/en/detail.jsf%3Bjsessionid%3DFF475A5E093A41578287F2D55BE1A23E.wapp2nB?_cid=P21-MJ05U5-18539-1&docId=WO2020103922"
+      }
+    },
+    {
+      "id": "rs_0c7e4d1a1726f6e400693c8dbc4e7c8197859515a548b7dbfc",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c7e4d1a1726f6e400693c8dc0717c819783e4b4c9b6f6f0ae",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:patentscope.wipo.int WO2020103922"
+      }
+    },
+    {
+      "id": "rs_0c7e4d1a1726f6e400693c8dc4f4148197a85c56224cc9dd8c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c7e4d1a1726f6e400693c8dc7edc8819793217a5aee497f58",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "CDK12",
+        "url": "https://patentscope.wipo.int/search/en/result.jsf%3Bjsessionid%3D2FCADE4660B27CDDB557D5859AB62E85.wapp2nB?offices=WO&query=IC_EX%3A%22A61P+35%2F00%22+AND+DP%3A20200528"
+      }
+    },
+    {
+      "id": "rs_0c7e4d1a1726f6e400693c8dcb376c8197bfc750498a992b30",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c7e4d1a1726f6e400693c8de517308197bbb40382d369c538",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patentscope.wipo.int/search/en/result.jsf%3Bjsessionid%3D468A46D3AB4285DE64259EE66B87001A.wapp2nA?offices=WO&query=IC_EX%3A%22A61P+35%2F00%22+AND+DP%3A20240404"
+      }
+    },
+    {
+      "id": "rs_0c7e4d1a1726f6e400693c8de694ac81979b5e50e2264fea6d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0c7e4d1a1726f6e400693c8de792cc8197abdb4b741779d087",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "TRICYCLIC",
+        "url": "https://patentscope.wipo.int/search/en/result.jsf%3Bjsessionid%3D468A46D3AB4285DE64259EE66B87001A.wapp2nA?offices=WO&query=IC_EX%3A%22A61P+35%2F00%22+AND+DP%3A20240404"
+      }
+    },
+    {
+      "id": "rs_0c7e4d1a1726f6e400693c8debc93c81979160c8b6df7a1f30",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0c7e4d1a1726f6e400693c8df56fc48197af99efcad9a5d38f",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 501,
+              "start_index": 308,
+              "title": "WIPO - Search International and National Patent Collections",
+              "url": "https://patentscope.wipo.int/search/en/result.jsf%3Bjsessionid%3D468A46D3AB4285DE64259EE66B87001A.wapp2nA?offices=WO&query=IC_EX%3A%22A61P+35%2F00%22+AND+DP%3A20240404"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 876,
+              "start_index": 683,
+              "title": "WIPO - Search International and National Patent Collections",
+              "url": "https://patentscope.wipo.int/search/en/result.jsf%3Bjsessionid%3D468A46D3AB4285DE64259EE66B87001A.wapp2nA?offices=WO&query=IC_EX%3A%22A61P+35%2F00%22+AND+DP%3A20240404"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1224,
+              "start_index": 1031,
+              "title": "WIPO - Search International and National Patent Collections",
+              "url": "https://patentscope.wipo.int/search/en/result.jsf%3Bjsessionid%3D468A46D3AB4285DE64259EE66B87001A.wapp2nA?offices=WO&query=IC_EX%3A%22A61P+35%2F00%22+AND+DP%3A20240404"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1455,
+              "start_index": 1262,
+              "title": "WIPO - Search International and National Patent Collections",
+              "url": "https://patentscope.wipo.int/search/en/result.jsf%3Bjsessionid%3D468A46D3AB4285DE64259EE66B87001A.wapp2nA?offices=WO&query=IC_EX%3A%22A61P+35%2F00%22+AND+DP%3A20240404"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1809,
+              "start_index": 1616,
+              "title": "WIPO - Search International and National Patent Collections",
+              "url": "https://patentscope.wipo.int/search/en/result.jsf%3Bjsessionid%3D468A46D3AB4285DE64259EE66B87001A.wapp2nA?offices=WO&query=IC_EX%3A%22A61P+35%2F00%22+AND+DP%3A20240404"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2078,
+              "start_index": 1885,
+              "title": "WIPO - Search International and National Patent Collections",
+              "url": "https://patentscope.wipo.int/search/en/result.jsf%3Bjsessionid%3D2FCADE4660B27CDDB557D5859AB62E85.wapp2nB?offices=WO&query=IC_EX%3A%22A61P+35%2F00%22+AND+DP%3A20200528"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2453,
+              "start_index": 2260,
+              "title": "WIPO - Search International and National Patent Collections",
+              "url": "https://patentscope.wipo.int/search/en/result.jsf%3Bjsessionid%3D2FCADE4660B27CDDB557D5859AB62E85.wapp2nB?offices=WO&query=IC_EX%3A%22A61P+35%2F00%22+AND+DP%3A20200528"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2786,
+              "start_index": 2593,
+              "title": "WIPO - Search International and National Patent Collections",
+              "url": "https://patentscope.wipo.int/search/en/result.jsf%3Bjsessionid%3D2FCADE4660B27CDDB557D5859AB62E85.wapp2nB?offices=WO&query=IC_EX%3A%22A61P+35%2F00%22+AND+DP%3A20200528"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3017,
+              "start_index": 2824,
+              "title": "WIPO - Search International and National Patent Collections",
+              "url": "https://patentscope.wipo.int/search/en/result.jsf%3Bjsessionid%3D2FCADE4660B27CDDB557D5859AB62E85.wapp2nB?offices=WO&query=IC_EX%3A%22A61P+35%2F00%22+AND+DP%3A20200528"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3358,
+              "start_index": 3165,
+              "title": "WIPO - Search International and National Patent Collections",
+              "url": "https://patentscope.wipo.int/search/en/result.jsf%3Bjsessionid%3D2FCADE4660B27CDDB557D5859AB62E85.wapp2nB?offices=WO&query=IC_EX%3A%22A61P+35%2F00%22+AND+DP%3A20200528"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3647,
+              "start_index": 3424,
+              "title": "WIPO - 국제 및 국내 특허문헌 검색",
+              "url": "https://patentscope.wipo.int/search/ko/result.jsf%3Bjsessionid%3D7FEBA6743EF29C9873E0033640C1E239.wapp2nA?defaults=system&familyMember=WO&query=IC%3AC07D&sortBy=-DP&stemming=false&utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4064,
+              "start_index": 3841,
+              "title": "WIPO - 국제 및 국내 특허문헌 검색",
+              "url": "https://patentscope.wipo.int/search/ko/result.jsf%3Bjsessionid%3D7FEBA6743EF29C9873E0033640C1E239.wapp2nA?defaults=system&familyMember=WO&query=IC%3AC07D&sortBy=-DP&stemming=false&utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4416,
+              "start_index": 4193,
+              "title": "WIPO - 국제 및 국내 특허문헌 검색",
+              "url": "https://patentscope.wipo.int/search/ko/result.jsf%3Bjsessionid%3D7FEBA6743EF29C9873E0033640C1E239.wapp2nA?defaults=system&familyMember=WO&query=IC%3AC07D&sortBy=-DP&stemming=false&utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4673,
+              "start_index": 4450,
+              "title": "WIPO - 국제 및 국내 특허문헌 검색",
+              "url": "https://patentscope.wipo.int/search/ko/result.jsf%3Bjsessionid%3D7FEBA6743EF29C9873E0033640C1E239.wapp2nA?defaults=system&familyMember=WO&query=IC%3AC07D&sortBy=-DP&stemming=false&utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4981,
+              "start_index": 4758,
+              "title": "WIPO - 국제 및 국내 특허문헌 검색",
+              "url": "https://patentscope.wipo.int/search/ko/result.jsf%3Bjsessionid%3D7FEBA6743EF29C9873E0033640C1E239.wapp2nA?defaults=system&familyMember=WO&query=IC%3AC07D&sortBy=-DP&stemming=false&utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "Web search for `site:patentscope.wipo.int CDK12 inhibitor` did not return PATENTSCOPE pages with the token **“CDK12”** in the captured snippets; below are the closest PATENTSCOPE hits surfaced around **CDK inhibitors**.\n\n- **WO/2024/067820 — TRICYCLIC COMPOUNDS AS CDK INHIBITORS AND METHODS OF USING SAME** ([patentscope.wipo.int](https://patentscope.wipo.int/search/en/result.jsf%3Bjsessionid%3D468A46D3AB4285DE64259EE66B87001A.wapp2nA?offices=WO&query=IC_EX%3A%22A61P+35%2F00%22+AND+DP%3A20240404))  \n  - **URL:** `https://patentscope.wipo.int/search/en/result.jsf;jsessionid=468A46D3AB4285DE64259EE66B87001A.wapp2nA?offices=WO&query=IC_EX%3A%22A61P+35%2F00%22+AND+DP%3A20240404` ([patentscope.wipo.int](https://patentscope.wipo.int/search/en/result.jsf%3Bjsessionid%3D468A46D3AB4285DE64259EE66B87001A.wapp2nA?offices=WO&query=IC_EX%3A%22A61P+35%2F00%22+AND+DP%3A20240404))  \n  - **Direct quote snippets (identifiers/targets/indications):**\n    - “WO/2024/067820】TRICYCLIC COMPOUNDS AS CDK INHIBITORS AND METHODS OF USING SAME” ([patentscope.wipo.int](https://patentscope.wipo.int/search/en/result.jsf%3Bjsessionid%3D468A46D3AB4285DE64259EE66B87001A.wapp2nA?offices=WO&query=IC_EX%3A%22A61P+35%2F00%22+AND+DP%3A20240404))  \n    - “Appl.No  PCT/CN2023/122691” ([patentscope.wipo.int](https://patentscope.wipo.int/search/en/result.jsf%3Bjsessionid%3D468A46D3AB4285DE64259EE66B87001A.wapp2nA?offices=WO&query=IC_EX%3A%22A61P+35%2F00%22+AND+DP%3A20240404))  \n    - “Provided are novel tricyclic compounds as CDK inhibitors, which are useful for treating diseases or conditions mediated by CDKs, particularly cancers” ([patentscope.wipo.int](https://patentscope.wipo.int/search/en/result.jsf%3Bjsessionid%3D468A46D3AB4285DE64259EE66B87001A.wapp2nA?offices=WO&query=IC_EX%3A%22A61P+35%2F00%22+AND+DP%3A20240404))  \n\n- **WO/2020/103922 — NOVEL PHARMACEUTICAL COMPOSITION AND USE THEREOF** ([patentscope.wipo.int](https://patentscope.wipo.int/search/en/result.jsf%3Bjsessionid%3D2FCADE4660B27CDDB557D5859AB62E85.wapp2nB?offices=WO&query=IC_EX%3A%22A61P+35%2F00%22+AND+DP%3A20200528))  \n  - **URL:** `https://patentscope.wipo.int/search/en/result.jsf;jsessionid=2FCADE4660B27CDDB557D5859AB62E85.wapp2nB?offices=WO&query=IC_EX%3A%22A61P+35%2F00%22+AND+DP%3A20200528` ([patentscope.wipo.int](https://patentscope.wipo.int/search/en/result.jsf%3Bjsessionid%3D2FCADE4660B27CDDB557D5859AB62E85.wapp2nB?offices=WO&query=IC_EX%3A%22A61P+35%2F00%22+AND+DP%3A20200528))  \n  - **Direct quote snippets (identifiers/targets/indications):**\n    - “WO/2020/103922】NOVEL PHARMACEUTICAL COMPOSITION AND USE THEREOF” ([patentscope.wipo.int](https://patentscope.wipo.int/search/en/result.jsf%3Bjsessionid%3D2FCADE4660B27CDDB557D5859AB62E85.wapp2nB?offices=WO&query=IC_EX%3A%22A61P+35%2F00%22+AND+DP%3A20200528))  \n    - “Appl.No  PCT/CN2019/120155” ([patentscope.wipo.int](https://patentscope.wipo.int/search/en/result.jsf%3Bjsessionid%3D2FCADE4660B27CDDB557D5859AB62E85.wapp2nB?offices=WO&query=IC_EX%3A%22A61P+35%2F00%22+AND+DP%3A20200528))  \n    - “comprising (i) a compound of formula (I) ...; (ii) a CDK inhibitor ... for the prevention and/or treatment of a disease mediated by MDM2” ([patentscope.wipo.int](https://patentscope.wipo.int/search/en/result.jsf%3Bjsessionid%3D2FCADE4660B27CDDB557D5859AB62E85.wapp2nB?offices=WO&query=IC_EX%3A%22A61P+35%2F00%22+AND+DP%3A20200528))  \n\n- **WO/2025/240517 — CDK4 INHIBITOR NAPHTHYRIDINE COMPOUNDS** ([patentscope.wipo.int](https://patentscope.wipo.int/search/ko/result.jsf%3Bjsessionid%3D7FEBA6743EF29C9873E0033640C1E239.wapp2nA?defaults=system&familyMember=WO&query=IC%3AC07D&sortBy=-DP&stemming=false&utm_source=openai))  \n  - **URL:** `https://patentscope.wipo.int/search/ko/result.jsf;jsessionid=7FEBA6743EF29C9873E0033640C1E239.wapp2nA?defaults=system&familyMember=WO&query=IC%3AC07D&sortBy=-DP&stemming=false` ([patentscope.wipo.int](https://patentscope.wipo.int/search/ko/result.jsf%3Bjsessionid%3D7FEBA6743EF29C9873E0033640C1E239.wapp2nA?defaults=system&familyMember=WO&query=IC%3AC07D&sortBy=-DP&stemming=false&utm_source=openai))  \n  - **Direct quote snippets (identifiers/targets/indications):**\n    - “WO/2025/240517CDK4 INHIBITOR NAPHTHYRIDINE COMPOUNDS” ([patentscope.wipo.int](https://patentscope.wipo.int/search/ko/result.jsf%3Bjsessionid%3D7FEBA6743EF29C9873E0033640C1E239.wapp2nA?defaults=system&familyMember=WO&query=IC%3AC07D&sortBy=-DP&stemming=false&utm_source=openai))  \n    - “출원번호 PCT/US2025/029199” ([patentscope.wipo.int](https://patentscope.wipo.int/search/ko/result.jsf%3Bjsessionid%3D7FEBA6743EF29C9873E0033640C1E239.wapp2nA?defaults=system&familyMember=WO&query=IC%3AC07D&sortBy=-DP&stemming=false&utm_source=openai))  \n    - “Provided herein are CDK4 inhibitor compounds having a naphthyridine core.” ([patentscope.wipo.int](https://patentscope.wipo.int/search/ko/result.jsf%3Bjsessionid%3D7FEBA6743EF29C9873E0033640C1E239.wapp2nA?defaults=system&familyMember=WO&query=IC%3AC07D&sortBy=-DP&stemming=false&utm_source=openai))"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 76877,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 7734,
+    "output_tokens_details": {
+      "reasoning_tokens": 6857
+    },
+    "total_tokens": 84611
+  },
+  "user": null,
+  "metadata": {}
+}

@@ -1,0 +1,351 @@
+{
+  "id": "resp_0f438873002153f700693c96c3dbf08190bd2e3830d5b9eabe",
+  "object": "response",
+  "created_at": 1765578435,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0f438873002153f700693c96c43a908190a1606fa0a44fecbb",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f438873002153f700693c96c917fc819088ad7b176ad86a6e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "WO2019217421A1 CDK12"
+      }
+    },
+    {
+      "id": "rs_0f438873002153f700693c96cae5fc8190a57311284bf52ac0",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f438873002153f700693c96dad9588190893443f3c680e549",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/WO2019217421A1/en"
+      }
+    },
+    {
+      "id": "rs_0f438873002153f700693c96db835c81909e5700a7b37a5f04",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f438873002153f700693c96e2ca6c81908510d452c18476c2",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "WO2019217421A1 SR-4835"
+      }
+    },
+    {
+      "id": "rs_0f438873002153f700693c96e47a808190923fa6901382bcd4",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f438873002153f700693c96ea5ff881908c3902e7a7374914",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patentscope.wipo.int/search/en/WO2019217421"
+      }
+    },
+    {
+      "id": "rs_0f438873002153f700693c96eb20c88190ba7ae08f936a4450",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f438873002153f700693c96ec05188190bbfee6f1000a9597",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_0f438873002153f700693c96ed037c819094a12cde1c5530d0",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f438873002153f700693c96ee423c81908bfd18b7945710ac",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "WO2019217421A1 lens.org"
+      }
+    },
+    {
+      "id": "rs_0f438873002153f700693c96f126b4819094f118fe7bc389c0",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f438873002153f700693c96f24a008190a231525ffddf3d8d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"SR-4835\" CDK12 CDK13"
+      }
+    },
+    {
+      "id": "rs_0f438873002153f700693c96f506a481908bf737e8d039b5ee",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f438873002153f700693c96f67b3881908deacb0274b8fb9e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "SR-4835",
+        "url": "https://patents.google.com/patent/WO2019217421A1/en"
+      }
+    },
+    {
+      "id": "rs_0f438873002153f700693c96f7ef748190804a4ed36956cb62",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f438873002153f700693c96fba50c81908ebb9d8e63ce88b8",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "FSELUFUYNUNZKD SR-4835"
+      }
+    },
+    {
+      "id": "rs_0f438873002153f700693c96fe25248190b8ebf2c3f4afbaaf",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f438873002153f700693c9714fffc81908fd150bf1e34cba7",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "SR-4835 clinical trial"
+      }
+    },
+    {
+      "id": "rs_0f438873002153f700693c97179f388190a210b152703a24d5",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f438873002153f700693c9719fce48190add34246c62cc883",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"SR-4835\" \"No development reported\""
+      }
+    },
+    {
+      "id": "rs_0f438873002153f700693c971c331881909dc7eb8adcd46b71",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f438873002153f700693c971ef284819099d9e396df30103b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31668947/"
+      }
+    },
+    {
+      "id": "rs_0f438873002153f700693c971fb7a08190af388e65f2714062",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f438873002153f700693c9729c2e4819093bc2480796eb00a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "SR-4835 ChEMBL"
+      }
+    },
+    {
+      "id": "rs_0f438873002153f700693c972cab0c81909526ebc1eecd23e2",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f438873002153f700693c9761cf488190a40a85f040b87440",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "PubChem 139600338"
+      }
+    },
+    {
+      "id": "rs_0f438873002153f700693c976546608190bcb2c9e1dbec37b5",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f438873002153f700693c976d2f04819080d672956fa4fc2e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/US11666578B2/fr"
+      }
+    },
+    {
+      "id": "rs_0f438873002153f700693c976f09b881909f039ca301dff1be",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f438873002153f700693c978dcef081908079575f8341b02a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://cymitquimica.com/products/TM-T8325/sr-4835/"
+      }
+    },
+    {
+      "id": "rs_0f438873002153f700693c978f959c819097b753bb8f2177c4",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f438873002153f700693c97b7c4c481908a3b32277f56b27b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_0f438873002153f700693c97b9ec0c8190b8b7b25e86f12984",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f438873002153f700693c97bbdae481908759d60f78726a2d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "HY-130250 clinical trial SR-4835"
+      }
+    },
+    {
+      "id": "rs_0f438873002153f700693c97c00aa48190aa80bc7ee8e3dddd",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f438873002153f700693c97c4f4e48190ac843f34684de4de",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://synapse.patsnap.com/drug/b77e9233f40445ff9b4faa6db83a2989"
+      }
+    },
+    {
+      "id": "rs_0f438873002153f700693c97c5f4a48190b96b15126e42cf0d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0f438873002153f700693c97db43988190930c7e700bea2ba3",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": true,\n  \"assets\": [\n    {\n      \"drug_name_code\": \"SR-4835\",\n      \"sponsor\": \"The Scripps Research Institute; H. Lee Moffitt Cancer Center & Research Institute, Inc.\",\n      \"target\": \"CDK12; CDK13\",\n      \"modality\": \"Small molecule inhibitor (dual CDK12/CDK13 inhibitor)\",\n      \"indication\": \"Triple-negative breast cancer (TNBC)\",\n      \"development_stage\": \"Preclinical\",\n      \"geography\": \"United States; WO (PCT)\",\n      \"sources\": [\n        \"https://patents.google.com/patent/WO2019217421A1/en\",\n        \"https://pubmed.ncbi.nlm.nih.gov/31668947/\",\n        \"https://cymitquimica.com/products/TM-T8325/sr-4835/\",\n        \"https://synapse.patsnap.com/drug/b77e9233f40445ff9b4faa6db83a2989\"\n      ]\n    }\n  ],\n  \"rejected_reason\": null\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 80975,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 17509,
+    "output_tokens_details": {
+      "reasoning_tokens": 17268
+    },
+    "total_tokens": 98484
+  },
+  "user": null,
+  "metadata": {}
+}

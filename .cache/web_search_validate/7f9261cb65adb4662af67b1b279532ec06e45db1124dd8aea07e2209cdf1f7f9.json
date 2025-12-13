@@ -1,0 +1,156 @@
+{
+  "id": "resp_0910e81cff7967cf00693c82d8bce4819480d619e7cacf4d03",
+  "object": "response",
+  "created_at": 1765573336,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0910e81cff7967cf00693c82d9d1508194b76f8f14236c0425",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0910e81cff7967cf00693c82dbc9f08194ade2d8eb59a8661a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"MB-231\" drug candidate"
+      }
+    },
+    {
+      "id": "rs_0910e81cff7967cf00693c82ddf71481949e18987f8ab37b61",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0910e81cff7967cf00693c82e1a9848194a73bf50aee8233c6",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"MB-231\" \"Phase\" drug"
+      }
+    },
+    {
+      "id": "rs_0910e81cff7967cf00693c82e35b2c819486b42b83cbf0193f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0910e81cff7967cf00693c82ebe9d0819498f0b40adb94334d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "Cellosaurus MDA-MB-231 CVCL_0062"
+      }
+    },
+    {
+      "id": "rs_0910e81cff7967cf00693c82edf64c81949532febac78c4b15",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0910e81cff7967cf00693c82f598b08194ad44ffe577cf6edb",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "Cellosaurus CVCL_0062 MDA-MB-231"
+      }
+    },
+    {
+      "id": "rs_0910e81cff7967cf00693c82f728b881948b3b156bb03f2129",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0910e81cff7967cf00693c83019b7881949358642520de13db",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"MB-231\" \"inhibitor\" \"compound\" \"MB-231\""
+      }
+    },
+    {
+      "id": "rs_0910e81cff7967cf00693c830524a48194a14792ea739318df",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0910e81cff7967cf00693c830f0960819495a8e3a1fcb0e453",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": false,\n  \"assets\": [],\n  \"rejected_reason\": \"The candidate identifier \\\"MB-231\\\" corresponds to the MDA-MB-231 human triple-negative breast cancer (TNBC) cell line (a research model), not a therapeutic drug asset; therefore required drug-asset fields (sponsor/target/modality/indication/development stage/geography) cannot be validated. Evidence: https://www.cellosaurus.org/CVCL_0062 ; https://www.atcc.org/products/HTB-26\"\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 26845,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 3258,
+    "output_tokens_details": {
+      "reasoning_tokens": 3138
+    },
+    "total_tokens": 30103
+  },
+  "user": null,
+  "metadata": {}
+}

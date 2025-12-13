@@ -1,0 +1,158 @@
+{
+  "id": "resp_0f096e6c229c950800693c941e2390819591373a3e173f7344",
+  "object": "response",
+  "created_at": 1765577758,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0f096e6c229c950800693c941f46948195851f80fa9dcb2f25",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f096e6c229c950800693c94225ff48195a93c3ae48f317e8b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"compound 24\" CDK12"
+      }
+    },
+    {
+      "id": "rs_0f096e6c229c950800693c9424c864819591d54e61f85645a2",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f096e6c229c950800693c9436c73c8195ac6d23046d4707de",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39955845/"
+      }
+    },
+    {
+      "id": "rs_0f096e6c229c950800693c9437ecb081958076f2d8054fbeb9",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f096e6c229c950800693c9439e3b48195b91ec08d915c593b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "Target",
+        "url": "https://synapse.patsnap.com/drug/75a9c3262cc04a72aa42847bcaab1b43"
+      }
+    },
+    {
+      "id": "rs_0f096e6c229c950800693c943c884881958972f8e878ff8ab4",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f096e6c229c950800693c943efe848195bfb755809671c313",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "compound 24",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39955845/"
+      }
+    },
+    {
+      "id": "rs_0f096e6c229c950800693c944156d08195a9ff07266d4b1fda",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0f096e6c229c950800693c944fc38c8195b2f8e0f7c698f423",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://synapse.patsnap.com/drug/75a9c3262cc04a72aa42847bcaab1b43"
+      }
+    },
+    {
+      "id": "rs_0f096e6c229c950800693c9452068c8195a8b66598f9b598d6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0f096e6c229c950800693c946f21dc81959c83113d3af321c0",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": true,\n  \"assets\": [\n    {\n      \"drug_name_code\": \"compound 24 (CDK12/13-IN-2)\",\n      \"sponsor\": \"Guizhou Medical University\",\n      \"target\": \"CDK12 / CDK13\",\n      \"modality\": \"Small molecule covalent inhibitor\",\n      \"indication\": \"Triple-negative breast cancer (TNBC)\",\n      \"development_stage\": \"Preclinical\",\n      \"geography\": \"China\",\n      \"sources\": [\n        \"https://pubmed.ncbi.nlm.nih.gov/39955845/\",\n        \"https://synapse.patsnap.com/drug/75a9c3262cc04a72aa42847bcaab1b43\",\n        \"https://www.targetmol.com/compound/cdk12-13-in-2\"\n      ]\n    }\n  ],\n  \"rejected_reason\": null\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 27476,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 4708,
+    "output_tokens_details": {
+      "reasoning_tokens": 4511
+    },
+    "total_tokens": 32184
+  },
+  "user": null,
+  "metadata": {}
+}

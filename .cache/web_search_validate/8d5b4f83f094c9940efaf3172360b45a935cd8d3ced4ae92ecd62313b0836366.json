@@ -1,0 +1,142 @@
+{
+  "id": "resp_047c85c738ffb3f100693c8ebd6e54819482f04bc192381678",
+  "object": "response",
+  "created_at": 1765576381,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_047c85c738ffb3f100693c8ebdd4f88194b2356bb3847dec0d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_047c85c738ffb3f100693c8ec5dd7481949e4263c73f923e81",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"Degrader\" drug candidate"
+      }
+    },
+    {
+      "id": "rs_047c85c738ffb3f100693c8ec7e8f081948986af4272e4b047",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_047c85c738ffb3f100693c8ed726148194a7bf629a7bb63768",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"Degrader\" PROTAC \"CDK12\""
+      }
+    },
+    {
+      "id": "rs_047c85c738ffb3f100693c8edace4881949976fcacf7921089",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_047c85c738ffb3f100693c8ef7a4548194a49a2924e64b9299",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"Degrader\" \"CDK12/13\" \"PROTAC\" name"
+      }
+    },
+    {
+      "id": "rs_047c85c738ffb3f100693c8ef980d88194aa9e81d9f843d041",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_047c85c738ffb3f100693c8f1f6b44819494de53aba4e6e55e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9876424/"
+      }
+    },
+    {
+      "id": "rs_047c85c738ffb3f100693c8f2084688194af55c294da722700",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_047c85c738ffb3f100693c8f2fae788194b8033022260aba9b",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": false,\n  \"assets\": [],\n  \"rejected_reason\": \"Candidate identifier 'Degrader' is a generic modality term (protein degrader/PROTAC) and does not uniquely identify a specific drug asset (name/code/trial/patent) that can be verified with sponsor, target, indication, development stage, and geography.\"\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 24671,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 5424,
+    "output_tokens_details": {
+      "reasoning_tokens": 5343
+    },
+    "total_tokens": 30095
+  },
+  "user": null,
+  "metadata": {}
+}

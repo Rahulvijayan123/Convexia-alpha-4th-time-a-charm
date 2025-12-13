@@ -1,0 +1,336 @@
+{
+  "id": "resp_0a7ff2d1fc953b0700693c80a6d1508197858568aec9d93a45",
+  "object": "response",
+  "created_at": 1765572774,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0a7ff2d1fc953b0700693c80a7188c81978f0ac91f51d92c78",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a7ff2d1fc953b0700693c80a95ba4819780a593dfa3fa5306",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "9MW2821 drug"
+      }
+    },
+    {
+      "id": "rs_0a7ff2d1fc953b0700693c80ab474c819789b79cb30470ca8d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a7ff2d1fc953b0700693c80b218a881978e2b917ce9bad5c7",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT06492005 9MW2821 locations"
+      }
+    },
+    {
+      "id": "rs_0a7ff2d1fc953b0700693c80b3a6608197accf8ef53d6b6b85",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a7ff2d1fc953b0700693c80b4ffbc8197a7cf49810ff4e271",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT06492005"
+      }
+    },
+    {
+      "id": "rs_0a7ff2d1fc953b0700693c80b5c64881978958bf5b900a0595",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a7ff2d1fc953b0700693c80b84f14819799e42358a0b4943b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_0a7ff2d1fc953b0700693c80ba6ca48197a085242a38986bf0",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a7ff2d1fc953b0700693c80beb3b0819782bc2b98a619dc4e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "clinicaltrials.gov api v2 studies NCT06492005"
+      }
+    },
+    {
+      "id": "rs_0a7ff2d1fc953b0700693c80c1be688197ae993528c020d9f7",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a7ff2d1fc953b0700693c80c339cc81978256a1f0fcb05d32",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "https://clinicaltrials.gov/api/v2/studies/NCT06492005"
+      }
+    },
+    {
+      "id": "rs_0a7ff2d1fc953b0700693c80c518548197b918a3fb290caf55",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a7ff2d1fc953b0700693c80c699b88197b944fdd4e79819f8",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "api/v2/studies/NCT06492005"
+      }
+    },
+    {
+      "id": "rs_0a7ff2d1fc953b0700693c80c8c74c8197bb110762a42d284d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a7ff2d1fc953b0700693c80d9ee0c8197a0b050cd58c34c20",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov \"api/v2/studies/NCT06492005\""
+      }
+    },
+    {
+      "id": "rs_0a7ff2d1fc953b0700693c80dbe7248197ae46cd89ec821cc9",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a7ff2d1fc953b0700693c80de90e08197b4e383da7e0262ae",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://cdek.pharmacy.purdue.edu/trial/NCT06492005/"
+      }
+    },
+    {
+      "id": "rs_0a7ff2d1fc953b0700693c80dfca7881979011b515d761f1c1",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a7ff2d1fc953b0700693c80e0f4848197b4e4dbce52385fbc",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_0a7ff2d1fc953b0700693c80e20a2081978a292e05f0186387",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a7ff2d1fc953b0700693c80e6770c8197b1717078f436d3ad",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT06492005 locations China"
+      }
+    },
+    {
+      "id": "rs_0a7ff2d1fc953b0700693c80ea87c08197b8b7b117eeb8687e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a7ff2d1fc953b0700693c80ed187c81979b0f3e1100d9f8f6",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"NCT06492005\" China"
+      }
+    },
+    {
+      "id": "rs_0a7ff2d1fc953b0700693c80f194588197a67ed516bfb30140",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a7ff2d1fc953b0700693c80f38cf48197b3d3a1512d1d6e18",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "inclinicaltrials NCT06492005"
+      }
+    },
+    {
+      "id": "rs_0a7ff2d1fc953b0700693c80f7dff08197adfbdb69d44d580a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a7ff2d1fc953b0700693c80fa46c48197a0ff3e3f0dd6c712",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "Study Details | NCT06492005"
+      }
+    },
+    {
+      "id": "rs_0a7ff2d1fc953b0700693c80fdfeac8197b98246cee0cfb48b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a7ff2d1fc953b0700693c8100a338819786cb04eb442814cc",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://trial.medpath.com/clinical-trial/96a1d781b3094b44/efficacy-safety-9mw2821-monotherapy-triple-negative-breast-cancer"
+      }
+    },
+    {
+      "id": "rs_0a7ff2d1fc953b0700693c810286c48197a8dd2cf99a5bb71a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a7ff2d1fc953b0700693c813b38088197bb4a73be74a94bb7",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.mabwell.com/en/news_info/id-148.html"
+      }
+    },
+    {
+      "id": "rs_0a7ff2d1fc953b0700693c813c94088197ad881ce2650a6f56",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a7ff2d1fc953b0700693c8154cb048197a0bd030b952a4ba6",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov NCT06492005 9MW2821"
+      }
+    },
+    {
+      "id": "rs_0a7ff2d1fc953b0700693c8158c6e081978d6fe21a1927b55a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a7ff2d1fc953b0700693c815a6de081979968246b550227b5",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.centerwatch.com/clinical-trials/listings/NCT06492005/a-clinical-study-of-9mw2821-and-pd-1-inhibitor-in-locally-advanced-or-metastatic-triple-negative-breast-cancer"
+      }
+    },
+    {
+      "id": "rs_0a7ff2d1fc953b0700693c815c3aac819789abc1556d8ccd3e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0a7ff2d1fc953b0700693c816842608197b96b737e32856b00",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": true,\n  \"assets\": [\n    {\n      \"drug_name_code\": \"9MW2821\",\n      \"sponsor\": \"Mabwell (Shanghai) Bioscience Co., Ltd.\",\n      \"target\": \"Nectin-4 (NECTIN4)\",\n      \"modality\": \"Antibody-drug conjugate (ADC)\",\n      \"indication\": \"Locally advanced or metastatic triple-negative breast cancer (TNBC)\",\n      \"development_stage\": \"Phase 2 (Active - Recruiting)\",\n      \"geography\": \"China (Shanghai)\",\n      \"sources\": [\n        \"https://www.centerwatch.com/clinical-trials/listings/NCT06492005/a-clinical-study-of-9mw2821-and-pd-1-inhibitor-in-locally-advanced-or-metastatic-triple-negative-breast-cancer\",\n        \"https://www.mabwell.com/en/news_info/id-148.html\"\n      ]\n    }\n  ],\n  \"rejected_reason\": null\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 62507,
+    "input_tokens_details": {
+      "cached_tokens": 4096
+    },
+    "output_tokens": 9316,
+    "output_tokens_details": {
+      "reasoning_tokens": 9100
+    },
+    "total_tokens": 71823
+  },
+  "user": null,
+  "metadata": {}
+}

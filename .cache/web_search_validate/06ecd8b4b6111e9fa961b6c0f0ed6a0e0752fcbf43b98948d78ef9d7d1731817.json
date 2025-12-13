@@ -1,0 +1,128 @@
+{
+  "id": "resp_01c609501df035b800693c8ebd686c8193a78a887317e2d6c5",
+  "object": "response",
+  "created_at": 1765576381,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_01c609501df035b800693c8ebdbbe48193bfb57bb605e6f336",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_01c609501df035b800693c8ed73e208193bd922f5711a88c90",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"inhibitor\" CDK12 triple negative breast cancer"
+      }
+    },
+    {
+      "id": "rs_01c609501df035b800693c8ed8d9f48193aea3710116d50e88",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_01c609501df035b800693c8ef3b368819384d16da6167a9e0c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"Inhibitor\" drug name"
+      }
+    },
+    {
+      "id": "rs_01c609501df035b800693c8ef49b408193b8a7514c3c3ccd44",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_01c609501df035b800693c8ef9efc48193bf30c6036ebda129",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "enzyme inhibitor definition"
+      }
+    },
+    {
+      "id": "rs_01c609501df035b800693c8efafeb88193b6534f85be3f298f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_01c609501df035b800693c8f0326708193aed5b45dbada3bba",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": false,\n  \"assets\": [],\n  \"rejected_reason\": \"Identifier \\\"inhibitor\\\" is a generic term (not a unique drug/asset name/code), so sponsor/target/modality/indication/stage/geography cannot be unambiguously verified. See https://en.wikipedia.org/wiki/Enzyme_inhibitor ; CDK12/13 TNBC literature discusses specific inhibitors (e.g., SR-4835): https://pubmed.ncbi.nlm.nih.gov/31668947/\"\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 19711,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 4388,
+    "output_tokens_details": {
+      "reasoning_tokens": 4273
+    },
+    "total_tokens": 24099
+  },
+  "user": null,
+  "metadata": {}
+}

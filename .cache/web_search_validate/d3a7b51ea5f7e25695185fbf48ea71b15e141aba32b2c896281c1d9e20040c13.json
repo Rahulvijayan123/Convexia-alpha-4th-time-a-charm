@@ -1,0 +1,327 @@
+{
+  "id": "resp_0d2a3fb26477a8f200693c82d8c72081949298f63b5689e402",
+  "object": "response",
+  "created_at": 1765573336,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0d2a3fb26477a8f200693c82d94a388194a0db47748e7f956d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0d2a3fb26477a8f200693c82e6e2348194bc3385640ca3e945",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "FDA label ABRAXANE paclitaxel protein-bound particles for injectable suspension albumin-bound sponsor Celgene Bristol-Myers Squibb"
+      }
+    },
+    {
+      "id": "rs_0d2a3fb26477a8f200693c82ea48888194a657f55a552a6131",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0d2a3fb26477a8f200693c82eb163c81948e4fe1dade6bbf99",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "FDA Abraxane label paclitaxel protein-bound particles for injectable suspension albumin-bound prescribing information pdf"
+      }
+    },
+    {
+      "id": "rs_0d2a3fb26477a8f200693c82ee5a4081949433f4cf69736c70",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0d2a3fb26477a8f200693c82efe7248194a9b9859067258b97",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "accessdata.fda.gov Abraxane label pdf paclitaxel protein-bound particles for injectable suspension albumin-bound Celgene Corporation"
+      }
+    },
+    {
+      "id": "rs_0d2a3fb26477a8f200693c82f2e358819486c69ea3a0b111f6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0d2a3fb26477a8f200693c83067c208194ad4d0eea865e95b9",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "drugsatfda_docs label Abraxane paclitaxel protein-bound particles for injectable suspension albumin-bound pdf"
+      }
+    },
+    {
+      "id": "rs_0d2a3fb26477a8f200693c8309f9748194bd24fcb239f363b8",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0d2a3fb26477a8f200693c830c15a0819495fc7e12bd6b513a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "DailyMed ABRAXANE paclitaxel protein-bound particles for injectable suspension albumin-bound labeler Abraxis BioScience LLC marketed by Bristol-Myers Squibb"
+      }
+    },
+    {
+      "id": "rs_0d2a3fb26477a8f200693c830f9fbc819494816a8b88b41902",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0d2a3fb26477a8f200693c8310ae78819487dcde3ce750ca10",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2005/21660_AbraxaneTOC.cfm"
+      }
+    },
+    {
+      "id": "rs_0d2a3fb26477a8f200693c8311c12c819486191fa46498a131",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0d2a3fb26477a8f200693c831216348194b2eaad8c3b32edfa",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2005/21660_ABRAXANE_prntlbl.PDF"
+      }
+    },
+    {
+      "id": "rs_0d2a3fb26477a8f200693c83130e488194834324587f080a8e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0d2a3fb26477a8f200693c83164e688194876eef16062c1aa6",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "accessdata.fda.gov drugsatfda_docs label 021660s ABRAXANE paclitaxel protein-bound particles 2024 pdf"
+      }
+    },
+    {
+      "id": "rs_0d2a3fb26477a8f200693c831d1a548194af63005f1a1aac83",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0d2a3fb26477a8f200693c831e32d08194b2d63affb8737b00",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:accessdata.fda.gov/drugsatfda_docs/label/ abraxane 021660s lbl.pdf 2022"
+      }
+    },
+    {
+      "id": "rs_0d2a3fb26477a8f200693c8324e24c8194a766b7356f00f80c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0d2a3fb26477a8f200693c83267b988194a734a467ec0aa14b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2020/021660s047lbl.pdf"
+      }
+    },
+    {
+      "id": "rs_0d2a3fb26477a8f200693c8327bd2c819481996e2ce711783a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0d2a3fb26477a8f200693c83291a14819481344850ec45c738",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "Manufactured",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2020/021660s047lbl.pdf"
+      }
+    },
+    {
+      "id": "rs_0d2a3fb26477a8f200693c832bd394819487f767e1aa299963",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0d2a3fb26477a8f200693c833734d88194accacc3911278946",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "Celgene Corporation",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2020/021660s047lbl.pdf"
+      }
+    },
+    {
+      "id": "rs_0d2a3fb26477a8f200693c833a06ac8194bccbc14cb41f92ea",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0d2a3fb26477a8f200693c833caf4c8194a0e25350ffde61ef",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "tubulin",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2020/021660s047lbl.pdf"
+      }
+    },
+    {
+      "id": "rs_0d2a3fb26477a8f200693c833f45b08194a0f17c0596c24c4c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0d2a3fb26477a8f200693c83594a6081949efa4a188d4865b1",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"Nab-placlitaxel\""
+      }
+    },
+    {
+      "id": "rs_0d2a3fb26477a8f200693c835db0108194a8cdcd5d80b2b594",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0d2a3fb26477a8f200693c8365e24c8194b662e9cd3dfe314b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "placlitaxel"
+      }
+    },
+    {
+      "id": "rs_0d2a3fb26477a8f200693c836985ec8194b6ba282637167271",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0d2a3fb26477a8f200693c8396be408194a3b8028493d6cf95",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/abraxane"
+      }
+    },
+    {
+      "id": "rs_0d2a3fb26477a8f200693c83984b14819485c570cd425e1c9e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0d2a3fb26477a8f200693c839bb9088194b433575a2c984549",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/nab-paclitaxel"
+      }
+    },
+    {
+      "id": "rs_0d2a3fb26477a8f200693c839cf0608194bacc6a9390c8dc91",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0d2a3fb26477a8f200693c83b435ac8194b4152d1176f2b4a8",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": true,\n  \"assets\": [\n    {\n      \"drug_name_code\": \"Nab-placlitaxel (ABRAXANE; paclitaxel protein-bound particles for injectable suspension, albumin-bound)\",\n      \"sponsor\": \"Celgene Corporation\",\n      \"target\": \"Tubulin / microtubules\",\n      \"modality\": \"Small-molecule (paclitaxel) formulated as albumin-bound nanoparticles (nab formulation)\",\n      \"indication\": \"Metastatic breast cancer (after failure of combination chemotherapy for metastatic disease or relapse within 6 months of adjuvant chemotherapy)\",\n      \"development_stage\": \"Approved (FDA; initial U.S. approval 2005)\",\n      \"geography\": \"United States (FDA); European Union (EMA)\",\n      \"sources\": [\n        \"https://www.accessdata.fda.gov/drugsatfda_docs/label/2020/021660s047lbl.pdf\",\n        \"https://www.cancer.gov/publications/dictionaries/cancer-drug/def/nab-paclitaxel\",\n        \"https://www.ema.europa.eu/en/medicines/human/EPAR/abraxane\"\n      ]\n    }\n  ],\n  \"rejected_reason\": null\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 72275,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 12180,
+    "output_tokens_details": {
+      "reasoning_tokens": 11910
+    },
+    "total_tokens": 84455
+  },
+  "user": null,
+  "metadata": {}
+}

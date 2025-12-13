@@ -1,0 +1,241 @@
+{
+  "id": "resp_00f5045987dd459a00693c82d8ba108190b041eec96dfd1b63",
+  "object": "response",
+  "created_at": 1765573336,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_00f5045987dd459a00693c82d9d7588190a2c4e5ba9ea07a01",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00f5045987dd459a00693c82dca9188190a0eac3319e42765d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "SR-4835 CDK12 inhibitor sponsor"
+      }
+    },
+    {
+      "id": "rs_00f5045987dd459a00693c82df309c8190b01f1e2e2061be40",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00f5045987dd459a00693c82e1a0948190a3dc3158526c6632",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31668947/"
+      }
+    },
+    {
+      "id": "rs_00f5045987dd459a00693c82e2d25c8190bf124df504d46f5e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00f5045987dd459a00693c82eeac888190bfc835cd5ae95f6e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "SR-4835 patent"
+      }
+    },
+    {
+      "id": "rs_00f5045987dd459a00693c82f0d5508190b1f31438dc575361",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00f5045987dd459a00693c82f5ff608190bcb4dfd3254137c7",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"SR-4835\" \"Moffitt\" developed"
+      }
+    },
+    {
+      "id": "rs_00f5045987dd459a00693c82f99e508190aa2fe1eab4963646",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00f5045987dd459a00693c82fa1bbc8190b0536757954a1633",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.chemicalprobes.org/sr-4835"
+      }
+    },
+    {
+      "id": "rs_00f5045987dd459a00693c82fb188081909e452e1b1a838a4e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00f5045987dd459a00693c82fef56481909d4aac146007cf7b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "SR-4835 clinical trial NCT"
+      }
+    },
+    {
+      "id": "rs_00f5045987dd459a00693c8300ec188190b0872c1ba57d17cb",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00f5045987dd459a00693c8304bef081909e02851ef644aa34",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"SR-4835\" site:patents.google.com"
+      }
+    },
+    {
+      "id": "rs_00f5045987dd459a00693c8307ff548190af49c3c81ccbb1df",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00f5045987dd459a00693c831535e08190ae8f85193c95bc35",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:moffitt.org SR-4835"
+      }
+    },
+    {
+      "id": "rs_00f5045987dd459a00693c83187f388190972d2c8e50bae95f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00f5045987dd459a00693c8323b0d8819086c08568bd4f1b1a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://synapse.zhihuiya.com/drug/b77e9233f40445ff9b4faa6db83a2989"
+      }
+    },
+    {
+      "id": "rs_00f5045987dd459a00693c8325200081908dc7673c84c0168a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00f5045987dd459a00693c83262a548190b8d73c45463047b8",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "原研机构",
+        "url": "https://synapse.zhihuiya.com/drug/b77e9233f40445ff9b4faa6db83a2989"
+      }
+    },
+    {
+      "id": "rs_00f5045987dd459a00693c8329a4388190949a5d92a29ce6af",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00f5045987dd459a00693c832ed69c8190913e8e1885c464de",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://synapse.zhihuiya.com/drug/b77e9233f40445ff9b4faa6db83a2989"
+      }
+    },
+    {
+      "id": "rs_00f5045987dd459a00693c8330ec9881908290d6e571f380e6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_00f5045987dd459a00693c8371e8d0819083535083864eea2d",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": true,\n  \"assets\": [\n    {\n      \"drug_name_code\": \"SR-4835\",\n      \"sponsor\": \"H. Lee Moffitt Cancer Center & Research Institute, Inc.\",\n      \"target\": \"CDK12 and CDK13\",\n      \"modality\": \"Small molecule (ATP-competitive CDK12/13 inhibitor; molecular-glue cyclin K degrader activity reported)\",\n      \"indication\": \"Triple-negative breast cancer (TNBC)\",\n      \"development_stage\": \"Drug discovery\",\n      \"geography\": \"United States\",\n      \"sources\": [\n        \"https://synapse.zhihuiya.com/drug/b77e9233f40445ff9b4faa6db83a2989\",\n        \"https://pubmed.ncbi.nlm.nih.gov/31668947/\",\n        \"https://pubs.rsc.org/en/content/articlehtml/2024/cb/d4cb00190g\",\n        \"https://www.chemicalprobes.org/sr-4835\"\n      ]\n    }\n  ],\n  \"rejected_reason\": null\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 49117,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 8995,
+    "output_tokens_details": {
+      "reasoning_tokens": 8757
+    },
+    "total_tokens": 58112
+  },
+  "user": null,
+  "metadata": {}
+}

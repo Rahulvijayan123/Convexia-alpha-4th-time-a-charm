@@ -1,0 +1,277 @@
+{
+  "id": "resp_0a26e40935ff9dda00693c8d6af54881949676f979079508f8",
+  "object": "response",
+  "created_at": 1765576042,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0a26e40935ff9dda00693c8d6b44008194867f85e19c9d206e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a26e40935ff9dda00693c8d6f1794819491241527e882004d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12 degrader PROTAC patent application"
+      }
+    },
+    {
+      "id": "rs_0a26e40935ff9dda00693c8d71eae48194bec6d489de5d1775",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a26e40935ff9dda00693c8d7447a08194accdff69dff0d33e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"DEGRADERS OF\" CDK12 PROTAC WO"
+      }
+    },
+    {
+      "id": "rs_0a26e40935ff9dda00693c8d76e4ec81949963fc5d7c189041",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a26e40935ff9dda00693c8d788d208194b5b78175f43348c0",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "BSJ-4-116 patent application"
+      }
+    },
+    {
+      "id": "rs_0a26e40935ff9dda00693c8d7a5308819494f769b46260d454",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a26e40935ff9dda00693c8d7ba120819494679b99837a9163",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "US20220227734 Google Patents"
+      }
+    },
+    {
+      "id": "rs_0a26e40935ff9dda00693c8d7e7d4c8194b35c6c6501dcd237",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a26e40935ff9dda00693c8d8122d481949ed0336612f5004d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.justia.com/patent/20220227734"
+      }
+    },
+    {
+      "id": "rs_0a26e40935ff9dda00693c8d8244988194bda9c972a0f6b51f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a26e40935ff9dda00693c8d83697c81948e91930839cd94ef",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "WO2020219650",
+        "url": "https://patents.google.com/patent/WO2020219650A1/zh"
+      }
+    },
+    {
+      "id": "rs_0a26e40935ff9dda00693c8d858b1c8194b5c5545628cf8c9e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a26e40935ff9dda00693c8d8a4fb081949d33c6878f356fcc",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "WO2020219650A1 Patentscope"
+      }
+    },
+    {
+      "id": "rs_0a26e40935ff9dda00693c8d8cdde48194a54d5b2b136cc409",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a26e40935ff9dda00693c8d918d1881949f91e098fe1ffc3c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "US20220227734A1 Degraders of cyclin-dependent kinase 12 Google Patents"
+      }
+    },
+    {
+      "id": "rs_0a26e40935ff9dda00693c8d9459508194b87d9f92a58ce17b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a26e40935ff9dda00693c8da0bdb881949a35784800170de6",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/EP3958861A4/en.2009"
+      }
+    },
+    {
+      "id": "rs_0a26e40935ff9dda00693c8da215948194ac8a175aef26689a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0a26e40935ff9dda00693c8dafc1988194967019255bd8dc28",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 395,
+              "start_index": 326,
+              "title": "U.S. Patent Application for DEGRADERS OF CYCLIN-DEPENDENT KINASE 12 (CDK12) AND USES THEREOF Patent Application (Application #20220227734 issued July 21, 2022) - Justia Patents Search",
+              "url": "https://patents.justia.com/patent/20220227734"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 564,
+              "start_index": 495,
+              "title": "U.S. Patent Application for DEGRADERS OF CYCLIN-DEPENDENT KINASE 12 (CDK12) AND USES THEREOF Patent Application (Application #20220227734 issued July 21, 2022) - Justia Patents Search",
+              "url": "https://patents.justia.com/patent/20220227734"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 688,
+              "start_index": 619,
+              "title": "U.S. Patent Application for DEGRADERS OF CYCLIN-DEPENDENT KINASE 12 (CDK12) AND USES THEREOF Patent Application (Application #20220227734 issued July 21, 2022) - Justia Patents Search",
+              "url": "https://patents.justia.com/patent/20220227734"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1050,
+              "start_index": 975,
+              "title": "WO2020219650A1 - Degraders of cyclin-dependent kinase 12 (cdk12) and uses thereof \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2020219650A1/zh"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1181,
+              "start_index": 1106,
+              "title": "WO2020219650A1 - Degraders of cyclin-dependent kinase 12 (cdk12) and uses thereof \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2020219650A1/zh"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1293,
+              "start_index": 1218,
+              "title": "WO2020219650A1 - Degraders of cyclin-dependent kinase 12 (cdk12) and uses thereof \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2020219650A1/zh"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1653,
+              "start_index": 1576,
+              "title": "EP3958861A4 - \n        DEGRADERS OF CYCLIN DEPENDENT KINASE 12 (CDK12) AND USES THEREOF\n       \n        - Google Patents",
+              "url": "https://patents.google.com/patent/EP3958861A4/en.2009"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1765,
+              "start_index": 1688,
+              "title": "EP3958861A4 - \n        DEGRADERS OF CYCLIN DEPENDENT KINASE 12 (CDK12) AND USES THEREOF\n       \n        - Google Patents",
+              "url": "https://patents.google.com/patent/EP3958861A4/en.2009"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1888,
+              "start_index": 1811,
+              "title": "EP3958861A4 - \n        DEGRADERS OF CYCLIN DEPENDENT KINASE 12 (CDK12) AND USES THEREOF\n       \n        - Google Patents",
+              "url": "https://patents.google.com/patent/EP3958861A4/en.2009"
+            }
+          ],
+          "logprobs": [],
+          "text": "- **DEGRADERS OF CYCLIN-DEPENDENT KINASE 12 (CDK12) AND USES THEREOF — Justia Patents Search**\n  - URL: `https://patents.justia.com/patent/20220227734`\n  - Direct quote snippets:\n    - “U.S. Patent Application for DEGRADERS OF CYCLIN-DEPENDENT KINASE 12 (CDK12) AND USES THEREOF Patent Application (Application #20220227734)” ([patents.justia.com](https://patents.justia.com/patent/20220227734))\n    - “Provided herein are bifunctional compounds with a moiety (e.g., lenalidomide, thalidomide)” ([patents.justia.com](https://patents.justia.com/patent/20220227734))\n    - “U.S. Ser. No. 62/837,331, filed Apr. 23, 2019” ([patents.justia.com](https://patents.justia.com/patent/20220227734))\n\n- **WO2020219650A1 — Degraders of cyclin-dependent kinase 12 (cdk12) and uses thereof — Google Patents**\n  - URL: `https://patents.google.com/patent/WO2020219650A1/zh`\n  - Direct quote snippets:\n    - “WO2020219650A1 - Degraders of cyclin-dependent kinase 12 (cdk12) and uses thereof” ([patents.google.com](https://patents.google.com/patent/WO2020219650A1/zh))\n    - “WO2020219650A1 PCT/US2020/029483 US2020029483W” ([patents.google.com](https://patents.google.com/patent/WO2020219650A1/zh))\n    - “IMDHEZGGXZWFFT-KZQYXEPFSA-N” ([patents.google.com](https://patents.google.com/patent/WO2020219650A1/zh))\n\n- **EP3958861A4 — DEGRADERS OF CYCLIN DEPENDENT KINASE 12 (CDK12) AND USES THEREOF — Google Patents**\n  - URL: `https://patents.google.com/patent/EP3958861A4/en.2009`\n  - Direct quote snippets:\n    - “EP3958861A4 - DEGRADERS OF CYCLIN DEPENDENT KINASE 12 (CDK12) AND USES THEREOF” ([patents.google.com](https://patents.google.com/patent/EP3958861A4/en.2009))\n    - “EP3958861A4 EP20795755.6A” ([patents.google.com](https://patents.google.com/patent/EP3958861A4/en.2009))\n    - “Application number     EP20795755.6A” ([patents.google.com](https://patents.google.com/patent/EP3958861A4/en.2009))"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 42033,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 4216,
+    "output_tokens_details": {
+      "reasoning_tokens": 3688
+    },
+    "total_tokens": 46249
+  },
+  "user": null,
+  "metadata": {}
+}

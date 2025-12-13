@@ -1,0 +1,337 @@
+{
+  "id": "resp_083db363902c48dd00693c8ebd63588193bb082682ff0b5e18",
+  "object": "response",
+  "created_at": 1765576381,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_083db363902c48dd00693c8ebdb58c8193acaa020414d0bc7e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_083db363902c48dd00693c8ed23bdc8193b732ca725167d7e1",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov CDK12 inhibitor triple negative breast cancer"
+      }
+    },
+    {
+      "id": "rs_083db363902c48dd00693c8ed41f20819387fd66b2f910a33a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_083db363902c48dd00693c8edbdd5481939c14e7dee9726b32",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov CDK12/13 inhibitor NCT"
+      }
+    },
+    {
+      "id": "rs_083db363902c48dd00693c8ede2f708193be50db8428ec3db2",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_083db363902c48dd00693c8edeacf88193af26120f52ea4b20",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_083db363902c48dd00693c8edf54dc8193bba75748a0538030",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_083db363902c48dd00693c8ee2e1b88193b9addf1217d17706",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_083db363902c48dd00693c8ee3b6ac8193924feed9b2638861",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_083db363902c48dd00693c8ee49fa08193bcc02bc5d663451b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT06600789 ct2 show"
+      }
+    },
+    {
+      "id": "rs_083db363902c48dd00693c8ee680d08193afd011f965d2f64b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_083db363902c48dd00693c8eec8a108193b75ff2d8835fb40d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "clinicaltrials.gov api v2 studies NCT06600789"
+      }
+    },
+    {
+      "id": "rs_083db363902c48dd00693c8eee99548193b4b5c7639084db19",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_083db363902c48dd00693c8ef300c08193837d0159f19ac504",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "api/v2/studies/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_083db363902c48dd00693c8ef5f948819380fce77a86eac8ad",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_083db363902c48dd00693c8efe7ff4819383d61f0f608ed17c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "Study Details NCT06600789 ClinicalTrials.gov"
+      }
+    },
+    {
+      "id": "rs_083db363902c48dd00693c8f01161881938c958a1d3342a27e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_083db363902c48dd00693c8f32c07481938238de6d930d4e73",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor"
+      }
+    },
+    {
+      "id": "rs_083db363902c48dd00693c8f339244819391250a597763edde",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_083db363902c48dd00693c8f39e41c8193a4269012e36ac5fe",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov CT7439"
+      }
+    },
+    {
+      "id": "rs_083db363902c48dd00693c8f3c488081939e2c84c154dfc593",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_083db363902c48dd00693c8f5745e081938a91608d68e91ff3",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT06600789"
+      }
+    },
+    {
+      "id": "rs_083db363902c48dd00693c8f5a7b108193906c14d12b98536d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_083db363902c48dd00693c8f9ae67c8193b47ccecaacb577d1",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://cdek.pharmacy.purdue.edu/trial/NCT06600789/"
+      }
+    },
+    {
+      "id": "rs_083db363902c48dd00693c8f9c632c81939aadbaca230aae50",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_083db363902c48dd00693c8fa224108193ac27c8e532237104",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://trial.medpath.com/clinical-trial/e9357df4650cb6b7/nct06600789-safety-tolerability-ct7439-solid-malignancies"
+      }
+    },
+    {
+      "id": "rs_083db363902c48dd00693c8fa328c081939e0436b025379d2a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_083db363902c48dd00693c8fa3fa608193a00de0b940bb7b68",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search"
+      }
+    },
+    {
+      "id": "rs_083db363902c48dd00693c8fa565248193bc6408fdd41f9d7c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_083db363902c48dd00693c8fa5c8c48193bc80fadb5313350a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "Trial Locations",
+        "url": "https://trial.medpath.com/clinical-trial/e9357df4650cb6b7/nct06600789-safety-tolerability-ct7439-solid-malignancies"
+      }
+    },
+    {
+      "id": "rs_083db363902c48dd00693c8fa8619c81939fee7f9994f3e039",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_083db363902c48dd00693c8fb440988193becb932c74f6b8ef",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CDK12\" inhibitor\" ClinicalTrials.gov\" breast"
+      }
+    },
+    {
+      "id": "rs_083db363902c48dd00693c8fb79ff88193bc80f8ffc8af8b85",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_083db363902c48dd00693c8fc867608193bebc6cec2b171b9b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_083db363902c48dd00693c8fc9b74c819397a66a60cd4235fd",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_083db363902c48dd00693c8fd8ca4c8193aaa7acd9c938a59a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CDK12\" inhibitor \"Phase 1\" trial drug"
+      }
+    },
+    {
+      "id": "rs_083db363902c48dd00693c8fde9e9c81939674d11afe45bff4",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_083db363902c48dd00693c8ffe55688193ad27830c570331fa",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": false,\n  \"assets\": [],\n  \"rejected_reason\": \"Candidate identifier 'ClinicalTrials.gov' is a clinical trial registry website (https://clinicaltrials.gov/), not a specific drug name/code, trial ID (e.g., NCT number), patent ID, or other unique asset identifier; therefore required fields (sponsor/target/modality/indication/stage/geography) cannot be attributed to a single drug asset.\"\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 69979,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 15618,
+    "output_tokens_details": {
+      "reasoning_tokens": 15517
+    },
+    "total_tokens": 85597
+  },
+  "user": null,
+  "metadata": {}
+}

@@ -1,0 +1,282 @@
+{
+  "id": "resp_06c6c7990ff2f73c00693c96c3dd18819797131492c28204d2",
+  "object": "response",
+  "created_at": 1765578435,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_06c6c7990ff2f73c00693c96c44d8881978b0ae2dc1b90fcfa",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_06c6c7990ff2f73c00693c96c571288197a29b63223b2a7237",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "PCT/CN2020/095482 CDK12"
+      }
+    },
+    {
+      "id": "rs_06c6c7990ff2f73c00693c96c79ac081978e30408b5a87f9a9",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_06c6c7990ff2f73c00693c96c7d71c8197b4f392b3105080df",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "PCT CN2020 095482 WO"
+      }
+    },
+    {
+      "id": "rs_06c6c7990ff2f73c00693c96c967dc8197a078661b5b39c101",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_06c6c7990ff2f73c00693c96ca7c90819783e6d228f176b4bd",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"PCT/CN2020/095482\" WO"
+      }
+    },
+    {
+      "id": "rs_06c6c7990ff2f73c00693c96cbf0008197840c3df91fdb2616",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_06c6c7990ff2f73c00693c96db3e988197bb651080d3017a4c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "PCT/CN2020/095482 HQ461"
+      }
+    },
+    {
+      "id": "rs_06c6c7990ff2f73c00693c96dd11588197aeab289bdeaf5179",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_06c6c7990ff2f73c00693c96dda0e481978eaded8ba92f643a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:patentscope.wipo.int \"PCT/CN2020/095482\""
+      }
+    },
+    {
+      "id": "rs_06c6c7990ff2f73c00693c96e0ad3481978eced35720343f05",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_06c6c7990ff2f73c00693c96e917008197b7ea02aa3135f7cc",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"Cyclin K\" degradation \"WO\" HQ461"
+      }
+    },
+    {
+      "id": "rs_06c6c7990ff2f73c00693c96ec8be88197b68f4fac502e064d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_06c6c7990ff2f73c00693c96f0a5608197bcf78e2f82db2c9f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"PCT/CN2020/095482\" site:lens.org"
+      }
+    },
+    {
+      "id": "rs_06c6c7990ff2f73c00693c96f31f2c8197a1b78bd31074bd8d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_06c6c7990ff2f73c00693c96f474148197ab005079b0c7e359",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "HQ461 WO2021 patent cyclin K"
+      }
+    },
+    {
+      "id": "rs_06c6c7990ff2f73c00693c96f7f2b88197b9ea3b30e1762678",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_06c6c7990ff2f73c00693c96fc7c4c8197afd3cb82867b4ce0",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"PCT/CN2020/095482\" site:patents.google.com"
+      }
+    },
+    {
+      "id": "rs_06c6c7990ff2f73c00693c96fe98a08197aa507567c47a650d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_06c6c7990ff2f73c00693c9705a28081979f7b4bbe07761d3f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://synapse.patsnap.com/drug/9cd724dd00c9193cd6ea0f17f67d64b3"
+      }
+    },
+    {
+      "id": "rs_06c6c7990ff2f73c00693c9706f84481979d66afa54a54260d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_06c6c7990ff2f73c00693c971c13f48197827f295a4e13f11b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"PCT/CN2020/095482\" lens patent"
+      }
+    },
+    {
+      "id": "rs_06c6c7990ff2f73c00693c972135448197bfd54cb701e670a9",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_06c6c7990ff2f73c00693c97230e848197a1c46dc8bfe57436",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"A molecular glue\" \"CDK12-DDB1\" \"Cyclin K\" patent"
+      }
+    },
+    {
+      "id": "rs_06c6c7990ff2f73c00693c9726343c8197918b479d682b2605",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_06c6c7990ff2f73c00693c97559cfc8197a52c8f995049c6b0",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "HQ461 National Institute of Biological Sciences patent"
+      }
+    },
+    {
+      "id": "rs_06c6c7990ff2f73c00693c9759790c8197975ebeee747f7b81",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_06c6c7990ff2f73c00693c975cf28c81979345f6003b8f5b48",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32804079/"
+      }
+    },
+    {
+      "id": "rs_06c6c7990ff2f73c00693c975e59488197a247c83f5c6dc31f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_06c6c7990ff2f73c00693c9773cc788197be18a23e6fbd83dd",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": true,\n  \"assets\": [\n    {\n      \"drug_name_code\": \"HQ461\",\n      \"sponsor\": \"National Institute of Biological Sciences\",\n      \"target\": \"CCNK x CDK12 x DDB1\",\n      \"modality\": \"Degradable molecular glue (small molecule)\",\n      \"indication\": \"Neoplasms\",\n      \"development_stage\": \"Preclinical\",\n      \"geography\": \"China\",\n      \"sources\": [\n        \"https://pubmed.ncbi.nlm.nih.gov/32804079/\",\n        \"https://elifesciences.org/articles/59994\",\n        \"https://synapse.patsnap.com/drug/9cd724dd00c9193cd6ea0f17f67d64b3\"\n      ]\n    }\n  ],\n  \"rejected_reason\": null\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 66567,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 10239,
+    "output_tokens_details": {
+      "reasoning_tokens": 10056
+    },
+    "total_tokens": 76806
+  },
+  "user": null,
+  "metadata": {}
+}

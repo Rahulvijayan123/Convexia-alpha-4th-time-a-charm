@@ -1,0 +1,226 @@
+{
+  "id": "resp_00526f0f50b9f70500693c96c3db988193a73fa7b765fa403b",
+  "object": "response",
+  "created_at": 1765578435,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_00526f0f50b9f70500693c96c428688193ad54a1a803de1f09",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00526f0f50b9f70500693c96c799648193bbfca5aa692bc645",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"Cyclin-K\" degrader drug"
+      }
+    },
+    {
+      "id": "rs_00526f0f50b9f70500693c96c8fd7881938f89edd79913167f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00526f0f50b9f70500693c96d10d848193b6698cc15c42d8c0",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CT7439 trial phase"
+      }
+    },
+    {
+      "id": "rs_00526f0f50b9f70500693c96d296408193a147244ce2db8b25",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00526f0f50b9f70500693c96db9da4819381eb6cac970bbe4c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT06600789 CT7439 locations"
+      }
+    },
+    {
+      "id": "rs_00526f0f50b9f70500693c96ded8c481939d59ef8211b52127",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00526f0f50b9f70500693c96dfea9881939979ef2bdcd989e3",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_00526f0f50b9f70500693c96e09088819388edb9688a55f832",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00526f0f50b9f70500693c96e2c1b48193b165341b94401cd8",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_00526f0f50b9f70500693c96e365fc8193a3990ce737471722",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00526f0f50b9f70500693c96e487b08193839f1a5924a8fa1c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "clinicaltrials.gov ct2 show NCT06600789"
+      }
+    },
+    {
+      "id": "rs_00526f0f50b9f70500693c96e7cb908193b23f3c86aaacea3a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00526f0f50b9f70500693c96f059208193822ebfa1873567ea",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://ichgcp.net/clinical-trials-registry/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_00526f0f50b9f70500693c96f124d481938d0e782b62fd4e82",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00526f0f50b9f70500693c97258c5c8193a9c42b839fe6b47d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor"
+      }
+    },
+    {
+      "id": "rs_00526f0f50b9f70500693c9726981881938942751ee42d012e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00526f0f50b9f70500693c972753148193aebd5300f13c8687",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase"
+      }
+    },
+    {
+      "id": "rs_00526f0f50b9f70500693c97280a088193b0b1b8bf55da5d53",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00526f0f50b9f70500693c9729d0b08193bdb114053078391d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "Sponsor",
+        "url": "https://ichgcp.net/clinical-trials-registry/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_00526f0f50b9f70500693c972c847c81939c3796347d198e04",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_00526f0f50b9f70500693c974e748c81939a74a36dd426d511",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": true,\n  \"assets\": [\n    {\n      \"drug_name_code\": \"CT7439 (Cyclin-K Degrader)\",\n      \"sponsor\": \"Carrick Therapeutics Limited\",\n      \"target\": \"CDK12/13; Cyclin-K\",\n      \"modality\": \"CDK12/13 inhibitor / Cyclin-K glue degrader\",\n      \"indication\": \"Solid malignancies / advanced solid tumors (including breast, ovarian and Ewing's sarcoma)\",\n      \"development_stage\": \"Phase 1/2 (recruiting)\",\n      \"geography\": \"United States; United Kingdom\",\n      \"sources\": [\n        \"https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor\",\n        \"https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase\",\n        \"https://ichgcp.net/clinical-trials-registry/NCT06600789\"\n      ]\n    }\n  ],\n  \"rejected_reason\": null\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 37484,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 9004,
+    "output_tokens_details": {
+      "reasoning_tokens": 8764
+    },
+    "total_tokens": 46488
+  },
+  "user": null,
+  "metadata": {}
+}

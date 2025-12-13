@@ -1,0 +1,248 @@
+{
+  "id": "resp_0142a2e1efb32a0a00693c929f34bc8197ac56bbd902116260",
+  "object": "response",
+  "created_at": 1765577375,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0142a2e1efb32a0a00693c92a06b9c81979b9c60d1cafedc2f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0142a2e1efb32a0a00693c92a3c52c81978ae13ec2d888c272",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12 inhibitor press release oncology program"
+      }
+    },
+    {
+      "id": "rs_0142a2e1efb32a0a00693c92a5e01c81978d812a227c8f401b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0142a2e1efb32a0a00693c92a995a88197a0796b4d2e787d05",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CDK12\" inhibitor \"glue degrader\" Cyclin-K CT7439 press release"
+      }
+    },
+    {
+      "id": "rs_0142a2e1efb32a0a00693c92ab99e481979e36df5efeb1e8dc",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0142a2e1efb32a0a00693c92adf1808197b57f45eceaf5f303",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "GlobeNewswire Sept. 7, 2023 CT7439 IND CDK12/13 inhibitor"
+      }
+    },
+    {
+      "id": "rs_0142a2e1efb32a0a00693c92b0ad9c81979e87f645dd66f964",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0142a2e1efb32a0a00693c92b47f288197be827eba3c857b25",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CDK12 inhibitor\" \"first patient\""
+      }
+    },
+    {
+      "id": "rs_0142a2e1efb32a0a00693c92b7c87c819785ffe53bc983829a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0142a2e1efb32a0a00693c92c871608197a0dca3fcff20564b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT06600789 CT7439 CDK12/13"
+      }
+    },
+    {
+      "id": "rs_0142a2e1efb32a0a00693c92caa07c8197b4bd726321451aa8",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0142a2e1efb32a0a00693c92cb626881978c40f54461297de0",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0142a2e1efb32a0a00693c92cd14708197943fbbb25e616553",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0142a2e1efb32a0a00693c92dc612c81979b245105c7c8ccef",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 538,
+              "start_index": 317,
+              "title": "Carrick Therapeutics Announces U.S. FDA Clearance of IND",
+              "url": "https://www.globenewswire.com/fr/news-release/2023/09/07/2739242/0/en/Carrick-Therapeutics-Announces-U-S-FDA-Clearance-of-IND-for-CT7439-a-First-In-Class-Inhibitor-of-CDK12-13.html?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 920,
+              "start_index": 699,
+              "title": "Carrick Therapeutics Announces U.S. FDA Clearance of IND",
+              "url": "https://www.globenewswire.com/fr/news-release/2023/09/07/2739242/0/en/Carrick-Therapeutics-Announces-U-S-FDA-Clearance-of-IND-for-CT7439-a-First-In-Class-Inhibitor-of-CDK12-13.html?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1232,
+              "start_index": 1011,
+              "title": "Carrick Therapeutics Announces U.S. FDA Clearance of IND",
+              "url": "https://www.globenewswire.com/fr/news-release/2023/09/07/2739242/0/en/Carrick-Therapeutics-Announces-U-S-FDA-Clearance-of-IND-for-CT7439-a-First-In-Class-Inhibitor-of-CDK12-13.html?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1768,
+              "start_index": 1550,
+              "title": "Carrick Therapeutics Announces First Patient Dosed in Phase",
+              "url": "https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2140,
+              "start_index": 1922,
+              "title": "Carrick Therapeutics Announces First Patient Dosed in Phase",
+              "url": "https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2394,
+              "start_index": 2176,
+              "title": "Carrick Therapeutics Announces First Patient Dosed in Phase",
+              "url": "https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2731,
+              "start_index": 2591,
+              "title": "FDA Clears IND Application for First-in-Class CDK12/13 Inhibitor | CancerNetwork",
+              "url": "https://www.cancernetwork.com/view/fda-clears-ind-application-for-first-in-class-cdk12-13-inhibitor?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2939,
+              "start_index": 2799,
+              "title": "FDA Clears IND Application for First-in-Class CDK12/13 Inhibitor | CancerNetwork",
+              "url": "https://www.cancernetwork.com/view/fda-clears-ind-application-for-first-in-class-cdk12-13-inhibitor?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3152,
+              "start_index": 3012,
+              "title": "FDA Clears IND Application for First-in-Class CDK12/13 Inhibitor | CancerNetwork",
+              "url": "https://www.cancernetwork.com/view/fda-clears-ind-application-for-first-in-class-cdk12-13-inhibitor?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3747,
+              "start_index": 3515,
+              "title": "Syros Presents New Preclinical Data on its CDK12 Inhibitor Program at American Association for Cancer Research (AACR) Annual Meeting 2022",
+              "url": "https://www.businesswire.com/news/home/20220408005014/en/Syros-Presents-New-Preclinical-Data-on-its-CDK12-Inhibitor-Program-at-American-Association-for-Cancer-Research-AACR-Annual-Meeting-2022?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4117,
+              "start_index": 3885,
+              "title": "Syros Presents New Preclinical Data on its CDK12 Inhibitor Program at American Association for Cancer Research (AACR) Annual Meeting 2022",
+              "url": "https://www.businesswire.com/news/home/20220408005014/en/Syros-Presents-New-Preclinical-Data-on-its-CDK12-Inhibitor-Program-at-American-Association-for-Cancer-Research-AACR-Annual-Meeting-2022?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "- **Title:** Carrick Therapeutics Announces U.S. FDA Clearance of IND for CT7439, a First-In-Class Inhibitor of CDK12/13  \n  **URL:** `https://www.globenewswire.com/fr/news-release/2023/09/07/2739242/0/en/Carrick-Therapeutics-Announces-U-S-FDA-Clearance-of-IND-for-CT7439-a-First-In-Class-Inhibitor-of-CDK12-13.html` ([globenewswire.com](https://www.globenewswire.com/fr/news-release/2023/09/07/2739242/0/en/Carrick-Therapeutics-Announces-U-S-FDA-Clearance-of-IND-for-CT7439-a-First-In-Class-Inhibitor-of-CDK12-13.html?utm_source=openai))  \n  **Direct quote snippets:**\n  - “Investigational New Drug (IND) application for **CT7439**, a novel cyclin dependent kinase 12/13 (**CDK12/13**) inhibitor.” ([globenewswire.com](https://www.globenewswire.com/fr/news-release/2023/09/07/2739242/0/en/Carrick-Therapeutics-Announces-U-S-FDA-Clearance-of-IND-for-CT7439-a-First-In-Class-Inhibitor-of-CDK12-13.html?utm_source=openai))  \n  - “advanced solid tumors, including **breast**, **ovarian** and **Ewing's Sarcoma**.” ([globenewswire.com](https://www.globenewswire.com/fr/news-release/2023/09/07/2739242/0/en/Carrick-Therapeutics-Announces-U-S-FDA-Clearance-of-IND-for-CT7439-a-First-In-Class-Inhibitor-of-CDK12-13.html?utm_source=openai))  \n\n- **Title:** Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor)  \n  **URL:** `https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html` ([globenewswire.com](https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html?utm_source=openai))  \n  **Direct quote snippets:**\n  - “evaluating **CT7439**, a novel cyclin dependent kinase 12/13 (**CDK12/13**) inhibitor / **Cyclin-K glue-degrader**.” ([globenewswire.com](https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html?utm_source=openai))  \n  - “study ID: **NCT06600789**.” ([globenewswire.com](https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html?utm_source=openai))  \n\n- **Title:** FDA Clears IND Application for First-in-Class CDK12/13 Inhibitor  \n  **URL:** `https://www.cancernetwork.com/view/fda-clears-ind-application-for-first-in-class-cdk12-13-inhibitor` ([cancernetwork.com](https://www.cancernetwork.com/view/fda-clears-ind-application-for-first-in-class-cdk12-13-inhibitor?utm_source=openai))  \n  **Direct quote snippets:**\n  - “**CDK12/13 inhibitor CT7439**” ([cancernetwork.com](https://www.cancernetwork.com/view/fda-clears-ind-application-for-first-in-class-cdk12-13-inhibitor?utm_source=openai))  \n  - “**breast cancer**, **ovarian cancer**, and **Ewing’s sarcoma**.” ([cancernetwork.com](https://www.cancernetwork.com/view/fda-clears-ind-application-for-first-in-class-cdk12-13-inhibitor?utm_source=openai))  \n\n- **Title:** Syros Presents New Preclinical Data on its CDK12 Inhibitor Program at American Association for Cancer Research (AACR) Annual Meeting 2022  \n  **URL:** `https://www.businesswire.com/news/home/20220408005014/en/Syros-Presents-New-Preclinical-Data-on-its-CDK12-Inhibitor-Program-at-American-Association-for-Cancer-Research-AACR-Annual-Meeting-2022` ([businesswire.com](https://www.businesswire.com/news/home/20220408005014/en/Syros-Presents-New-Preclinical-Data-on-its-CDK12-Inhibitor-Program-at-American-Association-for-Cancer-Research-AACR-Annual-Meeting-2022?utm_source=openai))  \n  **Direct quote snippets:**\n  - “in combination with the DNA damaging agent, **lurbinectedin**, and the PARP inhibitor, **olaparib**” ([businesswire.com](https://www.businesswire.com/news/home/20220408005014/en/Syros-Presents-New-Preclinical-Data-on-its-CDK12-Inhibitor-Program-at-American-Association-for-Cancer-Research-AACR-Annual-Meeting-2022?utm_source=openai))"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 27565,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 4939,
+    "output_tokens_details": {
+      "reasoning_tokens": 4198
+    },
+    "total_tokens": 32504
+  },
+  "user": null,
+  "metadata": {}
+}

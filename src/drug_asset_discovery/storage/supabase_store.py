@@ -5,9 +5,12 @@ from dataclasses import dataclass
 from datetime import datetime, timezone
 from typing import Any
 
+import httpx
 from supabase import Client, create_client
+from supabase.lib.client_options import SyncClientOptions
 
 from drug_asset_discovery.models.domain import Candidate, Mention, ValidatedAsset
+from drug_asset_discovery.utils.retry import RetryConfig, async_retry
 
 
 def _utc_now_iso() -> str:
@@ -28,12 +31,29 @@ class SupabaseStore:
     url: str
     service_role_key: str
     client: Client | None = None
+    postgrest_timeout_s: int = 300
+    max_concurrent_requests: int = 8
+    _sem: asyncio.Semaphore | None = None
 
     def __post_init__(self) -> None:
-        self.client = create_client(self.url, self.service_role_key)
+        # Supabase client is sync; we call it via asyncio.to_thread().
+        # Increase PostgREST timeout to tolerate bursts and add an async-side concurrency cap.
+        self.client = create_client(
+            self.url,
+            self.service_role_key,
+            options=SyncClientOptions(postgrest_client_timeout=httpx.Timeout(self.postgrest_timeout_s)),
+        )
+        self._sem = asyncio.Semaphore(self.max_concurrent_requests)
 
+    @async_retry(RetryConfig(attempts=8, min_seconds=1.0, max_seconds=60.0))
     async def _to_thread(self, fn):
-        return await asyncio.to_thread(fn)
+        # Prevent overloading Supabase/PostgREST with too many concurrent requests.
+        assert self._sem is not None
+        await self._sem.acquire()
+        try:
+            return await asyncio.to_thread(fn)
+        finally:
+            self._sem.release()
 
     async def health_check(self) -> bool:
         """

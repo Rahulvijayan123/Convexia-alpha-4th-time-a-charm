@@ -1,0 +1,142 @@
+{
+  "id": "resp_08a51b324e96b91a00693c914f37808197b46ef209959d047c",
+  "object": "response",
+  "created_at": 1765577039,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_08a51b324e96b91a00693c914fd204819791ea027893d6cf19",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08a51b324e96b91a00693c9155ddec81979196df1f19613c0f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12 PROTAC degrader triple negative breast cancer"
+      }
+    },
+    {
+      "id": "rs_08a51b324e96b91a00693c91578f948197aa55c12f798b6fb8",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08a51b324e96b91a00693c91794cd48197999c1ec222542d9f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35938508/"
+      }
+    },
+    {
+      "id": "rs_08a51b324e96b91a00693c917a56ac8197b5ccbc4b3eb63629",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08a51b324e96b91a00693c918b56748197b454ec4bab554bde",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34864331/"
+      }
+    },
+    {
+      "id": "rs_08a51b324e96b91a00693c918c638081978d1b9b7d94732fee",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08a51b324e96b91a00693c918e86f08197b86eed23b61a5f24",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39388374/"
+      }
+    },
+    {
+      "id": "rs_08a51b324e96b91a00693c918fa9cc81979aebd87813e2e656",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_08a51b324e96b91a00693c91b86e048197a9cc90c46c1ff7c5",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": false,\n  \"assets\": [],\n  \"rejected_reason\": \"Candidate identifier \\\"PROTAC degrader\\\" is a generic modality/class term (not a specific drug/asset code, trial ID, or patent ID), so sponsor/target/indication/development stage/geography cannot be uniquely verified from sources.\"\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 24740,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 6737,
+    "output_tokens_details": {
+      "reasoning_tokens": 6661
+    },
+    "total_tokens": 31477
+  },
+  "user": null,
+  "metadata": {}
+}

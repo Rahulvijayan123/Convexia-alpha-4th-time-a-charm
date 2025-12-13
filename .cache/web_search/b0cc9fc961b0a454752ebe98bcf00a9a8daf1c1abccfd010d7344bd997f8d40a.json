@@ -1,0 +1,440 @@
+{
+  "id": "resp_023173eebf394b9900693c900149a48194bb26cc11820f5dea",
+  "object": "response",
+  "created_at": 1765576705,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_023173eebf394b9900693c9001a9048194b8c5f8e4c180cc54",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_023173eebf394b9900693c90032be48194823240f938d1692d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "cyclin-dependent kinase 12 degrader heterobifunctional patent"
+      }
+    },
+    {
+      "id": "rs_023173eebf394b9900693c9004e4b88194a6e963a11279df7b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_023173eebf394b9900693c900893f08194aeb2df31a1e4185d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "WO CDK12 degrader PROTAC patent"
+      }
+    },
+    {
+      "id": "rs_023173eebf394b9900693c900ae5a08194a45ebcf9190b4458",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_023173eebf394b9900693c900cabf08194922621da9be43148",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "BSJ-4-116 patent"
+      }
+    },
+    {
+      "id": "rs_023173eebf394b9900693c900ead4081948540e297b93dc3ed",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_023173eebf394b9900693c9010078c819484d1c41ce1d226e2",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "BSJ-4-116 WO patent CDK12 degrader"
+      }
+    },
+    {
+      "id": "rs_023173eebf394b9900693c9012df888194a41762ca93a2f37c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_023173eebf394b9900693c9014523c819485b7d11c88095f67",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"BSJ-4-116\" site:patents.google.com"
+      }
+    },
+    {
+      "id": "rs_023173eebf394b9900693c9016e800819486234a58a4465fc6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_023173eebf394b9900693c9018e42c81948790fb02e5d8a9ee",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://synapse.patsnap.com/drug/88b11a4a064e4408a67ca5531fbef371"
+      }
+    },
+    {
+      "id": "rs_023173eebf394b9900693c901a23148194a90b1db1c85e920b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_023173eebf394b9900693c901c2ca48194b026a7b6d46eb5b3",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"cyclin-dependent kinase 12\" degrader WO"
+      }
+    },
+    {
+      "id": "rs_023173eebf394b9900693c9020d83c8194bb241ea4abaefa25",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_023173eebf394b9900693c902277ec819486b59f2ae2763eda",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/EP3958861A4/en.2009"
+      }
+    },
+    {
+      "id": "rs_023173eebf394b9900693c9023cf64819481e5c53e8bbadd96",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_023173eebf394b9900693c9026f4b08194a7cfe7f269dd1fdc",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "CDK12",
+        "url": "https://patents.google.com/patent/WO2024173412/en"
+      }
+    },
+    {
+      "id": "rs_023173eebf394b9900693c902929d48194af5d7bdb898eea75",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_023173eebf394b9900693c902cf8388194a462982b84a1d5b2",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/WO2020219650A1/en.2009"
+      }
+    },
+    {
+      "id": "rs_023173eebf394b9900693c902e88988194be66ea6f171308db",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_023173eebf394b9900693c90337bb4819482de126f9d2be4c5",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "heterobifunctional",
+        "url": "https://patents.google.com/patent/WO2020219650A1/en.2009"
+      }
+    },
+    {
+      "id": "rs_023173eebf394b9900693c9035ee388194b4d7a2f5aecf3e9a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_023173eebf394b9900693c903962588194b5bb98fdf7ea24bd",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patentimages.storage.googleapis.com/33/1c/33/c8b1c9ac3a2654/WO2020219650A1.pdf"
+      }
+    },
+    {
+      "id": "rs_023173eebf394b9900693c903c1a688194a9a005ef649f99b9",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_023173eebf394b9900693c903dea8c8194bcc60e3173c9d93e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "heterobifunctional",
+        "url": "https://patentimages.storage.googleapis.com/33/1c/33/c8b1c9ac3a2654/WO2020219650A1.pdf"
+      }
+    },
+    {
+      "id": "rs_023173eebf394b9900693c90415108819493853a1f38c927bf",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_023173eebf394b9900693c905a191c819486d3309f3c67be75",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 255,
+              "start_index": 178,
+              "title": "EP3958861A4 - \n        DEGRADERS OF CYCLIN DEPENDENT KINASE 12 (CDK12) AND USES THEREOF\n       \n        - Google Patents",
+              "url": "https://patents.google.com/patent/EP3958861A4/en.2009"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 449,
+              "start_index": 372,
+              "title": "EP3958861A4 - \n        DEGRADERS OF CYCLIN DEPENDENT KINASE 12 (CDK12) AND USES THEREOF\n       \n        - Google Patents",
+              "url": "https://patents.google.com/patent/EP3958861A4/en.2009"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 576,
+              "start_index": 499,
+              "title": "EP3958861A4 - \n        DEGRADERS OF CYCLIN DEPENDENT KINASE 12 (CDK12) AND USES THEREOF\n       \n        - Google Patents",
+              "url": "https://patents.google.com/patent/EP3958861A4/en.2009"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 698,
+              "start_index": 621,
+              "title": "EP3958861A4 - \n        DEGRADERS OF CYCLIN DEPENDENT KINASE 12 (CDK12) AND USES THEREOF\n       \n        - Google Patents",
+              "url": "https://patents.google.com/patent/EP3958861A4/en.2009"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 966,
+              "start_index": 886,
+              "title": "WO2020219650A1 - Degraders of cyclin-dependent kinase 12 (cdk12) and uses thereof \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2020219650A1/en.2009"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1166,
+              "start_index": 1086,
+              "title": "WO2020219650A1 - Degraders of cyclin-dependent kinase 12 (cdk12) and uses thereof \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2020219650A1/en.2009"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1302,
+              "start_index": 1222,
+              "title": "WO2020219650A1 - Degraders of cyclin-dependent kinase 12 (cdk12) and uses thereof \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2020219650A1/en.2009"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1423,
+              "start_index": 1343,
+              "title": "WO2020219650A1 - Degraders of cyclin-dependent kinase 12 (cdk12) and uses thereof \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2020219650A1/en.2009"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1793,
+              "start_index": 1665,
+              "title": "US020220227734A120220721",
+              "url": "https://patentimages.storage.googleapis.com/1b/eb/3c/3a32cec40e3a5e/US20220227734A1.pdf"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1990,
+              "start_index": 1862,
+              "title": "US020220227734A120220721",
+              "url": "https://patentimages.storage.googleapis.com/1b/eb/3c/3a32cec40e3a5e/US20220227734A1.pdf"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2222,
+              "start_index": 2094,
+              "title": "US020220227734A120220721",
+              "url": "https://patentimages.storage.googleapis.com/1b/eb/3c/3a32cec40e3a5e/US20220227734A1.pdf"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2427,
+              "start_index": 2299,
+              "title": "US020220227734A120220721",
+              "url": "https://patentimages.storage.googleapis.com/1b/eb/3c/3a32cec40e3a5e/US20220227734A1.pdf"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2663,
+              "start_index": 2575,
+              "title": "Discovery and resistance mechanism of a selective CDK12 degrader - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/33753926/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2827,
+              "start_index": 2739,
+              "title": "Discovery and resistance mechanism of a selective CDK12 degrader - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/33753926/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2993,
+              "start_index": 2905,
+              "title": "Discovery and resistance mechanism of a selective CDK12 degrader - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/33753926/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3297,
+              "start_index": 3209,
+              "title": "Noncovalent CDK12/13 dual inhibitors-based PROTACs degrade CDK12-Cyclin K complex and induce synthetic lethality with PARP inhibitor - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34864331/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3474,
+              "start_index": 3386,
+              "title": "Noncovalent CDK12/13 dual inhibitors-based PROTACs degrade CDK12-Cyclin K complex and induce synthetic lethality with PARP inhibitor - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34864331/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3630,
+              "start_index": 3542,
+              "title": "Noncovalent CDK12/13 dual inhibitors-based PROTACs degrade CDK12-Cyclin K complex and induce synthetic lethality with PARP inhibitor - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34864331/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3884,
+              "start_index": 3796,
+              "title": "Discovery of a Highly Potent and Selective Dual PROTAC Degrader of CDK12 and CDK13 - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/35938508/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4071,
+              "start_index": 3983,
+              "title": "Discovery of a Highly Potent and Selective Dual PROTAC Degrader of CDK12 and CDK13 - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/35938508/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4207,
+              "start_index": 4119,
+              "title": "Discovery of a Highly Potent and Selective Dual PROTAC Degrader of CDK12 and CDK13 - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/35938508/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4499,
+              "start_index": 4411,
+              "title": "Development of an orally bioavailable CDK12/13 degrader and induction of synthetic lethality with AKT pathway inhibition - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39353441/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4670,
+              "start_index": 4582,
+              "title": "Development of an orally bioavailable CDK12/13 degrader and induction of synthetic lethality with AKT pathway inhibition - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39353441/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4816,
+              "start_index": 4728,
+              "title": "Development of an orally bioavailable CDK12/13 degrader and induction of synthetic lethality with AKT pathway inhibition - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39353441/?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "- **Title:** EP3958861A4 - DEGRADERS OF CYCLIN DEPENDENT KINASE 12 (CDK12) AND USES THEREOF - Google Patents  \n  **URL:** `https://patents.google.com/patent/EP3958861A4/en.2009` ([patents.google.com](https://patents.google.com/patent/EP3958861A4/en.2009))  \n  **Direct quote snippets:**\n  - “EP3958861A4 - DEGRADERS OF CYCLIN DEPENDENT KINASE 12 (CDK12) AND USES THEREOF” ([patents.google.com](https://patents.google.com/patent/EP3958861A4/en.2009))  \n  - “PCT/US2020/029483  WO2020219650A1 ( en )” ([patents.google.com](https://patents.google.com/patent/EP3958861A4/en.2009))  \n  - “US (1)  US20220227734A1 ( en.2009 )” ([patents.google.com](https://patents.google.com/patent/EP3958861A4/en.2009))  \n\n- **Title:** WO2020219650A1 - Degraders of cyclin-dependent kinase 12 (cdk12) and uses thereof - Google Patents  \n  **URL:** `https://patents.google.com/patent/WO2020219650A1/en.2009` ([patents.google.com](https://patents.google.com/patent/WO2020219650A1/en.2009))  \n  **Direct quote snippets:**\n  - “WO2020219650A1 - Degraders of cyclin-dependent kinase 12 (cdk12) and uses thereof” ([patents.google.com](https://patents.google.com/patent/WO2020219650A1/en.2009))  \n  - “WO2020219650A1 PCT/US2020/029483 US2020029483W” ([patents.google.com](https://patents.google.com/patent/WO2020219650A1/en.2009))  \n  - “Publication date     2020-10-29” ([patents.google.com](https://patents.google.com/patent/WO2020219650A1/en.2009))  \n\n- **Title:** US20220227734A1 (Patent Application Publication) — DEGRADERS OF CYCLIN-DEPENDENT KINASE 12 (CDK12) AND USES THEREOF (PDF)  \n  **URL:** `https://patentimages.storage.googleapis.com/1b/eb/3c/3a32cec40e3a5e/US20220227734A1.pdf` ([patentimages.storage.googleapis.com](https://patentimages.storage.googleapis.com/1b/eb/3c/3a32cec40e3a5e/US20220227734A1.pdf))  \n  **Direct quote snippets:**\n  - “Pub . No .: US 2022/0227734 A1” ([patentimages.storage.googleapis.com](https://patentimages.storage.googleapis.com/1b/eb/3c/3a32cec40e3a5e/US20220227734A1.pdf))  \n  - “Provided herein are bifunctional compounds with a moiety ( e.g. , lenalidomide , thalidomide )” ([patentimages.storage.googleapis.com](https://patentimages.storage.googleapis.com/1b/eb/3c/3a32cec40e3a5e/US20220227734A1.pdf))  \n  - “( e.g. , Cereblon ) … ( e.g. , CDK ( e.g. , CDK9 and / or CDK12 ) )” ([patentimages.storage.googleapis.com](https://patentimages.storage.googleapis.com/1b/eb/3c/3a32cec40e3a5e/US20220227734A1.pdf))  \n\n- **Title:** Discovery and resistance mechanism of a selective CDK12 degrader - PubMed  \n  **URL:** `https://pubmed.ncbi.nlm.nih.gov/33753926/` ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/33753926/?utm_source=openai))  \n  **Direct quote snippets:**\n  - “a CDK12-specific degrader, BSJ-4-116.” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/33753926/?utm_source=openai))  \n  - “Cyclin-dependent kinase 12 (CDK12) is an emerging therapeutic target” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/33753926/?utm_source=openai))  \n\n- **Title:** Noncovalent CDK12/13 dual inhibitors-based PROTACs degrade CDK12-Cyclin K complex and induce synthetic lethality with PARP inhibitor - PubMed  \n  **URL:** `https://pubmed.ncbi.nlm.nih.gov/34864331/` ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/34864331/?utm_source=openai))  \n  **Direct quote snippets:**\n  - “we have synthesized a potent PROTAC degrader PP-C8” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/34864331/?utm_source=openai))  \n  - “PP-C8 … demonstrated its specificity for CDK12 over CDK13.” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/34864331/?utm_source=openai))  \n\n- **Title:** Discovery of a Highly Potent and Selective Dual PROTAC Degrader of CDK12 and CDK13 - PubMed  \n  **URL:** `https://pubmed.ncbi.nlm.nih.gov/35938508/` ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/35938508/?utm_source=openai))  \n  **Direct quote snippets:**\n  - “The optimal compound 7f effectively degraded CDK12 and CDK13” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/35938508/?utm_source=openai))  \n  - “proteolysis-targeting chimera (PROTAC)” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/35938508/?utm_source=openai))  \n\n- **Title:** Development of an orally bioavailable CDK12/13 degrader and induction of synthetic lethality with AKT pathway inhibition - PubMed  \n  **URL:** `https://pubmed.ncbi.nlm.nih.gov/39353441/` ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/39353441/?utm_source=openai))  \n  **Direct quote snippets:**\n  - “a selective CDK12/13 PROTAC degrader, YJ9069” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/39353441/?utm_source=openai))  \n  - “an orally bioavailable CDK12/13 degrader, YJ1206” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/39353441/?utm_source=openai))"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 58722,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 6066,
+    "output_tokens_details": {
+      "reasoning_tokens": 4801
+    },
+    "total_tokens": 64788
+  },
+  "user": null,
+  "metadata": {}
+}

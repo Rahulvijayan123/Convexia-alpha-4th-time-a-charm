@@ -1,0 +1,354 @@
+{
+  "id": "resp_0a1ce40754fed15c00693c8bf09474819092ce9bfb2d280a6e",
+  "object": "response",
+  "created_at": 1765575664,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0a1ce40754fed15c00693c8bf0e4ec8190ad86a8c84c728caa",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a1ce40754fed15c00693c8bf693c881908644e653f4f6da72",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "Carrick Therapeutics CDK12"
+      }
+    },
+    {
+      "id": "rs_0a1ce40754fed15c00693c8bf823748190b85cbbea67a576a6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a1ce40754fed15c00693c8c025ab88190823930178918b13f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT06600789 CT7439"
+      }
+    },
+    {
+      "id": "rs_0a1ce40754fed15c00693c8c0539e08190867ddf1c6a7dd1ee",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a1ce40754fed15c00693c8c0baab4819094c830b38c99db38",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0a1ce40754fed15c00693c8c0c5d608190bd0194346364649f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a1ce40754fed15c00693c8c11aee48190a44322ef53c179c8",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_0a1ce40754fed15c00693c8c131f708190851e7406f1fd3332",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a1ce40754fed15c00693c8c145b848190bb8130c290d29c45",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "clinicaltrials.gov api v2 studies NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0a1ce40754fed15c00693c8c180a588190a4e45fe81923dd22",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a1ce40754fed15c00693c8c1ab03c819086352709cef3ba5a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "clinicaltrials.gov api legacy public-xml NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0a1ce40754fed15c00693c8c1e20488190be5bdfacf26a356e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a1ce40754fed15c00693c8c1f0e7081908b7498e93708f36b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"api/legacy/public-xml/NCT06600789\""
+      }
+    },
+    {
+      "id": "rs_0a1ce40754fed15c00693c8c21d61081908224191049c6eca7",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a1ce40754fed15c00693c8c3393888190af7362b43c12b40e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "https://clinicaltrials.gov/ct2/show/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0a1ce40754fed15c00693c8c3608c48190b68f3dadbe394be4",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a1ce40754fed15c00693c8c45771081908e1eab49bb5a7780",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://ichgcp.net/clinical-trials-registry/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0a1ce40754fed15c00693c8c46ead881909a27e6e9f91ecb76",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a1ce40754fed15c00693c8c4a4bd48190b544763eea4b334c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor"
+      }
+    },
+    {
+      "id": "rs_0a1ce40754fed15c00693c8c4b8e5c8190b3a9f590fb5a9fd7",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a1ce40754fed15c00693c8c506fec8190a0f728cf2312576e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_0a1ce40754fed15c00693c8c51c47481909b75f463bf132d74",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a1ce40754fed15c00693c8c9461c88190b8777587ee07b813",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "Sponsor",
+        "url": "https://ichgcp.net/clinical-trials-registry/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0a1ce40754fed15c00693c8c9730a8819090573cff41003068",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a1ce40754fed15c00693c8ce038ac81908c277195fe7189a9",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CT7439 TNBC"
+      }
+    },
+    {
+      "id": "rs_0a1ce40754fed15c00693c8ce524808190922b4b2a2b6c61ed",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a1ce40754fed15c00693c8cef066c819090cd310c47d9c028",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "breast",
+        "url": "https://ichgcp.net/clinical-trials-registry/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0a1ce40754fed15c00693c8cf201f88190bd6e0fba74ed11a5",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a1ce40754fed15c00693c8cffdc348190b1047b9b03f9df4c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://link.springer.com/article/10.1186/s13058-025-02101-x"
+      }
+    },
+    {
+      "id": "rs_0a1ce40754fed15c00693c8d01eb308190af95880c1d4bbdd6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a1ce40754fed15c00693c8d02bde08190b9f3eec6f992299a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "CT7439",
+        "url": "https://link.springer.com/article/10.1186/s13058-025-02101-x"
+      }
+    },
+    {
+      "id": "rs_0a1ce40754fed15c00693c8d060c94819093a0e7a03fc04386",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a1ce40754fed15c00693c8d23895881909d3ad95ac210f3f0",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/"
+      }
+    },
+    {
+      "id": "rs_0a1ce40754fed15c00693c8d24f29c819091e5747eb60efcd2",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a1ce40754fed15c00693c8d292cec819097f3624511ada4f0",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "ct2/show",
+        "url": "https://ichgcp.net/clinical-trials-registry/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0a1ce40754fed15c00693c8d2d876c8190a75119ff3cfed188",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0a1ce40754fed15c00693c8d349a508190862f97ed221397dd",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.careacross.com/clinical-trials/trial/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0a1ce40754fed15c00693c8d36198c8190a2156fc60b384316",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0a1ce40754fed15c00693c8d4cb9888190beff3062e32a5447",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": true,\n  \"assets\": [\n    {\n      \"drug_name_code\": \"CT7439\",\n      \"sponsor\": \"Carrick Therapeutics Limited\",\n      \"target\": \"CDK12/13; Cyclin-K\",\n      \"modality\": \"CDK12/13 inhibitor and Cyclin-K glue degrader\",\n      \"indication\": \"Advanced solid tumors / solid malignancies (including breast cancer, ovarian cancer, Ewing’s sarcoma)\",\n      \"development_stage\": \"Phase 1/2\",\n      \"geography\": \"United States; United Kingdom\",\n      \"sources\": [\n        \"https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor\",\n        \"https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase\",\n        \"https://ichgcp.net/clinical-trials-registry/NCT06600789\",\n        \"https://link.springer.com/article/10.1186/s13058-025-02101-x\"\n      ]\n    }\n  ],\n  \"rejected_reason\": null\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 72487,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 13243,
+    "output_tokens_details": {
+      "reasoning_tokens": 12987
+    },
+    "total_tokens": 85730
+  },
+  "user": null,
+  "metadata": {}
+}

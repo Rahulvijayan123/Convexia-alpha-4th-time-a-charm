@@ -1,0 +1,353 @@
+{
+  "id": "resp_0788face59bd8d9100693c941e214c81959beb9ddb008f876f",
+  "object": "response",
+  "created_at": 1765577758,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0788face59bd8d9100693c941e81f48195bc7587228a84854d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0788face59bd8d9100693c942385c081958b4a108e3fedfa04",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"imidazo[1,2-b]pyridazine\" CDK12 inhibitor"
+      }
+    },
+    {
+      "id": "rs_0788face59bd8d9100693c9426af3481959935f2512a1c240e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0788face59bd8d9100693c942c20a48195b9f0b283e55a9caa",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/WO2024039767A1/en"
+      }
+    },
+    {
+      "id": "rs_0788face59bd8d9100693c942cf0508195822874bebbe45901",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0788face59bd8d9100693c9430ca988195adbba94b1a0413c4",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "triple",
+        "url": "https://patents.google.com/patent/WO2024039767A1/en"
+      }
+    },
+    {
+      "id": "rs_0788face59bd8d9100693c9431f7d481958f9d40b09197124c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0788face59bd8d9100693c94460e4081959057b7477eb4ada0",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39955845/"
+      }
+    },
+    {
+      "id": "rs_0788face59bd8d9100693c9447090481958b1a152977898eac",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0788face59bd8d9100693c9447c4408195b28fdbff2eb441c2",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "Abstract",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39955845/"
+      }
+    },
+    {
+      "id": "rs_0788face59bd8d9100693c9448b75081959174832d951664ee",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0788face59bd8d9100693c94613c108195b8f85acbf29387fe",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "triple-negative",
+        "url": "https://patents.google.com/patent/WO2024039767A1/en"
+      }
+    },
+    {
+      "id": "rs_0788face59bd8d9100693c9462c18c81958a5eb736ffa588c3",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0788face59bd8d9100693c947b13d08195aacf95bff1f5db26",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_0788face59bd8d9100693c947bc424819582f6c437fa1ef7f0",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0788face59bd8d9100693c94894ba08195abf8ffb2e846601c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_0788face59bd8d9100693c948a5e1c8195ba488db474383310",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0788face59bd8d9100693c94abfb808195af18b36fdf186782",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_0788face59bd8d9100693c94ad143c81959c027aa67238c9f6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0788face59bd8d9100693c94ae40a081958fef8198f3235170",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"117378\" \"imidazo[1,2-b]pyridazine\" CDK12"
+      }
+    },
+    {
+      "id": "rs_0788face59bd8d9100693c94b0cf0c81958a4f86b92863d41f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0788face59bd8d9100693c94c0dfe88195b83db80c94a41773",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_0788face59bd8d9100693c94c1e43c8195864e02af20858196",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0788face59bd8d9100693c94c2bcd081959006eaa3e90f2775",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://cymitquimica.com/products/TM-T205272/cdk1213-in-2/"
+      }
+    },
+    {
+      "id": "rs_0788face59bd8d9100693c94c3b69081959ffd35481ae09d80",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0788face59bd8d9100693c94c8ab708195bc1269069dd1881a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.benchchem.com/product/b3097305"
+      }
+    },
+    {
+      "id": "rs_0788face59bd8d9100693c94cb4fc881958973ed08be85ca8d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0788face59bd8d9100693c9512217481959e87ad697c21f839",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CDK12/13-IN-2\" \"imidazo[1,2-b]pyridazine\""
+      }
+    },
+    {
+      "id": "rs_0788face59bd8d9100693c9516badc8195946ffccc9343f7aa",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0788face59bd8d9100693c951c67188195bbcec10967bf1bed",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubs.rsc.org/en/content/articlehtml/2024/cb/d4cb00190g"
+      }
+    },
+    {
+      "id": "rs_0788face59bd8d9100693c951d58848195be27245f0a966b35",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0788face59bd8d9100693c951fe0988195a739b65d61cdb30a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "imidazo[1,2-b]pyridazine",
+        "url": "https://pubs.rsc.org/en/content/articlehtml/2024/cb/d4cb00190g"
+      }
+    },
+    {
+      "id": "rs_0788face59bd8d9100693c9521a51c81958377ed19141d76ea",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0788face59bd8d9100693c955378e481958e4c43a2df86166f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "Disclosed are inhibitors",
+        "url": "https://patents.google.com/patent/WO2024039767A1/en"
+      }
+    },
+    {
+      "id": "rs_0788face59bd8d9100693c95552f6c8195b421dd8dfc8ba6ae",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0788face59bd8d9100693c955768fc8195b167e7fd8be9a384",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubs.rsc.org/en/content/articlehtml/2024/cb/d4cb00190g"
+      }
+    },
+    {
+      "id": "rs_0788face59bd8d9100693c95586828819594f1985fda526e5a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0788face59bd8d9100693c957329bc81959fb460e4f49a9b35",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.szabo-scandic.com/en/cdk12-13-in-2"
+      }
+    },
+    {
+      "id": "rs_0788face59bd8d9100693c95740f8c819591de6cb761874a9a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0788face59bd8d9100693c958aabfc8195bb8d10fa4663c877",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": true,\n  \"assets\": [\n    {\n      \"drug_name_code\": \"imidazo[1,2-b]pyridazine derivatives (compound 24)\",\n      \"sponsor\": \"Shanghai Institute of Materia Medica, Chinese Academy of Sciences\",\n      \"target\": \"CDK12/13\",\n      \"modality\": \"Covalent small-molecule inhibitor\",\n      \"indication\": \"Triple-negative breast cancer (TNBC)\",\n      \"development_stage\": \"Discovery / lead (in vitro TNBC cell-line activity)\",\n      \"geography\": \"China\",\n      \"sources\": [\n        \"https://pubmed.ncbi.nlm.nih.gov/39955845/\",\n        \"https://www.szabo-scandic.com/en/cdk12-13-in-2\"\n      ]\n    },\n    {\n      \"drug_name_code\": \"MR-1110\",\n      \"sponsor\": \"Moffitt Cancer Center\",\n      \"target\": \"Cyclin K (CCNK) degradation via CDK12–DDB1 ternary complex\",\n      \"modality\": \"Molecular glue degrader (CDK12–DDB1 interaction enhancer)\",\n      \"indication\": \"Cancers associated with dysregulated cyclin K activity\",\n      \"development_stage\": \"Preclinical (cell-line degradation assays; mechanism/structure-guided design)\",\n      \"geography\": \"USA (Tampa, Florida)\",\n      \"sources\": [\n        \"https://pubs.rsc.org/en/content/articlehtml/2024/cb/d4cb00190g\"\n      ]\n    },\n    {\n      \"drug_name_code\": \"WO2024039767A1 (imidazo[1,2-b]pyridazine derivatives)\",\n      \"sponsor\": \"H Lee Moffitt Cancer Center and Research Institute Inc\",\n      \"target\": \"CDK12/13\",\n      \"modality\": \"Small-molecule inhibitor\",\n      \"indication\": \"Cancer (including breast cancer)\",\n      \"development_stage\": \"Patent published (WO; 2024-02-22)\",\n      \"geography\": \"International (WIPO/PCT)\",\n      \"sources\": [\n        \"https://patents.google.com/patent/WO2024039767A1/en\"\n      ]\n    }\n  ],\n  \"rejected_reason\": null\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 85341,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 25162,
+    "output_tokens_details": {
+      "reasoning_tokens": 24672
+    },
+    "total_tokens": 110503
+  },
+  "user": null,
+  "metadata": {}
+}

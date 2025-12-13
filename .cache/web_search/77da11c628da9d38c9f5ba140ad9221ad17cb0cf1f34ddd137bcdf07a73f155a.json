@@ -1,0 +1,572 @@
+{
+  "id": "resp_04f3c5fa11fb238200693c8aaadba081908e50046181753d0f",
+  "object": "response",
+  "created_at": 1765575338,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_04f3c5fa11fb238200693c8aab3f948190817a0e06ee894c16",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04f3c5fa11fb238200693c8aadd0e881909d18946da75bee60",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12/13 inhibitor triple negative breast cancer press release trial"
+      }
+    },
+    {
+      "id": "rs_04f3c5fa11fb238200693c8ab0daf48190b31c3220da073eb2",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04f3c5fa11fb238200693c8ab32f10819088c9fa5ba68bab64",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT06600789 CT7439 CDK12/13 trial breast"
+      }
+    },
+    {
+      "id": "rs_04f3c5fa11fb238200693c8ab556c88190a15caf46231df6b5",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04f3c5fa11fb238200693c8ab5d7b08190bd3923f3d6abfede",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov NCT06600789"
+      }
+    },
+    {
+      "id": "rs_04f3c5fa11fb238200693c8ab7ae00819095a33cd689de7587",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04f3c5fa11fb238200693c8abf99288190a850116dad656755",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html"
+      }
+    },
+    {
+      "id": "rs_04f3c5fa11fb238200693c8ac29b4c8190953d4c9846a58b0e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04f3c5fa11fb238200693c8ac3508881908f1dcc30d21df0ad",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "ZLC491",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39388374/"
+      }
+    },
+    {
+      "id": "rs_04f3c5fa11fb238200693c8ac4cc748190880a31a28e96c70a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04f3c5fa11fb238200693c8ac72b948190b79ac5b5d1934e82",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "Here, we report",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39388374/"
+      }
+    },
+    {
+      "id": "rs_04f3c5fa11fb238200693c8ac9c1908190ae5cc53513e02107",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04f3c5fa11fb238200693c8acbab5c8190a3d56ce49ce8b18a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_04f3c5fa11fb238200693c8ace6a0881908d8d957eecdf5778",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04f3c5fa11fb238200693c8ad060388190be65a719bafe8c28",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "https://clinicaltrials.gov/study/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_04f3c5fa11fb238200693c8ad22fd88190b654a9e5fc6e8f09",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04f3c5fa11fb238200693c8ad3bd508190b226d30c8cd87137",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_04f3c5fa11fb238200693c8ad49b408190a18765d8cee58b60",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04f3c5fa11fb238200693c8ad783b88190972e33f0876ea472",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38104154/"
+      }
+    },
+    {
+      "id": "rs_04f3c5fa11fb238200693c8ad8bc0481909d9cdd3c8a8eec01",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04f3c5fa11fb238200693c8ad90e6c81908561275251ac51d8",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "7f",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35938508/"
+      }
+    },
+    {
+      "id": "rs_04f3c5fa11fb238200693c8adb60a88190aeaffb799824c45d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04f3c5fa11fb238200693c8ae483508190bf1b955704d13e33",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://cdek.pharmacy.purdue.edu/trial/NCT06600789/"
+      }
+    },
+    {
+      "id": "rs_04f3c5fa11fb238200693c8ae61a408190a6cc8986d1a3e074",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04f3c5fa11fb238200693c8ae8e4d081909f3360637101f35e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12435847/"
+      }
+    },
+    {
+      "id": "rs_04f3c5fa11fb238200693c8ae9d7648190b8ad9514068dd347",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04f3c5fa11fb238200693c8aea71648190a5cd8673d5172f02",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "CT7439"
+      }
+    },
+    {
+      "id": "rs_04f3c5fa11fb238200693c8aec7db48190985854e546af5691",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04f3c5fa11fb238200693c8aee82508190912aa8ff8f79d99e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.cancernetwork.com/view/fda-clears-ind-application-for-first-in-class-cdk12-13-inhibitor"
+      }
+    },
+    {
+      "id": "rs_04f3c5fa11fb238200693c8aef6f448190b3830c38f4d83fca",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_04f3c5fa11fb238200693c8afb94108190afa5c2fd0f587fc9",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 514,
+              "start_index": 314,
+              "title": "Carrick Therapeutics Announces First Patient Dosed in Phase",
+              "url": "https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 882,
+              "start_index": 682,
+              "title": "Carrick Therapeutics Announces First Patient Dosed in Phase",
+              "url": "https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1185,
+              "start_index": 985,
+              "title": "Carrick Therapeutics Announces First Patient Dosed in Phase",
+              "url": "https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1508,
+              "start_index": 1308,
+              "title": "Carrick Therapeutics Announces First Patient Dosed in Phase",
+              "url": "https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1952,
+              "start_index": 1785,
+              "title": "Carrick Therapeutics Announces U.S. FDA Clearance of IND for CT7439, a First-In-Class Inhibitor of CDK12/13 :: Carrick Therapeutics, Inc.",
+              "url": "https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/20/carrick-therapeutics-announces-u-s-fda-clearance-of-ind"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2323,
+              "start_index": 2156,
+              "title": "Carrick Therapeutics Announces U.S. FDA Clearance of IND for CT7439, a First-In-Class Inhibitor of CDK12/13 :: Carrick Therapeutics, Inc.",
+              "url": "https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/20/carrick-therapeutics-announces-u-s-fda-clearance-of-ind"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2686,
+              "start_index": 2519,
+              "title": "Carrick Therapeutics Announces U.S. FDA Clearance of IND for CT7439, a First-In-Class Inhibitor of CDK12/13 :: Carrick Therapeutics, Inc.",
+              "url": "https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/20/carrick-therapeutics-announces-u-s-fda-clearance-of-ind"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2936,
+              "start_index": 2769,
+              "title": "Carrick Therapeutics Announces U.S. FDA Clearance of IND for CT7439, a First-In-Class Inhibitor of CDK12/13 :: Carrick Therapeutics, Inc.",
+              "url": "https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/20/carrick-therapeutics-announces-u-s-fda-clearance-of-ind"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3160,
+              "start_index": 3079,
+              "title": "\n\n    \n        Trial | NCT06600789\n    \n\n",
+              "url": "https://cdek.pharmacy.purdue.edu/trial/NCT06600789/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3336,
+              "start_index": 3255,
+              "title": "\n\n    \n        Trial | NCT06600789\n    \n\n",
+              "url": "https://cdek.pharmacy.purdue.edu/trial/NCT06600789/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3459,
+              "start_index": 3378,
+              "title": "\n\n    \n        Trial | NCT06600789\n    \n\n",
+              "url": "https://cdek.pharmacy.purdue.edu/trial/NCT06600789/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3563,
+              "start_index": 3482,
+              "title": "\n\n    \n        Trial | NCT06600789\n    \n\n",
+              "url": "https://cdek.pharmacy.purdue.edu/trial/NCT06600789/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3991,
+              "start_index": 3828,
+              "title": "A Modular Phase 1/2 Study With CT7439 in Participants With Solid Malignancies | Clinical Research Trial Listing",
+              "url": "https://www.centerwatch.com/clinical-trials/listings/NCT06600789/a-modular-phase-1-2-study-with-ct7439-in-participants-with-solid-malignancies"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4275,
+              "start_index": 4112,
+              "title": "A Modular Phase 1/2 Study With CT7439 in Participants With Solid Malignancies | Clinical Research Trial Listing",
+              "url": "https://www.centerwatch.com/clinical-trials/listings/NCT06600789/a-modular-phase-1-2-study-with-ct7439-in-participants-with-solid-malignancies"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4476,
+              "start_index": 4313,
+              "title": "A Modular Phase 1/2 Study With CT7439 in Participants With Solid Malignancies | Clinical Research Trial Listing",
+              "url": "https://www.centerwatch.com/clinical-trials/listings/NCT06600789/a-modular-phase-1-2-study-with-ct7439-in-participants-with-solid-malignancies"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4751,
+              "start_index": 4588,
+              "title": "A Modular Phase 1/2 Study With CT7439 in Participants With Solid Malignancies | Clinical Research Trial Listing",
+              "url": "https://www.centerwatch.com/clinical-trials/listings/NCT06600789/a-modular-phase-1-2-study-with-ct7439-in-participants-with-solid-malignancies"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 5084,
+              "start_index": 4962,
+              "title": "FDA Clears IND Application for First-in-Class CDK12/13 Inhibitor  | CancerNetwork",
+              "url": "https://www.cancernetwork.com/view/fda-clears-ind-application-for-first-in-class-cdk12-13-inhibitor"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 5307,
+              "start_index": 5185,
+              "title": "FDA Clears IND Application for First-in-Class CDK12/13 Inhibitor  | CancerNetwork",
+              "url": "https://www.cancernetwork.com/view/fda-clears-ind-application-for-first-in-class-cdk12-13-inhibitor"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 5482,
+              "start_index": 5360,
+              "title": "FDA Clears IND Application for First-in-Class CDK12/13 Inhibitor  | CancerNetwork",
+              "url": "https://www.cancernetwork.com/view/fda-clears-ind-application-for-first-in-class-cdk12-13-inhibitor"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 5671,
+              "start_index": 5549,
+              "title": "FDA Clears IND Application for First-in-Class CDK12/13 Inhibitor  | CancerNetwork",
+              "url": "https://www.cancernetwork.com/view/fda-clears-ind-application-for-first-in-class-cdk12-13-inhibitor"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 5892,
+              "start_index": 5822,
+              "title": "Therapeutic Targeting of CDK12/CDK13 in Triple-Negative Breast Cancer - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/31668947/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 6159,
+              "start_index": 6089,
+              "title": "Therapeutic Targeting of CDK12/CDK13 in Triple-Negative Breast Cancer - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/31668947/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 6355,
+              "start_index": 6285,
+              "title": "Therapeutic Targeting of CDK12/CDK13 in Triple-Negative Breast Cancer - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/31668947/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 6639,
+              "start_index": 6569,
+              "title": "Noncovalent CDK12/13 dual inhibitors-based PROTACs degrade CDK12-Cyclin K complex and induce synthetic lethality with PARP inhibitor - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34864331/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 6815,
+              "start_index": 6745,
+              "title": "Noncovalent CDK12/13 dual inhibitors-based PROTACs degrade CDK12-Cyclin K complex and induce synthetic lethality with PARP inhibitor - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34864331/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 7019,
+              "start_index": 6949,
+              "title": "Noncovalent CDK12/13 dual inhibitors-based PROTACs degrade CDK12-Cyclin K complex and induce synthetic lethality with PARP inhibitor - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34864331/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 7184,
+              "start_index": 7114,
+              "title": "Noncovalent CDK12/13 dual inhibitors-based PROTACs degrade CDK12-Cyclin K complex and induce synthetic lethality with PARP inhibitor - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34864331/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 7428,
+              "start_index": 7358,
+              "title": "Discovery of ZLC491 as a Potent, Selective, and Orally Bioavailable CDK12/13 PROTAC Degrader - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39388374/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 7610,
+              "start_index": 7540,
+              "title": "Discovery of ZLC491 as a Potent, Selective, and Orally Bioavailable CDK12/13 PROTAC Degrader - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39388374/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 7785,
+              "start_index": 7715,
+              "title": "Discovery of ZLC491 as a Potent, Selective, and Orally Bioavailable CDK12/13 PROTAC Degrader - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39388374/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 7923,
+              "start_index": 7853,
+              "title": "Discovery of ZLC491 as a Potent, Selective, and Orally Bioavailable CDK12/13 PROTAC Degrader - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39388374/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 8157,
+              "start_index": 8087,
+              "title": "Discovery of a Highly Potent and Selective Dual PROTAC Degrader of CDK12 and CDK13 - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/35938508/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 8339,
+              "start_index": 8269,
+              "title": "Discovery of a Highly Potent and Selective Dual PROTAC Degrader of CDK12 and CDK13 - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/35938508/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 8515,
+              "start_index": 8445,
+              "title": "Discovery of a Highly Potent and Selective Dual PROTAC Degrader of CDK12 and CDK13 - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/35938508/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 8660,
+              "start_index": 8590,
+              "title": "Discovery of a Highly Potent and Selective Dual PROTAC Degrader of CDK12 and CDK13 - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/35938508/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 8916,
+              "start_index": 8846,
+              "title": "The CDK12 inhibitor SR-4835 functions as a molecular glue that promotes cyclin K degradation in melanoma - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38104154/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 9091,
+              "start_index": 9021,
+              "title": "The CDK12 inhibitor SR-4835 functions as a molecular glue that promotes cyclin K degradation in melanoma - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38104154/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 9235,
+              "start_index": 9165,
+              "title": "The CDK12 inhibitor SR-4835 functions as a molecular glue that promotes cyclin K degradation in melanoma - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38104154/"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 9345,
+              "start_index": 9275,
+              "title": "The CDK12 inhibitor SR-4835 functions as a molecular glue that promotes cyclin K degradation in melanoma - PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38104154/"
+            }
+          ],
+          "logprobs": [],
+          "text": "- **Title:** Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor)  \n  **URL:** `https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html` ([globenewswire.com](https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html))  \n  **Direct quotes (identifiers/targets/modalities/indications):**\n  - “CT7439, a novel cyclin dependent kinase 12/13 (CDK12/13) inhibitor / Cyclin-K glue-degrader.” ([globenewswire.com](https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html))\n  - “Clinical trial details can also be found on www.clinicaltrials.gov under study ID: NCT06600789.” ([globenewswire.com](https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html))\n  - “The clinical trial is enrolling patients with advanced solid tumors, including ovarian, breast and Ewing's Sarcoma.” ([globenewswire.com](https://www.globenewswire.com/news-release/2024/09/23/2951333/0/en/Carrick-Therapeutics-Announces-First-Patient-Dosed-in-Phase-1-Clinical-Trial-of-CT7439-CDK12-13-Inhibitor.html))\n\n- **Title:** Carrick Therapeutics Announces U.S. FDA Clearance of IND for CT7439, a First-In-Class Inhibitor of CDK12/13  \n  **URL:** `https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/20/carrick-therapeutics-announces-u-s-fda-clearance-of-ind` ([carricktherapeutics.com](https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/20/carrick-therapeutics-announces-u-s-fda-clearance-of-ind))  \n  **Direct quotes (identifiers/targets/modalities/indications):**\n  - “the Company’s Investigational New Drug (IND) application for CT7439, a novel cyclin dependent kinase 12/13 (CDK12/13) inhibitor.” ([carricktherapeutics.com](https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/20/carrick-therapeutics-announces-u-s-fda-clearance-of-ind))\n  - “The Company plans to initiate the Phase 1 clinical trial in the first half of 2024 and intends to enroll patients with advanced solid tumors, including breast, ovarian and Ewing's Sarcoma.” ([carricktherapeutics.com](https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/20/carrick-therapeutics-announces-u-s-fda-clearance-of-ind))\n  - “CT7439 is an inhibitor of CDK12/13 as well as a 'glue degrader' of Cyclin-K” ([carricktherapeutics.com](https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/20/carrick-therapeutics-announces-u-s-fda-clearance-of-ind))\n\n- **Title:** Trial | NCT06600789 (Clinical Drug Experience Knowledgebase)  \n  **URL:** `https://cdek.pharmacy.purdue.edu/trial/NCT06600789/` ([cdek.pharmacy.purdue.edu](https://cdek.pharmacy.purdue.edu/trial/NCT06600789/))  \n  **Direct quotes (identifiers/targets/modalities/indications):**\n  - “Trial | NCT06600789” ([cdek.pharmacy.purdue.edu](https://cdek.pharmacy.purdue.edu/trial/NCT06600789/))\n  - “CT7439 Capsules (0.5 mg, 1mg, 3mg)” ([cdek.pharmacy.purdue.edu](https://cdek.pharmacy.purdue.edu/trial/NCT06600789/))\n  - “Phase 1/Phase 2” ([cdek.pharmacy.purdue.edu](https://cdek.pharmacy.purdue.edu/trial/NCT06600789/))\n\n- **Title:** A Modular Phase 1/2 Study With CT7439 in Participants With Solid Malignancies (CenterWatch)  \n  **URL:** `https://www.centerwatch.com/clinical-trials/listings/NCT06600789/a-modular-phase-1-2-study-with-ct7439-in-participants-with-solid-malignancies` ([centerwatch.com](https://www.centerwatch.com/clinical-trials/listings/NCT06600789/a-modular-phase-1-2-study-with-ct7439-in-participants-with-solid-malignancies))  \n  **Direct quotes (identifiers/targets/modalities/indications):**\n  - “Treatment  CT7439 Capsules (0.5 mg, 1mg, 3mg)” ([centerwatch.com](https://www.centerwatch.com/clinical-trials/listings/NCT06600789/a-modular-phase-1-2-study-with-ct7439-in-participants-with-solid-malignancies))\n  - “Clinical Study ID  NCT06600789” ([centerwatch.com](https://www.centerwatch.com/clinical-trials/listings/NCT06600789/a-modular-phase-1-2-study-with-ct7439-in-participants-with-solid-malignancies))\n  - “Prior therapy with a specific CDK12/13 inhibitor, within any timeframe prior to thefirst dose of CT7439.” ([centerwatch.com](https://www.centerwatch.com/clinical-trials/listings/NCT06600789/a-modular-phase-1-2-study-with-ct7439-in-participants-with-solid-malignancies))\n\n- **Title:** FDA Clears IND Application for First-in-Class CDK12/13 Inhibitor (CancerNetwork)  \n  **URL:** `https://www.cancernetwork.com/view/fda-clears-ind-application-for-first-in-class-cdk12-13-inhibitor` ([cancernetwork.com](https://www.cancernetwork.com/view/fda-clears-ind-application-for-first-in-class-cdk12-13-inhibitor))  \n  **Direct quotes (identifiers/targets/modalities/indications):**\n  - “CDK12/13 inhibitor CT7439” ([cancernetwork.com](https://www.cancernetwork.com/view/fda-clears-ind-application-for-first-in-class-cdk12-13-inhibitor))\n  - “The compound is a “glue degrader” of Cyclin-K” ([cancernetwork.com](https://www.cancernetwork.com/view/fda-clears-ind-application-for-first-in-class-cdk12-13-inhibitor))\n  - “including breast cancer, ovarian cancer, and Ewing sarcoma.” ([cancernetwork.com](https://www.cancernetwork.com/view/fda-clears-ind-application-for-first-in-class-cdk12-13-inhibitor))\n\n- **Title:** Therapeutic Targeting of CDK12/CDK13 in Triple-Negative Breast Cancer (PubMed)  \n  **URL:** `https://pubmed.ncbi.nlm.nih.gov/31668947/` ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/31668947/))  \n  **Direct quotes (identifiers/targets/modalities/indications):**\n  - “SR-4835, a highly selective dual inhibitor of CDK12 and CDK13, which disables triple-negative breast cancer (TNBC) cells.” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/31668947/))\n  - “Keywords:  BRCAness; CDK12; CDK13; PARP inhibitor; cisplatin; intronic polyadenylation; triple-negative breast cancer.” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/31668947/))\n\n- **Title:** Noncovalent CDK12/13 dual inhibitors-based PROTACs degrade CDK12-Cyclin K complex and induce synthetic lethality with PARP inhibitor (PubMed)  \n  **URL:** `https://pubmed.ncbi.nlm.nih.gov/34864331/` ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/34864331/))  \n  **Direct quotes (identifiers/targets/modalities/indications):**\n  - “a potent PROTAC degrader PP-C8” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/34864331/))\n  - “PP-C8 demonstrates profound synergistic antiproliferative effects with PARP inhibitor in triple-negative breast cancer (TNBC).” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/34864331/))\n  - “Keywords:  CDK12; Cyclin K; PROTAC; Synthetic lethality; Triple-negative breast cancer.” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/34864331/))\n\n- **Title:** Discovery of ZLC491 as a Potent, Selective, and Orally Bioavailable CDK12/13 PROTAC Degrader (PubMed)  \n  **URL:** `https://pubmed.ncbi.nlm.nih.gov/39388374/` ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/39388374/))  \n  **Direct quotes (identifiers/targets/modalities/indications):**\n  - “triple-negative breast cancer (TNBC)” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/39388374/))\n  - “the discovery of ZLC491 as a potent, selective, and orally bioavailable CDK12/13 PROTAC degrader.” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/39388374/))\n  - “degraded CDK12 and CDK13 with DC_{50} values of 32 and 28 nM” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/39388374/))\n\n- **Title:** Discovery of a Highly Potent and Selective Dual PROTAC Degrader of CDK12 and CDK13 (PubMed)  \n  **URL:** `https://pubmed.ncbi.nlm.nih.gov/35938508/` ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/35938508/))  \n  **Direct quotes (identifiers/targets/modalities/indications):**\n  - “triple-negative breast cancer (TNBC)” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/35938508/))\n  - “The optimal compound 7f effectively degraded CDK12 and CDK13 with DC_{50} values of 2.2 and 2.1 nM” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/35938508/))\n  - “by employing the proteolysis-targeting chimera (PROTAC) technology.” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/35938508/))\n\n- **Title:** The CDK12 inhibitor SR-4835 functions as a molecular glue that promotes cyclin K degradation in melanoma (PubMed)  \n  **URL:** `https://pubmed.ncbi.nlm.nih.gov/38104154/` ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/38104154/))  \n  **Direct quotes (identifiers/targets/modalities/indications):**\n  - “including THZ531 and SR-4835.” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/38104154/))\n  - “SR-4835 uniquely promotes cyclin K degradation via the proteasome.” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/38104154/))\n  - “SR-4835 acts as a molecular glue” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/38104154/))"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 55676,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 5912,
+    "output_tokens_details": {
+      "reasoning_tokens": 3852
+    },
+    "total_tokens": 61588
+  },
+  "user": null,
+  "metadata": {}
+}

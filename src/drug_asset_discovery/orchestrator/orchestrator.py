@@ -2,9 +2,11 @@ from __future__ import annotations
 
 import asyncio
 import logging
+import random
 from collections import deque
 from pathlib import Path
 from typing import Any
+from urllib.parse import urlparse
 
 from drug_asset_discovery.config import EnvSettings, PromptBundle, RunConfig, load_config, load_prompts
 from drug_asset_discovery.models.domain import Candidate, Mention, ValidatedAsset
@@ -40,6 +42,238 @@ def _compact_summary(
         "validated_assets_sample": validated_assets_sample[:10],
         "last_round_new_validated": last_round_new_validated,
     }
+
+
+def _domain(url: str) -> str | None:
+    try:
+        host = urlparse(url).netloc
+        host = host.lower().strip()
+        if host.startswith("www."):
+            host = host[4:]
+        return host or None
+    except Exception:
+        return None
+
+
+def _compact_loop_summary(
+    *,
+    cycle_idx: int,
+    unique_identifier_count: int,
+    last_cycle_new_identifiers: int,
+    sample_new_identifiers: list[str],
+    top_domains: list[tuple[str, int]],
+) -> dict[str, Any]:
+    # IMPORTANT: compact summary only. No giant negative lists.
+    return {
+        "cycle_idx": cycle_idx,
+        "unique_identifier_count": unique_identifier_count,
+        "last_cycle_new_identifiers": last_cycle_new_identifiers,
+        "sample_new_identifiers": sample_new_identifiers[:8],
+        "top_domains": [{"domain": d, "count": c} for d, c in top_domains[:8]],
+    }
+
+
+async def loop_mode(
+    *,
+    user_query: str,
+    config_version: str,
+    prompt_version: str,
+    idempotency: str | None = None,
+) -> dict[str, Any]:
+    """
+    v1.2: ChatGPT Loop Mode
+    - 4 independent workers (tabs) in parallel
+    - 3 global cycles max
+    - Each worker-cycle uses the Responses API with web_search (≤2 tool calls) and outputs JSON-only
+    - Stage A: identifier-first harvesting (store raw strings with provenance)
+    - Stage B: lightweight candidate-centric verification (implemented in a later step)
+    """
+    env = EnvSettings()
+    cfg: RunConfig = load_config(config_version)
+    prompts: PromptBundle = load_prompts(prompt_version)
+
+    # Non-negotiable budget constraints for loop_mode v1.2
+    if cfg.workers != 4:
+        raise ValueError(f"loop_mode requires workers=4 (got {cfg.workers})")
+    if cfg.max_rounds != 3:
+        raise ValueError(f"loop_mode requires max_rounds=3 (got {cfg.max_rounds})")
+    if cfg.max_web_search_calls_per_worker_cycle != 2:
+        raise ValueError("loop_mode requires max_web_search_calls_per_worker_cycle=2")
+
+    if not env.supabase_url or not env.supabase_service_role_key:
+        raise RuntimeError("SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY are required")
+
+    store = SupabaseStore(url=env.supabase_url, service_role_key=env.supabase_service_role_key)
+    run_id = await store.create_run(
+        user_query=user_query,
+        config_version=config_version,
+        prompt_version=prompt_version,
+        params={
+            "mode": "loop_mode",
+            "workers": cfg.workers,
+            "cycles": cfg.max_rounds,
+            "min_new_identifiers_per_cycle": cfg.min_new_identifiers_per_cycle,
+            "patience_cycles": cfg.patience_cycles,
+            "verify_top_k": cfg.verify_top_k,
+        },
+        idempotency_key=idempotency,
+    )
+
+    cache_dir = Path(env.local_cache_dir)
+    cache_dir.mkdir(parents=True, exist_ok=True)
+
+    openai = OpenAIResponsesClient(
+        api_key=env.openai_api_key,
+        base_url=env.openai_base_url,
+        timeout_s=cfg.timeouts.openai_seconds,
+    )
+
+    # Import here to keep module import-time stable even if loop_mode isn't used.
+    from drug_asset_discovery.worker.loop_worker import DEFAULT_LOOP_PERSONAS, LoopWorker
+
+    rng = random.Random(int(cfg.orchestration_seed))
+    personas = list(DEFAULT_LOOP_PERSONAS)
+    rng.shuffle(personas)
+    personas = personas[:4]
+
+    workers: list[LoopWorker] = []
+    for i, persona in enumerate(personas):
+        workers.append(
+            LoopWorker(
+                worker_id=f"lw{i+1}:{persona.name}",
+                persona=persona,
+                cfg=cfg,
+                prompts=prompts,
+                openai=openai,
+                cache_dir=cache_dir,
+            )
+        )
+
+    # Novelty accounting (do not pass the full negative list to the model)
+    seen_identifier_keys: set[str] = set()
+
+    # Domain contribution stats (for debug report)
+    domain_counts: dict[str, int] = {}
+
+    consecutive_low_novelty = 0
+    last_cycle_new = 0
+    last_cycle_sample_new: list[str] = []
+
+    try:
+        for cycle_idx in range(cfg.max_rounds):
+            summary = _compact_loop_summary(
+                cycle_idx=cycle_idx,
+                unique_identifier_count=len(seen_identifier_keys),
+                last_cycle_new_identifiers=last_cycle_new,
+                sample_new_identifiers=last_cycle_sample_new,
+                top_domains=sorted(domain_counts.items(), key=lambda kv: kv[1], reverse=True)[:8],
+            )
+
+            logger.info("run=%s loop_cycle=%s starting loop workers=%s", run_id, cycle_idx, len(workers))
+            outputs = await asyncio.gather(
+                *[
+                    w.run_cycle(
+                        run_id=run_id,
+                        user_query=user_query,
+                        global_summary=summary,
+                        cycle_idx=cycle_idx,
+                    )
+                    for w in workers
+                ]
+            )
+
+            # Stage A: union candidates, compute novelty, persist raw identifiers (with provenance via mentions)
+            new_this_cycle_global = 0
+            sample_new: list[str] = []
+            per_worker_new: dict[str, int] = {}
+
+            for o in outputs:
+                per_worker_new[o.worker_id] = 0
+                for c in o.candidates:
+                    key = safe_normalize(c.raw_identifier)
+                    if not key:
+                        continue
+
+                    # Update domain stats (even if duplicate)
+                    d = _domain(c.source_url)
+                    if d:
+                        domain_counts[d] = domain_counts.get(d, 0) + 1
+
+                    is_new = key not in seen_identifier_keys
+                    if is_new:
+                        seen_identifier_keys.add(key)
+                        new_this_cycle_global += 1
+                        per_worker_new[o.worker_id] += 1
+                        if len(sample_new) < 12:
+                            sample_new.append(c.raw_identifier)
+
+                    # Persist mention + candidate (one row per occurrence; candidate links to mention for provenance)
+                    # NOTE: We intentionally do not dedupe inserts here; Stage A must retain raw strings with provenance.
+                    m = Mention.from_raw(
+                        mention_type=c.mention_type,
+                        raw_text=c.raw_identifier,
+                        context=c.context_snippet,
+                        source_url=c.source_url,
+                    )
+                    mention_ids = await store.insert_mentions(run_id=run_id, query_id=None, result_id=None, mentions=[m])
+                    source_mention_id = mention_ids[0] if mention_ids else None
+                    cand = Candidate.from_mention(m)
+                    await store.insert_candidate(run_id=run_id, candidate=cand, source_mention_id=source_mention_id)
+
+                logger.info(
+                    "run=%s loop_cycle=%s worker=%s success=%s new_ids=%s executed_queries=%s",
+                    run_id,
+                    cycle_idx,
+                    o.worker_id,
+                    o.success,
+                    per_worker_new.get(o.worker_id, 0),
+                    len(o.executed_queries),
+                )
+
+            await store.insert_metric(
+                run_id=run_id,
+                round_idx=cycle_idx,
+                name="loop_cycle_summary",
+                value={
+                    "cycle_idx": cycle_idx,
+                    "new_identifiers_global": new_this_cycle_global,
+                    "new_identifiers_by_worker": per_worker_new,
+                    "top_domains": sorted(domain_counts.items(), key=lambda kv: kv[1], reverse=True)[:20],
+                },
+            )
+
+            last_cycle_new = new_this_cycle_global
+            last_cycle_sample_new = sample_new[:12]
+
+            # Early stopping: novelty stalls
+            if new_this_cycle_global < int(cfg.min_new_identifiers_per_cycle):
+                consecutive_low_novelty += 1
+            else:
+                consecutive_low_novelty = 0
+
+            logger.info(
+                "run=%s loop_cycle=%s new_ids=%s streak_low_novelty=%s",
+                run_id,
+                cycle_idx,
+                new_this_cycle_global,
+                consecutive_low_novelty,
+            )
+
+            if consecutive_low_novelty >= int(cfg.patience_cycles):
+                break
+
+        # Stage B verifier is implemented separately; placeholder here keeps the v1.2 entrypoint stable.
+        summary = {
+            "unique_identifiers_stage_a": len(seen_identifier_keys),
+            "verified_assets_stage_b": 0,
+        }
+        await store.finish_run(run_id, status="completed", summary=summary)
+        return {"run_id": run_id, "status": "completed", "summary": summary, "verified_assets": []}
+    except Exception as e:
+        await store.finish_run(run_id, status="failed", summary={"error": str(e)})
+        raise
+    finally:
+        await openai.aclose()
 
 
 async def run_discovery(
@@ -83,9 +317,10 @@ async def run_discovery(
     )
 
     try:
-        profiles = DEFAULT_PROFILES[: cfg.workers]
+        # Allow cfg.workers to be larger than the number of distinct profiles by cycling profiles.
         workers: list[Worker] = []
-        for i, profile in enumerate(profiles):
+        for i in range(cfg.workers):
+            profile = DEFAULT_PROFILES[i % len(DEFAULT_PROFILES)]
             workers.append(
                 Worker(
                     worker_id=f"w{i+1}:{profile.name}",
@@ -201,7 +436,8 @@ async def run_discovery(
             validation_budget = min(cfg.validation_batch_size_per_round, len(candidate_queue))
             validation_budget = min(validation_budget, max(0, cfg.max_total_validations - total_validations))
 
-            sem = asyncio.Semaphore(2)
+            # Validation concurrency controlled by config
+            sem = asyncio.Semaphore(cfg.validation_concurrency)
 
             async def _validate_one(cid: str, cand: Candidate) -> list[ValidatedAsset]:
                 async with sem:

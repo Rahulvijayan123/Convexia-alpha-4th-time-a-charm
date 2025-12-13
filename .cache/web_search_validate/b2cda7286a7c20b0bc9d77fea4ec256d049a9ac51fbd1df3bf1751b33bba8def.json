@@ -1,0 +1,114 @@
+{
+  "id": "resp_095b13c88268194400693c89d114e881948e5059dea66bc523",
+  "object": "response",
+  "created_at": 1765575121,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_095b13c88268194400693c89d182e48194868b1edbbf6c6cda",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_095b13c88268194400693c89da42f48194a27699e94c6c8a03",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"ER\" CDK12 inhibitor"
+      }
+    },
+    {
+      "id": "rs_095b13c88268194400693c89dbf3c48194a7eacae3d01d1572",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_095b13c88268194400693c89f5e4948194ba465162f0680127",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"ER\" \"CDK12\" \"compound\""
+      }
+    },
+    {
+      "id": "rs_095b13c88268194400693c89f77bd88194b0521dd80073ea91",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_095b13c88268194400693c8a022c588194b768ce8217d49cc6",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": false,\n  \"assets\": [],\n  \"rejected_reason\": \"Candidate identifier \\\"ER\\\" is not a uniquely identifying drug name/code (it is widely used to mean estrogen receptor in oncology literature) and web results do not define a specific CDK12 or CDK12/13 small-molecule/PROTAC/glue degrader drug asset with attributable sponsor/target/modality/indication/stage/geography (e.g., https://pubmed.ncbi.nlm.nih.gov/30990042/ and https://pubmed.ncbi.nlm.nih.gov/41092317/).\"\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 14500,
+    "input_tokens_details": {
+      "cached_tokens": 4096
+    },
+    "output_tokens": 2840,
+    "output_tokens_details": {
+      "reasoning_tokens": 2707
+    },
+    "total_tokens": 17340
+  },
+  "user": null,
+  "metadata": {}
+}

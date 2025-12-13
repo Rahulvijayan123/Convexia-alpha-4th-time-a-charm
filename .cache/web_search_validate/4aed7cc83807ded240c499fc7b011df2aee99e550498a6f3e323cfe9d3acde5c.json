@@ -1,0 +1,407 @@
+{
+  "id": "resp_08603d2232474dd700693c941e2a288190a96c8ecbf3f00c82",
+  "object": "response",
+  "created_at": 1765577758,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_08603d2232474dd700693c941f3ea08190a7c1e7bf6d4490ee",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08603d2232474dd700693c9424dfd08190b60f6110a4bef215",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12 PROTAC degrader"
+      }
+    },
+    {
+      "id": "rs_08603d2232474dd700693c94275ba4819085b1d432f0aadd0d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08603d2232474dd700693c9447527c8190851d14eb13a380ac",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "selective CDK12 degrader PROTAC compound name"
+      }
+    },
+    {
+      "id": "rs_08603d2232474dd700693c9448c0c48190a4d0ede89da42228",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08603d2232474dd700693c945b47a8819093a6c799ca97f351",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11513923/"
+      }
+    },
+    {
+      "id": "rs_08603d2232474dd700693c945ca7b4819097457fb07e6e40c5",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08603d2232474dd700693c945da97c8190bf69ea3212e74814",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "Affiliations",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35938508/"
+      }
+    },
+    {
+      "id": "rs_08603d2232474dd700693c945f28b4819088d629df5cb5b791",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08603d2232474dd700693c946369d8819084794c9bccbbde09",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34864331/"
+      }
+    },
+    {
+      "id": "rs_08603d2232474dd700693c9464d22c8190aa93c3048a7a0814",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08603d2232474dd700693c947dc7c48190966a78815d8f4e6a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CDK12\" \"CDK13\" PROTAC degrader ZLC"
+      }
+    },
+    {
+      "id": "rs_08603d2232474dd700693c94817f1881908241a3ea2c035e53",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08603d2232474dd700693c94b1697c8190b7fba8e1ebb9d174",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_08603d2232474dd700693c94b3d8b08190bc50ea793b61404d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08603d2232474dd700693c94b4e3e48190be6c6bf170ede7c4",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "PMCID 35938508"
+      }
+    },
+    {
+      "id": "rs_08603d2232474dd700693c94b76ca481909acf4c99a53812ce",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08603d2232474dd700693c94c7ab2081908225930e8ee4e61c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_08603d2232474dd700693c94c864308190bd5849079721a3cf",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08603d2232474dd700693c94cc99a08190ae4db58857f02c4a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39388374/"
+      }
+    },
+    {
+      "id": "rs_08603d2232474dd700693c94cdc6a88190af50626d1e2de498",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08603d2232474dd700693c94cf135c81909977f1fadb995d1f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34864331/"
+      }
+    },
+    {
+      "id": "rs_08603d2232474dd700693c94d03f4c8190bdf2f76b5a7b1506",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08603d2232474dd700693c94d192008190b703582f31f4e74a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34864331/"
+      }
+    },
+    {
+      "id": "rs_08603d2232474dd700693c94d2d3808190a3af82ba75829eb1",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08603d2232474dd700693c94ec774c81908d364fbf96472ec0",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39353441/"
+      }
+    },
+    {
+      "id": "rs_08603d2232474dd700693c94ed7c108190968a23ede97f8eb7",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08603d2232474dd700693c94ee4e748190856d7217a79eef9c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "YJ1206",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39353441/"
+      }
+    },
+    {
+      "id": "rs_08603d2232474dd700693c94f08e8c8190ba80d215c5b0202e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08603d2232474dd700693c9511feb08190bc53c4ec5bd56369",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12 degrader clinical trial"
+      }
+    },
+    {
+      "id": "rs_08603d2232474dd700693c951580448190ba8dd39d6cdca7f9",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08603d2232474dd700693c95232484819096277f0fe1ed3d9d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CT7439 clinical trial NCT"
+      }
+    },
+    {
+      "id": "rs_08603d2232474dd700693c9527bfe88190a82204ce0955d69e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08603d2232474dd700693c952c95448190861fa5b73e9fc779",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_08603d2232474dd700693c952e039881908cf514d53d87c073",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08603d2232474dd700693c95306f608190a1b131c822272a67",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_08603d2232474dd700693c953293508190afd1ffd094d0b50a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08603d2232474dd700693c953409888190b5a14230ce37e9d3",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "clinicaltrials.gov ct2 show NCT06600789"
+      }
+    },
+    {
+      "id": "rs_08603d2232474dd700693c9537f0e081909cc8354ab424c815",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08603d2232474dd700693c953dd4908190adeaec26c7cdb384",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "clinicaltrials.gov api NCT06600789 location country"
+      }
+    },
+    {
+      "id": "rs_08603d2232474dd700693c954428f88190b0a029d892408c7c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08603d2232474dd700693c954625e081908923def0b1af5320",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "https://clinicaltrials.gov/api/v2/studies/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_08603d2232474dd700693c954c39948190b0cead07965ad0b9",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08603d2232474dd700693c9550543c8190951c589ee31766b9",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "clinicaltrials.gov/api/v2/studies/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_08603d2232474dd700693c95550c808190ad4923cbc8fe66c4",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08603d2232474dd700693c955830988190afb10219603d40f3",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov NCT06600789"
+      }
+    },
+    {
+      "id": "rs_08603d2232474dd700693c955d182c81908903d949494542cb",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_08603d2232474dd700693c9585e72c81908c164a0e08a4a613",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": true,\n  \"assets\": [\n    {\n      \"drug_name_code\": \"CT7439\",\n      \"sponsor\": \"Carrick Therapeutics Limited\",\n      \"target\": \"CDK12/13; Cyclin-K (CCNK)\",\n      \"modality\": \"Small-molecule CDK12/13 inhibitor / Cyclin-K molecular glue degrader\",\n      \"indication\": \"Solid malignancies (advanced solid tumors including breast cancer)\",\n      \"development_stage\": \"Phase 1/Phase 2 (Recruiting; first-in-human)\",\n      \"geography\": \"United States; United Kingdom\",\n      \"sources\": [\n        \"https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase\",\n        \"https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor\",\n        \"https://cdek.pharmacy.purdue.edu/trial/NCT06600789/\",\n        \"https://trial.medpath.com/clinical-trial/e9357df4650cb6b7/nct06600789-safety-tolerability-ct7439-solid-malignancies\"\n      ]\n    },\n    {\n      \"drug_name_code\": \"ZLC491\",\n      \"sponsor\": \"University of Michigan; Jinan University; Shanghai Institute of Organic Chemistry (Chinese Academy of Sciences); Livzon Pharmaceutical Group Inc.\",\n      \"target\": \"CDK12; CDK13\",\n      \"modality\": \"PROTAC degrader (CRBN-dependent)\",\n      \"indication\": \"Triple-negative breast cancer (TNBC)\",\n      \"development_stage\": \"Preclinical (in vitro TNBC models; in vivo xenograft; oral bioavailability reported in rats)\",\n      \"geography\": \"China; United States\",\n      \"sources\": [\n        \"https://pubmed.ncbi.nlm.nih.gov/39388374/\",\n        \"https://pmc.ncbi.nlm.nih.gov/articles/PMC11513923/\"\n      ]\n    },\n    {\n      \"drug_name_code\": \"7f\",\n      \"sponsor\": \"University of Michigan; Jinan University; Shanghai Institute of Organic Chemistry (Chinese Academy of Sciences)\",\n      \"target\": \"CDK12; CDK13\",\n      \"modality\": \"PROTAC degrader\",\n      \"indication\": \"Triple-negative breast cancer (TNBC)\",\n      \"development_stage\": \"Preclinical\",\n      \"geography\": \"China; United States\",\n      \"sources\": [\n        \"https://pubmed.ncbi.nlm.nih.gov/35938508/\",\n        \"https://pmc.ncbi.nlm.nih.gov/articles/PMC9876424/\"\n      ]\n    },\n    {\n      \"drug_name_code\": \"PP-C8\",\n      \"sponsor\": \"Zhejiang University\",\n      \"target\": \"CDK12 (CDK12–Cyclin K complex)\",\n      \"modality\": \"PROTAC degrader\",\n      \"indication\": \"Triple-negative breast cancer (TNBC) (combination with PARP inhibitor)\",\n      \"development_stage\": \"Preclinical\",\n      \"geography\": \"China\",\n      \"sources\": [\n        \"https://pubmed.ncbi.nlm.nih.gov/34864331/\",\n        \"https://doi.org/10.1016/j.ejmech.2021.114012\"\n      ]\n    }\n  ],\n  \"rejected_reason\": null\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 99582,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 22906,
+    "output_tokens_details": {
+      "reasoning_tokens": 22175
+    },
+    "total_tokens": 122488
+  },
+  "user": null,
+  "metadata": {}
+}

@@ -1,0 +1,169 @@
+{
+  "id": "resp_00b9c5f1bec9045300693c889afa608196aa3f3328095cada0",
+  "object": "response",
+  "created_at": 1765574811,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_00b9c5f1bec9045300693c889c017c8196ad4d3a409007de48",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00b9c5f1bec9045300693c889f31808196bd2afc8c4d3d7f9f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"Recurrent or Metastatic Triple-negative Breast Cancer\" drug"
+      }
+    },
+    {
+      "id": "rs_00b9c5f1bec9045300693c88a184e48196a6d937919818f062",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00b9c5f1bec9045300693c88ac8b3c81969f8b060b6726b123",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12 inhibitor \"triple-negative\" metastatic trial"
+      }
+    },
+    {
+      "id": "rs_00b9c5f1bec9045300693c88af911c8196bb2d9dcf4aec340c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00b9c5f1bec9045300693c88b226008196ab34ea9cbcc43cde",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11513923/"
+      }
+    },
+    {
+      "id": "rs_00b9c5f1bec9045300693c88b31a948196b1b302c96099e210",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00b9c5f1bec9045300693c88bf723881968558e43ba8bb05b4",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"Recurrent or Metastatic Triple-negative Breast Cancer\""
+      }
+    },
+    {
+      "id": "rs_00b9c5f1bec9045300693c88c22e8c8196881cac27f2265be8",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00b9c5f1bec9045300693c88d40d4881969524cc39b8842edb",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_00b9c5f1bec9045300693c88d4ff648196a4c022d4ca828c42",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_00b9c5f1bec9045300693c88d60af48196a5e62065193a5485",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"Recurrent or Metastatic Triple-negative Breast Cancer\" site:clinicaltrials.gov \"recurrent\" \"metastatic\""
+      }
+    },
+    {
+      "id": "rs_00b9c5f1bec9045300693c88d9680481969a5f48f261d9a2f0",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_00b9c5f1bec9045300693c88f44f688196be231b5e042bfb34",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": false,\n  \"assets\": [],\n  \"rejected_reason\": \"Candidate identifier \\\"Recurrent or Metastatic Triple-negative Breast Cancer\\\" is an indication/patient-population description (not a drug/trial/patent identifier), so sponsor/target/modality/development stage/geography cannot be uniquely validated from it (example usage as indication: https://pubmed.ncbi.nlm.nih.gov/36184642/).\"\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 27704,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 5425,
+    "output_tokens_details": {
+      "reasoning_tokens": 5326
+    },
+    "total_tokens": 33129
+  },
+  "user": null,
+  "metadata": {}
+}

@@ -1,0 +1,266 @@
+{
+  "id": "resp_01d020070975ddcc00693c83d3e784819495c7595a3b46a8ab",
+  "object": "response",
+  "created_at": 1765573587,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_01d020070975ddcc00693c83d44a388194b4130816e6f58356",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_01d020070975ddcc00693c83db13588194924631467261d31d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "HQ461 molecular glue degrader cyclin K CDK12 CDK13"
+      }
+    },
+    {
+      "id": "rs_01d020070975ddcc00693c83dce6cc8194b01f627a8e6f58e7",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_01d020070975ddcc00693c83e7a9f08194a9ec8f324f90dba2",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32804079/"
+      }
+    },
+    {
+      "id": "rs_01d020070975ddcc00693c83e86e5c81949c016b273fa47039",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_01d020070975ddcc00693c83f718a88194817f393f32fa7054",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "HQ461 TNBC"
+      }
+    },
+    {
+      "id": "rs_01d020070975ddcc00693c83f8f64481948e244faadb5117ea",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_01d020070975ddcc00693c83fa345081949f7574273ba5f40c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_01d020070975ddcc00693c83fbc8788194a1296daa4bc6ef29",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_01d020070975ddcc00693c83fe1db48194b2bf8463b11b3094",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "PCT/CN2020/095482 HQ461 applicant"
+      }
+    },
+    {
+      "id": "rs_01d020070975ddcc00693c84001ea88194b7d73183c0a97413",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_01d020070975ddcc00693c840112a08194a6404fbf44d53756",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CN2020\" \"095482\" HQ461 molecular glue"
+      }
+    },
+    {
+      "id": "rs_01d020070975ddcc00693c8404f33081948a9ea9ae0b592ef9",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_01d020070975ddcc00693c84068b748194b56cd83771536542",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CN2020/095482 cyclin K"
+      }
+    },
+    {
+      "id": "rs_01d020070975ddcc00693c840b0b808194a9582f87c1fd97a9",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_01d020070975ddcc00693c841ba9e8819497723d8c9fdb5850",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "HQ461 Ting Han company"
+      }
+    },
+    {
+      "id": "rs_01d020070975ddcc00693c841f94288194b8853572f3e9d429",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_01d020070975ddcc00693c842041788194b73ab8dbf7dc961a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.cellsignal.com/products/activators-inhibitors/hq461/43407"
+      }
+    },
+    {
+      "id": "rs_01d020070975ddcc00693c84219bb881949dc74f39948fc2ca",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_01d020070975ddcc00693c8427cd648194b3b765706a349975",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"HQ461\" pipeline"
+      }
+    },
+    {
+      "id": "rs_01d020070975ddcc00693c842a844481949987782bbb83ca36",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_01d020070975ddcc00693c845a68c88194a8520c3a25c78043",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"HQ461\" \"triple-negative\""
+      }
+    },
+    {
+      "id": "rs_01d020070975ddcc00693c845d099881948093604269807838",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_01d020070975ddcc00693c846249e08194875c3f36a51df3e0",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_01d020070975ddcc00693c8463634481949aa31315726724ba",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_01d020070975ddcc00693c8467905c8194ba18ba417467abc5",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "cyclin K degrader HQ461 breast cancer"
+      }
+    },
+    {
+      "id": "rs_01d020070975ddcc00693c846c114c8194a9f47b7b8912d744",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_01d020070975ddcc00693c849cc8f88194bb874668c5961d03",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": true,\n  \"assets\": [\n    {\n      \"drug_name_code\": \"HQ461\",\n      \"sponsor\": \"National Institute of Biological Sciences, Beijing, China\",\n      \"target\": \"Cyclin K (CCNK) (molecular glue promotes CDK12–DDB1 interaction to induce CCNK degradation)\",\n      \"modality\": \"Small-molecule molecular glue degrader\",\n      \"indication\": \"Cancer (preclinical; cytotoxicity shown in A549 non-small cell lung cancer cells)\",\n      \"development_stage\": \"Preclinical / research-use chemical probe (not approved for human use)\",\n      \"geography\": \"China (Beijing)\",\n      \"sources\": [\n        \"https://pubmed.ncbi.nlm.nih.gov/32804079/\",\n        \"https://www.cellsignal.com/products/activators-inhibitors/hq461/43407\",\n        \"https://www.sigmaaldrich.com/KR/ko/product/sigma/sml2994\"\n      ]\n    }\n  ],\n  \"rejected_reason\": null\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 56074,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 11378,
+    "output_tokens_details": {
+      "reasoning_tokens": 11150
+    },
+    "total_tokens": 67452
+  },
+  "user": null,
+  "metadata": {}
+}

@@ -1,0 +1,239 @@
+{
+  "id": "resp_04901ed1e8016a0200693c889ae27c8193b0f7b01a7797bfaa",
+  "object": "response",
+  "created_at": 1765574810,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_04901ed1e8016a0200693c889b58f08193a61a8803e8c4723e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04901ed1e8016a0200693c889e9c4c81938a5fa2f19a952906",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT02032823 CDK12"
+      }
+    },
+    {
+      "id": "rs_04901ed1e8016a0200693c88a0d2f0819381782549cf1f3236",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04901ed1e8016a0200693c88a28ef48193b6bb6b02eb6b7a37",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT02032823"
+      }
+    },
+    {
+      "id": "rs_04901ed1e8016a0200693c88a3fbd081938871c47c9c5bfa5d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04901ed1e8016a0200693c88bd40fc8193909a3f24c0fe8b8a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_04901ed1e8016a0200693c88be185881939ba89da78ce7812c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04901ed1e8016a0200693c88bf52f88193b16f1432a371f84e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "clinicaltrials.gov api v2 studies NCT02032823"
+      }
+    },
+    {
+      "id": "rs_04901ed1e8016a0200693c88c0ef4881939420fe7b6924d1f9",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04901ed1e8016a0200693c88c321988193ab3d930e944bf60c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "https://clinicaltrials.gov/api/v2/studies/NCT02032823"
+      }
+    },
+    {
+      "id": "rs_04901ed1e8016a0200693c88c617c4819381345de102692768",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04901ed1e8016a0200693c88caf95081938e4f5d808f3ca31f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "clinicaltrials.gov api/legacy/public-xml NCT02032823"
+      }
+    },
+    {
+      "id": "rs_04901ed1e8016a0200693c88cd87ec81939e4e48e82d861649",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04901ed1e8016a0200693c88ce61f881938f09470c77eb384e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "https://clinicaltrials.gov/api/legacy/public-xml/NCT02032823?full=true"
+      }
+    },
+    {
+      "id": "rs_04901ed1e8016a0200693c88d099708193859e7b0050e16f91",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04901ed1e8016a0200693c88dabcf48193b3dafad1157c4d99",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"/api/v2/studies/NCT02032823\""
+      }
+    },
+    {
+      "id": "rs_04901ed1e8016a0200693c88de0a308193a243c2ff094b21be",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04901ed1e8016a0200693c88e5f0788193804ed047102d5a7a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT02032823 tab=results"
+      }
+    },
+    {
+      "id": "rs_04901ed1e8016a0200693c88e7c1b08193845415799513fb33",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04901ed1e8016a0200693c88e92f6881939bcc007f10dde556",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT02032823"
+      }
+    },
+    {
+      "id": "rs_04901ed1e8016a0200693c88ea713c8193ac5f8e95e2a456ba",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04901ed1e8016a0200693c88f63a808193b139c69708b8fb43",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT02032823 olaparib OlympiA trial"
+      }
+    },
+    {
+      "id": "rs_04901ed1e8016a0200693c88f971388193b21af803305fd94e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_04901ed1e8016a0200693c892665c08193a4b95f8acd5bbfab",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": false,\n  \"assets\": [],\n  \"rejected_reason\": \"NCT02032823 is the Phase 3 OlympiA trial (sponsor: AstraZeneca) evaluating olaparib (Lynparza; a PARP inhibitor) vs placebo as adjuvant therapy for germline BRCA1/2-mutated high-risk HER2-negative primary breast cancer (includes TNBC stratification). It is not a CDK12 or CDK12/13 small-molecule inhibitor, PROTAC, or glue degrader. Sources: https://clinicaltrials.gov/study/NCT02032823 ; https://fdaaa.trialstracker.net/trial/NCT02032823\"\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 37185,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 8048,
+    "output_tokens_details": {
+      "reasoning_tokens": 7893
+    },
+    "total_tokens": 45233
+  },
+  "user": null,
+  "metadata": {}
+}

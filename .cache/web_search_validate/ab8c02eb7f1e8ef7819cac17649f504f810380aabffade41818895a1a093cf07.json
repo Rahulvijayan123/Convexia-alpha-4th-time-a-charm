@@ -1,0 +1,156 @@
+{
+  "id": "resp_0db65c26b596eb3f00693c941e255c81939fa860aac1c7ff6c",
+  "object": "response",
+  "created_at": 1765577758,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0db65c26b596eb3f00693c941e6b748193b8b551fdee4b2f73",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0db65c26b596eb3f00693c94322b0081939d535afb001a14c3",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"PARP inhibitor\" drug code"
+      }
+    },
+    {
+      "id": "rs_0db65c26b596eb3f00693c9433db6481938d7f541ac45162b6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0db65c26b596eb3f00693c9485bb248193823ba9fb7f6b7066",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCI drug dictionary olaparib small molecule inhibitor of poly(ADP-ribose) polymerase PARP1 PARP2"
+      }
+    },
+    {
+      "id": "rs_0db65c26b596eb3f00693c9488030c81939d4965fd0d2596b7",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0db65c26b596eb3f00693c9488f8c08193bf19466a844461ff",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "Definition of talazoparib NCI Drug Dictionary small molecule inhibitor PARP"
+      }
+    },
+    {
+      "id": "rs_0db65c26b596eb3f00693c948badfc8193ac263e5f294be56f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0db65c26b596eb3f00693c948c65d081938a79b64ff75c6d56",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "Olaparib is a small-molecule drug NCI about-cancer treatment drugs olaparib"
+      }
+    },
+    {
+      "id": "rs_0db65c26b596eb3f00693c948edc848193a156b8d121f9d40b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0db65c26b596eb3f00693c94948a508193829d53b2a3f4d623",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "DailyMed TALZENNA talazoparib label Pfizer"
+      }
+    },
+    {
+      "id": "rs_0db65c26b596eb3f00693c9497f08c819399dbf54d2937af4a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0db65c26b596eb3f00693c94c0ca4481939b38af2fb6dd6300",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": false,\n  \"assets\": [],\n  \"rejected_reason\": \"Candidate identifier \\\"PARP inhibitor\\\" is a broad drug class (multiple distinct assets with different sponsors/indications/stages/geographies) rather than a single drug asset, and it does not match the requested CDK12/CDK12/13-targeted small molecule/PROTAC/glue degrader scope. Example PARP-inhibitor asset definition: https://www.cancer.gov/publications/dictionaries/cancer-drug/def/olaparib\"\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 31147,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 10946,
+    "output_tokens_details": {
+      "reasoning_tokens": 10827
+    },
+    "total_tokens": 42093
+  },
+  "user": null,
+  "metadata": {}
+}

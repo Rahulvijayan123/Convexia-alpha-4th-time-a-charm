@@ -1,0 +1,200 @@
+{
+  "id": "resp_0332cc4bbe7b756100693c8ebd64348195b73d6c7ac73a0023",
+  "object": "response",
+  "created_at": 1765576381,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0332cc4bbe7b756100693c8ebde4fc819598680fd8a69ed794",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0332cc4bbe7b756100693c8ec631b881959308d6b342c4e602",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12 molecular glue degrader"
+      }
+    },
+    {
+      "id": "rs_0332cc4bbe7b756100693c8ec8943c8195b478cacdb3367575",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0332cc4bbe7b756100693c8ee5b6b88195adee9a7244c89a2d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32804079/"
+      }
+    },
+    {
+      "id": "rs_0332cc4bbe7b756100693c8ee6e4048195b28f64c1ede006dc",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0332cc4bbe7b756100693c8ef384bc8195819abeb7ca20d6cb",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "SR-4835",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39450271/"
+      }
+    },
+    {
+      "id": "rs_0332cc4bbe7b756100693c8ef4cec48195a19cce32166371fc",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0332cc4bbe7b756100693c8ef54fd08195acd3d1d421dbb925",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39450271/"
+      }
+    },
+    {
+      "id": "rs_0332cc4bbe7b756100693c8ef6414c8195b98d65565e5c3cd4",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0332cc4bbe7b756100693c8efa5d108195b6da3c38dae227bf",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "Research use",
+        "url": "https://www.axonmedchem.com/4281-ll-k12-18"
+      }
+    },
+    {
+      "id": "rs_0332cc4bbe7b756100693c8efc4b6881958a2147075e466672",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0332cc4bbe7b756100693c8f1dd6548195aa92b8be7f51e1a9",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"LL-K12-18\" Nat Commun 2024 6477 affiliations"
+      }
+    },
+    {
+      "id": "rs_0332cc4bbe7b756100693c8f2089488195807398567a36e612",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0332cc4bbe7b756100693c8f3a060c8195885f6bdd42910aee",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"glue degrader\" definition"
+      }
+    },
+    {
+      "id": "rs_0332cc4bbe7b756100693c8f3e46b481958d2f86e640e26499",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0332cc4bbe7b756100693c8f45689c819598b7960acbb23ba2",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"Glue degrader\" drug name"
+      }
+    },
+    {
+      "id": "rs_0332cc4bbe7b756100693c8f4846b8819580300be3d2b5b858",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0332cc4bbe7b756100693c8f54cc248195aa3cad07d227b9c7",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": false,\n  \"assets\": [],\n  \"rejected_reason\": \"Candidate identifier 'glue degrader' is a generic modality/class term (molecular glue degrader), not a specific drug asset identifier, so sponsor/target/indication/development stage/geography cannot be uniquely and unambiguously verified for a single asset. Evidence that 'molecular glue degrader' refers to a type/class of molecule (not one drug): https://www.aaas.org/news/new-molecular-glue-degraders-target-troublesome-proteins and https://www.tocris.com/product-type/molecular-glues\"\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 44340,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 8939,
+    "output_tokens_details": {
+      "reasoning_tokens": 8801
+    },
+    "total_tokens": 53279
+  },
+  "user": null,
+  "metadata": {}
+}

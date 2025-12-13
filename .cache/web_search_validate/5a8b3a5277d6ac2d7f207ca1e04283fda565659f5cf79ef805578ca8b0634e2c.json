@@ -1,0 +1,141 @@
+{
+  "id": "resp_0efcf5ad4b5526bc00693c941e24dc8190a3b3203806088775",
+  "object": "response",
+  "created_at": 1765577758,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0efcf5ad4b5526bc00693c941eb3c48190981d429077c6b693",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0efcf5ad4b5526bc00693c942411988190a4a128843888442d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"compound 7f\" CDK12"
+      }
+    },
+    {
+      "id": "rs_0efcf5ad4b5526bc00693c94263cdc8190b51c8942935047bb",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0efcf5ad4b5526bc00693c942a431c81909616ee8a26dcde9d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_0efcf5ad4b5526bc00693c942b99cc81908006326356f18eb0",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0efcf5ad4b5526bc00693c942c351481908943e9356bc8347a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35938508/"
+      }
+    },
+    {
+      "id": "rs_0efcf5ad4b5526bc00693c942d11e4819091c14e41558206a3",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0efcf5ad4b5526bc00693c9435621c81908964e0e3b17ca923",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://synapse.patsnap.com/drug/8abcac5d587b442d9fe2a993e47cc226"
+      }
+    },
+    {
+      "id": "rs_0efcf5ad4b5526bc00693c9436553c8190af92cf53e6206a91",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0efcf5ad4b5526bc00693c946667f88190b56503ff1cb007ce",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": true,\n  \"assets\": [\n    {\n      \"drug_name_code\": \"compound 7f\",\n      \"sponsor\": \"Jinan University\",\n      \"target\": \"CDK12 x CDK13\",\n      \"modality\": \"PROTAC degrader (proteolysis-targeting chimera)\",\n      \"indication\": \"Triple Negative Breast Cancer (TNBC)\",\n      \"development_stage\": \"Preclinical\",\n      \"geography\": \"China\",\n      \"sources\": [\n        \"https://pubmed.ncbi.nlm.nih.gov/35938508/\",\n        \"https://synapse.patsnap.com/drug/8abcac5d587b442d9fe2a993e47cc226\"\n      ]\n    }\n  ],\n  \"rejected_reason\": null\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 16846,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 5429,
+    "output_tokens_details": {
+      "reasoning_tokens": 5254
+    },
+    "total_tokens": 22275
+  },
+  "user": null,
+  "metadata": {}
+}

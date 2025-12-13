@@ -1,0 +1,337 @@
+{
+  "id": "resp_04d1951b6501a96c00693c90014d848197ab515a31779f5b48",
+  "object": "response",
+  "created_at": 1765576705,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_04d1951b6501a96c00693c9001bb648197a313de98b0a2d41e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04d1951b6501a96c00693c9002fc3c8197b87e1663bb321706",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CDK12/13 inhibitor\" \"corporate presentation\" pipeline"
+      }
+    },
+    {
+      "id": "rs_04d1951b6501a96c00693c900505f88197899809c946c6bb3b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04d1951b6501a96c00693c9005fcb881979453e2b0eda4d239",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search"
+      }
+    },
+    {
+      "id": "rs_04d1951b6501a96c00693c9007d31081979c40c085679ea784",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04d1951b6501a96c00693c9007f424819798ce316506503001",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "Carrick Therapeutics corporate presentation CT7439 CDK12/13"
+      }
+    },
+    {
+      "id": "rs_04d1951b6501a96c00693c900b3f048197abdfa1190d2f70a8",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04d1951b6501a96c00693c900cd298819787820968b3e67732",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "Carrick Therapeutics \"Corporate Presentation\" PDF CT7439"
+      }
+    },
+    {
+      "id": "rs_04d1951b6501a96c00693c900fe9a08197897e8e992a753160",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04d1951b6501a96c00693c9012973c8197a7535e7902e70679",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CDK12/13\" \"Corporate Presentation\" CT7439 pdf"
+      }
+    },
+    {
+      "id": "rs_04d1951b6501a96c00693c90157d988197a376f50b9e9ea2df",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04d1951b6501a96c00693c901a385c8197bf13256d1abbdd29",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:carricktherapeutics.com investors presentations CT7439 pdf"
+      }
+    },
+    {
+      "id": "rs_04d1951b6501a96c00693c901d8e6c8197af916bbe3a7cb85a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04d1951b6501a96c00693c901f5af08197b9f766f9c2bfdcbb",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.carricktherapeutics.com/investors/news-events/presentations"
+      }
+    },
+    {
+      "id": "rs_04d1951b6501a96c00693c9020e144819787465edc3a21e5df",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04d1951b6501a96c00693c902a2fb48197b4608f25a22c45e4",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "Syros corporate presentation CDK12 inhibitor program PDF"
+      }
+    },
+    {
+      "id": "rs_04d1951b6501a96c00693c902e1c3081978dff5a84421b51ad",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04d1951b6501a96c00693c902f9aa88197a2f1c885c4e6ba92",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.carricktherapeutics.com/news-media/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase"
+      }
+    },
+    {
+      "id": "rs_04d1951b6501a96c00693c9031c3c881979feeaac1c4c4bee3",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04d1951b6501a96c00693c9033c7d08197a060055b5004d150",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:sec.gov syros corporate presentation CDK12/13 inhibitor"
+      }
+    },
+    {
+      "id": "rs_04d1951b6501a96c00693c9037d210819797b24fb92f6d5db6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04d1951b6501a96c00693c9039b324819796e737d6204cd037",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "Syros Pharmaceuticals 8-K January 7 2019 exhibit 99.1 corporate presentation"
+      }
+    },
+    {
+      "id": "rs_04d1951b6501a96c00693c903e04488197bee5abf06e5eb673",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04d1951b6501a96c00693c903fb43081979d178c6005cd2542",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.sec.gov/Archives/edgar/data/1556263/000119312524003863/d108883d8k.htm"
+      }
+    },
+    {
+      "id": "rs_04d1951b6501a96c00693c90411cf8819791738fae38a5797f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04d1951b6501a96c00693c90419b508197a3f75cb4399b13bc",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.sec.gov/Archives/edgar/data/1556263/000119312524003863/d108883dex991.htm"
+      }
+    },
+    {
+      "id": "rs_04d1951b6501a96c00693c90441fb08197868a5a56cb73a66e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04d1951b6501a96c00693c904a0b208197b2d93b786e2d0c7f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:sec.gov \"Syros Pharmaceuticals\" \"January 2019\" \"Exhibit 99.1\" slide presentation"
+      }
+    },
+    {
+      "id": "rs_04d1951b6501a96c00693c90506b2c8197ad541f20908619e8",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04d1951b6501a96c00693c9051c284819783853305ed526971",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:sec.gov/Archives/edgar/data/1556263 2019 8-k January 7 2019"
+      }
+    },
+    {
+      "id": "rs_04d1951b6501a96c00693c905791cc81979e75234095eb7955",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04d1951b6501a96c00693c90587a288197bdc8dd79351db919",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.sec.gov/Archives/edgar/data/1556263/000119312520005784/d864194dex991.htm"
+      }
+    },
+    {
+      "id": "rs_04d1951b6501a96c00693c9059ba108197a969f89fcd56a59e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04d1951b6501a96c00693c9064e7588197a84044dfe80e7451",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CDK12/13\" \"Corporate Presentation\" \"inhibitor\" pdf"
+      }
+    },
+    {
+      "id": "rs_04d1951b6501a96c00693c9069f09c8197b8fb23fbece561f0",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_04d1951b6501a96c00693c906d4b848197a961229000b76bea",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "000110465919000970 syros exhibit 99.1"
+      }
+    },
+    {
+      "id": "rs_04d1951b6501a96c00693c9073dbd08197818250b4a47dbd4d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_04d1951b6501a96c00693c907d3b3081978b5158400563e288",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "- **CDK12/13 Inhibitor :: Carrick Therapeutics, Inc.**\n  - URL: `https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor`\n  - Direct quotes:\n    - “## **CT7439: CDK12/13 inhibitor/Cyclin-K Degrader**”\n    - “**CT7439 is a CDK12/13/Cyclin-K degrader**, which potently inhibits the cellular activity of **CDK12/13**.”\n    - “CDK12/13 is implicated in multiple cancer types including **breast, ovarian and Ewing's Sarcoma**.”\n\n- **Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor) :: Carrick Therapeutics, Inc.**\n  - URL: `https://www.carricktherapeutics.com/news-media/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase`\n  - Direct quotes:\n    - “the Phase 1 clinical trial evaluating **CT7439**, a novel cyclin dependent kinase 12/13 (**CDK12/13**) **inhibitor / Cyclin-K glue-degrader**.”\n    - “Clinical trial details can also be found on **www.clinicaltrials.gov** under study ID: **NCT06600789**.”\n    - “The clinical trial is enrolling patients with advanced solid tumors, including **ovarian, breast and Ewing's Sarcoma**.”\n\n- **Carrick Therapeutics Announces U.S. FDA Clearance of IND for CT7439, a First-In-Class Inhibitor of CDK12/13 :: Carrick Therapeutics, Inc.**\n  - URL: `https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/20/carrick-therapeutics-announces-u-s-fda-clearance-of-ind`\n  - Direct quotes:\n    - “FDA has cleared the Company’s Investigational New Drug (**IND**) application for **CT7439**, a novel cyclin dependent kinase 12/13 (**CDK12/13**) inhibitor.”\n    - “The Company plans to initiate the **Phase 1** clinical trial in the first half of **2024** and intends to enroll patients with advanced solid tumors, including **breast, ovarian and Ewing's Sarcoma**.”\n    - “**CT7439 is an inhibitor of CDK12/13 as well as a 'glue degrader' of Cyclin-K**…”\n\n- **EX-99.1 (Syros corporate slide presentation) — “An Expression Makes a World of Difference” (January 13, 2020)**\n  - URL: `https://www.sec.gov/Archives/edgar/data/1556263/000119312520005784/d864194dex991.htm`\n  - Direct quotes:\n    - “**SY-1425 (RARα agonist)** … **SY-5609 (Oral CDK7 inhibitor)** … **CDK12/13 inhibitor** …”\n    - “Program Indication Drug Discovery IND- Enabling Early Clinical Mid- Clinical Pivotal Commercial Rights **SY-1425 (RARα agonist)** … **SY-5609 (Oral CDK7 inhibitor)** … **CDK12/13 inhibitor** …”\n    - “Therapeutic Area Program Target Development Drug Discovery IND-Enabling Commercial Rights Cancer **CDK12/13 inhibitor** …”"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 69232,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 5945,
+    "output_tokens_details": {
+      "reasoning_tokens": 5199
+    },
+    "total_tokens": 75177
+  },
+  "user": null,
+  "metadata": {}
+}

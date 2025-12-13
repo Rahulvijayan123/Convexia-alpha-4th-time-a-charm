@@ -1,0 +1,328 @@
+{
+  "id": "resp_0ae2daad509009db00693c9309e2a48196a97539573163e1ce",
+  "object": "response",
+  "created_at": 1765577481,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0ae2daad509009db00693c930a3ff88196aefeba485feffd6f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ae2daad509009db00693c930b4d0c819690a4b425e0384aef",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12 CDK13 dual inhibitor WO publication"
+      }
+    },
+    {
+      "id": "rs_0ae2daad509009db00693c930ce1e08196afe53c51ce7ed69e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ae2daad509009db00693c930e38a881969294aa10f92d2886",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "SR-4835 WO patent"
+      }
+    },
+    {
+      "id": "rs_0ae2daad509009db00693c931080a481969b96977263a58891",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ae2daad509009db00693c9313ae848196848d531f06a96680",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/US11666578B2/en"
+      }
+    },
+    {
+      "id": "rs_0ae2daad509009db00693c931482b08196912e60eb13e125c8",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ae2daad509009db00693c9314b92081969f33924b1e5e686a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "WO",
+        "url": "https://patents.google.com/patent/US11666578B2/en"
+      }
+    },
+    {
+      "id": "rs_0ae2daad509009db00693c93167e1c8196a43d935c1e3a325f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ae2daad509009db00693c9319bba88196a7785cd27987d20c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "Family",
+        "url": "https://patents.google.com/patent/US11666578B2/en"
+      }
+    },
+    {
+      "id": "rs_0ae2daad509009db00693c931b3c90819686c598d10b1e5de4",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ae2daad509009db00693c931cdeec8196a2f2e52150198440",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:patentscope.wipo.int CDK12 CDK13 inhibitor"
+      }
+    },
+    {
+      "id": "rs_0ae2daad509009db00693c932108808196906635c5951294f6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ae2daad509009db00693c932398d081968f87200b5cc6fb5f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:patents.google.com WO \"CDK12\" \"CDK13\" inhibitor"
+      }
+    },
+    {
+      "id": "rs_0ae2daad509009db00693c9326aea4819689d352b8f274acf2",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ae2daad509009db00693c93278a6481969ecb97e0cd67532f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "WO2020 CDK12 CDK13 inhibitor"
+      }
+    },
+    {
+      "id": "rs_0ae2daad509009db00693c932a54748196932d9b6f3aa9210d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ae2daad509009db00693c9330f4b48196a48b4717731c5cfd",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/WO2021138215A1/en"
+      }
+    },
+    {
+      "id": "rs_0ae2daad509009db00693c933212f88196aff9c301575ec4ef",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ae2daad509009db00693c933411208196abaaf2ee4f8251d3",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/WO2019217421A1/en"
+      }
+    },
+    {
+      "id": "rs_0ae2daad509009db00693c9335ff3c8196912e73c331546240",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ae2daad509009db00693c933a3008819680dc604f621c401e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "W017",
+        "url": "https://patents.google.com/patent/WO2019217421A1/en"
+      }
+    },
+    {
+      "id": "rs_0ae2daad509009db00693c933c36488196abdffeb65bf1fba7",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ae2daad509009db00693c9343d6b081969497542be0f73b89",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "WO CDK12/13 degrader"
+      }
+    },
+    {
+      "id": "rs_0ae2daad509009db00693c93477650819687a457d6cff5cd2d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ae2daad509009db00693c934b138c81969de4b272075b2d7b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "W017/066,055 CDK12 CDK13"
+      }
+    },
+    {
+      "id": "rs_0ae2daad509009db00693c935046b881968b3e6068c2cddaf5",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0ae2daad509009db00693c93518ef88196afc87e102d266285",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "WO17066055A1 CDK12"
+      }
+    },
+    {
+      "id": "rs_0ae2daad509009db00693c9355fe54819686748fcbda0e3dee",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0ae2daad509009db00693c936a52588196b09e925a03c6ace4",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 305,
+              "start_index": 230,
+              "title": "WO2021138215A1 - Treatment of cancer with cdk12/13 inhibitors \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2021138215A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 563,
+              "start_index": 488,
+              "title": "WO2021138215A1 - Treatment of cancer with cdk12/13 inhibitors \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2021138215A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 783,
+              "start_index": 708,
+              "title": "WO2021138215A1 - Treatment of cancer with cdk12/13 inhibitors \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2021138215A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1086,
+              "start_index": 1011,
+              "title": "WO2019217421A1 - Small molecule inhibitors of cdk12/cdk13 \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2019217421A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1261,
+              "start_index": 1186,
+              "title": "WO2019217421A1 - Small molecule inhibitors of cdk12/cdk13 \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2019217421A1/en"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1411,
+              "start_index": 1336,
+              "title": "WO2019217421A1 - Small molecule inhibitors of cdk12/cdk13 \n        - Google Patents",
+              "url": "https://patents.google.com/patent/WO2019217421A1/en"
+            }
+          ],
+          "logprobs": [],
+          "text": "- **WO2021138215A1 - Treatment of cancer with cdk12/13 inhibitors - Google Patents**\n  - URL: `https://patents.google.com/patent/WO2021138215A1/en`\n  - Direct quote snippets:\n    - “WO2021138215A1 PCT/US2020/066967 US2020066967W” ([patents.google.com](https://patents.google.com/patent/WO2021138215A1/en))\n    - “compositions and methods for the treatment of cancer include, but are not limited to, triple negative breast cancer, ovarian cancer and castration-resistant prostate cancer.” ([patents.google.com](https://patents.google.com/patent/WO2021138215A1/en))\n    - “FIGS. 3A and 3B depict dose-response curves for THZ531 and compound 1 during in vitro analysis of inhibition of RNA II phosphorylation.” ([patents.google.com](https://patents.google.com/patent/WO2021138215A1/en))\n\n- **WO2019217421A1 - Small molecule inhibitors of cdk12/cdk13 - Google Patents**\n  - URL: `https://patents.google.com/patent/WO2019217421A1/en`\n  - Direct quote snippets:\n    - “WO2019217421A1 PCT/US2019/031116 US2019031116W” ([patents.google.com](https://patents.google.com/patent/WO2019217421A1/en))\n    - “CDK7, CDK8, CDK9, CDK12 and CDK13— have been described as transcription regulating kinases” ([patents.google.com](https://patents.google.com/patent/WO2019217421A1/en))\n    - “the only selective inhibitor of CDK12/13 reported so far - THZ531” ([patents.google.com](https://patents.google.com/patent/WO2019217421A1/en))"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 62217,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 4972,
+    "output_tokens_details": {
+      "reasoning_tokens": 4592
+    },
+    "total_tokens": 67189
+  },
+  "user": null,
+  "metadata": {}
+}

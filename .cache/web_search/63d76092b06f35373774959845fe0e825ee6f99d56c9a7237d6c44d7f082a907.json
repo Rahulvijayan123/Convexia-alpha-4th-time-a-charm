@@ -1,0 +1,491 @@
+{
+  "id": "resp_0201ed8905dc623200693c8d6af98c8195b8c779779e03a468",
+  "object": "response",
+  "created_at": 1765576042,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0201ed8905dc623200693c8d6b347c81958aae3985e7cddbb6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0201ed8905dc623200693c8d6d0c148195a3597c638b5d109d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12 inhibitor corporate presentation PDF"
+      }
+    },
+    {
+      "id": "rs_0201ed8905dc623200693c8d6e93d8819582f830a1c839f2a6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0201ed8905dc623200693c8d72e3cc8195919756297ecb22e2",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "Carrick Therapeutics corporate presentation PDF CDK12/13 inhibitor"
+      }
+    },
+    {
+      "id": "rs_0201ed8905dc623200693c8d74dca88195ace69b8334a71b36",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0201ed8905dc623200693c8d759bc88195a0604ddb5a2571b1",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_0201ed8905dc623200693c8d7642e08195846cbb8f06f60b4f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0201ed8905dc623200693c8d76dbb88195a97b57885b053960",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:carricktherapeutics.com presentations pdf"
+      }
+    },
+    {
+      "id": "rs_0201ed8905dc623200693c8d7903448195be0946e0fd8ce294",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0201ed8905dc623200693c8d7965c08195925db86ef12eb1cb",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:carricktherapeutics.com presentations"
+      }
+    },
+    {
+      "id": "rs_0201ed8905dc623200693c8d7cb2f0819592c5abf63b35ea98",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0201ed8905dc623200693c8d7d86888195967935c9fa82c88a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:carricktherapeutics.com \"Presentations\" \"PDF\""
+      }
+    },
+    {
+      "id": "rs_0201ed8905dc623200693c8d8041948195a0dce7f7f2abd968",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0201ed8905dc623200693c8d8234048195b16200cc3ca8f583",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase"
+      }
+    },
+    {
+      "id": "rs_0201ed8905dc623200693c8d82ea488195b4163864fe2516e8",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0201ed8905dc623200693c8d83f8488195a58758d6d1b0f967",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.carricktherapeutics.com/investors/news-events/presentations"
+      }
+    },
+    {
+      "id": "rs_0201ed8905dc623200693c8d85e9fc8195a705ddde530077dd",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0201ed8905dc623200693c8d87e0cc8195854cbdd4107c8d5d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "Syros corporate presentation PDF CDK12 inhibitor program"
+      }
+    },
+    {
+      "id": "rs_0201ed8905dc623200693c8d8af7488195a185b1716c922e5c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0201ed8905dc623200693c8d8bb8fc8195a60000b390c72d71",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:syros.com filetype:pdf \"Corporate Presentation\""
+      }
+    },
+    {
+      "id": "rs_0201ed8905dc623200693c8d8f39788195821ae5bfa29aecc0",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0201ed8905dc623200693c8d922e988195ace37ea7eafb9f53",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2024-09-23_Carrick_Therapeutics_Announces_First_Patient_25.pdf"
+      }
+    },
+    {
+      "id": "rs_0201ed8905dc623200693c8d93592481958251b692535c24ab",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0201ed8905dc623200693c8d985a4c81959ee9dbdf8e30414d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CDK12\" inhibitor \"Corporate Presentation\" filetype:pdf"
+      }
+    },
+    {
+      "id": "rs_0201ed8905dc623200693c8d9ca1248195bf4e2bbbe6dad2dc",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0201ed8905dc623200693c8d9d06688195a538036001978901",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/20/carrick-therapeutics-announces-u-s-fda-clearance-of-ind"
+      }
+    },
+    {
+      "id": "rs_0201ed8905dc623200693c8d9e4c4481958a55cddcdfe282bc",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0201ed8905dc623200693c8d9ea90c8195b140199b5791a5a8",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2023-09-07_Carrick_Therapeutics_Announces_U_S_FDA_Clearance_20.pdf"
+      }
+    },
+    {
+      "id": "rs_0201ed8905dc623200693c8da0276c8195be91b92f0e028c21",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0201ed8905dc623200693c8da67ca48195b7dffcb6f49ff6d4",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "d1io3yog0oux5.cloudfront.net carricktherapeutics presentation pdf"
+      }
+    },
+    {
+      "id": "rs_0201ed8905dc623200693c8dab6ef88195b30096246b56fcc5",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0201ed8905dc623200693c8db2149481958a358fce254db7c0",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT06600789 clinicaltrials.gov pdf"
+      }
+    },
+    {
+      "id": "rs_0201ed8905dc623200693c8db6c58881958cdfc674e5d03219",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0201ed8905dc623200693c8dbba6a4819593d94bdaef576bc1",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.carricktherapeutics.com/science/cdk1213-biology-schematic"
+      }
+    },
+    {
+      "id": "rs_0201ed8905dc623200693c8dbd6ac481958a4f9196cac4bd52",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0201ed8905dc623200693c8dbde73c81958077a08382db3b5d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://d1io3yog0oux5.cloudfront.net/carricktherapeutics/files/pages/carricktherapeutics/db/2983/description/CDK12_and_Cyclin_K_illustration-small_2x.jpg"
+      }
+    },
+    {
+      "id": "rs_0201ed8905dc623200693c8dc027508195930a3ffb0527eafb",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0201ed8905dc623200693c8dc1742081958bf12415d9fff46f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.carricktherapeutics.com/science/posters-publications"
+      }
+    },
+    {
+      "id": "rs_0201ed8905dc623200693c8dc3b25c8195a09e0a60dc1f644b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0201ed8905dc623200693c8dc4cf4481959a3a57d7b036582f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_0201ed8905dc623200693c8dc7544c81959de926feea8f545e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0201ed8905dc623200693c8dcfb414819591ce78363125909f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:carricktherapeutics.com \"Series C\" \"Download as PDF\""
+      }
+    },
+    {
+      "id": "rs_0201ed8905dc623200693c8dd5a8fc81958779f1cc87ab2ec5",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0201ed8905dc623200693c8dd5c9d4819598f3127b6161bea9",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.carricktherapeutics.com/news-media/press-releases/detail/17/carrick-therapeutics-closes-series-c-financing"
+      }
+    },
+    {
+      "id": "rs_0201ed8905dc623200693c8dd717c081959957d3477ae57689",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0201ed8905dc623200693c8dd791a88195abbdb0b81e1cae87",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2022-12-01_Carrick_Therapeutics_Closes_Series_C_17.pdf"
+      }
+    },
+    {
+      "id": "rs_0201ed8905dc623200693c8dd9ab308195b99950b71a42bf3e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0201ed8905dc623200693c8de29aa081959c04a38a56bad047",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 489,
+              "start_index": 297,
+              "title": "Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor)",
+              "url": "https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2024-09-23_Carrick_Therapeutics_Announces_First_Patient_25.pdf"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 843,
+              "start_index": 651,
+              "title": "Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor)",
+              "url": "https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2024-09-23_Carrick_Therapeutics_Announces_First_Patient_25.pdf"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1081,
+              "start_index": 889,
+              "title": "Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor)",
+              "url": "https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2024-09-23_Carrick_Therapeutics_Announces_First_Patient_25.pdf"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1345,
+              "start_index": 1153,
+              "title": "Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor)",
+              "url": "https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2024-09-23_Carrick_Therapeutics_Announces_First_Patient_25.pdf"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1846,
+              "start_index": 1650,
+              "title": "Carrick Therapeutics Announces U.S. FDA Clearance of IND for CT7439, a First-In-Class Inhibitor of CDK12/13",
+              "url": "https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2023-09-07_Carrick_Therapeutics_Announces_U_S_FDA_Clearance_20.pdf"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2215,
+              "start_index": 2019,
+              "title": "Carrick Therapeutics Announces U.S. FDA Clearance of IND for CT7439, a First-In-Class Inhibitor of CDK12/13",
+              "url": "https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2023-09-07_Carrick_Therapeutics_Announces_U_S_FDA_Clearance_20.pdf"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2494,
+              "start_index": 2298,
+              "title": "Carrick Therapeutics Announces U.S. FDA Clearance of IND for CT7439, a First-In-Class Inhibitor of CDK12/13",
+              "url": "https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2023-09-07_Carrick_Therapeutics_Announces_U_S_FDA_Clearance_20.pdf"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2795,
+              "start_index": 2599,
+              "title": "Carrick Therapeutics Announces U.S. FDA Clearance of IND for CT7439, a First-In-Class Inhibitor of CDK12/13",
+              "url": "https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2023-09-07_Carrick_Therapeutics_Announces_U_S_FDA_Clearance_20.pdf"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3211,
+              "start_index": 3027,
+              "title": "Carrick Therapeutics Closes Series C Financing",
+              "url": "https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2022-12-01_Carrick_Therapeutics_Closes_Series_C_17.pdf"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3516,
+              "start_index": 3332,
+              "title": "Carrick Therapeutics Closes Series C Financing",
+              "url": "https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2022-12-01_Carrick_Therapeutics_Closes_Series_C_17.pdf"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3780,
+              "start_index": 3596,
+              "title": "Carrick Therapeutics Closes Series C Financing",
+              "url": "https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2022-12-01_Carrick_Therapeutics_Closes_Series_C_17.pdf"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4030,
+              "start_index": 3846,
+              "title": "Carrick Therapeutics Closes Series C Financing",
+              "url": "https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2022-12-01_Carrick_Therapeutics_Closes_Series_C_17.pdf"
+            }
+          ],
+          "logprobs": [],
+          "text": "- **Title:** Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor)  \n  - **URL:** `https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2024-09-23_Carrick_Therapeutics_Announces_First_Patient_25.pdf` ([d1io3yog0oux5.cloudfront.net](https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2024-09-23_Carrick_Therapeutics_Announces_First_Patient_25.pdf))  \n  - **Direct quote snippets:**  \n    - > “evaluating **CT7439**, a novel cyclin dependent kinase 12/13 (**CDK12/13**) inhibitor / **Cyclin-K glue-degrader**.” ([d1io3yog0oux5.cloudfront.net](https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2024-09-23_Carrick_Therapeutics_Announces_First_Patient_25.pdf))  \n    - > “under study ID: **NCT06600789**.” ([d1io3yog0oux5.cloudfront.net](https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2024-09-23_Carrick_Therapeutics_Announces_First_Patient_25.pdf))  \n    - > “including **ovarian**, **breast** and **Ewing's Sarcoma**.” ([d1io3yog0oux5.cloudfront.net](https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2024-09-23_Carrick_Therapeutics_Announces_First_Patient_25.pdf))  \n\n- **Title:** Carrick Therapeutics Announces U.S. FDA Clearance of IND for CT7439, a First-In-Class Inhibitor of CDK12/13  \n  - **URL:** `https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2023-09-07_Carrick_Therapeutics_Announces_U_S_FDA_Clearance_20.pdf` ([d1io3yog0oux5.cloudfront.net](https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2023-09-07_Carrick_Therapeutics_Announces_U_S_FDA_Clearance_20.pdf))  \n  - **Direct quote snippets:**  \n    - > “Investigational New Drug (**IND**) application for **CT7439**, a novel cyclin dependent kinase 12/13 (**CDK12/13**) inhibitor.” ([d1io3yog0oux5.cloudfront.net](https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2023-09-07_Carrick_Therapeutics_Announces_U_S_FDA_Clearance_20.pdf))  \n    - > “initiate the **Phase 1 clinical trial** in the first half of **2024**” ([d1io3yog0oux5.cloudfront.net](https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2023-09-07_Carrick_Therapeutics_Announces_U_S_FDA_Clearance_20.pdf))  \n    - > “**CT7439** is an inhibitor of **CDK12/13** as well as a ‘**glue degrader**’ of **Cyclin-K**” ([d1io3yog0oux5.cloudfront.net](https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2023-09-07_Carrick_Therapeutics_Announces_U_S_FDA_Clearance_20.pdf))  \n\n- **Title:** Carrick Therapeutics Closes Series C Financing  \n  - **URL:** `https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2022-12-01_Carrick_Therapeutics_Closes_Series_C_17.pdf` ([d1io3yog0oux5.cloudfront.net](https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2022-12-01_Carrick_Therapeutics_Closes_Series_C_17.pdf))  \n  - **Direct quote snippets:**  \n    - > “ongoing development of its **CDK12/13 inhibitor / Cyclin-K glue-degrader**” ([d1io3yog0oux5.cloudfront.net](https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2022-12-01_Carrick_Therapeutics_Closes_Series_C_17.pdf))  \n    - > “accelerate development of our **CDK7** and **CDK12/13 inhibitors**” ([d1io3yog0oux5.cloudfront.net](https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2022-12-01_Carrick_Therapeutics_Closes_Series_C_17.pdf))  \n    - > “ongoing and planned **samuraciclib** clinical trials” ([d1io3yog0oux5.cloudfront.net](https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2022-12-01_Carrick_Therapeutics_Closes_Series_C_17.pdf))"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 65682,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 5954,
+    "output_tokens_details": {
+      "reasoning_tokens": 5194
+    },
+    "total_tokens": 71636
+  },
+  "user": null,
+  "metadata": {}
+}

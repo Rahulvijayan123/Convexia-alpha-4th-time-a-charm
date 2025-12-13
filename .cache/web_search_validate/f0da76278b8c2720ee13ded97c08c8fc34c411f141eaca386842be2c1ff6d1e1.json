@@ -1,0 +1,170 @@
+{
+  "id": "resp_0439cc3fbd89a15700693c941e25288195b30d28c764589bf7",
+  "object": "response",
+  "created_at": 1765577758,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0439cc3fbd89a15700693c941f36b88195907a538aba908a49",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0439cc3fbd89a15700693c943a71a4819585db0277e6b23047",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "THZ531 covalent inhibitor CDK12 CDK13"
+      }
+    },
+    {
+      "id": "rs_0439cc3fbd89a15700693c943c7fa4819595369631cd07b3bc",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0439cc3fbd89a15700693c945e6fa081958768c370bc91d9c0",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "THZ531 triple-negative breast cancer"
+      }
+    },
+    {
+      "id": "rs_0439cc3fbd89a15700693c946050248195ac613bfdebb8269f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0439cc3fbd89a15700693c9469aaa88195b5bda1476683d422",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.chemicalprobes.org/thz531"
+      }
+    },
+    {
+      "id": "rs_0439cc3fbd89a15700693c946a51808195be37d3ef97e64e77",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0439cc3fbd89a15700693c947072d0819599105a7794e3c4d8",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12 inhibitor clinical trial CDK12/13 inhibitor"
+      }
+    },
+    {
+      "id": "rs_0439cc3fbd89a15700693c94730af481959df3b562b007ff42",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0439cc3fbd89a15700693c948062608195a39cf6b4b4972e69",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CT7439 covalent inhibitor"
+      }
+    },
+    {
+      "id": "rs_0439cc3fbd89a15700693c948284cc819590458de57dc3cbfe",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0439cc3fbd89a15700693c9485146c8195ac5abaf6306c22ab",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "Insilico Medicine compound 12b covalent CDK12/13 dual inhibitor Journal of Medicinal Chemistry"
+      }
+    },
+    {
+      "id": "rs_0439cc3fbd89a15700693c9487d02081958de68a332d4c574a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0439cc3fbd89a15700693c94927d648195bf348936825a2681",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": false,\n  \"assets\": [],\n  \"rejected_reason\": \"Candidate identifier 'covalent inhibitors' is a generic modality/class term (not a specific drug code/name, trial ID, or patent ID), so sponsor/target/indication/development stage/geography cannot be uniquely assigned to a single drug asset.\"\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 31712,
+    "input_tokens_details": {
+      "cached_tokens": 4096
+    },
+    "output_tokens": 7484,
+    "output_tokens_details": {
+      "reasoning_tokens": 7407
+    },
+    "total_tokens": 39196
+  },
+  "user": null,
+  "metadata": {}
+}

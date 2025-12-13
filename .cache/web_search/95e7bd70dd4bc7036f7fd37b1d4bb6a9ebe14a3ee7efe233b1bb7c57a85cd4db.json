@@ -1,0 +1,294 @@
+{
+  "id": "resp_08fa714c635f5bf800693c929f78f88195838ad9515b1a15ed",
+  "object": "response",
+  "created_at": 1765577375,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_08fa714c635f5bf800693c92a0e3e88195a6a80e0b83400573",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08fa714c635f5bf800693c92a196b481958f6fb9c9c829c399",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov \"cyclin-dependent kinase 12\" breast cancer"
+      }
+    },
+    {
+      "id": "rs_08fa714c635f5bf800693c92a383fc8195b6d8adb7941bf269",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08fa714c635f5bf800693c92a475fc8195af7fbe15e9a0273d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov \"cyclin-dependent kinase 12\" breast cancer"
+      }
+    },
+    {
+      "id": "rs_08fa714c635f5bf800693c92a8cce48195a6e55f4d8264fbfc",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08fa714c635f5bf800693c92ae0a088195ac9adfc20efe021e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov CDK12 mutation \"breast cancer\""
+      }
+    },
+    {
+      "id": "rs_08fa714c635f5bf800693c92b03e688195992d24dd6bf0d650",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08fa714c635f5bf800693c92b54a2881958e2b8ca7f45fa93d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov CDK12 NCT"
+      }
+    },
+    {
+      "id": "rs_08fa714c635f5bf800693c92b8701881959070ee4ac5db8530",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08fa714c635f5bf800693c92bd8c508195a4f33580b3544f21",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "clinicaltrials.gov api v2 studies query.term"
+      }
+    },
+    {
+      "id": "rs_08fa714c635f5bf800693c92c0fbb081959d40a0154d3afbed",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08fa714c635f5bf800693c92c2a4808195908cbfc72e4167e6",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_08fa714c635f5bf800693c92c6750c81958150bdb7282d74c9",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08fa714c635f5bf800693c92c7d31881959d62710373f59699",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "https://clinicaltrials.gov/api/v2/studies?query.term=CDK12"
+      }
+    },
+    {
+      "id": "rs_08fa714c635f5bf800693c92cd0f44819582b42dfd3f45f170",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08fa714c635f5bf800693c92d069548195bacad6fc9f5abd43",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/data-api/api"
+      }
+    },
+    {
+      "id": "rs_08fa714c635f5bf800693c92d24c20819590e8412aa61a141a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08fa714c635f5bf800693c92d89880819589887496c58fe292",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_08fa714c635f5bf800693c92dd6048819595a0ca031c922fb4",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08fa714c635f5bf800693c92df0028819584f0b626abdd5b84",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov ctg-oas-v2.yaml"
+      }
+    },
+    {
+      "id": "rs_08fa714c635f5bf800693c92e8b6c081958e2466367aaa96a1",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08fa714c635f5bf800693c92ec73e08195b77b0f0aa2478c36",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov \"cyclin-dependent kinase 12\""
+      }
+    },
+    {
+      "id": "rs_08fa714c635f5bf800693c92f09e8c819598ace01d5150036a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08fa714c635f5bf800693c92f3ffcc8195b6c25f07ef469759",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov/search term=CDK12 breast cancer"
+      }
+    },
+    {
+      "id": "rs_08fa714c635f5bf800693c92f959f881958721a8b614009303",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08fa714c635f5bf800693c92fe2d688195b6efe53d09aa0479",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "https://clinicaltrials.gov/search?term=%22cyclin-dependent%20kinase%2012%22"
+      }
+    },
+    {
+      "id": "rs_08fa714c635f5bf800693c9305060c81958b7809e6c9678d03",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08fa714c635f5bf800693c930fa3648195b188fbba172109ff",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"https://clinicaltrials.gov/search?cond=breast%20cancer&term=%22cyclin-dependent%20kinase%2012%22\""
+      }
+    },
+    {
+      "id": "rs_08fa714c635f5bf800693c931888c08195b51631c73773f2f1",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08fa714c635f5bf800693c931cf4108195b7229303d1ecc2ab",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov \"search?term=cyclin-dependent\""
+      }
+    },
+    {
+      "id": "rs_08fa714c635f5bf800693c932191f88195828595c0888519c8",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_08fa714c635f5bf800693c933386808195933dd81aa97069f4",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "No matching **ClinicalTrials.gov** pages were returned by web search for the exact query:\n\n- `site:clinicaltrials.gov \"cyclin-dependent kinase 12\" breast cancer`\n\nBecause the web-search result set was empty, I can’t provide a bulleted list of ClinicalTrials.gov source pages with direct-quote snippets containing those exact tokens (e.g., **“cyclin-dependent kinase 12”**) and breast-cancer context."
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 44726,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 5526,
+    "output_tokens_details": {
+      "reasoning_tokens": 5431
+    },
+    "total_tokens": 50252
+  },
+  "user": null,
+  "metadata": {}
+}

@@ -1,0 +1,395 @@
+{
+  "id": "resp_066486f82658892700693c900144f48190acd996f1e8956caf",
+  "object": "response",
+  "created_at": 1765576705,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_066486f82658892700693c9001b0b881908c92376b4647f7ee",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_066486f82658892700693c9002996c8190a738e32558763ade",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12/13 dual inhibitor investor presentation pipeline"
+      }
+    },
+    {
+      "id": "rs_066486f82658892700693c90052d8c8190843b922d55cf0c5e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_066486f82658892700693c9006f5bc819099512d4b39912890",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CT7439 investor presentation pipeline PDF"
+      }
+    },
+    {
+      "id": "rs_066486f82658892700693c9008bef081909dfb81392792b54d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_066486f82658892700693c900949f881909d30947aa79685d5",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.carricktherapeutics.com/investors/news-events/presentations"
+      }
+    },
+    {
+      "id": "rs_066486f82658892700693c900a3f108190a2779c3b94cd4130",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_066486f82658892700693c900ac8d481909461924ebf2759ea",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:carricktherapeutics.com corporate presentation pdf"
+      }
+    },
+    {
+      "id": "rs_066486f82658892700693c900d9ddc819089c2ede42b7abed2",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_066486f82658892700693c900f699081909050c83d8a26cc6d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CDK12/13\" \"dual inhibitor\" \"corporate presentation\" pipeline"
+      }
+    },
+    {
+      "id": "rs_066486f82658892700693c9012c1d88190bc6142aca34402f2",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_066486f82658892700693c901534988190bcaa94bc97f09a48",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CT7439 filetype:pdf presentation"
+      }
+    },
+    {
+      "id": "rs_066486f82658892700693c901894f0819096fa13a719585f54",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_066486f82658892700693c90224d588190953c35bb31b4bf28",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "Insilico Medicine covalent CDK12/13 dual inhibitors Journal of Medicinal Chemistry"
+      }
+    },
+    {
+      "id": "rs_066486f82658892700693c902570bc819082b4ada8b58bc6e6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_066486f82658892700693c902a560c81908ee43ac551738143",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor"
+      }
+    },
+    {
+      "id": "rs_066486f82658892700693c902cbc0881909ba2e5f552482d33",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_066486f82658892700693c902e0c848190ba4247ac6ab950c8",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "CDK12/13",
+        "url": "https://insilico.com/pipeline_target_cdk12/13"
+      }
+    },
+    {
+      "id": "rs_066486f82658892700693c90312d9481909141d4c3c60eabfd",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_066486f82658892700693c903248a08190872ce9053702bc60",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.eurekalert.org/news-releases/1004993"
+      }
+    },
+    {
+      "id": "rs_066486f82658892700693c903393848190ad57d672f20e7a88",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_066486f82658892700693c90364dbc81909bd6e1bfffa39e09",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT06600789 CT7439"
+      }
+    },
+    {
+      "id": "rs_066486f82658892700693c90392d648190b858c6ccf49b395f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_066486f82658892700693c903c2d00819081f410ea583c463d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2024-09-23_Carrick_Therapeutics_Announces_First_Patient_25.pdf"
+      }
+    },
+    {
+      "id": "rs_066486f82658892700693c903d81f481908655db8b331c66a8",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_066486f82658892700693c903e14548190bbe51e73ac4f5ed3",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov NCT06600789"
+      }
+    },
+    {
+      "id": "rs_066486f82658892700693c90421ba88190b5eab4c0184706c7",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_066486f82658892700693c9042d9e88190996d7900f6b612ac",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_066486f82658892700693c90443dcc8190a3e2b0a3eeec35af",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_066486f82658892700693c90459e188190bdf5170e98cd4c44",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov/study NCT06600789"
+      }
+    },
+    {
+      "id": "rs_066486f82658892700693c904867648190b83ed159dcbc00bb",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_066486f82658892700693c9052eddc81909e35159765a9c4f0",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://ichgcp.net/clinical-trials-registry/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_066486f82658892700693c90544e688190ac8ce23fc729bcd3",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_066486f82658892700693c9055bc748190983672170f1124c2",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_066486f82658892700693c9056dfbc8190b18b20ef4d846192",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_066486f82658892700693c90592a588190b031e7daa1cb0d5e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "YJ1206 CT7439 NCT06600789"
+      }
+    },
+    {
+      "id": "rs_066486f82658892700693c905f11048190947bf99f3b26a73c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_066486f82658892700693c906364448190ac7b37a3b4b3659e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "Carrick Therapeutics SEC filing CT7439"
+      }
+    },
+    {
+      "id": "rs_066486f82658892700693c90672bd48190bf181e338effbd3e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_066486f82658892700693c9067de248190b24e8185045c45ef",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/20/carrick-therapeutics-announces-u-s-fda-clearance-of-ind"
+      }
+    },
+    {
+      "id": "rs_066486f82658892700693c9069c6a88190aad2c811b4f48b1d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_066486f82658892700693c9074aa24819085bda6abf6cd9e2a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "CT7439_001",
+        "url": "https://ichgcp.net/clinical-trials-registry/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_066486f82658892700693c9077632881909527d52f48e9157c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_066486f82658892700693c907b1f588190a4de7d452d9a33b0",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37190191/"
+      }
+    },
+    {
+      "id": "rs_066486f82658892700693c907ebc588190a1f077a3e722a962",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_066486f82658892700693c9097a99481909b06e4b7425c3f60",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "- **Title:** CDK12/13 Inhibitor :: Carrick Therapeutics, Inc.  \n  **URL:** `https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor`  \n  **Direct quote snippets:**  \n  - \"CT7439: CDK12/13 inhibitor/Cyclin-K Degrader\"  \n  - \"CT7439 is a CDK12/13/Cyclin-K degrader\"  \n  - \"CDK12/13 is implicated in multiple cancer types including breast, ovarian and Ewing's Sarcoma.\"\n\n- **Title:** Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor) :: Carrick Therapeutics, Inc.  \n  **URL:** `https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase`  \n  **Direct quote snippets:**  \n  - \"CT7439, a novel cyclin dependent kinase 12/13 (CDK12/13) inhibitor / Cyclin-K glue-degrader.\"  \n  - \"under study ID: NCT06600789.\"  \n  - \"including ovarian, breast and Ewing's Sarcoma.\"\n\n- **Title:** Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor) (PDF)  \n  **URL:** `https://d1io3yog0oux5.cloudfront.net/_d4fcdc3f1eef88e32cfe969a2cfa8e3c/carricktherapeutics/news/2024-09-23_Carrick_Therapeutics_Announces_First_Patient_25.pdf`  \n  **Direct quote snippets:**  \n  - \"CT7439 (CDK12/13 Inhibitor)\"  \n  - \"CT7439, a novel cyclin dependent kinase 12/13 (CDK12/13) inhibitor / Cyclin-K glue-degrader.\"  \n  - \"NCT06600789.\"\n\n- **Title:** Carrick Therapeutics Announces U.S. FDA Clearance of IND for CT7439, a First-In-Class Inhibitor of CDK12/13 :: Carrick Therapeutics, Inc.  \n  **URL:** `https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/20/carrick-therapeutics-announces-u-s-fda-clearance-of-ind`  \n  **Direct quote snippets:**  \n  - \"Investigational New Drug (IND) application for CT7439\"  \n  - \"a novel cyclin dependent kinase 12/13 (CDK12/13) inhibitor.\"  \n  - \"The Company plans to initiate the Phase 1 clinical trial in the first half of 2024\"\n\n- **Title:** CDK12/13 | Insilico Medicine  \n  **URL:** `https://insilico.com/pipeline_target_cdk12/13`  \n  **Direct quote snippets:**  \n  - \"Cyclin-dependent kinase 12/13 (CDK12/13) Inhibitor:\"  \n  - \"In vivo efficacy studies – Combo study with Olaparib and Cisplatin\"  \n  - \"Triple negative breast cancer (TNBC)\"\n\n- **Title:** Insilico Medicine nominates novel CDK12/13 small molecule inhibitor as preclinical candidate for multiple tumors | EurekAlert!  \n  **URL:** `https://www.eurekalert.org/news-releases/1004993`  \n  **Direct quote snippets:**  \n  - \"ISM9274 is a highly selective covalent inhibitor of CDK12/13.\"  \n  - \"nomination of ISM9274, a highly selective covalent dual-inhibitor of CDK12/13\"  \n  - \"plan to submit an IND application in the second half of 2024.\"\n\n- **Title:** Design, Synthesis, and Biological Evaluation of Novel Orally Available Covalent CDK12/13 Dual Inhibitors for the Treatment of Tumors - PubMed  \n  **URL:** `https://pubmed.ncbi.nlm.nih.gov/39948720/`  \n  **Direct quote snippets:**  \n  - \"doi: 10.1021/acs.jmedchem.4c01616.\"  \n  - \"the discovery of compound 12b as a novel, potent, orally available covalent CDK12/13 dual inhibitor\"\n\n- **Title:** A Modular Phase 1/2 Study With CT7439 in Participants With Solid Malignancies - Clinical Trials Registry - ICH GCP  \n  **URL:** `https://ichgcp.net/clinical-trials-registry/NCT06600789`  \n  **Direct quote snippets:**  \n  - \"Clinical Trial NCT06600789\"  \n  - \"Drug: CT7439 Capsules (0.5 mg, 1mg, 3mg)\"  \n  - \"CT7439_001\"\n\n- **Title:** Novel CDK12/13 Inhibitors AU-15506 and AU-16770 Are Potent Anti-Cancer Agents in EGFR Mutant Lung Adenocarcinoma with and without Osimertinib Resistance - PubMed  \n  **URL:** `https://pubmed.ncbi.nlm.nih.gov/37190191/`  \n  **Direct quote snippets:**  \n  - \"doi: 10.3390/cancers15082263.\"  \n  - \"two novel CDK12/13 inhibitors, AU-15506 and AU-16770,\"  \n  - \"AU15506; AU16770; CDK12; CDK13; EGFR; inhibitor; lung cancer; osimertinib; resistance.\""
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 78696,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 8319,
+    "output_tokens_details": {
+      "reasoning_tokens": 7093
+    },
+    "total_tokens": 87015
+  },
+  "user": null,
+  "metadata": {}
+}

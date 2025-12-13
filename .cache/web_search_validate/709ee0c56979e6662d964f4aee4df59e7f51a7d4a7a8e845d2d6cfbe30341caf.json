@@ -1,0 +1,239 @@
+{
+  "id": "resp_0eb70d3375eb55fe00693c8ebd84ec8190bf7ad39eaee040f7",
+  "object": "response",
+  "created_at": 1765576381,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0eb70d3375eb55fe00693c8ebdcdc08190ab17ee603dc1f70e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0eb70d3375eb55fe00693c8ecaeb7881908009035fdacf020c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "Phase 1/2 CDK12 inhibitor triple negative breast cancer"
+      }
+    },
+    {
+      "id": "rs_0eb70d3375eb55fe00693c8eccebc481909e8830970c158aaf",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0eb70d3375eb55fe00693c8ede68408190a05bf530285e8531",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase"
+      }
+    },
+    {
+      "id": "rs_0eb70d3375eb55fe00693c8edf1c348190bdcb21373707408c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0eb70d3375eb55fe00693c8edff9848190addbfc7e8d10b623",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.globenewswire.com/Tracker?data=JWwNq12pVgh9stSRMaI0RuCP8MEXCkE6CdcoWMH84Tlshlv-h7F1Y5pNUzgVFc9zR7RarupEMS-yQlWKJDb0xfg6exS4kGU7P4HCjVz3rVQ%3D"
+      }
+    },
+    {
+      "id": "rs_0eb70d3375eb55fe00693c8ee0b2c881909d2597bde3aa3eb7",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0eb70d3375eb55fe00693c8ee1fe808190ae4d12ab89d75739",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0eb70d3375eb55fe00693c8ee2a2208190ab1404cc97db0a15",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0eb70d3375eb55fe00693c8ee46d388190b896160849b40a71",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_0eb70d3375eb55fe00693c8ee5074c81909e2869b646c5fcb9",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0eb70d3375eb55fe00693c8ee625f081909cdd204627402233",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT06600789 clinicaltrials.gov api v2"
+      }
+    },
+    {
+      "id": "rs_0eb70d3375eb55fe00693c8ee83f148190ba19cfababe24621",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0eb70d3375eb55fe00693c8eed20288190981fb02dfc0776ee",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "https://clinicaltrials.gov/api/v2/studies/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_0eb70d3375eb55fe00693c8eef2d4081909d9f49f804ec29b2",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0eb70d3375eb55fe00693c8f0be1b88190b994d53584a29234",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.centerwatch.com/clinical-trials/listings/NCT06600789/a-modular-phase-1-2-study-with-ct7439-in-participants-with-solid-malignancies"
+      }
+    },
+    {
+      "id": "rs_0eb70d3375eb55fe00693c8f0cf6048190945f15b2b6cf7497",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0eb70d3375eb55fe00693c8f22d6e48190b711e71a8db0632c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor"
+      }
+    },
+    {
+      "id": "rs_0eb70d3375eb55fe00693c8f23b8388190b603e8102377df1b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0eb70d3375eb55fe00693c8f650c7c819085b55a68dafadad4",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CDK12/13\" degrader \"Phase 1/2\""
+      }
+    },
+    {
+      "id": "rs_0eb70d3375eb55fe00693c8f6975c481908ba94e5484ab8544",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0eb70d3375eb55fe00693c8f7a10e0819085d82ec52ca9bac9",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12 inhibitor \"Phase 1/2\" breast cancer trial"
+      }
+    },
+    {
+      "id": "rs_0eb70d3375eb55fe00693c8f7d5e848190b5882d715e103308",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0eb70d3375eb55fe00693c8fb1955081908e85b0a6b967081e",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": false,\n  \"assets\": [],\n  \"rejected_reason\": \"Candidate identifier \\\"Phase 1/2\\\" is a development-stage label, not a specific drug name/code, trial ID, or patent ID; it cannot uniquely identify a single drug asset to validate.\"\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 41271,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 13316,
+    "output_tokens_details": {
+      "reasoning_tokens": 13250
+    },
+    "total_tokens": 54587
+  },
+  "user": null,
+  "metadata": {}
+}

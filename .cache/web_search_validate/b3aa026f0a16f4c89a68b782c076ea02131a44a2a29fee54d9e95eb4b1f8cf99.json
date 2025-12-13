@@ -1,0 +1,226 @@
+{
+  "id": "resp_03832dd7b020e0fe00693c82d8bb108195bebc8e4134518a85",
+  "object": "response",
+  "created_at": 1765573336,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_03832dd7b020e0fe00693c82d9c95c8195abe413834bac793f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_03832dd7b020e0fe00693c82db41f881959e51d1ad69e34c1f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT06600789"
+      }
+    },
+    {
+      "id": "rs_03832dd7b020e0fe00693c82dcf7048195a48dfac185fae8c6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_03832dd7b020e0fe00693c82e53c208195885daf6ca5f27092",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CT7439 small molecule CDK12/13 inhibitor"
+      }
+    },
+    {
+      "id": "rs_03832dd7b020e0fe00693c82e75d2c8195875c83bfdd7f45c6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_03832dd7b020e0fe00693c82e89c68819582035a28987369b6",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov NCT06600789"
+      }
+    },
+    {
+      "id": "rs_03832dd7b020e0fe00693c82e9ccec81959d10e39ad2b59e93",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_03832dd7b020e0fe00693c82eb95788195b1b325c194ec4f4a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_03832dd7b020e0fe00693c82ec8e08819584ff91fc666b8a07",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_03832dd7b020e0fe00693c8304647081958d48e45eeef9e066",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CT7439 molecular glue degrader small molecule"
+      }
+    },
+    {
+      "id": "rs_03832dd7b020e0fe00693c83068ccc81958ff779c46a95ba3a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_03832dd7b020e0fe00693c830c686481958ab387394f8a3e47",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://cdek.pharmacy.purdue.edu/trial/NCT06600789/"
+      }
+    },
+    {
+      "id": "rs_03832dd7b020e0fe00693c830dea78819581413f9981be9f8a",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_03832dd7b020e0fe00693c830e8eb48195be6eeea70e8db462",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.careacross.com/clinical-trials/trial/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_03832dd7b020e0fe00693c83115ed8819596f16175afa7a254",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_03832dd7b020e0fe00693c831189148195808c99161fdf61f6",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase"
+      }
+    },
+    {
+      "id": "rs_03832dd7b020e0fe00693c831322388195ba40f02023d31b29",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_03832dd7b020e0fe00693c831471c88195a787c7b2a76c9d01",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor"
+      }
+    },
+    {
+      "id": "rs_03832dd7b020e0fe00693c831720c88195aab2034cc2db5b6e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_03832dd7b020e0fe00693c831e7e408195afeb922c4fed39fb",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/ct2/show/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_03832dd7b020e0fe00693c831f75948195a24c5519cf93ea6d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_03832dd7b020e0fe00693c833a06248195a50bc720497020a4",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": true,\n  \"assets\": [\n    {\n      \"drug_name_code\": \"CT7439\",\n      \"sponsor\": \"Carrick Therapeutics Limited\",\n      \"target\": \"CDK12/13; Cyclin-K\",\n      \"modality\": \"CDK12/13 inhibitor / Cyclin-K glue degrader\",\n      \"indication\": \"Solid malignancies (advanced solid tumors, including breast, ovarian and Ewing's sarcoma)\",\n      \"development_stage\": \"Phase 1/Phase 2 (Recruiting)\",\n      \"geography\": \"United States; United Kingdom\",\n      \"sources\": [\n        \"https://cdek.pharmacy.purdue.edu/trial/NCT06600789/\",\n        \"https://www.careacross.com/clinical-trials/trial/NCT06600789\",\n        \"https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase\",\n        \"https://www.carricktherapeutics.com/pipeline/cdk1213-inhibitor\"\n      ]\n    }\n  ],\n  \"rejected_reason\": null\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 36694,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 6017,
+    "output_tokens_details": {
+      "reasoning_tokens": 5761
+    },
+    "total_tokens": 42711
+  },
+  "user": null,
+  "metadata": {}
+}

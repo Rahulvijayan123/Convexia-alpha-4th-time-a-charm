@@ -1,0 +1,387 @@
+{
+  "id": "resp_0813636cc3abd58000693c941e277081938ccee4ad8bc7d0e0",
+  "object": "response",
+  "created_at": 1765577758,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0813636cc3abd58000693c941e8f7c8193ab58b69ec7b1e897",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0813636cc3abd58000693c94248ccc819395c7a716db1289f3",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CDK12\" \"DDB1\" interaction degrader"
+      }
+    },
+    {
+      "id": "rs_0813636cc3abd58000693c9426604c819393555ac002a8ccc0",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0813636cc3abd58000693c942f1ab8819385405677481971a4",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32804079/"
+      }
+    },
+    {
+      "id": "rs_0813636cc3abd58000693c942fd5c08193b298979f286f09ab",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0813636cc3abd58000693c943d3598819381d344e350996949",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "SR-4835 triple negative breast cancer"
+      }
+    },
+    {
+      "id": "rs_0813636cc3abd58000693c943f08588193add5ae6d2a0f41cd",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0813636cc3abd58000693c9445e100819381f89613ab2675ef",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31668947/"
+      }
+    },
+    {
+      "id": "rs_0813636cc3abd58000693c94470ba08193ac36df9e88811fc2",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0813636cc3abd58000693c9448926481939c00d155007ea248",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "SR-4835",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31668947/"
+      }
+    },
+    {
+      "id": "rs_0813636cc3abd58000693c9449f7788193a215dcf3533fcfeb",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0813636cc3abd58000693c945029e8819396bdf00432a8de98",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.nature.com/articles/s41467-024-50642-0"
+      }
+    },
+    {
+      "id": "rs_0813636cc3abd58000693c945144688193a449651aee310f2f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0813636cc3abd58000693c9453a118819396997abd2874a1ac",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "Affiliations",
+        "url": "https://www.nature.com/articles/s41467-024-50642-0"
+      }
+    },
+    {
+      "id": "rs_0813636cc3abd58000693c94556a508193a1db76412b90009d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0813636cc3abd58000693c9457940c8193a591bf019cbc9d0d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "Dual-site molecular glues for enhancing protein-protein interactions of the CDK12-DDB1 complex PMID"
+      }
+    },
+    {
+      "id": "rs_0813636cc3abd58000693c945a2f908193847714d5e51f67d7",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0813636cc3abd58000693c945a92d88193950df61a146ba5cf",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "39090085 PubMed LL-K12-18"
+      }
+    },
+    {
+      "id": "rs_0813636cc3abd58000693c945ce8f481939af7cae162a14de9",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0813636cc3abd58000693c945e832081938d3b45c06f9d6e32",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "pubmed 39090085"
+      }
+    },
+    {
+      "id": "rs_0813636cc3abd58000693c946175908193b15a747e8173f55f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0813636cc3abd58000693c94a59d508193b0646a042d6a04ab",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10725499/"
+      }
+    },
+    {
+      "id": "rs_0813636cc3abd58000693c94a8cd348193a69325339430dd32",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0813636cc3abd58000693c94aab24c8193a95a6f2318f5200c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "LL-K12-18",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11294606/"
+      }
+    },
+    {
+      "id": "rs_0813636cc3abd58000693c94ace7e4819391cda89683a1a40f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0813636cc3abd58000693c94ad5ee0819396b683b327b00e9b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11294606/"
+      }
+    },
+    {
+      "id": "rs_0813636cc3abd58000693c94af3af48193bc8a1c19728ca1be",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0813636cc3abd58000693c94cac90481938a69bd1142f01418",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "TNBC",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11294606/"
+      }
+    },
+    {
+      "id": "rs_0813636cc3abd58000693c94cc78bc819386c01576f59de899",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0813636cc3abd58000693c94d65f7881939921540235ef753f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "HQ461 molecular glue for research use only"
+      }
+    },
+    {
+      "id": "rs_0813636cc3abd58000693c94d970a88193a15dfabba63c96ba",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0813636cc3abd58000693c94e60b1081938a814cd46cf0dde3",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "SR-4835 for research use only"
+      }
+    },
+    {
+      "id": "rs_0813636cc3abd58000693c94e977fc81938f6cf48c7069db95",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0813636cc3abd58000693c9507056881939cdee5e0dc2ee7a0",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "## Abstract",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11294606/"
+      }
+    },
+    {
+      "id": "rs_0813636cc3abd58000693c95092d248193b8ddd88a9bf8aad5",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0813636cc3abd58000693c9520d71c8193954cf5ee7101233d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "MDA-MB-231 triple negative breast cancer cell line"
+      }
+    },
+    {
+      "id": "rs_0813636cc3abd58000693c9525450081939a89266c4e27b41f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0813636cc3abd58000693c953935a88193bbe615240ef11195",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://www.glpbio.com/hq461.html"
+      }
+    },
+    {
+      "id": "rs_0813636cc3abd58000693c953bc7108193843f36790833cfd2",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0813636cc3abd58000693c953c94908193b703c65bd79c29e1",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "research use",
+        "url": "https://www.glpbio.com/ll-k12-18.html"
+      }
+    },
+    {
+      "id": "rs_0813636cc3abd58000693c953edcd08193acde19cc55e83363",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0813636cc3abd58000693c954009e081939aee7b99ab51d64b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "research use",
+        "url": "https://www.medkoo.com/products/36255"
+      }
+    },
+    {
+      "id": "rs_0813636cc3abd58000693c95427e688193ac6e3a05e67e7218",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0813636cc3abd58000693c95521ef08193bef1a83e4e7e7c58",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": true,\n  \"assets\": [\n    {\n      \"drug_name_code\": \"HQ461\",\n      \"sponsor\": \"National Institute of Biological Sciences, Beijing\",\n      \"target\": \"CDK12–DDB1 (CUL4-RBX1) E3 ligase interaction; cyclin K (CCNK) degradation\",\n      \"modality\": \"Small molecule molecular glue degrader\",\n      \"indication\": \"Cancer (human cancer cells; preclinical)\",\n      \"development_stage\": \"Preclinical (research use only)\",\n      \"geography\": \"China\",\n      \"sources\": [\n        \"https://pubmed.ncbi.nlm.nih.gov/32804079/\",\n        \"https://www.glpbio.com/hq461.html\"\n      ]\n    },\n    {\n      \"drug_name_code\": \"SR-4835\",\n      \"sponsor\": \"Moffitt Cancer Center and Research Institute (Department of Drug Discovery)\",\n      \"target\": \"CDK12/CDK13; CDK12–cyclin K complex recruitment to DDB1 (CRL4) leading to cyclin K degradation\",\n      \"modality\": \"Small molecule (CDK12/13 kinase inhibitor; molecular-glue cyclin K degrader)\",\n      \"indication\": \"Triple-negative breast cancer (TNBC)\",\n      \"development_stage\": \"Preclinical (research use only)\",\n      \"geography\": \"United States\",\n      \"sources\": [\n        \"https://pubmed.ncbi.nlm.nih.gov/31668947/\",\n        \"https://pubmed.ncbi.nlm.nih.gov/38104154/\",\n        \"https://www.medkoo.com/products/36255\"\n      ]\n    },\n    {\n      \"drug_name_code\": \"LL-K12-18\",\n      \"sponsor\": \"Shanghai Institute of Materia Medica, Chinese Academy of Sciences\",\n      \"target\": \"CDK12–DDB1 complex stabilization; cyclin K (CCNK) degradation\",\n      \"modality\": \"Small molecule dual-site molecular glue degrader\",\n      \"indication\": \"Triple-negative breast cancer (TNBC) models (MDA-MB-231, MDA-MB-468)\",\n      \"development_stage\": \"Preclinical (research use only)\",\n      \"geography\": \"China\",\n      \"sources\": [\n        \"https://pmc.ncbi.nlm.nih.gov/articles/PMC11294606/\",\n        \"https://www.glpbio.com/ll-k12-18.html\",\n        \"https://www.atcc.org/products/tcp-1003\"\n      ]\n    }\n  ],\n  \"rejected_reason\": null\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 104489,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 19552,
+    "output_tokens_details": {
+      "reasoning_tokens": 19001
+    },
+    "total_tokens": 124041
+  },
+  "user": null,
+  "metadata": {}
+}

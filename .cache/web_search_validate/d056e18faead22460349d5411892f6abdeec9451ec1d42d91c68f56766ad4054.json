@@ -1,0 +1,114 @@
+{
+  "id": "resp_0cb0df1210af3c0800693c89d1172c81969b41e40ad98ca6cd",
+  "object": "response",
+  "created_at": 1765575121,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0cb0df1210af3c0800693c89d1c2f88196a59062af01facbcc",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0cb0df1210af3c0800693c89e0ba44819692b3f867a4e03881",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"Dose Level 1\" CDK12"
+      }
+    },
+    {
+      "id": "rs_0cb0df1210af3c0800693c89e355d48196a8cdcb26b6e6ad29",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0cb0df1210af3c0800693c89f2c5cc81969cfae8ccf2959009",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"Dose level 1\" \"CDK12\" inhibitor trial"
+      }
+    },
+    {
+      "id": "rs_0cb0df1210af3c0800693c89f4bec08196a55220cae869ab90",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0cb0df1210af3c0800693c8a0df0308196aba5388a195b07b7",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": false,\n  \"assets\": [],\n  \"rejected_reason\": \"Candidate identifier \\\"Dose Level 1\\\" is not a unique drug asset name/code; it is a generic dose-escalation cohort label used across many clinical trials, so sponsor/target/modality/indication/stage/geography cannot be uniquely determined (e.g., https://pmc.ncbi.nlm.nih.gov/articles/PMC11865738/ ; https://cdek.pharmacy.purdue.edu/trial/NCT01737502/).\"\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 13923,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 3395,
+    "output_tokens_details": {
+      "reasoning_tokens": 3278
+    },
+    "total_tokens": 17318
+  },
+  "user": null,
+  "metadata": {}
+}

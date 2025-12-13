@@ -1,0 +1,387 @@
+{
+  "id": "resp_038e6d056012513500693c900149248195a405fca4d2c2b6a0",
+  "object": "response",
+  "created_at": 1765576705,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_038e6d056012513500693c9001b8048195804a0dd26ace3901",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_038e6d056012513500693c9005d4c88195ba6e74408ac8cbf1",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov CDK12 inhibitor NCT0"
+      }
+    },
+    {
+      "id": "rs_038e6d056012513500693c9006d9dc8195b1314c78327d70ce",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_038e6d056012513500693c900c953c8195837ca81a691e0ed7",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov/study CDK12 inhibitor NCT0"
+      }
+    },
+    {
+      "id": "rs_038e6d056012513500693c900f07e8819588bce80d740d3528",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_038e6d056012513500693c9015556881959bd50518acaaef93",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov CDK12 inhibitor NCT"
+      }
+    },
+    {
+      "id": "rs_038e6d056012513500693c90178ddc8195ac6bb59a45c1f679",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_038e6d056012513500693c901a219c8195a3e41b377ed22fdd",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov/study \"CDK12\" inhibitor -KRAS -G12C"
+      }
+    },
+    {
+      "id": "rs_038e6d056012513500693c901d4b9c8195a5affeb8c0fdc74f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_038e6d056012513500693c902847648195b20125279af38472",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT06040541"
+      }
+    },
+    {
+      "id": "rs_038e6d056012513500693c90294cf88195a71bdd52d80658d4",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_038e6d056012513500693c902fc45c8195a9a1b7fdb2c0099a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "clinicaltrials.gov api v2 studies query.term CDK12 inhibitor"
+      }
+    },
+    {
+      "id": "rs_038e6d056012513500693c90321e9c8195b2b70cc098dfde19",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_038e6d056012513500693c9033f1408195b579f1686774801d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_038e6d056012513500693c9036f614819588f05abc3a2c070e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_038e6d056012513500693c90384da88195ac514f3a5ca58ad8",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov/api/v2/studies query.term=CDK12"
+      }
+    },
+    {
+      "id": "rs_038e6d056012513500693c903afd748195b6ff56e4827f24da",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_038e6d056012513500693c903c6bd08195a1ee40dc4f590462",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"https://clinicaltrials.gov/api/v2/studies\" \"query.term=CDK12\""
+      }
+    },
+    {
+      "id": "rs_038e6d056012513500693c9040379c81959282d22f4df936f3",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_038e6d056012513500693c9045e03481958c9d9ddd7d1ba0f3",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov CDK12 AU-15506 NCT"
+      }
+    },
+    {
+      "id": "rs_038e6d056012513500693c9048d92481959f6cd15dee36ba4d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_038e6d056012513500693c9054142081959256b6473d0d7dbe",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov \"CDK12\""
+      }
+    },
+    {
+      "id": "rs_038e6d056012513500693c9056eb3081958674526fa7598f56",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_038e6d056012513500693c9058c0308195b0cbd9aff1d5eacf",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov CDK12"
+      }
+    },
+    {
+      "id": "rs_038e6d056012513500693c905c3fb481958d02fd37134083e6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_038e6d056012513500693c9064b4688195b2ffe52cf8db71a1",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov CDK12 inhibitor \"ClinicalTrials.gov ID\""
+      }
+    },
+    {
+      "id": "rs_038e6d056012513500693c9067d0b0819594e88d91dd99e20f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_038e6d056012513500693c906a43b481958296a30641130e59",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "site:clinicaltrials.gov NCT06600789"
+      }
+    },
+    {
+      "id": "rs_038e6d056012513500693c906ea1248195be350fb6308967cb",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_038e6d056012513500693c906ffa3c8195903470e69e99c020",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "NCT06600789"
+      }
+    },
+    {
+      "id": "rs_038e6d056012513500693c9073b8488195b6dec250e7e26b62",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_038e6d056012513500693c907549e08195811aad79cc337906",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://fdaaa.trialstracker.net/trial/NCT06600789/"
+      }
+    },
+    {
+      "id": "rs_038e6d056012513500693c90763ef8819584c6428728015042",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_038e6d056012513500693c9076a88c8195865a405e2bfe4f31",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://clinicaltrials.gov/study/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_038e6d056012513500693c9077991081959628f871f99faaa5",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_038e6d056012513500693c907b879c8195926fffbdf8c20199",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "https://clinicaltrials.gov/study/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_038e6d056012513500693c907eea8881958ffbfd5a72f90c8e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_038e6d056012513500693c909041588195952a4dc8ad00e17f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "clinicaltrials.gov/api/v2/studies/NCT06600789"
+      }
+    },
+    {
+      "id": "rs_038e6d056012513500693c9095b2408195be4a79299864cac0",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_038e6d056012513500693c90a51348819586e3273a532e9cee",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 803,
+              "start_index": 614,
+              "title": "Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor) :: Carrick Therapeutics, Inc.",
+              "url": "https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1499,
+              "start_index": 1318,
+              "title": "Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor) - BioSpace",
+              "url": "https://www.biospace.com/press-releases/carrick-therapeutics-announces-first-patient-dosed-in-phase-1-clinical-trial-of-ct7439-cdk12-13-inhibitor?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1904,
+              "start_index": 1805,
+              "title": "Trial | NCT06600789",
+              "url": "https://cdek.pharmacy.purdue.edu/trial/NCT06600789/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2323,
+              "start_index": 2234,
+              "title": "CT7439 Capsules (0.5 mg, 1mg, 3mg) in Solid Malignancies - Clinical Trials Registry - ICH GCP",
+              "url": "https://ichgcp.net/clinical-trials-registry/NCT06600789?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2780,
+              "start_index": 2701,
+              "title": "NCT06600789: An ongoing trial by Carrick Therapeutics Limited",
+              "url": "https://fdaaa.trialstracker.net/trial/NCT06600789/"
+            }
+          ],
+          "logprobs": [],
+          "text": "- **Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor) :: Carrick Therapeutics, Inc.**\n  - URL: `https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase`\n  - Direct quote snippets:\n    - “Clinical trial details can also be found on www.clinicaltrials.gov under study ID: **NCT06600789**.”\n    - “**CT7439** is the first **CDK12/13 inhibitor** to enter clinical development”\n    - “**CT7439** is an inhibitor of **CDK12/13** as well as a ‘glue degrader’ of **Cyclin-K**” ([carricktherapeutics.com](https://www.carricktherapeutics.com/investors/news-events/press-releases/detail/25/carrick-therapeutics-announces-first-patient-dosed-in-phase?utm_source=openai))\n\n- **Carrick Therapeutics Announces First Patient Dosed in Phase 1 Clinical Trial of CT7439 (CDK12/13 Inhibitor) - BioSpace**\n  - URL: `https://www.biospace.com/press-releases/carrick-therapeutics-announces-first-patient-dosed-in-phase-1-clinical-trial-of-ct7439-cdk12-13-inhibitor`\n  - Direct quote snippets:\n    - “Clinical trial details can also be found on www.clinicaltrials.gov under study ID: **NCT06600789**.”\n    - “**CT7439** is an inhibitor of **CDK12/13** as well as a ‘glue degrader’ of **Cyclin-K**” ([biospace.com](https://www.biospace.com/press-releases/carrick-therapeutics-announces-first-patient-dosed-in-phase-1-clinical-trial-of-ct7439-cdk12-13-inhibitor?utm_source=openai))\n\n- **Trial | NCT06600789 (Purdue CDek)**\n  - URL: `https://cdek.pharmacy.purdue.edu/trial/NCT06600789/`\n  - Direct quote snippets:\n    - “**Trial | NCT06600789**”\n    - “**A Modular Phase 1/2 Study With CT7439 in Participants With Solid Malignancies**”\n    - “**DRUG CT7439 Capsules (0.5 mg, 1mg, 3mg)**” ([cdek.pharmacy.purdue.edu](https://cdek.pharmacy.purdue.edu/trial/NCT06600789/?utm_source=openai))\n\n- **CT7439 Capsules (0.5 mg, 1mg, 3mg) in Solid Malignancies - Clinical Trials Registry - ICH GCP**\n  - URL: `https://ichgcp.net/clinical-trials-registry/NCT06600789`\n  - Direct quote snippets:\n    - “**Intervention / Treatment**  * **Drug: CT7439 Capsules (0.5 mg, 1mg, 3mg)**”\n    - “**Conditions**  * **Solid Malignancies**” ([ichgcp.net](https://ichgcp.net/clinical-trials-registry/NCT06600789?utm_source=openai))\n\n- **NCT06600789: An ongoing trial by Carrick Therapeutics Limited (FDAAA TrialsTracker)**\n  - URL: `https://fdaaa.trialstracker.net/trial/NCT06600789/`\n  - Direct quote snippets:\n    - “**NCT06600789**: An ongoing trial by Carrick Therapeutics Limited”\n    - “Title  | **A Modular, Multi-Part, Multi-Arm, Phase 1/2 Study to Evaluate the Safety and Tolerability of CT7439** …” ([fdaaa.trialstracker.net](https://fdaaa.trialstracker.net/trial/NCT06600789/))"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 62547,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 7638,
+    "output_tokens_details": {
+      "reasoning_tokens": 6885
+    },
+    "total_tokens": 70185
+  },
+  "user": null,
+  "metadata": {}
+}

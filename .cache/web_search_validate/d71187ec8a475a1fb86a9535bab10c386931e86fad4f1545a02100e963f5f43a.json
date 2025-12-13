@@ -1,0 +1,254 @@
+{
+  "id": "resp_0dfcd6e6b8b3097800693c96c3dee081978bd9d2c25a010c0c",
+  "object": "response",
+  "created_at": 1765578435,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0dfcd6e6b8b3097800693c96c43b0c8197919259434984f2d2",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0dfcd6e6b8b3097800693c96c698b48197b8f3978df341afc4",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "WO2021138215A1 CDK12"
+      }
+    },
+    {
+      "id": "rs_0dfcd6e6b8b3097800693c96c8950481979be390de574de763",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0dfcd6e6b8b3097800693c96c8c2188197a2ee39e98bff7180",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "WO2021138215A1"
+      }
+    },
+    {
+      "id": "rs_0dfcd6e6b8b3097800693c96ca84dc8197b2d8a7a7fce037dd",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0dfcd6e6b8b3097800693c96cd3ce08197b726295bd4f04d24",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/WO2021138215A1/en"
+      }
+    },
+    {
+      "id": "rs_0dfcd6e6b8b3097800693c96cdbe2081978a0cb6b352194b6f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0dfcd6e6b8b3097800693c96dac218819794830909657e62a9",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "patentscope WO2021138215A1"
+      }
+    },
+    {
+      "id": "rs_0dfcd6e6b8b3097800693c96dcff0c81979e8af32e736ec0be",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0dfcd6e6b8b3097800693c96de3ad08197a6f9ec613d16a8b2",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patentscope.wipo.int/search/en/WO2021138215"
+      }
+    },
+    {
+      "id": "rs_0dfcd6e6b8b3097800693c96e00a6c819795333fa489b3af4b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0dfcd6e6b8b3097800693c96e0df648197b8565e49c10c8af4",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page"
+      }
+    },
+    {
+      "id": "rs_0dfcd6e6b8b3097800693c96e1c3288197bc0203a47e0cc499",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0dfcd6e6b8b3097800693c96f3d5248197ba2a79e1dfa9fa0c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patentimages.storage.googleapis.com/4b/b6/8c/bdda18d920362a/WO2021138215A1.pdf"
+      }
+    },
+    {
+      "id": "rs_0dfcd6e6b8b3097800693c96f515b481979b3a2e3de0cff75c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0dfcd6e6b8b3097800693c96f62f148197adfd695668dab230",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search"
+      }
+    },
+    {
+      "id": "rs_0dfcd6e6b8b3097800693c96fa274c8197833e45bac4168f50",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0dfcd6e6b8b3097800693c9702a24081979ad9dc9e761eae94",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "heterocyclic",
+        "url": "https://patents.google.com/patent/WO2021138215A1/en"
+      }
+    },
+    {
+      "id": "rs_0dfcd6e6b8b3097800693c970627708197b412d25934553f32",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0dfcd6e6b8b3097800693c975684cc81978c65b652f1b10ea6",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/WO2021138215A1/en"
+      }
+    },
+    {
+      "id": "rs_0dfcd6e6b8b3097800693c9758878c8197a22e07b67638a3ca",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0dfcd6e6b8b3097800693c9759bda08197b1699a8499a4174f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://patents.google.com/patent/WO2021138215A1/en"
+      }
+    },
+    {
+      "id": "rs_0dfcd6e6b8b3097800693c975b4d4c819799cafa7ae4817af9",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0dfcd6e6b8b3097800693c975ce544819783cef2afd840571a",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "Country Status",
+        "url": "https://patents.google.com/patent/WO2021138215A1/en"
+      }
+    },
+    {
+      "id": "rs_0dfcd6e6b8b3097800693c975fd9c88197baa3516848999e84",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0dfcd6e6b8b3097800693c97cb8bb08197b83a7b1ac0197468",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": true,\n  \"assets\": [\n    {\n      \"drug_name_code\": \"WO2021138215A1 compound 4\",\n      \"sponsor\": \"Kinnate Biopharma Inc\",\n      \"target\": \"CDK12/13\",\n      \"modality\": \"Small molecule inhibitor (heterocyclic CDK12/13 inhibitor)\",\n      \"indication\": \"Triple-negative breast cancer (TNBC); ovarian cancer; castration-resistant prostate cancer\",\n      \"development_stage\": \"Preclinical (in vitro and mouse xenograft models described in patent)\",\n      \"geography\": \"Global (WO/PCT; patent family includes US, EP, JP, KR, CN, AU, BR, CA, IL, MX, WO)\",\n      \"sources\": [\n        \"https://patents.google.com/patent/WO2021138215A1/en\",\n        \"https://patentimages.storage.googleapis.com/4b/b6/8c/bdda18d920362a/WO2021138215A1.pdf\"\n      ]\n    },\n    {\n      \"drug_name_code\": \"WO2021138215A1 compound 5\",\n      \"sponsor\": \"Kinnate Biopharma Inc\",\n      \"target\": \"CDK12/13\",\n      \"modality\": \"Small molecule inhibitor (heterocyclic CDK12/13 inhibitor)\",\n      \"indication\": \"Triple-negative breast cancer (TNBC); ovarian cancer; castration-resistant prostate cancer\",\n      \"development_stage\": \"Preclinical (in vitro and mouse xenograft models described in patent)\",\n      \"geography\": \"Global (WO/PCT; patent family includes US, EP, JP, KR, CN, AU, BR, CA, IL, MX, WO)\",\n      \"sources\": [\n        \"https://patents.google.com/patent/WO2021138215A1/en\",\n        \"https://patentimages.storage.googleapis.com/4b/b6/8c/bdda18d920362a/WO2021138215A1.pdf\"\n      ]\n    }\n  ],\n  \"rejected_reason\": null\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 44757,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 11575,
+    "output_tokens_details": {
+      "reasoning_tokens": 11124
+    },
+    "total_tokens": 56332
+  },
+  "user": null,
+  "metadata": {}
+}

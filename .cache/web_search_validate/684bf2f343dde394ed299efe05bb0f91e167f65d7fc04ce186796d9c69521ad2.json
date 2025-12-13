@@ -1,0 +1,240 @@
+{
+  "id": "resp_02e3a7016e77674600693c96c3daac8196a28ea7002e3414a0",
+  "object": "response",
+  "created_at": 1765578435,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_02e3a7016e77674600693c96c42398819690abbd77eba5ac84",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_02e3a7016e77674600693c96cd5b4c81969a3581731f711ac6",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CDK12 molecular glue degrader"
+      }
+    },
+    {
+      "id": "rs_02e3a7016e77674600693c96cf27f08196bcb075dfc3026c70",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_02e3a7016e77674600693c96e2b83881969e3b92f591a3e025",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31668947/"
+      }
+    },
+    {
+      "id": "rs_02e3a7016e77674600693c96e360308196b37e5481751aec39",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_02e3a7016e77674600693c96fa5334819694d8e5c8355bf6f4",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32804079/"
+      }
+    },
+    {
+      "id": "rs_02e3a7016e77674600693c96fb0ebc81969c557a4146f67968",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_02e3a7016e77674600693c971783988196b06dc308a455fab4",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubs.rsc.org/en/content/articlehtml/2025/cb/d4cb00190g"
+      }
+    },
+    {
+      "id": "rs_02e3a7016e77674600693c97185af481969ae8cf3924d46f7b",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_02e3a7016e77674600693c972a7b348196972dd51fcf40bd49",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "dCeMM2 cyclin K degrader molecular glue"
+      }
+    },
+    {
+      "id": "rs_02e3a7016e77674600693c972c8ae08196b33f56d2320030a5",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_02e3a7016e77674600693c9748ad1c8196a59e3e1360741e28",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "HQ461 triple negative breast cancer"
+      }
+    },
+    {
+      "id": "rs_02e3a7016e77674600693c974cd8dc819686b9de6d5fa0af32",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_02e3a7016e77674600693c9755f8c88196a6e4155504d07ee0",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://breast-cancer-research.biomedcentral.com/articles/10.1186/s13058-025-02101-x"
+      }
+    },
+    {
+      "id": "rs_02e3a7016e77674600693c9756e1148196aa8e44afab8033fa",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_02e3a7016e77674600693c975f62948196b16903e9fbe15200",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CR8 molecular glue degrader cyclin K PubMed 2020 2374-x"
+      }
+    },
+    {
+      "id": "rs_02e3a7016e77674600693c97618bc881969fcdab4759e0b99c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_02e3a7016e77674600693c976250108196b29e3d55c2a15077",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32494016/"
+      }
+    },
+    {
+      "id": "rs_02e3a7016e77674600693c976323948196bcef22827a62b06d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_02e3a7016e77674600693c97b6cd608196b4fdc08ebb8e2d8c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "dCeMM2 cyclin K paper"
+      }
+    },
+    {
+      "id": "rs_02e3a7016e77674600693c97b99bbc819684640ba5ee361ebf",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_02e3a7016e77674600693c97c01f688196a42550d2eab75fef",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "dCeMM2 triple-negative breast cancer"
+      }
+    },
+    {
+      "id": "rs_02e3a7016e77674600693c97c36bac81969c21c960c23ba756",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_02e3a7016e77674600693c97ecb1408196b2c5da0918cfca3f",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": true,\n  \"assets\": [\n    {\n      \"drug_name_code\": \"SR-4835\",\n      \"sponsor\": \"Moffitt Cancer Center and Research Institute\",\n      \"target\": \"CDK12/CDK13 (SR-4835 also acts as a molecular glue promoting CDK12\\u2013DDB1 interaction and cyclin K degradation)\",\n      \"modality\": \"Small molecule inhibitor with molecular glue degrader activity\",\n      \"indication\": \"Triple-negative breast cancer (TNBC)\",\n      \"development_stage\": \"Preclinical (cell lines; patient-derived xenograft mouse models)\",\n      \"geography\": \"United States\",\n      \"sources\": [\n        \"https://pubmed.ncbi.nlm.nih.gov/31668947/\",\n        \"https://pubs.rsc.org/en/content/articlehtml/2025/cb/d4cb00190g\"\n      ]\n    },\n    {\n      \"drug_name_code\": \"CR8\",\n      \"sponsor\": \"Broad Institute of MIT and Harvard; Dana-Farber Cancer Institute\",\n      \"target\": \"CDK12\\u2013cyclin K (CCNK) complex (molecular glue recruits DDB1/CUL4 to drive cyclin K degradation)\",\n      \"modality\": \"Small molecule molecular glue degrader\",\n      \"indication\": \"Triple-negative breast cancer (TNBC) (cell line models)\",\n      \"development_stage\": \"Preclinical (in vitro; research compound)\",\n      \"geography\": \"United States\",\n      \"sources\": [\n        \"https://pubmed.ncbi.nlm.nih.gov/32494016/\",\n        \"https://link.springer.com/article/10.1186/s13058-025-02101-x\"\n      ]\n    }\n  ],\n  \"rejected_reason\": null\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 65541,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 20619,
+    "output_tokens_details": {
+      "reasoning_tokens": 20237
+    },
+    "total_tokens": 86160
+  },
+  "user": null,
+  "metadata": {}
+}

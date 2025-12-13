@@ -1,0 +1,128 @@
+{
+  "id": "resp_0fc7968f1cc5d6df00693c8ebd65988197b5d5386530a7d74d",
+  "object": "response",
+  "created_at": 1765576381,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_0fc7968f1cc5d6df00693c8ebdd6648197b3a3ff6a9bd3e4bb",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0fc7968f1cc5d6df00693c8ec2466081979fb97d6b719eaa59",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"glue-degrader\" drug"
+      }
+    },
+    {
+      "id": "rs_0fc7968f1cc5d6df00693c8ec400e88197b8793003363502cc",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0fc7968f1cc5d6df00693c8ee044448197b16bd0ca15258015",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "SR-4835 triple negative breast cancer"
+      }
+    },
+    {
+      "id": "rs_0fc7968f1cc5d6df00693c8ee20238819785c6c505133e4334",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_0fc7968f1cc5d6df00693c8ef3e00481978ee42b65b7e4152e",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"glue-degrader\" \"CAS\""
+      }
+    },
+    {
+      "id": "rs_0fc7968f1cc5d6df00693c8ef5f4888197a6dcd2e35a55fdc4",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_0fc7968f1cc5d6df00693c8f22231c8197813f8f1ad70618f8",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": false,\n  \"assets\": [],\n  \"rejected_reason\": \"The identifier \\\"glue-degrader\\\" is a generic modality term (molecular glue degrader) rather than a specific drug/asset/trial/patent identifier. Web search did not find a unique drug asset named/code \\\"glue-degrader\\\" with attributable sponsor, target, indication, stage, and geography.\"\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 19672,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 6308,
+    "output_tokens_details": {
+      "reasoning_tokens": 6218
+    },
+    "total_tokens": 25980
+  },
+  "user": null,
+  "metadata": {}
+}

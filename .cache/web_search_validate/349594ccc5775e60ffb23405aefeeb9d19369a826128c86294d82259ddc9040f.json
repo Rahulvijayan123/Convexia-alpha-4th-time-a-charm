@@ -1,0 +1,143 @@
+{
+  "id": "resp_07569d2ca72ebbc200693c804b7a688193b8ecad34c33c610f",
+  "object": "response",
+  "created_at": 1765572683,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_07569d2ca72ebbc200693c804c8dac819381e2d4a61af7444d",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07569d2ca72ebbc200693c80580b8881939223b6e87a6854b2",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "BNT327 target modality indication"
+      }
+    },
+    {
+      "id": "rs_07569d2ca72ebbc200693c805b21b48193851363f2bb56932f",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07569d2ca72ebbc200693c807901208193b75006990237ba35",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "BNT327 triple negative breast cancer trial identifier"
+      }
+    },
+    {
+      "id": "rs_07569d2ca72ebbc200693c807c72688193935adb0189cbbc6c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07569d2ca72ebbc200693c808405fc81939a59c316462fb342",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://news.bms.com/news/details/2025/BioNTech-and-Bristol-Myers-Squibb-Present-First-Global-Phase-2-Data-for-PD-L1xVEGF-A-Bispecific-Antibody-Pumitamig-Showing-Encouraging-Efficacy-in-Advanced-Triple-Negative-Breast-Cancer/default.aspx"
+      }
+    },
+    {
+      "id": "rs_07569d2ca72ebbc200693c80854d4c8193b2ad3b1f8a0607be",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_07569d2ca72ebbc200693c80a1f8a08193ba64189aec8ac243",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "find_in_page",
+        "pattern": "Phase",
+        "url": "https://clinicaltrials.biontech.com/trials/BNT327-05"
+      }
+    },
+    {
+      "id": "rs_07569d2ca72ebbc200693c80a3b1148193920ad6a8aa2e6dd5",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_07569d2ca72ebbc200693c80f32c1c8193b4a3a86771536f06",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": true,\n  \"assets\": [\n    {\n      \"drug_name_code\": \"BNT327 (pumitamig; BMS986545)\",\n      \"sponsor\": \"BioNTech SE; Bristol Myers Squibb\",\n      \"target\": \"PD-L1 and VEGF-A\",\n      \"modality\": \"Bispecific antibody\",\n      \"indication\": \"Locally advanced/metastatic triple-negative breast cancer (TNBC)\",\n      \"development_stage\": \"Phase 3 (ROSETTA-BREAST-01; NCT07173751)\",\n      \"geography\": \"Global\",\n      \"sources\": [\n        \"https://news.bms.com/news/details/2025/BioNTech-and-Bristol-Myers-Squibb-Present-First-Global-Phase-2-Data-for-PD-L1xVEGF-A-Bispecific-Antibody-Pumitamig-Showing-Encouraging-Efficacy-in-Advanced-Triple-Negative-Breast-Cancer/default.aspx\",\n        \"https://clinicaltrials.biontech.com/trials/BNT327-05\",\n        \"https://clinicaltrials.gov/study/NCT07173751\"\n      ]\n    }\n  ],\n  \"rejected_reason\": null\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 24503,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 9042,
+    "output_tokens_details": {
+      "reasoning_tokens": 8771
+    },
+    "total_tokens": 33545
+  },
+  "user": null,
+  "metadata": {}
+}

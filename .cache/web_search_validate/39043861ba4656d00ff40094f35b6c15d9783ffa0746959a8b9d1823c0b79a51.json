@@ -1,0 +1,212 @@
+{
+  "id": "resp_08633429ae81adc300693c914f2dc081949f88bc389e3f96a7",
+  "object": "response",
+  "created_at": 1765577039,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-5.2-2025-12-11",
+  "output": [
+    {
+      "id": "rs_08633429ae81adc300693c91504c788194ad7d2c3b6d57f6fc",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08633429ae81adc300693c915502b88194ab4e1ad1f7ac7ddd",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"3mg\" CDK12"
+      }
+    },
+    {
+      "id": "rs_08633429ae81adc300693c91570cf4819484c8246dde8bb820",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08633429ae81adc300693c9158756481948e8dc9f5860e8741",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"3mg\" \"CDK12\" \"breast\" inhibitor"
+      }
+    },
+    {
+      "id": "rs_08633429ae81adc300693c915a6afc81949dcbd0bbac925b42",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08633429ae81adc300693c915d075c8194a44187a8691534a9",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"3mg\" PROTAC"
+      }
+    },
+    {
+      "id": "rs_08633429ae81adc300693c915f22348194ab2627994c303b2c",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08633429ae81adc300693c9168a9e88194838417ae29ce6040",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"3MG\" \"CDK12\" inhibitor"
+      }
+    },
+    {
+      "id": "rs_08633429ae81adc300693c916ad85481948393274dfa19fd9e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08633429ae81adc300693c917f69208194a95535bc61d498bf",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"3mg\" \"compound\" \"CDK12\""
+      }
+    },
+    {
+      "id": "rs_08633429ae81adc300693c918238588194a72540474b134a7e",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08633429ae81adc300693c918b6b3881948a15293cd16361bd",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"CDK12\" \"3 mg\" trial"
+      }
+    },
+    {
+      "id": "rs_08633429ae81adc300693c918f3f648194b80b5e65cac8bff6",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08633429ae81adc300693c919658708194adad669afe5f51e6",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "\"3MG\" \"CDK12\" PROTAC"
+      }
+    },
+    {
+      "id": "rs_08633429ae81adc300693c91998f788194bd52e44a051181ad",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08633429ae81adc300693c91af99988194933c4f217567239f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "query": "CT7439 target CDK12"
+      }
+    },
+    {
+      "id": "rs_08633429ae81adc300693c91b232d481949a19e40bf28972e0",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "ws_08633429ae81adc300693c91d372188194857f960e1302603c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "open_page",
+        "url": "https://cdek.pharmacy.purdue.edu/trial/NCT06600789/"
+      }
+    },
+    {
+      "id": "rs_08633429ae81adc300693c91d508888194bff6f60138ffc565",
+      "type": "reasoning",
+      "summary": []
+    },
+    {
+      "id": "msg_08633429ae81adc300693c920a8cf881948e807fff08324a2f",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\n  \"validated\": false,\n  \"assets\": [],\n  \"rejected_reason\": \"Candidate identifier \\\"3mg\\\" is a dosing amount (mg) rather than a unique drug asset/trial/patent identifier, so sponsor/target/modality/indication/stage/geography cannot be uniquely attributed to \\\"3mg\\\" itself. Examples where \\\"3mg\\\" appears only as dose/strength: CT7439 trial intervention listed as \\\"CT7439 Capsules (0.5 mg, 1mg, 3mg)\\\" (https://cdek.pharmacy.purdue.edu/trial/NCT06600789/) and ixazomib dosing listed as \\\"3mg escalated to 4mg\\\" in a TNBC trial arm (https://www.mycancergenome.org/content/clinical_trials/NCT02993094/).\"\n}"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": "xhigh",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 43532,
+    "input_tokens_details": {
+      "cached_tokens": 4736
+    },
+    "output_tokens": 10400,
+    "output_tokens_details": {
+      "reasoning_tokens": 10220
+    },
+    "total_tokens": 53932
+  },
+  "user": null,
+  "metadata": {}
+}
