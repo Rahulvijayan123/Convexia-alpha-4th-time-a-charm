@@ -64,7 +64,16 @@ async def llm_extract_mentions(
         mtype = _coerce_mention_type(str(it.get("type") or "other"))
         ctx = it.get("context")
         context = ctx if isinstance(ctx, str) else None
-        mentions.append(Mention.from_raw(mention_type=mtype, raw_text=raw.strip(), context=context, source_url=source_url))
+        su = it.get("source_url")
+        resolved_url = su.strip() if isinstance(su, str) and su.strip() else source_url
+        mentions.append(
+            Mention.from_raw(
+                mention_type=mtype,
+                raw_text=raw.strip(),
+                context=context,
+                source_url=resolved_url,
+            )
+        )
 
     # Dedup by fingerprint preserving order
     seen = set()

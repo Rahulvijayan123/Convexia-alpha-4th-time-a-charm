@@ -50,13 +50,13 @@ Because `eval` is a shell builtin in bash/zsh, prefer **either**:
 Example:
 
 ```bash
-wd-eval --env_file eval/env.local --run_id 123 --benchmark /abs/path/to/benchmark.csv --version v1.2
+wd-eval --env_file eval/env.local --run_id 123 --benchmark_csv /abs/path/to/benchmark.csv --version v1.2
 ```
 
 #### Local run (no Supabase; read predictions from a JSON file)
 
 ```bash
-wd-eval --run_id local --predictions_json /abs/path/to/predictions.json --benchmark /abs/path/to/benchmark.csv --version v1.2
+wd-eval --run_id local --predictions_json /abs/path/to/predictions.json --benchmark_csv /abs/path/to/benchmark.csv --version v1.2
 ```
 
 ### Outputs

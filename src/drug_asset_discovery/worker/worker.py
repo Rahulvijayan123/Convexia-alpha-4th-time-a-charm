@@ -7,6 +7,7 @@ from typing import Any
 from drug_asset_discovery.config import PromptBundle, RunConfig
 from drug_asset_discovery.extraction.llm_extractor import llm_extract_mentions
 from drug_asset_discovery.extraction.regex_harvester import regex_harvest_mentions
+from drug_asset_discovery.fetch.fetcher import Fetcher
 from drug_asset_discovery.models.domain import Mention
 from drug_asset_discovery.openai_client import OpenAIResponsesClient
 from drug_asset_discovery.retrieval.web_search import run_recall_web_search
@@ -105,10 +106,19 @@ class Worker:
         self.prompts = prompts
         self.openai = openai
         self.cache_dir = cache_dir
+        self.fetcher: Fetcher | None = (
+            Fetcher(cache_dir=cache_dir, timeout_s=int(cfg.optional_fetch.timeout_seconds))
+            if bool(cfg.optional_fetch.enabled)
+            else None
+        )
         from drug_asset_discovery.worker.frontier import Frontier
 
         self.frontier = Frontier(max_size=max_frontier_size)
         self._recent_queries: list[str] = []
+
+    async def aclose(self) -> None:
+        if self.fetcher is not None:
+            await self.fetcher.aclose()
 
     def _remember_query(self, q: str) -> None:
         self._recent_queries.append(q)
@@ -190,16 +200,71 @@ class Worker:
         )
 
         text = resp.output_text
-        urls = resp.extracted_urls()
+
+        # v1.3: prefer structured JSON output from web_search for provenance-friendly harvesting.
+        sources: list[dict[str, Any]] = []
+        try:
+            obj = extract_first_json(text)
+            cand = obj.get("sources") if isinstance(obj, dict) else None
+            if isinstance(cand, list):
+                sources = [s for s in cand if isinstance(s, dict)]
+        except JSONExtractError:
+            sources = []
+
+        urls: list[str] = []
+        source_blocks: list[tuple[str, str]] = []  # (url, combined_snippets_text)
+        for s in sources:
+            url = s.get("url") or s.get("source_url")
+            if not isinstance(url, str) or not url.strip():
+                continue
+            snippets = s.get("snippets") or s.get("quotes") or []
+            if not isinstance(snippets, list):
+                snippets = []
+            snips: list[str] = []
+            for sn in snippets:
+                if isinstance(sn, str) and sn.strip():
+                    snips.append(sn.strip())
+            combined = "\n".join(snips).strip()
+            if not combined:
+                continue
+            urls.append(url.strip())
+            source_blocks.append((url.strip(), combined[:4000]))  # keep extraction bounded
+
+        # Fallback: if parsing failed, use best-effort URLs from annotations.
+        if not urls:
+            urls = resp.extracted_urls()
+
         success = bool(text)
 
         # Stage 1 extraction (reckless): regex + LLM
-        regex_mentions = regex_harvest_mentions(text, source_url=(urls[0] if urls else None))
+        regex_mentions: list[Mention] = []
+        for url, block in source_blocks:
+            regex_mentions.extend(regex_harvest_mentions(block, source_url=url))
+
+        # Optional: fetch full documents and harvest regex mentions from fetched text (offline-safe, recall-first).
+        if self.fetcher is not None and urls:
+            for u in urls[: int(self.cfg.optional_fetch.max_docs_per_round)]:
+                doc = await self.fetcher.fetch_text(u)
+                if doc and doc.text:
+                    regex_mentions.extend(regex_harvest_mentions(doc.text[:20000], source_url=u))
+
+        # Build a provenance-friendly pack for the LLM extractor (URLs included per block).
+        if source_blocks:
+            pack_lines: list[str] = ["SOURCES:"]
+            for i, (url, block) in enumerate(source_blocks[:8], start=1):
+                pack_lines.append(f"[{i}] URL: {url}")
+                pack_lines.append("SNIPPETS:")
+                pack_lines.append(block)
+                pack_lines.append("")
+            extract_text = "\n".join(pack_lines)
+        else:
+            extract_text = text
+
         llm_mentions = await llm_extract_mentions(
             openai=self.openai,
             cfg=self.cfg,
             prompts=self.prompts,
-            text=text,
+            text=extract_text,
             idempotency_key=idempotency_key(
                 "recall.extract_llm",
                 {

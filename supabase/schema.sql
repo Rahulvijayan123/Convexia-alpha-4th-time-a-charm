@@ -78,6 +78,9 @@ create table if not exists public.mentions (
   mention_type text not null,
   raw_text text not null,
   normalized_text text not null,
+  -- v1.4: identifier canonicalization + typed mention handling (evaluation/diagnostics)
+  canonical_text text,
+  mention_class text,
   context text,
   source_url text,
   fingerprint text not null
@@ -93,6 +96,9 @@ create table if not exists public.candidates (
   candidate_type text not null,
   raw_identifier text not null,
   normalized_identifier text not null,
+  -- v1.4: canonical identifier used for dedup + eval attribution
+  canonical_identifier text,
+  mention_class text,
   fingerprint text not null,
   status text not null default 'pending', -- pending | validated | rejected
   metadata jsonb not null default '{}'::jsonb
@@ -112,18 +118,66 @@ create table if not exists public.validations (
 );
 create index if not exists validations_candidate_id_idx on public.validations(candidate_id);
 
+-- -------------------------------------------------------------------
+-- v1.5: draft assets (evidence-anchored discovery, decoupled from enrichment)
+-- -------------------------------------------------------------------
+
+create table if not exists public.draft_assets (
+  id uuid primary key default uuid_generate_v4(),
+  created_at timestamptz not null default now(),
+  run_id uuid not null references public.runs(id) on delete cascade,
+
+  -- Identifier preservation + canonicalization (store both everywhere)
+  identifier_raw text not null,
+  identifier_canonical text not null,
+  -- Preserve all raw formatting variants as aliases (dedup is by canonical at this layer)
+  identifier_aliases_raw jsonb not null default '[]'::jsonb,
+
+  -- Evidence anchoring (minimal acceptance requires these)
+  evidence_url text not null,
+  evidence_snippet text not null,
+  evidence_source_type text not null, -- enum-like: patent|trial|pipeline_pdf|paper|vendor|press_release|other
+
+  -- Provenance
+  discovered_by_worker_id text,
+  discovered_by_cycle_id uuid references public.cycles(id) on delete set null,
+  confidence_discovery double precision,
+
+  -- Enrichment status + optional enrichment fields
+  enrichment_status text not null default 'pending', -- pending|partial|complete|failed
+  sponsor text,
+  target text,
+  modality text,
+  indication text,
+  stage text,
+  geography text,
+
+  -- Evidence citations for enrichment (list of {url, snippet})
+  citations jsonb not null default '[]'::jsonb
+);
+create index if not exists draft_assets_run_id_idx on public.draft_assets(run_id);
+create unique index if not exists draft_assets_run_canonical_idx on public.draft_assets(run_id, identifier_canonical);
+
 create table if not exists public.final_assets (
   id uuid primary key default uuid_generate_v4(),
   created_at timestamptz not null default now(),
   run_id uuid not null references public.runs(id) on delete cascade,
   candidate_id uuid references public.candidates(id) on delete set null,
   drug_name_code text not null,
-  sponsor text not null,
-  target text not null,
-  modality text not null,
-  indication text not null,
-  development_stage text not null,
-  geography text not null,
+  -- v1.4 identifier contract (evidence-anchored)
+  primary_identifier_raw text,
+  primary_identifier_canonical text,
+  identifier_aliases_raw jsonb not null default '[]'::jsonb,
+  evidence_snippet text,
+  evidence_url text,
+  evidence_source_type text, -- enum-like: patent|trial|pipeline_pdf|paper|vendor|press_release|other
+  -- v1.5: final assets may be partially enriched (promotion threshold, not "all fields required")
+  sponsor text,
+  target text,
+  modality text,
+  indication text,
+  development_stage text,
+  geography text,
   sources jsonb not null default '[]'::jsonb,
   fingerprint text not null
 );
@@ -139,5 +193,38 @@ create table if not exists public.metrics (
   value jsonb not null
 );
 create index if not exists metrics_run_id_idx on public.metrics(run_id);
+
+-- -------------------------------------------------------------------
+-- v1.4 migrations (safe to run multiple times)
+-- NOTE: `create table if not exists` does not alter existing tables.
+-- Run these ALTERs on existing deployments to add v1.4 columns.
+-- -------------------------------------------------------------------
+
+alter table public.mentions add column if not exists canonical_text text;
+alter table public.mentions add column if not exists mention_class text;
+
+alter table public.candidates add column if not exists canonical_identifier text;
+alter table public.candidates add column if not exists mention_class text;
+
+alter table public.final_assets add column if not exists primary_identifier_raw text;
+alter table public.final_assets add column if not exists primary_identifier_canonical text;
+alter table public.final_assets add column if not exists identifier_aliases_raw jsonb not null default '[]'::jsonb;
+alter table public.final_assets add column if not exists evidence_snippet text;
+alter table public.final_assets add column if not exists evidence_url text;
+alter table public.final_assets add column if not exists evidence_source_type text;
+
+-- -------------------------------------------------------------------
+-- v1.5 migrations (safe to run multiple times)
+-- -------------------------------------------------------------------
+
+-- draft_assets table/columns are created above with IF NOT EXISTS.
+
+-- Relax final_assets required fields for v1.5 promotion rule (>=4 filled fields).
+alter table public.final_assets alter column sponsor drop not null;
+alter table public.final_assets alter column target drop not null;
+alter table public.final_assets alter column modality drop not null;
+alter table public.final_assets alter column indication drop not null;
+alter table public.final_assets alter column development_stage drop not null;
+alter table public.final_assets alter column geography drop not null;
 
 

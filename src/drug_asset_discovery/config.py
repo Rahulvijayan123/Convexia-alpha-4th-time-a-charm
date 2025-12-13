@@ -20,8 +20,8 @@ class EnvSettings(BaseSettings):
 
     local_cache_dir: str = Field(default=".cache", alias="LOCAL_CACHE_DIR")
 
-    default_config_version: str = Field(default="v0.1", alias="DEFAULT_CONFIG_VERSION")
-    default_prompt_version: str = Field(default="v0.1", alias="DEFAULT_PROMPT_VERSION")
+    default_config_version: str = Field(default="v1.5", alias="DEFAULT_CONFIG_VERSION")
+    default_prompt_version: str = Field(default="v1.5", alias="DEFAULT_PROMPT_VERSION")
     log_level: str = Field(default="INFO", alias="LOG_LEVEL")
 
 
@@ -48,8 +48,9 @@ class TimeoutsConfig(BaseModel):
 class RunConfig(BaseModel):
     version: str
     model: str = "gpt-5.2"
-    workers: int = 12
-    max_rounds: int = 8
+    # v1.5 defaults: bounded runtime
+    workers: int = 4
+    max_rounds: int = 2
     stop_after_no_new_validated_rounds: int = 3
     min_successful_workers_per_round: int = 2
     max_planned_queries_per_cycle: int = 4
@@ -68,6 +69,11 @@ class RunConfig(BaseModel):
     harvest_regex_patterns: list[str] = Field(default_factory=list)
     # Budget guardrail (also enforced by prompt + post-parse checks)
     max_web_search_calls_per_worker_cycle: int = 2
+    # v1.5: enrichment budget (web_search calls) separate from discovery
+    tool_calls_per_worker_per_cycle: int = 10
+    max_enrichment_validations: int = 40
+    # v1.5: global time budget for the whole run (seconds)
+    max_run_seconds: int = 1200
     retrieval: RetrievalConfig = Field(default_factory=RetrievalConfig)
     optional_fetch: OptionalFetchConfig = Field(default_factory=OptionalFetchConfig)
     reasoning_effort: dict[str, ReasoningEffort] = Field(
@@ -92,6 +98,9 @@ class PromptBundle:
     # v1.2 loop_mode prompts (optional for older prompt versions)
     loop_worker: str = ""
     verifier: str = ""
+    # v1.5 prompts (optional)
+    evidence_locator: str = ""
+    draft_asset_builder: str = ""
 
 
 def repo_root() -> Path:
@@ -119,6 +128,12 @@ def load_prompts(version: str) -> PromptBundle:
         validator=(base / "validator.md").read_text(encoding="utf-8"),
         loop_worker=(base / "loop_worker.md").read_text(encoding="utf-8") if (base / "loop_worker.md").exists() else "",
         verifier=(base / "verifier.md").read_text(encoding="utf-8") if (base / "verifier.md").exists() else "",
+        evidence_locator=(base / "evidence_locator.md").read_text(encoding="utf-8")
+        if (base / "evidence_locator.md").exists()
+        else "",
+        draft_asset_builder=(base / "draft_asset_builder.md").read_text(encoding="utf-8")
+        if (base / "draft_asset_builder.md").exists()
+        else "",
     )
 
 

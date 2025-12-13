@@ -36,6 +36,13 @@ def build_scorecard(run_id: str, version: str, result: Dict[str, Any]) -> Dict[s
         "tp_expected_any_count": m["tp_expected_any_count"],
         "fn_expected_count": m["fn_expected_count"],
         "fp_predicted_count": m["fp_predicted_count"],
+        # v1.4 matching diagnostics (set-based)
+        "exact_tp": m.get("exact_tp", 0),
+        "exact_fp": m.get("exact_fp", 0),
+        "exact_fn": m.get("exact_fn", 0),
+        "canonical_tp": m.get("canonical_tp", 0),
+        "canonical_fp": m.get("canonical_fp", 0),
+        "canonical_fn": m.get("canonical_fn", 0),
     }
 
 
@@ -70,6 +77,8 @@ def build_details(result: Dict[str, Any]) -> Dict[str, Any]:
             if p.score == 0.0
         ],
         "prediction_duplicates_dropped": result.get("prediction_duplicates_dropped", []),
+        # v1.4: near-miss suggestions for unmatched benchmark identifiers (diagnostic only).
+        "near_miss_suggestions": (result.get("v14_diagnostics", {}) or {}).get("near_miss", []),
     }
 
 

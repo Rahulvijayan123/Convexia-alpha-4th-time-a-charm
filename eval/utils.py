@@ -1,21 +1,34 @@
 from __future__ import annotations
 
 import re
+import sys
+from pathlib import Path
 from typing import Iterable, Set
 
 
-_WS_RE = re.compile(r"\s+")
-_DASHES_RE = re.compile(r"[\u2010\u2011\u2012\u2013\u2014\u2212]")
 _SURROUNDING_QUOTES_RE = re.compile(r'^[\'"\u201c\u201d\u2018\u2019](.*)[\'"\u201c\u201d\u2018\u2019]$')
+
+
+# v1.4: single canonicalization function used everywhere (runtime + eval).
+#
+# We import from the runtime package; for convenience when running eval without installation,
+# we also add the repo's ./src to sys.path on ImportError.
+try:
+    from drug_asset_discovery.utils.identifiers import canonicalize_identifier  # type: ignore
+except Exception:  # pragma: no cover - best-effort local dev fallback
+    repo_root = Path(__file__).resolve().parents[1]
+    src_dir = repo_root / "src"
+    if src_dir.exists() and str(src_dir) not in sys.path:
+        sys.path.insert(0, str(src_dir))
+    from drug_asset_discovery.utils.identifiers import canonicalize_identifier  # type: ignore  # noqa: E402
 
 
 def normalize_identifier(value: str) -> str:
     """
-    Normalize identifiers for matching:
-    - trim
-    - unicode dash -> '-'
-    - collapse whitespace
+    v1.4: identifiers are matched canonically using the shared runtime canonicalization:
     - uppercase
+    - remove whitespace and punctuation separators
+    - keep only A-Z and 0-9
     """
     v = (value or "").strip()
     if not v:
@@ -23,23 +36,15 @@ def normalize_identifier(value: str) -> str:
     m = _SURROUNDING_QUOTES_RE.match(v)
     if m:
         v = m.group(1).strip()
-    v = _DASHES_RE.sub("-", v)
-    v = _WS_RE.sub(" ", v).strip()
-    return v.upper()
-
-
-def _is_code_like(v: str) -> bool:
-    # Heuristic: mostly codes/tokens like "ZLC-491", "DS18", "MK-7965"
-    # Avoid generating variants for long natural-language strings.
-    if len(v) > 64:
-        return False
-    return bool(re.fullmatch(r"[A-Z0-9][A-Z0-9 \-_/().;:+]*", v))
+    return canonicalize_identifier(v)
 
 
 def match_keys(value: str) -> Set[str]:
     """
     Match keys used for 'exact identifier match' (post-normalization).
-    We include a conservative "no separators" variant for code-like strings.
+    Explicit contract:
+    - compare the canonicalized form (A-Z0-9 only)
+    - also compare a variant with parenthetical content removed (common in CSV values like "X (Y)")
     """
     base = normalize_identifier(value)
     if not base:
@@ -47,17 +52,16 @@ def match_keys(value: str) -> Set[str]:
 
     keys = {base}
 
-    # Variant: strip parenthetical suffix (common in CSV values like "X (Y)")
-    if "(" in base and ")" in base:
-        no_parens = re.sub(r"\s*\([^)]*\)\s*", " ", base)
-        no_parens = _WS_RE.sub(" ", no_parens).strip()
-        if no_parens:
-            keys.add(no_parens)
-
-    if _is_code_like(base):
-        no_sep = re.sub(r"[\s\-_()/.;:+]", "", base)
-        if no_sep and no_sep != base:
-            keys.add(no_sep)
+    raw = (value or "").strip()
+    if raw:
+        m = _SURROUNDING_QUOTES_RE.match(raw)
+        if m:
+            raw = m.group(1).strip()
+        if "(" in raw and ")" in raw:
+            no_parens_raw = re.sub(r"\([^)]*\)", "", raw).strip()
+            nk = normalize_identifier(no_parens_raw)
+            if nk:
+                keys.add(nk)
 
     return keys
 

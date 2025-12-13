@@ -30,18 +30,27 @@ async def run_recall_web_search(
     Stage 1 retrieval: maximize identifier yield. No relevance filtering.
     """
     cache = DiskCache(cache_dir)
-    cache_key = stable_sha256(stable_json_dumps({"q": query, "tool": _web_search_tool(cfg), "v": "recall"}))
+    cache_key = stable_sha256(stable_json_dumps({"q": query, "tool": _web_search_tool(cfg), "v": "recall_v1.3"}))
     cached = cache.get("web_search", cache_key)
     if cached:
         return OpenAIResponse(raw=cached)
 
     prompt = (
         "Use web search.\n"
-        "Return a bulleted list of sources with:\n"
-        "- Title\n"
-        "- URL\n"
-        "- 1–3 direct quote snippets that contain ANY identifiers (drug codes/names, trial IDs, patent IDs), targets, modalities, indications.\n"
-        "Do NOT paraphrase identifiers; preserve tokens exactly.\n\n"
+        "Return ONLY valid JSON (no prose, no markdown) with this exact shape:\n"
+        "{\n"
+        '  "sources": [\n'
+        "    {\n"
+        '      "title": "string",\n'
+        '      "url": "https://...",\n'
+        '      "snippets": ["direct quote 1", "direct quote 2"]\n'
+        "    }\n"
+        "  ]\n"
+        "}\n\n"
+        "Rules:\n"
+        "- Keep sources to ~5–8.\n"
+        "- Each snippet MUST be a short direct quote that contains ANY identifiers (drug codes/names, trial IDs, patent IDs).\n"
+        "- IDENTIFIER PRESERVATION: do NOT paraphrase identifiers; copy tokens exactly.\n\n"
         f"Search query: {query}\n"
     )
 

@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 from dataclasses import dataclass
+from difflib import SequenceMatcher
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Mapping, Optional, Tuple
 
@@ -130,7 +131,16 @@ def load_series_rules(path: str | Path) -> SeriesIndex:
             if not nm:
                 continue
             norm_members.append(nm)
-            member_to_series[nm] = series_id
+            # v1.3: preserve hyphens in the canonical member id, but also map a hyphenless form
+            # so membership can be detected across formatting variants.
+            for k in match_keys(nm):
+                existing = member_to_series.get(k)
+                if existing and existing != series_id:
+                    raise ValueError(
+                        f"Ambiguous series membership key '{k}': already mapped to series_id={existing}, "
+                        f"cannot also map to series_id={series_id}."
+                    )
+                member_to_series[k] = series_id
 
         series_ids.add(series_id)
         series_to_members[series_id] = norm_members
@@ -272,14 +282,25 @@ def evaluate(
         series_candidates: List[Tuple[str, str, float]] = []  # (expected_id, match_type, score)
         pred_is_series = canon_norm in series.series_ids
         pred_series_id = canon_norm if pred_is_series else series.member_to_series.get(canon_norm)
+        if not pred_is_series and not pred_series_id:
+            # Try match-key variants (e.g., hyphenless) for member->series mapping.
+            for k in match_keys(canon_norm):
+                pred_series_id = series.member_to_series.get(k)
+                if pred_series_id:
+                    break
 
         if pred_is_series:
             scores = series.scores_for(canon_norm)
-            if canon_norm in expected_id_set:
-                series_candidates.append((canon_norm, "series_to_series", scores.series_to_series))
+            # IMPORTANT (v1.3 contract): a benchmark row that represents a series is only a "hit"
+            # when at least one explicit child member identifier is present in predictions.
+            # Therefore we do NOT award series_to_series credit here.
             for member in series.series_to_members.get(canon_norm, ()):
-                if member in expected_id_set:
-                    series_candidates.append((member, "series_to_member", scores.series_to_member))
+                for mk in match_keys(member):
+                    for eid in key_to_expected_ids.get(mk, []):
+                        # Avoid accidentally matching series rows via series_to_member.
+                        if eid in series.series_ids:
+                            continue
+                        series_candidates.append((eid, "series_to_member", scores.series_to_member))
         elif pred_series_id:
             scores = series.scores_for(pred_series_id)
             if pred_series_id in expected_id_set:
@@ -287,6 +308,10 @@ def evaluate(
 
         # Update expected best matches (independent per expected item).
         for eid in exact_matched_expected:
+            # v1.3: do not count predicting the series identifier itself as a "hit" for a benchmark
+            # series row. A series row is only hit via an explicit child member prediction.
+            if eid in series.series_ids and canon_norm == eid:
+                continue
             md = MatchDetail(
                 expected_id=eid,
                 predicted_id=canon_norm,
@@ -338,6 +363,8 @@ def evaluate(
 
         # Prefer exact/synonym over series if score ties.
         for eid in sorted(exact_matched_expected):
+            if eid in series.series_ids and canon_norm == eid:
+                continue
             md = MatchDetail(
                 expected_id=eid,
                 predicted_id=canon_norm,
@@ -405,6 +432,9 @@ def evaluate(
     fn_expected = [e for e in expected_outcomes if e.score == 0.0]
     fp_predictions = [p for p in prediction_outcomes if p.score == 0.0]
 
+    # v1.4 diagnostics: exact + canonical set matches + near-miss suggestions.
+    v14 = v14_match_diagnostics(benchmark, predictions)
+
     return {
         "metrics": {
             "recall": recall,
@@ -415,13 +445,101 @@ def evaluate(
             "tp_expected_any_count": len(tp_expected_any),
             "fn_expected_count": len(fn_expected),
             "fp_predicted_count": len(fp_predictions),
+            # v1.4 match reporting (set-based)
+            "exact_tp": int(v14["exact"]["tp"]),
+            "exact_fp": int(v14["exact"]["fp"]),
+            "exact_fn": int(v14["exact"]["fn"]),
+            "canonical_tp": int(v14["canonical"]["tp"]),
+            "canonical_fp": int(v14["canonical"]["fp"]),
+            "canonical_fn": int(v14["canonical"]["fn"]),
         },
         "expected_outcomes": expected_outcomes,
         "prediction_outcomes": prediction_outcomes,
+        "v14_diagnostics": v14,
         "prediction_duplicates_dropped": [
             {"raw_id": d.raw_id, "cycle": int(getattr(d, "cycle", 1) or 1), "evidence_urls": list(getattr(d, "evidence_urls", []) or [])}
             for d in pred_duplicates
         ],
+    }
+
+
+def _strip_or_empty(v: Any) -> str:
+    return str(v).strip() if v is not None else ""
+
+
+def v14_match_diagnostics(benchmark: List[BenchmarkItem], predictions: List[PredictionItem]) -> Dict[str, Any]:
+    """
+    v1.4: contract-level matching diagnostics.
+    - exact-match: raw string equality after strip()
+    - canonical-match: equality after v1.4 canonicalization (eval.utils.normalize_identifier)
+    - near-miss: for each unmatched benchmark canonical id, top-10 closest predicted canonical ids
+    """
+    bench_raw: list[str] = []
+    bench_canon: list[str] = []
+    for b in benchmark:
+        r = _strip_or_empty(b.canonical_id)
+        if not r:
+            continue
+        bench_raw.append(r)
+        bench_canon.append(normalize_identifier(r))
+
+    pred_raw: list[str] = []
+    pred_canon: list[str] = []
+    canon_to_raw: dict[str, str] = {}
+    for p in predictions:
+        r = _strip_or_empty(p.raw_id)
+        if not r:
+            continue
+        c = normalize_identifier(r)
+        pred_raw.append(r)
+        pred_canon.append(c)
+        if c and c not in canon_to_raw:
+            canon_to_raw[c] = r
+
+    bench_raw_set = set(bench_raw)
+    pred_raw_set = set(pred_raw)
+    exact_tp = len(bench_raw_set & pred_raw_set)
+    exact_fp = len(pred_raw_set - bench_raw_set)
+    exact_fn = len(bench_raw_set - pred_raw_set)
+
+    bench_canon_set = {c for c in bench_canon if c}
+    pred_canon_set = {c for c in pred_canon if c}
+    canon_tp = len(bench_canon_set & pred_canon_set)
+    canon_fp = len(pred_canon_set - bench_canon_set)
+    canon_fn = len(bench_canon_set - pred_canon_set)
+
+    # Near-miss suggestions (diagnostic only)
+    unmatched_bench_canons = sorted(bench_canon_set - pred_canon_set)
+    pred_canons_sorted = sorted(pred_canon_set)
+    near_miss: list[dict[str, Any]] = []
+    for bc in unmatched_bench_canons:
+        scored: list[tuple[float, str]] = []
+        for pc in pred_canons_sorted:
+            if not pc:
+                continue
+            score = SequenceMatcher(None, bc, pc).ratio()
+            scored.append((float(score), pc))
+        scored.sort(key=lambda t: t[0], reverse=True)
+        top = scored[:10]
+        near_miss.append(
+            {
+                "benchmark_canonical": bc,
+                "benchmark_raw": next((r for r in bench_raw if normalize_identifier(r) == bc), ""),
+                "suggestions": [
+                    {
+                        "predicted_canonical": pc,
+                        "predicted_raw": canon_to_raw.get(pc, ""),
+                        "similarity": float(s),
+                    }
+                    for s, pc in top
+                ],
+            }
+        )
+
+    return {
+        "exact": {"tp": exact_tp, "fp": exact_fp, "fn": exact_fn},
+        "canonical": {"tp": canon_tp, "fp": canon_fp, "fn": canon_fn},
+        "near_miss": near_miss,
     }
 
 

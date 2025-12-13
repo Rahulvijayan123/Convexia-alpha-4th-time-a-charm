@@ -28,6 +28,7 @@ class RunRequest(BaseModel):
 class RunResponse(BaseModel):
     run_id: str
     status: str
+    manifest: dict[str, Any] | None = None
     summary: dict[str, Any] | None = None
     assets: list[dict[str, Any]] = Field(default_factory=list)
 
@@ -66,6 +67,7 @@ async def post_run(
         return RunResponse(
             run_id=result["run_id"],
             status=result["status"],
+            manifest=result.get("manifest"),
             summary=result.get("summary"),
             assets=result.get("assets", []),
         )

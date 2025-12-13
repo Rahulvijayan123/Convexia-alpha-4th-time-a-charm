@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import os
 from pathlib import Path
 from typing import Optional
@@ -10,6 +11,7 @@ from eval.matching import evaluate, load_series_rules, load_synonyms
 from eval.reporting import write_reports
 from eval.sources.local_json import load_predictions_json
 from eval.sources.supabase_rest import SupabaseConfig, SupabaseRestSource
+from eval.utils import normalize_identifier
 
 
 def _load_env_file(path: Path) -> None:
@@ -39,10 +41,27 @@ def build_parser() -> argparse.ArgumentParser:
         description="Offline evaluation for web discovery outputs vs a local benchmark CSV (no LLM calls).",
     )
     p.add_argument("--run_id", required=True, help="Run id to evaluate (used to fetch stored outputs from Supabase).")
-    p.add_argument("--benchmark", required=True, help="Path to benchmark CSV (local file).")
+    p.add_argument(
+        "--benchmark_csv",
+        "--benchmark",
+        required=True,
+        dest="benchmark_csv",
+        help="Path to benchmark CSV (local file). Offline only.",
+    )
     p.add_argument("--version", required=True, help="Evaluation version label (e.g., v1.1, v1.2).")
 
     p.add_argument("--benchmark_id_column", default=None, help="CSV column containing the benchmark identifier.")
+    p.add_argument(
+        "--min_benchmark_rows",
+        type=int,
+        default=int(os.getenv("EVAL_MIN_BENCHMARK_ROWS") or "10"),
+        help="Fail fast if loaded benchmark row count is below this threshold. Default: 10 (or env EVAL_MIN_BENCHMARK_ROWS).",
+    )
+    p.add_argument(
+        "--explain",
+        action="store_true",
+        help="Explain-mode output: print match status per benchmark row and the predicted identifier that matched it.",
+    )
 
     p.add_argument("--synonyms", default=None, help="Path to synonyms JSON mapping file.")
     p.add_argument("--series_rules", default=None, help="Path to series rules JSON mapping file.")
@@ -76,7 +95,22 @@ def main(argv: list[str] | None = None) -> int:
         _load_env_file(Path(".env"))
         _load_env_file(Path("eval") / ".env")
 
-    benchmark = load_benchmark_csv(args.benchmark, id_column=args.benchmark_id_column)
+    benchmark_path = Path(args.benchmark_csv).expanduser().resolve()
+    if not benchmark_path.exists():
+        raise SystemExit(f"Benchmark CSV not found: {benchmark_path}")
+    benchmark_sha256 = hashlib.sha256(benchmark_path.read_bytes()).hexdigest()
+
+    benchmark = load_benchmark_csv(benchmark_path, id_column=args.benchmark_id_column)
+    benchmark_rows = len(benchmark)
+
+    print(f"benchmark_csv={benchmark_path}")
+    print(f"benchmark_sha256={benchmark_sha256}")
+    print(f"benchmark_rows={benchmark_rows}")
+    if benchmark_rows < int(args.min_benchmark_rows):
+        raise SystemExit(
+            f"Benchmark CSV row count too small: loaded_rows={benchmark_rows} "
+            f"min_required={int(args.min_benchmark_rows)} path={benchmark_path}"
+        )
 
     synonyms_path = Path(args.synonyms) if args.synonyms else _default_mapping_path("mappings/synonyms.json")
     series_path = Path(args.series_rules) if args.series_rules else _default_mapping_path("mappings/series_rules.json")
@@ -144,6 +178,24 @@ def main(argv: list[str] | None = None) -> int:
     print(f"recall={m['recall']:.4f} precision={m['precision']:.4f} f1={m['f1']:.4f}")
     print(f"expected={m['expected_count']} predicted={m['predicted_count']}")
     print(f"tp_expected_any={m['tp_expected_any_count']} fn_expected={m['fn_expected_count']} fp_predicted={m['fp_predicted_count']}")
+    print(f"exact_match tp={m.get('exact_tp', 0)} fp={m.get('exact_fp', 0)} fn={m.get('exact_fn', 0)}")
+    print(
+        f"canonical_match tp={m.get('canonical_tp', 0)} fp={m.get('canonical_fp', 0)} fn={m.get('canonical_fn', 0)}"
+    )
+    if args.explain:
+        # Build a mapping back to original CSV row numbers for nicer explain output.
+        by_norm = {normalize_identifier(b.canonical_id): b for b in benchmark}
+        print("--- explain (per benchmark row) ---")
+        for e in result["expected_outcomes"]:
+            item = by_norm.get(e.expected_id)
+            row_num = getattr(item, "row_number", None) if item else None
+            expected_raw = getattr(item, "canonical_id", e.expected_id) if item else e.expected_id
+            matched = e.score > 0.0
+            pred = e.match.predicted_raw_id if e.match else ""
+            print(
+                f"row={row_num if row_num is not None else '?'} "
+                f"expected={expected_raw} matched={str(matched).lower()} predicted={pred}"
+            )
     print(f"report={paths['report']}")
     return 0
 

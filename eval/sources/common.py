@@ -7,9 +7,11 @@ from eval.utils import first_non_empty
 
 
 _DEFAULT_ID_KEYS = (
+    # v1.4 runtime schema (public.final_assets)
+    "primary_identifier_raw",
+    "primary_identifier_canonical",
     # Common generic keys
     "identifier",
-    "id",
     "asset_id",
     "asset_code",
     "code",
@@ -19,6 +21,7 @@ _DEFAULT_ID_KEYS = (
     # This repo's schema (public.candidates)
     "raw_identifier",
     "normalized_identifier",
+    "canonical_identifier",
 )
 _DEFAULT_EVIDENCE_KEYS = (
     "evidence_urls",
