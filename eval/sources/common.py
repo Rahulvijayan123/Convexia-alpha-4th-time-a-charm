@@ -7,6 +7,9 @@ from eval.utils import first_non_empty
 
 
 _DEFAULT_ID_KEYS = (
+    # v1.5 runtime schema (public.draft_assets)
+    "identifier_raw",
+    "identifier_canonical",
     # v1.4 runtime schema (public.final_assets)
     "primary_identifier_raw",
     "primary_identifier_canonical",

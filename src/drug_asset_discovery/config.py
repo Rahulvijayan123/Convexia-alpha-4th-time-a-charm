@@ -12,7 +12,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 class EnvSettings(BaseSettings):
     model_config = SettingsConfigDict(env_file=".env", extra="ignore")
 
-    openai_api_key: str = Field(alias="OPENAI_API_KEY")
+    openai_api_key: str | None = Field(default=None, alias="OPENAI_API_KEY")
     openai_base_url: str = Field(default="https://api.openai.com/v1", alias="OPENAI_BASE_URL")
 
     supabase_url: str | None = Field(default=None, alias="SUPABASE_URL")
@@ -20,8 +20,8 @@ class EnvSettings(BaseSettings):
 
     local_cache_dir: str = Field(default=".cache", alias="LOCAL_CACHE_DIR")
 
-    default_config_version: str = Field(default="v1.5", alias="DEFAULT_CONFIG_VERSION")
-    default_prompt_version: str = Field(default="v1.5", alias="DEFAULT_PROMPT_VERSION")
+    default_config_version: str = Field(default="v1.6", alias="DEFAULT_CONFIG_VERSION")
+    default_prompt_version: str = Field(default="v1.6", alias="DEFAULT_PROMPT_VERSION")
     log_level: str = Field(default="INFO", alias="LOG_LEVEL")
 
 
@@ -72,15 +72,29 @@ class RunConfig(BaseModel):
     # v1.5: enrichment budget (web_search calls) separate from discovery
     tool_calls_per_worker_per_cycle: int = 10
     max_enrichment_validations: int = 40
+    # v1.6: run enrichment during the loop (top-K per cycle)
+    enrichment_top_k_per_cycle: int = 3
+    # v1.6: guarantee at least N enrichment attempts if any found assets exist
+    # (the orchestrator also has a hard fallback guarantee, but keep configurable).
+    min_enrichment_attempts_per_run: int = 1
+    # v1.6: per-worker early stop when marginal new identifiers is flat for N cycles
+    worker_stop_after_flat_steps: int = 2
     # v1.5: global time budget for the whole run (seconds)
     max_run_seconds: int = 1200
+    # v1.5: late filtering threshold for promotion from draft_assets -> final_assets
+    finalization_overall_match_threshold: float = 0.7
+    # v1.6: hybrid validated-fields gate (beyond evidence anchoring + match scoring)
+    # Allowed field names: sponsor,target,modality,indication,stage,geography
+    validated_required_fields: list[str] = Field(default_factory=list)
+    # Minimum per-dimension score (when that dimension is required by the query intent)
+    validated_min_dimension_score: float = 0.6
     retrieval: RetrievalConfig = Field(default_factory=RetrievalConfig)
     optional_fetch: OptionalFetchConfig = Field(default_factory=OptionalFetchConfig)
     reasoning_effort: dict[str, ReasoningEffort] = Field(
         default_factory=lambda: {
             "worker_planning": "xhigh",
             "validation": "xhigh",
-            "extraction": "low",
+            "extraction": "xhigh",
             "loop_worker": "xhigh",
             "verifier": "xhigh",
         }
@@ -114,8 +128,15 @@ def load_config(version: str) -> RunConfig:
     cfg = RunConfig.model_validate(raw)
     if cfg.model != "gpt-5.2":
         raise ValueError(f"Non-negotiable: model must be 'gpt-5.2' (got {cfg.model!r})")
-    if cfg.workers < 3 or cfg.workers > 16:
-        raise ValueError("Non-negotiable: Loop Mode requires between 3 and 16 workers")
+    if cfg.version == "v1.5":
+        if cfg.workers < 4 or cfg.workers > 6:
+            raise ValueError("Non-negotiable (v1.5): run policy requires between 4 and 6 workers per cycle")
+    elif cfg.version == "v1.6":
+        if cfg.workers != 4:
+            raise ValueError("Non-negotiable (v1.6): run policy requires exactly 4 workers per cycle")
+    else:
+        if cfg.workers < 3 or cfg.workers > 16:
+            raise ValueError("Non-negotiable: Loop Mode requires between 3 and 16 workers")
     return cfg
 
 

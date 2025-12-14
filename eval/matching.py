@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import re
 from dataclasses import dataclass
 from difflib import SequenceMatcher
 from pathlib import Path
@@ -194,6 +195,31 @@ def _best_match_is_better(
 
 
 def _build_expected_index(benchmark: Iterable[BenchmarkItem]) -> Tuple[Dict[str, BenchmarkItem], Dict[str, List[str]]]:
+    def _norm_header(h: str) -> str:
+        return "".join(ch for ch in (h or "").strip().lower() if ch.isalnum())
+
+    _ALIAS_HEADER_HINTS = ("alias", "aliases", "synonym", "synonyms", "aka", "alt", "alternate")
+    _ALIAS_SPLIT_RE = re.compile(r"[;,|]+")
+
+    def _extract_row_aliases(row: Mapping[str, str]) -> List[str]:
+        """
+        Benchmark-blind alias extraction:
+        - If the CSV has alias/synonym columns, allow matches against them.
+        - Do NOT hardcode any benchmark-specific alias rules.
+        """
+        out: List[str] = []
+        for k, v in (row or {}).items():
+            if not (isinstance(k, str) and isinstance(v, str) and v.strip()):
+                continue
+            hn = _norm_header(k)
+            if not any(h in hn for h in _ALIAS_HEADER_HINTS):
+                continue
+            for part in _ALIAS_SPLIT_RE.split(v):
+                s = part.strip()
+                if s:
+                    out.append(s)
+        return out
+
     expected_by_id: Dict[str, BenchmarkItem] = {}
     key_to_expected_ids: Dict[str, List[str]] = {}
     for item in benchmark:
@@ -201,8 +227,17 @@ def _build_expected_index(benchmark: Iterable[BenchmarkItem]) -> Tuple[Dict[str,
         if not eid:
             continue
         expected_by_id[eid] = item
+        # Match on the canonical benchmark identifier.
         for k in match_keys(eid):
             key_to_expected_ids.setdefault(k, []).append(eid)
+
+        # Also match on any alias/synonym columns (if present) without leaking benchmark knowledge into runtime.
+        for alias in _extract_row_aliases(getattr(item, "row", {}) or {}):
+            a_norm = normalize_identifier(alias)
+            if not a_norm:
+                continue
+            for k in match_keys(a_norm):
+                key_to_expected_ids.setdefault(k, []).append(eid)
     return expected_by_id, key_to_expected_ids
 
 

@@ -1,0 +1,16 @@
+[
+  {
+    "primary_identifier_raw": "YJ1206",
+    "primary_identifier_canonical": "YJ1206",
+    "sources": ["https://pubmed.ncbi.nlm.nih.gov/39353441/"],
+    "evidence_snippet": "12/13 PROTAC degrader, YJ9069 yielded an orally bioavailable CDK12/13 degrader, YJ1206",
+    "cycle": 1
+  },
+  {
+    "primary_identifier_raw": "YJ9069",
+    "primary_identifier_canonical": "YJ9069",
+    "sources": ["https://pubmed.ncbi.nlm.nih.gov/39353441/"],
+    "evidence_snippet": "we develop a selective CDK12/13 PROTAC degrader, YJ9069 yielded an orally bioavailable CDK12/13 degrader, YJ1206",
+    "cycle": 1
+  }
+]

@@ -27,7 +27,7 @@
   "reasoning_effort": {
     "worker_planning": "xhigh",
     "validation": "xhigh",
-    "extraction": "low",
+    "extraction": "xhigh",
     "loop_worker": "xhigh",
     "verifier": "xhigh"
   },

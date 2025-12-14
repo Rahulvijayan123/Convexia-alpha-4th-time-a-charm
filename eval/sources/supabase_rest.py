@@ -86,6 +86,40 @@ class SupabaseRestSource:
         }
         return self._fetch_rows(table=self._cfg.table, query=query)
 
+    def fetch_rows_for_run_paginated(
+        self,
+        run_id: str,
+        *,
+        select: str = "*",
+        extra_filters: Optional[Dict[str, str]] = None,
+        limit: int = 1000,
+    ) -> List[Dict[str, Any]]:
+        """
+        Fetch all rows for a run_id using PostgREST pagination (limit/offset).
+
+        This avoids silently truncating large runs when the REST endpoint enforces
+        default row limits.
+        """
+        rows: List[Dict[str, Any]] = []
+        offset = 0
+        while True:
+            query: Dict[str, str] = {
+                "select": select,
+                self._cfg.run_id_column: f"eq.{run_id}",
+                "limit": str(limit),
+                "offset": str(offset),
+            }
+            if extra_filters:
+                query.update(extra_filters)
+            chunk = self._fetch_rows(table=self._cfg.table, query=query)
+            if not chunk:
+                break
+            rows.extend(chunk)
+            if len(chunk) < limit:
+                break
+            offset += limit
+        return rows
+
     def fetch_run_metadata(self, run_id: str) -> Dict[str, Any] | None:
         """
         Fetches run metadata from the repo's schema (`public.runs`) if present.

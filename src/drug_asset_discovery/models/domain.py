@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from typing import Any
 from typing import Literal
 
 from pydantic import BaseModel, Field
@@ -101,10 +102,23 @@ class Candidate(BaseModel):
 EvidenceSourceType = Literal[
     "patent",
     "trial",
+    "registry",
     "pipeline_pdf",
     "paper",
     "vendor",
     "press_release",
+    "other",
+]
+
+IdentifierType = Literal["drug_code", "target_gene", "modality_phrase", "trial_id", "company", "other"]
+
+RejectionReason = Literal[
+    "identifier_type_not_drug_code",
+    "insufficient_target_evidence",
+    "insufficient_modality_evidence",
+    "insufficient_indication_evidence",
+    "missing_required_fields",
+    "incomplete_evidence_anchor",
     "other",
 ]
 
@@ -145,6 +159,12 @@ class DraftAsset(BaseModel):
 
     identifier_aliases_raw: list[str] = Field(default_factory=list)
     citations: list[Citation] = Field(default_factory=list)
+
+    # v1.5: late filtering + diagnostics
+    identifier_type: IdentifierType | None = None
+    match_scores: dict[str, Any] | None = None
+    rejection_reason: RejectionReason | None = None
+    extracted_context: dict[str, Any] | None = None
 
     @classmethod
     def from_minimal(
@@ -278,5 +298,16 @@ class ValidatedAsset(BaseModel):
             sources=sources,
             fingerprint=fp,
         )
+
+
+class QuerySpec(BaseModel):
+    """
+    v1.5 query intent spec used for late evidence-based filtering.
+    Keep minimal and benchmark-blind.
+    """
+
+    target_terms: list[str] = Field(default_factory=list)
+    modality_terms: list[str] = Field(default_factory=list)
+    indication_terms: list[str] = Field(default_factory=list)
 
 

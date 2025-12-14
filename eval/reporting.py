@@ -131,6 +131,8 @@ def write_reports(
     result: Dict[str, Any],
     synonyms: dict[str, str] | None = None,
     series: Any = None,
+    stage_recall: Dict[str, Any] | None = None,
+    pairing_report: Dict[str, Any] | None = None,
 ) -> Dict[str, Path]:
     out_base = Path(out_dir) / version / f"run_{run_id}"
 
@@ -141,25 +143,38 @@ def write_reports(
     scorecard_path = out_base / "scorecard.json"
     details_path = out_base / "details.json"
     marginal_path = out_base / "marginal_gains.json"
+    stage_recall_path = out_base / "stage_recall.json"
+    pairing_path = out_base / "benchmark_pairing_report.json"
     report_path = out_base / "report.json"
 
     write_json(scorecard_path, scorecard)
     write_json(details_path, details)
     write_json(marginal_path, marginal)
+    if stage_recall is not None:
+        write_json(stage_recall_path, stage_recall)
+    if pairing_report is not None:
+        write_json(pairing_path, pairing_report)
     write_json(
         report_path,
         {
             "scorecard": scorecard,
             "details": details,
             "marginal_gains": marginal,
+            "stage_recall": stage_recall,
+            "benchmark_pairing_report": pairing_report,
         },
     )
 
-    return {
+    out: Dict[str, Path] = {
         "scorecard": scorecard_path,
         "details": details_path,
         "marginal_gains": marginal_path,
         "report": report_path,
     }
+    if stage_recall is not None:
+        out["stage_recall"] = stage_recall_path
+    if pairing_report is not None:
+        out["benchmark_pairing_report"] = pairing_path
+    return out
 
 

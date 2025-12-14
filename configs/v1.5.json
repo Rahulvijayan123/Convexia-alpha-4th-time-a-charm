@@ -1,0 +1,44 @@
+{
+  "version": "v1.5",
+  "model": "gpt-5.2",
+  "workers": 6,
+  "max_rounds": 2,
+  "stop_after_no_new_validated_rounds": 3,
+  "min_successful_workers_per_round": 2,
+  "max_planned_queries_per_cycle": 6,
+  "max_frontier_size": 40,
+  "validation_batch_size_per_round": 12,
+  "max_total_validations": 80,
+  "validation_concurrency": 10,
+  "max_web_search_calls_per_worker_cycle": 1,
+  "tool_calls_per_worker_per_cycle": 10,
+  "max_enrichment_validations": 40,
+  "max_run_seconds": 1200,
+  "min_new_identifiers_per_cycle": 5,
+  "patience_cycles": 2,
+  "verify_top_k": 12,
+  "verification_concurrency": 6,
+  "orchestration_seed": 1337,
+  "retrieval": {
+    "tool": "web_search",
+    "external_web_access": true,
+    "user_location": null
+  },
+  "optional_fetch": {
+    "enabled": false,
+    "max_docs_per_round": 3,
+    "timeout_seconds": 20
+  },
+  "harvest_regex_patterns": [],
+  "reasoning_effort": {
+    "worker_planning": "xhigh",
+    "validation": "xhigh",
+    "extraction": "xhigh",
+    "loop_worker": "xhigh",
+    "verifier": "xhigh"
+  },
+  "timeouts": {
+    "openai_seconds": 600
+  },
+  "finalization_overall_match_threshold": 0.7
+}

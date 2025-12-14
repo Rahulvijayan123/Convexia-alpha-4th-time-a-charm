@@ -1,17 +1,22 @@
 from __future__ import annotations
 
 import asyncio
+import logging
+import time
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from typing import Any
 
 import httpx
+from postgrest.exceptions import APIError
 from supabase import Client, create_client
 from supabase.lib.client_options import SyncClientOptions
 
 from drug_asset_discovery.models.domain import Candidate, Mention, ValidatedAsset
 from drug_asset_discovery.utils.hashing import stable_sha256
 from drug_asset_discovery.utils.retry import RetryConfig, async_retry
+
+logger = logging.getLogger(__name__)
 
 
 def _utc_now_iso() -> str:
@@ -35,6 +40,7 @@ class SupabaseStore:
     postgrest_timeout_s: int = 300
     max_concurrent_requests: int = 8
     _sem: asyncio.Semaphore | None = None
+    _draft_assets_missing: bool = False
 
     def __post_init__(self) -> None:
         # Supabase client is sync; we call it via asyncio.to_thread().
@@ -100,13 +106,16 @@ class SupabaseStore:
         """
         assert self.client is not None
         try:
+            t0 = time.perf_counter()
             # Minimal read to verify connectivity; do not mutate state.
             res = await self._to_thread(
                 lambda: self.client.table("runs").select("id").limit(1).execute()
             )
             _data(res)  # normalize shape; even if empty, no exception raised
+            logger.debug("supabase health_check ok duration_ms=%s", int((time.perf_counter() - t0) * 1000))
             return True
         except Exception:
+            logger.exception("supabase health_check failed")
             return False
 
     async def create_run(
@@ -119,6 +128,14 @@ class SupabaseStore:
         idempotency_key: str | None,
     ) -> str:
         assert self.client is not None
+        t0 = time.perf_counter()
+        logger.info(
+            "supabase create_run start config=%s prompt=%s idempotency=%s query_chars=%s",
+            config_version,
+            prompt_version,
+            bool(idempotency_key),
+            len(user_query or ""),
+        )
 
         if idempotency_key:
             existing = await self._to_thread(
@@ -130,7 +147,13 @@ class SupabaseStore:
             )
             rows = _data(existing) or []
             if isinstance(rows, list) and rows:
-                return rows[0]["id"]
+                rid = rows[0]["id"]
+                logger.info(
+                    "supabase create_run idempotency_hit run_id=%s duration_ms=%s",
+                    rid,
+                    int((time.perf_counter() - t0) * 1000),
+                )
+                return rid
 
         res = await self._to_thread(
             lambda: self.client.table("runs")
@@ -150,16 +173,20 @@ class SupabaseStore:
         rows = _data(res)
         if not rows:
             raise RuntimeError("Failed to create run")
-        return rows[0]["id"]
+        rid = rows[0]["id"]
+        logger.info("supabase create_run ok run_id=%s duration_ms=%s", rid, int((time.perf_counter() - t0) * 1000))
+        return rid
 
     async def finish_run(self, run_id: str, *, status: str, summary: dict[str, Any]) -> None:
         assert self.client is not None
+        t0 = time.perf_counter()
         await self._to_thread(
             lambda: self.client.table("runs")
             .update({"status": status, "finished_at": _utc_now_iso(), "summary": summary})
             .eq("id", run_id)
             .execute()
         )
+        logger.info("supabase finish_run ok run_id=%s status=%s duration_ms=%s", run_id, status, int((time.perf_counter() - t0) * 1000))
 
     async def insert_cycle(
         self,
@@ -173,6 +200,7 @@ class SupabaseStore:
         metrics: dict[str, Any],
     ) -> str:
         assert self.client is not None
+        t0 = time.perf_counter()
         res = await self._to_thread(
             lambda: self.client.table("cycles")
             .insert(
@@ -189,7 +217,17 @@ class SupabaseStore:
             .execute()
         )
         rows = _data(res)
-        return rows[0]["id"]
+        cid = rows[0]["id"]
+        logger.debug(
+            "supabase insert_cycle ok run_id=%s round=%s worker=%s phase=%s success=%s duration_ms=%s",
+            run_id,
+            round_idx,
+            worker_id,
+            phase,
+            success,
+            int((time.perf_counter() - t0) * 1000),
+        )
+        return cid
 
     async def insert_query(
         self,
@@ -202,6 +240,7 @@ class SupabaseStore:
         query_fingerprint: str,
     ) -> str:
         assert self.client is not None
+        t0 = time.perf_counter()
         res = await self._to_thread(
             lambda: self.client.table("queries")
             .insert(
@@ -217,7 +256,16 @@ class SupabaseStore:
             .execute()
         )
         rows = _data(res)
-        return rows[0]["id"]
+        qid = rows[0]["id"]
+        logger.debug(
+            "supabase insert_query ok run_id=%s phase=%s worker=%s query_chars=%s duration_ms=%s",
+            run_id,
+            phase,
+            worker_id,
+            len(query_text or ""),
+            int((time.perf_counter() - t0) * 1000),
+        )
+        return qid
 
     async def insert_result(
         self,
@@ -229,6 +277,7 @@ class SupabaseStore:
         urls: list[str],
     ) -> str:
         assert self.client is not None
+        t0 = time.perf_counter()
         res = await self._to_thread(
             lambda: self.client.table("results")
             .insert(
@@ -243,7 +292,15 @@ class SupabaseStore:
             .execute()
         )
         rows = _data(res)
-        return rows[0]["id"]
+        rid = rows[0]["id"]
+        logger.debug(
+            "supabase insert_result ok run_id=%s tool=%s urls=%s duration_ms=%s",
+            run_id,
+            tool_name,
+            len(urls or []),
+            int((time.perf_counter() - t0) * 1000),
+        )
+        return rid
 
     async def insert_mentions(
         self,
@@ -256,6 +313,7 @@ class SupabaseStore:
         assert self.client is not None
         if not mentions:
             return []
+        t0 = time.perf_counter()
         payload = [
             {
                 "run_id": run_id,
@@ -312,7 +370,14 @@ class SupabaseStore:
 
         res = await self._to_thread(lambda: _do_insert(payload))
         rows = _data(res) or []
-        return [r["id"] for r in rows] if isinstance(rows, list) else []
+        ids = [r["id"] for r in rows] if isinstance(rows, list) else []
+        logger.debug(
+            "supabase insert_mentions ok run_id=%s count=%s duration_ms=%s",
+            run_id,
+            len(ids),
+            int((time.perf_counter() - t0) * 1000),
+        )
+        return ids
 
     async def insert_candidate(
         self,
@@ -322,6 +387,7 @@ class SupabaseStore:
         source_mention_id: str | None,
     ) -> str:
         assert self.client is not None
+        t0 = time.perf_counter()
         payload = {
             "run_id": run_id,
             "source_mention_id": source_mention_id,
@@ -336,7 +402,14 @@ class SupabaseStore:
         }
         res = await self._to_thread(lambda: self._insert_table_with_schema_fallback("candidates", [payload]))
         rows = _data(res)
-        return rows[0]["id"]
+        cid = rows[0]["id"]
+        logger.debug(
+            "supabase insert_candidate ok run_id=%s candidate_type=%s duration_ms=%s",
+            run_id,
+            candidate.candidate_type,
+            int((time.perf_counter() - t0) * 1000),
+        )
+        return cid
 
     async def update_candidate_status(self, candidate_id: str, status: str) -> None:
         assert self.client is not None
@@ -382,6 +455,7 @@ class SupabaseStore:
         assert self.client is not None
         if not assets:
             return []
+        t0 = time.perf_counter()
         payload = [
             {
                 "run_id": run_id,
@@ -409,7 +483,14 @@ class SupabaseStore:
         ]
         res = await self._to_thread(lambda: self._insert_table_with_schema_fallback("final_assets", payload))
         rows = _data(res) or []
-        return [r["id"] for r in rows] if isinstance(rows, list) else []
+        ids = [r["id"] for r in rows] if isinstance(rows, list) else []
+        logger.info(
+            "supabase insert_final_assets ok run_id=%s count=%s duration_ms=%s",
+            run_id,
+            len(ids),
+            int((time.perf_counter() - t0) * 1000),
+        )
+        return ids
 
     def _coerce_str_list(self, v: Any) -> list[str]:
         if not v:
@@ -480,29 +561,53 @@ class SupabaseStore:
             i = "pending"
         return e if order[e] >= order[i] else i
 
+    def _mark_draft_assets_missing(self, err: Any) -> None:
+        self._draft_assets_missing = True
+        logger.warning(
+            "Supabase schema missing public.draft_assets; skipping draft_assets persistence. "
+            "Run supabase/schema.sql in Supabase SQL editor to fix. err=%s",
+            err,
+        )
+
+    def _is_draft_assets_missing_error(self, err: Any) -> bool:
+        # PostgREST shapes vary across versions; be defensive.
+        if isinstance(err, dict):
+            code = str(err.get("code") or "")
+            msg = str(err.get("message") or "")
+            hint = str(err.get("hint") or "")
+            blob = " ".join([code, msg, hint]).lower()
+            return ("draft_assets" in blob) and (code == "PGRST205" or "could not find the table" in blob)
+        blob = str(err).lower()
+        return ("draft_assets" in blob) and ("could not find the table" in blob or "pgrst205" in blob or "404" in blob)
+
     async def upsert_draft_asset(self, *, run_id: str, draft: dict[str, Any]) -> str:
         """
         Insert a v1.5 draft asset, deduped by (run_id, identifier_canonical).
         Merge identifier_aliases_raw and citations; never overwrite identifier_raw once set.
         """
         assert self.client is not None
+        if self._draft_assets_missing:
+            return ""
+        t0 = time.perf_counter()
         canon = str(draft.get("identifier_canonical") or "").strip()
         if not canon:
             raise ValueError("draft.identifier_canonical is required for upsert")
 
-        existing_res = await self._to_thread(
-            lambda: self.client.table("draft_assets")
-            .select(
-                "id,identifier_raw,identifier_aliases_raw,citations,"
-                "evidence_url,evidence_snippet,evidence_source_type,"
-                "sponsor,target,modality,indication,stage,geography,"
-                "confidence_discovery,enrichment_status"
+        try:
+            existing_res = await self._to_thread(
+                lambda: self.client.table("draft_assets")
+                .select("*")
+                .eq("run_id", run_id)
+                .eq("identifier_canonical", canon)
+                .limit(1)
+                .execute()
             )
-            .eq("run_id", run_id)
-            .eq("identifier_canonical", canon)
-            .limit(1)
-            .execute()
-        )
+        except APIError as e:
+            err = e.args[0] if getattr(e, "args", None) else None
+            if self._is_draft_assets_missing_error(err):
+                self._mark_draft_assets_missing(err)
+                return ""
+            raise
         existing_rows = _data(existing_res) or []
 
         if not (isinstance(existing_rows, list) and existing_rows):
@@ -520,7 +625,14 @@ class SupabaseStore:
             payload["citations"] = self._merge_citations(payload.get("citations"), base_cite)
             res = await self._to_thread(lambda: self._insert_table_with_schema_fallback("draft_assets", [payload]))
             rows = _data(res)
-            return rows[0]["id"]
+            did = rows[0]["id"]
+            logger.debug(
+                "supabase upsert_draft_asset insert ok run_id=%s canon=%s duration_ms=%s",
+                run_id,
+                canon,
+                int((time.perf_counter() - t0) * 1000),
+            )
+            return did
 
         row = existing_rows[0]
         draft_id = row.get("id")
@@ -552,6 +664,21 @@ class SupabaseStore:
             "enrichment_status": self._merge_enrichment_status(row.get("enrichment_status"), draft.get("enrichment_status")),
         }
 
+        # v1.5 late-filtering fields (optional; safe to overwrite with new values)
+        if draft.get("identifier_type") is not None and not str(row.get("identifier_type") or "").strip():
+            update_payload["identifier_type"] = draft.get("identifier_type")
+        if draft.get("match_scores") is not None:
+            update_payload["match_scores"] = draft.get("match_scores")
+        if draft.get("rejection_reason") is not None:
+            update_payload["rejection_reason"] = draft.get("rejection_reason")
+        if draft.get("extracted_context") is not None:
+            existing_ctx = row.get("extracted_context")
+            incoming_ctx = draft.get("extracted_context")
+            if isinstance(existing_ctx, dict) and isinstance(incoming_ctx, dict):
+                update_payload["extracted_context"] = {**existing_ctx, **incoming_ctx}
+            else:
+                update_payload["extracted_context"] = incoming_ctx
+
         # Fill optional enrichment fields if missing; never overwrite non-empty.
         for k in ("sponsor", "target", "modality", "indication", "stage", "geography"):
             cur = row.get(k)
@@ -564,31 +691,48 @@ class SupabaseStore:
         await self._to_thread(
             lambda: self.client.table("draft_assets").update(update_payload).eq("id", draft_id).execute()
         )
+        logger.debug(
+            "supabase upsert_draft_asset update ok run_id=%s canon=%s duration_ms=%s",
+            run_id,
+            canon,
+            int((time.perf_counter() - t0) * 1000),
+        )
         return draft_id
 
     async def get_draft_assets(self, run_id: str) -> list[dict[str, Any]]:
         assert self.client is not None
-        res = await self._to_thread(
-            lambda: self.client.table("draft_assets")
-            .select(
-                "id,identifier_raw,identifier_canonical,identifier_aliases_raw,"
-                "evidence_url,evidence_snippet,evidence_source_type,"
-                "discovered_by_worker_id,discovered_by_cycle_id,"
-                "confidence_discovery,enrichment_status,"
-                "sponsor,target,modality,indication,stage,geography,citations"
+        if self._draft_assets_missing:
+            return []
+        try:
+            res = await self._to_thread(
+                lambda: self.client.table("draft_assets")
+                .select("*")
+                .eq("run_id", run_id)
+                .execute()
             )
-            .eq("run_id", run_id)
-            .execute()
-        )
+        except APIError as e:
+            err = e.args[0] if getattr(e, "args", None) else None
+            if self._is_draft_assets_missing_error(err):
+                self._mark_draft_assets_missing(err)
+                return []
+            raise
         rows = _data(res) or []
         return rows if isinstance(rows, list) else []
 
     async def insert_metric(self, *, run_id: str, round_idx: int | None, name: str, value: dict[str, Any]) -> None:
         assert self.client is not None
+        t0 = time.perf_counter()
         await self._to_thread(
             lambda: self.client.table("metrics")
             .insert({"run_id": run_id, "round_idx": round_idx, "name": name, "value": value})
             .execute()
+        )
+        logger.debug(
+            "supabase insert_metric ok run_id=%s round_idx=%s name=%s duration_ms=%s",
+            run_id,
+            round_idx,
+            name,
+            int((time.perf_counter() - t0) * 1000),
         )
 
     async def get_final_assets(self, run_id: str) -> list[dict[str, Any]]:

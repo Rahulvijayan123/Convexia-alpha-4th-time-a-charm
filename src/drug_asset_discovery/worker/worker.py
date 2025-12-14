@@ -47,6 +47,31 @@ DEFAULT_PROFILES: list[WorkerProfile] = [
 ]
 
 
+# v1.6: enforced diversity across 4 specialized workers (tabs)
+DEFAULT_V16_PROFILES: list[WorkerProfile] = [
+    WorkerProfile(
+        name="trials-registries",
+        focus="Trial registries and registries-like sources (ClinicalTrials.gov, EU/JP/CN registries), plus congress abstracts/posters with trial IDs",
+        query_seed_style="trial",
+    ),
+    WorkerProfile(
+        name="patents",
+        focus="Patent filings (WO/US/EP), patent families, assignee pivots, and code-name harvesting from patent text/snippets",
+        query_seed_style="patent",
+    ),
+    WorkerProfile(
+        name="pipelines-investor-pdf",
+        focus="Sponsor pipeline pages, investor decks, and pipeline PDFs (filetype:pdf), focusing on program code identifiers",
+        query_seed_style="pipeline_pdf",
+    ),
+    WorkerProfile(
+        name="literature-posters",
+        focus="Literature, posters, abstracts, and preprints (PubMed/DOI/conference sites) to harvest code-like identifiers and trial links",
+        query_seed_style="literature",
+    ),
+]
+
+
 def _seed_queries(user_query: str, profile: WorkerProfile) -> list[str]:
     uq = user_query.strip()
     if profile.query_seed_style == "trial":
@@ -61,11 +86,23 @@ def _seed_queries(user_query: str, profile: WorkerProfile) -> list[str]:
             f'{uq} "pipeline" PDF',
             f'{uq} press release trial',
         ]
+    if profile.query_seed_style == "pipeline_pdf":
+        return [
+            f'{uq} pipeline pdf filetype:pdf',
+            f'{uq} investor presentation pdf filetype:pdf',
+            f'{uq} company pipeline filetype:pdf',
+        ]
     if profile.query_seed_style == "patent":
         return [
             f'{uq} WO patent',
             f'{uq} "WO" "assignee" compound',
             f'{uq} patent drug code',
+        ]
+    if profile.query_seed_style == "literature":
+        return [
+            f'{uq} poster abstract',
+            f'{uq} conference poster PDF filetype:pdf',
+            f'{uq} site:pubmed.ncbi.nlm.nih.gov',
         ]
     # geo
     return [
@@ -179,12 +216,46 @@ class Worker:
             final.append(q)
         return final[: self.cfg.max_planned_queries_per_cycle]
 
-    async def run_cycle(self, *, run_id: str, user_query: str, global_summary: dict[str, Any], round_idx: int) -> WorkerCycleOutput:
-        # Ensure we have something to do
-        if len(self.frontier) == 0:
-            self.frontier.seed(_seed_queries(user_query, self.profile))
+    async def run_cycle(
+        self,
+        *,
+        run_id: str,
+        user_query: str,
+        global_summary: dict[str, Any],
+        round_idx: int,
+        forced_query: str | None = None,
+    ) -> WorkerCycleOutput:
+        is_v16 = str(self.cfg.version or "").startswith("v1.6")
 
-        query = self.frontier.pop() or user_query
+        # Ensure we have something to do.
+        # v1.6: avoid static seed query lists; seed via the query planner (micro-queries) using only compact summaries.
+        if len(self.frontier) == 0 and not (isinstance(forced_query, str) and forced_query.strip()):
+            if is_v16:
+                planned_seed = await self._plan_next_queries(
+                    user_query=user_query, global_summary=global_summary, round_idx=round_idx
+                )
+                for q in planned_seed:
+                    self.frontier.add(q)
+                # Fail-soft: if planning yields nothing, use a single profile-specific micro-query.
+                if len(self.frontier) == 0:
+                    style = str(self.profile.query_seed_style or "").strip()
+                    fallback = user_query
+                    if style == "trial":
+                        fallback = f"{user_query} site:clinicaltrials.gov"
+                    elif style == "patent":
+                        fallback = f"{user_query} patent"
+                    elif style == "pipeline_pdf":
+                        fallback = f"{user_query} pipeline pdf filetype:pdf"
+                    elif style == "literature":
+                        fallback = f"{user_query} poster abstract"
+                    self.frontier.add(fallback)
+            else:
+                # Legacy behavior for older versions.
+                self.frontier.seed(_seed_queries(user_query, self.profile))
+
+        query = " ".join((forced_query or "").strip().split()) if forced_query else ""
+        if not query:
+            query = self.frontier.pop() or user_query
         self._remember_query(query)
 
         # Recall-stage web search
@@ -286,10 +357,12 @@ class Worker:
             seen.add(m.fingerprint)
             merged.append(m)
 
-        # Plan next queries
-        planned = await self._plan_next_queries(user_query=user_query, global_summary=global_summary, round_idx=round_idx)
-        for q in planned:
-            self.frontier.add(q)
+        # v1.5 policy: query planning is orchestrator-driven (templates + pivoting).
+        planned: list[str] = []
+        if not str(self.cfg.version or "").startswith("v1.5"):
+            planned = await self._plan_next_queries(user_query=user_query, global_summary=global_summary, round_idx=round_idx)
+            for q in planned:
+                self.frontier.add(q)
 
         return WorkerCycleOutput(
             worker_id=self.worker_id,

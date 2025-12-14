@@ -17,6 +17,9 @@ ENV/
 .env
 .env.*
 
+# Local caches (may include API-derived content; never commit)
+.cache/
+
 # Build artifacts
 build/
 dist/

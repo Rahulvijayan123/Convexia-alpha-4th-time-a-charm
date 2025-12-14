@@ -77,7 +77,7 @@ def is_evidence_anchored_v15(*, identifier_raw: str, evidence_snippet: str) -> b
 
 
 def _coerce_evidence_source_type(v: Any) -> EvidenceSourceType | None:
-    allowed: set[str] = {"patent", "trial", "pipeline_pdf", "paper", "vendor", "press_release", "other"}
+    allowed: set[str] = {"patent", "trial", "registry", "pipeline_pdf", "paper", "vendor", "press_release", "other"}
     s = str(v or "").strip()
     return s if s in allowed else None  # type: ignore[return-value]
 

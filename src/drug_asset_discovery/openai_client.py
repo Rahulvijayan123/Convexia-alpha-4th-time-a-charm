@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import logging
+import time
 import uuid
 from dataclasses import dataclass
 from typing import Any
@@ -8,6 +10,8 @@ import httpx
 
 from drug_asset_discovery.config import ReasoningEffort
 from drug_asset_discovery.utils.retry import RetryConfig, async_retry
+
+logger = logging.getLogger(__name__)
 
 
 @dataclass(frozen=True)
@@ -107,11 +111,43 @@ class OpenAIResponsesClient:
         if extra:
             payload.update(extra)
 
-        headers = {}
+        headers: dict[str, str] = {}
         headers["Idempotency-Key"] = idempotency_key or str(uuid.uuid4())
 
-        resp = await self._client.post("/responses", json=payload, headers=headers)
-        resp.raise_for_status()
-        return OpenAIResponse(raw=resp.json())
+        t0 = time.perf_counter()
+        preview = (input_text or "").strip().replace("\n", " ")
+        if len(preview) > 220:
+            preview = preview[:220] + "…"
+        logger.debug(
+            "openai.responses.create start model=%s effort=%s tools=%s input_chars=%s idempotency=%s preview=%r",
+            model,
+            reasoning_effort,
+            len(tools or []),
+            len(input_text or ""),
+            headers.get("Idempotency-Key"),
+            preview,
+        )
+        try:
+            resp = await self._client.post("/responses", json=payload, headers=headers)
+            dt_ms = int((time.perf_counter() - t0) * 1000)
+            logger.debug(
+                "openai.responses.create http status=%s duration_ms=%s",
+                getattr(resp, "status_code", None),
+                dt_ms,
+            )
+            resp.raise_for_status()
+            raw = resp.json()
+            out = OpenAIResponse(raw=raw)
+            logger.debug(
+                "openai.responses.create ok duration_ms=%s output_text_chars=%s extracted_urls=%s",
+                dt_ms,
+                len(out.output_text or ""),
+                len(out.extracted_urls()),
+            )
+            return out
+        except Exception:
+            dt_ms = int((time.perf_counter() - t0) * 1000)
+            logger.exception("openai.responses.create failed duration_ms=%s", dt_ms)
+            raise
 
 

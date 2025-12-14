@@ -153,10 +153,18 @@ create table if not exists public.draft_assets (
   geography text,
 
   -- Evidence citations for enrichment (list of {url, snippet})
-  citations jsonb not null default '[]'::jsonb
+  citations jsonb not null default '[]'::jsonb,
+
+  -- v1.5: late filtering + diagnostics (do NOT use benchmark knowledge)
+  identifier_type text, -- drug_code|target_gene|modality_phrase|trial_id|company|other
+  match_scores jsonb, -- {target_match_score, modality_match_score, indication_match_score, overall_match_score, evidence:{...}}
+  rejection_reason text, -- identifier_type_not_drug_code|insufficient_target_evidence|insufficient_modality_evidence|insufficient_indication_evidence|incomplete_evidence_anchor|other
+  extracted_context jsonb -- optional free-form context for debugging/scoring
 );
 create index if not exists draft_assets_run_id_idx on public.draft_assets(run_id);
 create unique index if not exists draft_assets_run_canonical_idx on public.draft_assets(run_id, identifier_canonical);
+-- Index on rejection_reason moved to v1.5 migrations section below to avoid errors
+-- when running against older schemas that don't yet have the column.
 
 create table if not exists public.final_assets (
   id uuid primary key default uuid_generate_v4(),
@@ -218,6 +226,12 @@ alter table public.final_assets add column if not exists evidence_source_type te
 -- -------------------------------------------------------------------
 
 -- draft_assets table/columns are created above with IF NOT EXISTS.
+alter table public.draft_assets add column if not exists identifier_type text;
+alter table public.draft_assets add column if not exists match_scores jsonb;
+alter table public.draft_assets add column if not exists rejection_reason text;
+alter table public.draft_assets add column if not exists extracted_context jsonb;
+-- Ensure index on rejection_reason exists after column additions (safe to run repeatedly)
+create index if not exists draft_assets_rejection_reason_idx on public.draft_assets(rejection_reason);
 
 -- Relax final_assets required fields for v1.5 promotion rule (>=4 filled fields).
 alter table public.final_assets alter column sponsor drop not null;

@@ -22,7 +22,7 @@
   "reasoning_effort": {
     "worker_planning": "xhigh",
     "validation": "xhigh",
-    "extraction": "low"
+    "extraction": "xhigh"
   },
   "timeouts": {
     "openai_seconds": 600
